@@ -1,0 +1,49 @@
+# sphinx build directories
+_build/
+service/test_incoming/config.py
+# dotfiles
+.*
+!.github
+!.gitignore
+!.mailmap
+# compiled python files
+*.py[co]
+__pycache__/
+# setup.py egg_info
+*.egg-info
+# emacs backup files
+*~
+# hg stuff
+*.orig
+status
+# odoo filestore
+odoo/filestore
+# maintenance migration scripts
+odoo/addons/base/maintenance
+
+# generated for windows installer?
+install/win32/*.bat
+install/win32/meta.py
+
+# needed only when building for win32
+setup/win32/static/less/
+setup/win32/static/wkhtmltopdf/
+setup/win32/static/postgresql*.exe
+
+# various virtualenv
+/bin/
+/build/
+/dist/
+/include/
+/lib/
+/man/
+/share/
+
+# tsabi stuff
+/.settings/
+.mypy_cache/
+.DS_Store/
+!.gitattributes
+.project
+.pydevproject
+*.po.bak
