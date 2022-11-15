@@ -1,0 +1,204 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* theme_graphene
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-13 08:00+0000\n"
+"PO-Revision-Date: 2022-10-16 04:01+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/theme_graphene/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#. module: theme_graphene
+#: model_terms:theme.ir.ui.view,arch:theme_graphene.s_comparisons
+msgid "24/7 support"
+msgstr "24/7 támogatás"
+
+#. module: theme_graphene
+#: model_terms:theme.ir.ui.view,arch:theme_graphene.s_call_to_action
+msgid "<b>50,000+ companies</b> run our software."
+msgstr "<b>Több mint 50 000 vállalat</b> használja a szoftverünket."
+
+#. module: theme_graphene
+#: model_terms:theme.ir.ui.view,arch:theme_graphene.s_cover
+msgid "<b>Making the difference.</b>"
+msgstr "<b>A különbség megteremtése.</b>"
+
+#. module: theme_graphene
+#: model_terms:theme.ir.ui.view,arch:theme_graphene.s_company_team
+msgid ""
+"<small>Aline is one of the iconic people in life who can say they love what "
+"they do. She mentors 100+ in-house developers and looks after the community "
+"of thousands of developers.</small>"
+msgstr "<small>Aline egyike azon ikonikus embereknek, akik elmondhatják magukról, hogy szeretik, amit csinálnak. Több mint 100 házon belüli fejlesztő mentora, és több ezer fejlesztő közösségét gondozza.</small>"
+
+#. module: theme_graphene
+#: model_terms:theme.ir.ui.view,arch:theme_graphene.s_company_team
+msgid ""
+"<small>Founder and chief visionary, Tony is the driving force behind the "
+"company. He loves to keep his hands full by participating in the development "
+"of the software, marketing, and customer experience strategies.</small>"
+msgstr "<small>Az alapító és vezető látnok, Tony a vállalat motorja. Szereti, hogy a szoftver, a marketing és az ügyfélélmény-stratégiák fejlesztésében való részvétele révén folyamatosan kézben tartja a dolgokat.</small>"
+
+#. module: theme_graphene
+#: model_terms:theme.ir.ui.view,arch:theme_graphene.s_company_team
+msgid ""
+"<small>Iris, with her international experience, helps us easily understand "
+"the numbers and improves them. She is determined to drive success and "
+"delivers her professional acumen to bring the company to the next level.</"
+"small>"
+msgstr "<small>Iris nemzetközi tapasztalatával segít nekünk, hogy könnyen megértsük a számokat és javítsuk azokat. Eltökélten törekszik a sikerre, és szakmai éleslátásával a vállalatot a következő szintre emeli.</small>"
+
+#. module: theme_graphene
+#: model_terms:theme.ir.ui.view,arch:theme_graphene.s_company_team
+msgid ""
+"<small>Mich loves taking on challenges. With his multi-year experience as "
+"Commercial Director in the software industry, Mich has helped the company to "
+"get where it is today. Mich is among the best minds.</small>"
+msgstr "<small>Mich imádja a kihívásokat. A szoftveriparban kereskedelmi igazgatóként szerzett többéves tapasztalatával Mich segített a vállalatnak eljutni oda, ahol ma van. Mich a legjobb elmék közé tartozik.</small>"
+
+#. module: theme_graphene
+#: model_terms:theme.ir.ui.view,arch:theme_graphene.s_comparisons
+msgid "Access to all modules"
+msgstr "Hozzáférés az összes modulhoz"
+
+#. module: theme_graphene
+#: model_terms:theme.ir.ui.view,arch:theme_graphene.s_comparisons
+msgid "Access to all modules and features"
+msgstr "Hozzáférés az összes modulhoz és funkcióhoz"
+
+#. module: theme_graphene
+#: model_terms:theme.ir.ui.view,arch:theme_graphene.s_process_steps
+msgid "Add to Cart"
+msgstr "Kosárba rakás"
+
+#. module: theme_graphene
+#: model_terms:theme.ir.ui.view,arch:theme_graphene.s_company_team
+msgid "Aline Turner, <small><b>CTO</b></small>"
+msgstr "Aline Turner, <small><b>CTO</b></small>"
+
+#. module: theme_graphene
+#: model_terms:theme.ir.ui.view,arch:theme_graphene.s_cover
+msgid "Contact us"
+msgstr "Kapcsolatfelvétel"
+
+#. module: theme_graphene
+#: model_terms:theme.ir.ui.view,arch:theme_graphene.s_process_steps
+msgid "Get Delivered"
+msgstr "Kiszállítást kérek"
+
+#. module: theme_graphene
+#: model_terms:theme.ir.ui.view,arch:theme_graphene.s_picture
+msgid "Grow with Us"
+msgstr "Növekedjen velünk"
+
+#. module: theme_graphene
+#: model_terms:theme.ir.ui.view,arch:theme_graphene.s_company_team
+msgid "Iris Joe, <small><b>CFO</b></small>"
+msgstr "Iris Joe, <small><b>CFO</b></small>"
+
+#. module: theme_graphene
+#: model_terms:theme.ir.ui.view,arch:theme_graphene.s_company_team
+msgid "Mich Stark, <small><b>COO</b></small>"
+msgstr "Mich Stark, <small><b>COO</b></small>"
+
+#. module: theme_graphene
+#: model_terms:theme.ir.ui.view,arch:theme_graphene.s_three_columns
+msgid "Mobile Experience"
+msgstr "Mobil élmény"
+
+#. module: theme_graphene
+#: model_terms:theme.ir.ui.view,arch:theme_graphene.s_cover
+msgid ""
+"Our mission is to give customers the best experience.<br/>Extensive "
+"documentation &amp; guides, an active community,<br/>24/7 support make it a "
+"pleasure to work with us."
+msgstr "Küldetésünk, hogy a legjobb élményt nyújtsuk ügyfeleinknek.<br/>Kiterjedt dokumentáció és útmutatók, aktív közösség,<br/>24/7-es támogatás teszi élvezetessé a velünk való munkát."
+
+#. module: theme_graphene
+#: model_terms:theme.ir.ui.view,arch:theme_graphene.s_process_steps
+msgid "Pay"
+msgstr "Fizetés"
+
+#. module: theme_graphene
+#: model_terms:theme.ir.ui.view,arch:theme_graphene.s_three_columns
+msgid "Powerful API"
+msgstr "Erőteljes API"
+
+#. module: theme_graphene
+#: model_terms:theme.ir.ui.view,arch:theme_graphene.s_three_columns
+msgid ""
+"Probably the only CRM with a full mobile experience. Never wondered how it "
+"works? That's because it just works"
+msgstr "Valószínűleg az egyetlen CRM, amely teljes körű mobil élményt nyújt. Sosem érdekelte, hogy hogyan is működik? Azért, mert egyszerűen csak működik"
+
+#. module: theme_graphene
+#: model_terms:theme.ir.ui.view,arch:theme_graphene.s_picture
+msgid ""
+"Put your people at the heart of your marketing with tools that help you get "
+"to know your audience <br/>and see who you should be talking to."
+msgstr "Helyezze az embereket marketingje középpontjába olyan eszközökkel, amelyek segítségével megismerheti közönségét, <br/>és láthatja, hogy kihez kell szólnia."
+
+#. module: theme_graphene
+#: model_terms:theme.ir.ui.view,arch:theme_graphene.s_process_steps
+msgid "Sign In"
+msgstr "Belépés"
+
+#. module: theme_graphene
+#: model_terms:theme.ir.ui.view,arch:theme_graphene.s_comparisons
+msgid "Start Now"
+msgstr "Kezdje el most"
+
+#. module: theme_graphene
+#: model_terms:theme.ir.ui.view,arch:theme_graphene.s_three_columns
+msgid "Support Team"
+msgstr "Támogatási csapat"
+
+#. module: theme_graphene
+#: model_terms:theme.ir.ui.view,arch:theme_graphene.s_three_columns
+msgid ""
+"Thanks to our API, Developers report building their solutions 4x faster. "
+"Discover why and how."
+msgstr "API-nknak köszönhetően a fejlesztők arról számolnak be, hogy megoldásaikat 4x gyorsabban építik fel. Fedezze fel, miért és hogyan."
+
+#. module: theme_graphene
+#: model:ir.model,name:theme_graphene.model_theme_utils
+msgid "Theme Utils"
+msgstr "Téma segédek"
+
+#. module: theme_graphene
+#: model_terms:theme.ir.ui.view,arch:theme_graphene.s_company_team
+msgid "Tony Fred, <small><b>CEO</b></small>"
+msgstr "Tony Fred, <small><b>CEO</b></small>"
+
+#. module: theme_graphene
+#: model_terms:theme.ir.ui.view,arch:theme_graphene.s_text_image
+msgid "Unique experiences to drive engagement"
+msgstr "Egyedi élmények az elkötelezettség fokozására"
+
+#. module: theme_graphene
+#: model_terms:theme.ir.ui.view,arch:theme_graphene.s_text_image
+msgid ""
+"Users are looking to consume engaging content.<br/>We empowers our teams to "
+"create the most relevant content."
+msgstr "A felhasználók vonzó tartalmakat szeretnének fogyasztani.<br/>Csapatainkat felhatalmazzuk arra, hogy a legrelevánsabb tartalmat hozzák létre."
+
+#. module: theme_graphene
+#: model_terms:theme.ir.ui.view,arch:theme_graphene.s_three_columns
+msgid ""
+"We have a support team that will do everything to answer you as quickly as "
+"the voice assistants."
+msgstr "Van egy támogató csapatunk, amely mindent megtesz, hogy olyan gyorsan válaszoljon Önnek, mint a hangalapú asszisztensek."
+
+#. module: theme_graphene
+#: model_terms:theme.ir.ui.view,arch:theme_graphene.s_text_image
+msgid "We have one goal in mind, the user satisfaction."
+msgstr "Egy cél lebeg a szemünk előtt, az ügyfél elégedettsége."

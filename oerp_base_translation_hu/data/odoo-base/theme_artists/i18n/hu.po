@@ -1,0 +1,155 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* theme_artists
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-13 08:00+0000\n"
+"PO-Revision-Date: 2022-10-16 04:01+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/theme_artists/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#. module: theme_artists
+#: model_terms:theme.ir.ui.view,arch:theme_artists.s_carousel
+msgid "<b>Painting concept / April 2021</b>"
+msgstr "<b>Festészeti koncepció / 2021 április</b>"
+
+#. module: theme_artists
+#: model_terms:theme.ir.ui.view,arch:theme_artists.s_carousel
+msgid "<b>Photoshoot / June 2021</b>"
+msgstr "<b>Fotózás / 2021 június</b>"
+
+#. module: theme_artists
+#: model_terms:theme.ir.ui.view,arch:theme_artists.s_carousel
+msgid "<b>Typographic collection / March 2021</b>"
+msgstr "<b>Tipográfiai gyűjtemény / 2021 március</b>"
+
+#. module: theme_artists
+#: model_terms:theme.ir.ui.view,arch:theme_artists.s_call_to_action
+msgid "<b>Want to discover more?</b>"
+msgstr "<b>Szeretne még többet felfedezni?</b>"
+
+#. module: theme_artists
+#: model_terms:theme.ir.ui.view,arch:theme_artists.s_three_columns
+msgid "About me"
+msgstr "Rólam"
+
+#. module: theme_artists
+#: model_terms:theme.ir.ui.view,arch:theme_artists.s_carousel
+msgid "Aquitani"
+msgstr "Aquitani"
+
+#. module: theme_artists
+#: model_terms:theme.ir.ui.view,arch:theme_artists.s_comparisons
+msgid "Basic sales &amp; marketing"
+msgstr "Alapvető értékesítés és marketing"
+
+#. module: theme_artists
+#: model_terms:theme.ir.ui.view,arch:theme_artists.s_three_columns
+msgid "Contact me"
+msgstr "Lépjen kapcsolatba velem"
+
+#. module: theme_artists
+#: model_terms:theme.ir.ui.view,arch:theme_artists.s_call_to_action
+msgid "Contact me for a visit of my studio."
+msgstr "Lépjen kapcsolatba velem, hogy megtekinthesse a műtermemet."
+
+#. module: theme_artists
+#: model_terms:theme.ir.ui.view,arch:theme_artists.s_carousel
+#: model_terms:theme.ir.ui.view,arch:theme_artists.s_three_columns
+msgid "Discover"
+msgstr "Felfedezés"
+
+#. module: theme_artists
+#: model_terms:theme.ir.ui.view,arch:theme_artists.s_image_text
+msgid "Discover <br/>my works"
+msgstr "Fedezze fel <br/>műveimet"
+
+#. module: theme_artists
+#: model_terms:theme.ir.ui.view,arch:theme_artists.s_cover
+msgid "Emotions <br/>through the colors"
+msgstr "Érzelmek <br/>a színeken keresztül"
+
+#. module: theme_artists
+#: model_terms:theme.ir.ui.view,arch:theme_artists.s_banner
+msgid "Emotions through the colors"
+msgstr "Érzelmek a színeken keresztül"
+
+#. module: theme_artists
+#: model_terms:theme.ir.ui.view,arch:theme_artists.s_three_columns
+msgid ""
+"Formerly a corporate accountant, I started a professional transition 10 "
+"years ago."
+msgstr "Korábban vállalati könyvelőként dolgoztam, 10 évvel ezelőtt kezdtem el a szakmai átmenetet."
+
+#. module: theme_artists
+#: model_terms:theme.ir.ui.view,arch:theme_artists.s_three_columns
+msgid "Here is a selection of my works, exhibited in my studio."
+msgstr "Íme egy válogatás a műtermemben kiállított munkáimból."
+
+#. module: theme_artists
+#: model_terms:theme.ir.ui.view,arch:theme_artists.s_carousel
+msgid "Immemorabili"
+msgstr "Időről időre"
+
+#. module: theme_artists
+#: model_terms:theme.ir.ui.view,arch:theme_artists.s_title
+msgid "It's all about perception"
+msgstr "Minden az érzékelésen múlik"
+
+#. module: theme_artists
+#: model_terms:theme.ir.ui.view,arch:theme_artists.s_text_image
+msgid "Let yourself <br/>be transported"
+msgstr "Hagyja magát <br/>szállítani"
+
+#. module: theme_artists
+#: model_terms:theme.ir.ui.view,arch:theme_artists.s_three_columns
+msgid "More details"
+msgstr "További részletek"
+
+#. module: theme_artists
+#: model_terms:theme.ir.ui.view,arch:theme_artists.s_product_list
+msgid "More info"
+msgstr "További információ"
+
+#. module: theme_artists
+#: model_terms:theme.ir.ui.view,arch:theme_artists.s_three_columns
+msgid "My artistic process"
+msgstr "Az alkotási folyamatom"
+
+#. module: theme_artists
+#: model_terms:theme.ir.ui.view,arch:theme_artists.s_three_columns
+msgid "My work"
+msgstr "Munkáim"
+
+#. module: theme_artists
+#: model_terms:theme.ir.ui.view,arch:theme_artists.s_three_columns
+msgid ""
+"The choice of materials, colours are not insignificant, discover more about "
+"my artistic process."
+msgstr "Az anyagválasztás, a színek nem elhanyagolhatóak, tudjon meg többet az alkotási folyamatomról."
+
+#. module: theme_artists
+#: model:ir.model,name:theme_artists.model_theme_utils
+msgid "Theme Utils"
+msgstr "Téma segédek"
+
+#. module: theme_artists
+#: model_terms:theme.ir.ui.view,arch:theme_artists.s_carousel
+msgid "Vincam"
+msgstr "Vincam"
+
+#. module: theme_artists
+#: model_terms:theme.ir.ui.view,arch:theme_artists.s_text_image
+msgid ""
+"Welcome to my online home. I invite you to come in, learn more about me and "
+"my work, and stop to embrace the slow pleasure of art and beauty."
+msgstr "Üdvözöllek az online otthonomban. Meghívom, hogy látogasson el hozzám, tudjon meg többet rólam és munkáimról, és álljon meg, hogy lassan átjárja a művészet és szépség öröme."

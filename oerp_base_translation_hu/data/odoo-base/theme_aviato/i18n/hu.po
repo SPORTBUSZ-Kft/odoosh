@@ -1,0 +1,221 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* theme_aviato
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-13 08:00+0000\n"
+"PO-Revision-Date: 2022-10-16 04:01+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/theme_aviato/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#. module: theme_aviato
+#: model_terms:theme.ir.ui.view,arch:theme_aviato.s_cover
+msgid ""
+"<b>A travel agent helps you to plan your <br/> trip from start to finish.</"
+"b>\n"
+"        <br/>"
+msgstr ""
+"<b>Az utazási iroda segít Önnek megtervezni az <br/> utazását az elejétől a végéig.</b>\n"
+"        <br/>"
+
+#. module: theme_aviato
+#: model_terms:theme.ir.ui.view,arch:theme_aviato.s_quotes_carousel
+msgid "<b>Jacques and Marie</b> • From France"
+msgstr "<b>Jacques és Marie</b> • Franciaországból"
+
+#. module: theme_aviato
+#: model_terms:theme.ir.ui.view,arch:theme_aviato.s_quotes_carousel
+msgid "<b>Linda and Paulo</b> • From Italy"
+msgstr "<b>Linda és Paulo</b> • Olaszországból"
+
+#. module: theme_aviato
+#: model_terms:theme.ir.ui.view,arch:theme_aviato.s_quotes_carousel
+msgid "<b>Rose and Peter</b> • From United Kingdom"
+msgstr "<b>Rose és Peter</b> • Egyesült Királyságból"
+
+#. module: theme_aviato
+#: model_terms:theme.ir.ui.view,arch:theme_aviato.s_picture
+msgid "<em>Odoo Travel New York</em>"
+msgstr "<em>Odoo Travel • New York</em>"
+
+#. module: theme_aviato
+#: model_terms:theme.ir.ui.view,arch:theme_aviato.s_three_columns
+msgid ""
+"A heady mix of haunting ruins, awe-inspiring art and vibrant street life, "
+"Italy’s hot-blooded capital is one of the world’s most romantic and "
+"charismatic cities."
+msgstr "A kísérteties romok, a lenyűgöző művészet és a vibráló utcai élet mámorító keveréke, Olaszország forróvérű fővárosa a világ egyik legromantikusabb és legkarizmatikusabb városa."
+
+#. module: theme_aviato
+#: model_terms:theme.ir.ui.view,arch:theme_aviato.s_quotes_carousel
+msgid ""
+"As always, Odoo Travel has delivered a truly wonderful travel experience for "
+"us. Norway was a great travel destination. The parts of the country we "
+"visited were beautiful, people were friendly, everything we ate was "
+"delicious, and there were many fun things to see and do."
+msgstr "Mint mindig, az Odoo Travel most is igazán csodálatos utazási élményt nyújtott számunkra. Norvégia nagyszerű úti cél volt. Az ország általunk meglátogatott részei gyönyörűek voltak, az emberek barátságosak, minden, amit ettünk finom volt, és sok szórakoztató dolgot lehetett látni és csinálni."
+
+#. module: theme_aviato
+#. openerp-web
+#: code:addons/theme_aviato/static/src/js/tour.js:0
+#, python-format
+msgid "Background Shape"
+msgstr "Háttér alakzata"
+
+#. module: theme_aviato
+#: model_terms:theme.ir.ui.view,arch:theme_aviato.s_three_columns
+msgid "Book now"
+msgstr "Foglaljon most"
+
+#. module: theme_aviato
+#: model_terms:theme.ir.ui.view,arch:theme_aviato.s_popup
+msgid "Check out now and get $200 off your first booking."
+msgstr "Jelentkezzen most, és kap 200 $ kedvezményt az első foglalásából."
+
+#. module: theme_aviato
+#: model_terms:theme.ir.ui.view,arch:theme_aviato.s_features
+msgid "Flight Booking"
+msgstr "Repülőjegy foglalás"
+
+#. module: theme_aviato
+#: model_terms:theme.ir.ui.view,arch:theme_aviato.s_features
+msgid "Hotel Booking"
+msgstr "Szálloda foglalás"
+
+#. module: theme_aviato
+#: model_terms:theme.ir.ui.view,arch:theme_aviato.s_quotes_carousel
+msgid ""
+"It's difficult to describe how awesome the trip was. I feel like my life has "
+"changed forever. It would take too long to describe day by day the sights, "
+"sounds, architecture, art, food, history, and people that we came across. "
+"Ireland was fantastic."
+msgstr "Nehéz leírni, hogy milyen fantasztikus volt az utazás. Úgy érzem, hogy az életem örökre megváltozott. Túl sokáig tartana, ha napról napra leírnám a látnivalókat, a hangokat, az építészetet, a művészetet, az ételeket, a történelmet és az embereket akikkel találkoztunk. Írország fantasztikus volt."
+
+#. module: theme_aviato
+#: model_terms:theme.ir.ui.view,arch:theme_aviato.s_image_text
+msgid "Itinerary Planning"
+msgstr "Útvonaltervezés"
+
+#. module: theme_aviato
+#: model_terms:theme.ir.ui.view,arch:theme_aviato.s_text_image
+msgid ""
+"Our team travels widely the globe to bring our clients first-hand knowledge "
+"of upcoming destinations, new \"hot\" hotels and ships, local restaurants, "
+"neighborhood hangouts, bars, pubs, the best. beaches and places to visit and "
+"not to see."
+msgstr "Csapatunk széles körben járja a világot, hogy ügyfeleink első kézből szerezzenek ismereteket a következő úti célokról, új \"hot\" szállodákról és hajókról, helyi éttermekről, környékbeli szórakozóhelyekről, bárokról, kocsmákról, a legjobb strandokról és helyekről, amelyeket érdemes meglátogatni és nem megnézni."
+
+#. module: theme_aviato
+#: model_terms:theme.ir.ui.view,arch:theme_aviato.s_picture
+msgid "Our travel agencies"
+msgstr "Utazási irodáink"
+
+#. module: theme_aviato
+#: model_terms:theme.ir.ui.view,arch:theme_aviato.s_image_text
+msgid ""
+"Our vision is to make travel planning stress free and make travel more fun. "
+"No matter the type of trip you have in mind, we have the resources and "
+"expertise necessary to create the perfect trip"
+msgstr "Célunk, hogy az utazásszervezést stresszmentessé tegyük, és az utazást szórakoztatóbbá tegyük. Nem számít, hogy milyen típusú utazást tervez, mi rendelkezünk a tökéletes utazás megteremtéséhez szükséges erőforrásokkal és szakértelemmel"
+
+#. module: theme_aviato
+#: model_terms:theme.ir.ui.view,arch:theme_aviato.s_three_columns
+msgid "Paris"
+msgstr "Párizs"
+
+#. module: theme_aviato
+#: model_terms:theme.ir.ui.view,arch:theme_aviato.s_three_columns
+msgid ""
+"Paris' monument-lined boulevards, museums, classical bistros and boutiques "
+"are enhanced by a new wave of multimedia galleries, creative wine bars.."
+msgstr "Párizs a műemlékekkel szegélyezett sugárutakat, múzeumokat, klasszikus bisztrókat és butikokat multimédiás galériák, kreatív borbárok új hulláma egészíti ki..."
+
+#. module: theme_aviato
+#: model_terms:theme.ir.ui.view,arch:theme_aviato.s_cover
+msgid "Plan your trip with us"
+msgstr "Tervezze meg utazását velünk"
+
+#. module: theme_aviato
+#: model_terms:theme.ir.ui.view,arch:theme_aviato.s_three_columns
+msgid "Prague"
+msgstr "Prága"
+
+#. module: theme_aviato
+#: model_terms:theme.ir.ui.view,arch:theme_aviato.s_three_columns
+msgid ""
+"Prague is the equal of Paris in terms of beauty. Its history goes back a "
+"millennium. And the beer? The best in Europe. Prague is the perfect city to "
+"walk around."
+msgstr "Prága szépségét tekintve Párizshoz fogható. Történelme egy évezredes múltra tekint vissza. És a sör? A legjobb Európában. Prága tökéletes város a sétához."
+
+#. module: theme_aviato
+#: model_terms:theme.ir.ui.view,arch:theme_aviato.s_three_columns
+msgid "Rome"
+msgstr "Róma"
+
+#. module: theme_aviato
+#: model:ir.model,name:theme_aviato.model_theme_utils
+msgid "Theme Utils"
+msgstr "Téma segédek"
+
+#. module: theme_aviato
+#: model_terms:theme.ir.ui.view,arch:theme_aviato.s_features
+msgid "Ticket Booking"
+msgstr "Jegyfoglalás"
+
+#. module: theme_aviato
+#: model_terms:theme.ir.ui.view,arch:theme_aviato.s_title
+msgid "Top Destinations"
+msgstr "Legjobb úti célok"
+
+#. module: theme_aviato
+#: model_terms:theme.ir.ui.view,arch:theme_aviato.s_popup
+msgid "Travel Now"
+msgstr "Utazzon most"
+
+#. module: theme_aviato
+#: model_terms:theme.ir.ui.view,arch:theme_aviato.s_cover
+msgid "Travel to any corner <br/>of the world"
+msgstr "Utazzon a világ <br/>bármelyik szegletébe"
+
+#. module: theme_aviato
+#: model_terms:theme.ir.ui.view,arch:theme_aviato.s_quotes_carousel
+msgid ""
+"We would like to thank Odoo Travel for organising wonderful tour for us in "
+"Delhi, Agra and Rajasthan. Everything was very well organised. Thank you "
+"very much for everything!"
+msgstr "Szeretnénk megköszönni az Odoo Travelnek, hogy csodálatos túrát szervezett nekünk Delhiben, Agrában és Rajasthanban. Minden nagyon jól szervezett volt. Nagyon köszönünk mindent!"
+
+#. module: theme_aviato
+#: model_terms:theme.ir.ui.view,arch:theme_aviato.s_text_image
+msgid "What we can do, <b>for you</b>"
+msgstr "Mit tehetünk, <b>Önért</b>"
+
+#. module: theme_aviato
+#: model_terms:theme.ir.ui.view,arch:theme_aviato.s_popup
+msgid "Win 200$"
+msgstr "Nyerjen 200 $-t"
+
+#. module: theme_aviato
+#: model_terms:theme.ir.ui.view,arch:theme_aviato.s_three_columns
+msgid "s_three_columns_1"
+msgstr "s_three_columns_1"
+
+#. module: theme_aviato
+#: model_terms:theme.ir.ui.view,arch:theme_aviato.s_three_columns
+msgid "s_three_columns_2"
+msgstr "s_three_columns_2"
+
+#. module: theme_aviato
+#: model_terms:theme.ir.ui.view,arch:theme_aviato.s_three_columns
+msgid "s_three_columns_3"
+msgstr "s_three_columns_3"

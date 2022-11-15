@@ -1,0 +1,101 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* ocn_client
+#
+# Translators:
+# Martin Trigaux, 2019
+# Ákos Nagy <akos.nagy@oregional.hu>, 2019
+# Tibor Kőnig <konig.tibor@evitalit.hu>, 2019
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.4+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-11 15:06+0000\n"
+"PO-Revision-Date: 2022-10-25 09:45+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/mail_mobile/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#. module: mail_mobile
+#: model:ir.model.fields,help:mail_mobile.field_res_config_settings__disable_redirect_firebase_dynamic_link
+msgid ""
+"Check this if dynamic mobile-app detection links cause problems for your "
+"installation. This will stop the automatic wrapping of links inside outbound "
+"emails. The links will always open in a normal browser, even for users who "
+"have the Android/iOS app installed."
+msgstr "Jelölje be, ha a dinamikus mobilalkalmazás felismerő hivatkozások problémákat okoznak az Odoojában. Ez leállítja a linkek automatikus csomagolását a kimenő e-mailekben. A linkek mindig normál böngészőben nyílnak meg, még azoknál a felhasználóknál is, akiknek telepítve van az Android/iOS alkalmazás."
+
+#. module: mail_mobile
+#: model:ir.model,name:mail_mobile.model_res_config_settings
+msgid "Config Settings"
+msgstr "Beállítások"
+
+#. module: mail_mobile
+#: model:ir.model,name:mail_mobile.model_res_partner
+msgid "Contact"
+msgstr "Névjegy"
+
+#. module: mail_mobile
+#: model:ir.model.fields,field_description:mail_mobile.field_res_config_settings__disable_redirect_firebase_dynamic_link
+msgid "Disable link redirection to mobile app"
+msgstr "Linkek mobil alkalmazásra való átirányításának tiltása"
+
+#. module: mail_mobile
+#: model:ir.model,name:mail_mobile.model_mail_channel
+msgid "Discussion Channel"
+msgstr "Beszélgetés csatorna"
+
+#. module: mail_mobile
+#: model:ir.model,name:mail_mobile.model_mail_thread
+msgid "Email Thread"
+msgstr "E-mail szál"
+
+#. module: mail_mobile
+#: model:ir.model,name:mail_mobile.model_ir_http
+msgid "HTTP Routing"
+msgstr "HTTP útválasztás"
+
+#. module: mail_mobile
+#: model:ir.model,name:mail_mobile.model_iap_account
+msgid "IAP Account"
+msgstr "IAP Fiók"
+
+#. module: mail_mobile
+#: model_terms:ir.ui.view,arch_db:mail_mobile.res_config_settings_view_form
+msgid ""
+"If disabled, you won't be able to open external URL's in the Android/iOS "
+"mobile app (e.g. \"View Task\" button in email)."
+msgstr "Ha letiltja, nem lesz képes megnyitni külső URL-címeket az Android/iOS mobilalkalmazásban (pl. \"Feladat megtekintése\" gomb az e-mailben)."
+
+#. module: mail_mobile
+#: model_terms:ir.ui.view,arch_db:mail_mobile.res_config_settings_view_form
+msgid "Mobile"
+msgstr "Mobil"
+
+#. module: mail_mobile
+#: model:ir.model.fields,field_description:mail_mobile.field_res_partner__ocn_token
+#: model:ir.model.fields,field_description:mail_mobile.field_res_users__ocn_token
+msgid "OCN Token"
+msgstr "OCN Token"
+
+#. module: mail_mobile
+#: model:ir.model.fields,field_description:mail_mobile.field_res_config_settings__enable_ocn
+msgid "Push Notifications"
+msgstr "Push értesítések"
+
+#. module: mail_mobile
+#: model_terms:ir.ui.view,arch_db:mail_mobile.res_config_settings_view_form
+msgid "Receive notifications on Android and iOS application"
+msgstr "Értesítések fogadása Android és iOS alkalmazáson"
+
+#. module: mail_mobile
+#: model:ir.model.fields,help:mail_mobile.field_res_partner__ocn_token
+#: model:ir.model.fields,help:mail_mobile.field_res_users__ocn_token
+msgid "Used for sending notification to registered devices"
+msgstr "Értesítések küldését teszi lehetővé a regisztrált eszközökre"

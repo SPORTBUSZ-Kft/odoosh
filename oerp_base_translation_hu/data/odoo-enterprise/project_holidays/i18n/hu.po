@@ -1,0 +1,40 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* project_holidays
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~14.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-14 11:01+0000\n"
+"PO-Revision-Date: 2022-10-16 01:02+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/project_holidays/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#. module: project_holidays
+#: model:ir.model.fields,field_description:project_holidays.field_project_task__is_absent
+#: model_terms:ir.ui.view,arch_db:project_holidays.view_task_search_form_inherit_holidays
+msgid "Employees on Time Off"
+msgstr "Szabadságon lévő alkalmazottak"
+
+#. module: project_holidays
+#: model:ir.model.fields,field_description:project_holidays.field_project_task__leave_warning
+msgid "Leave Warning"
+msgstr "Eltávozás figyelmeztetés"
+
+#. module: project_holidays
+#: code:addons/project_holidays/models/project.py:0
+#, python-format
+msgid "Operation not supported"
+msgstr "Művelet nem támogatott"
+
+#. module: project_holidays
+#: model:ir.model,name:project_holidays.model_project_task
+msgid "Task"
+msgstr "Feladat"

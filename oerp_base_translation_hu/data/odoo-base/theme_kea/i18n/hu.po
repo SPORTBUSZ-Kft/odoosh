@@ -1,0 +1,214 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* theme_kea
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-13 08:01+0000\n"
+"PO-Revision-Date: 2022-10-16 04:01+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/theme_kea/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#. module: theme_kea
+#: model_terms:theme.ir.ui.view,arch:theme_kea.s_features
+msgid "<b>360-degree vision</b>"
+msgstr "<b>360 fokos látószög</b>"
+
+#. module: theme_kea
+#: model_terms:theme.ir.ui.view,arch:theme_kea.s_features
+msgid "<b>Built in mic</b>"
+msgstr "<b>Beépített mikrofon</b>"
+
+#. module: theme_kea
+#: model_terms:theme.ir.ui.view,arch:theme_kea.s_features
+msgid "<b>Stunning visuals</b>"
+msgstr "<b>Lenyűgöző látványvilág</b>"
+
+#. module: theme_kea
+#: model_terms:theme.ir.ui.view,arch:theme_kea.s_image_text
+msgid ""
+"<font style=\"background-image: linear-gradient(135deg, var(--o-color-1) 0%, "
+"var(--o-color-2) 100%);\" class=\"text-gradient\">Enter in a new world</font>"
+msgstr "<font style=\"background-image: linear-gradient(135deg, var(--o-color-1) 0%, var(--o-color-2) 100%);\" class=\"text-gradient\">Lépjen be egy új világba</font>"
+
+#. module: theme_kea
+#: model_terms:theme.ir.ui.view,arch:theme_kea.s_text_image
+msgid ""
+"<font style=\"background-image: linear-gradient(135deg, var(--o-color-1) 0%, "
+"var(--o-color-2) 100%);\" class=\"text-gradient\">Full immersion</font>"
+msgstr "<font style=\"background-image: linear-gradient(135deg, var(--o-color-1) 0%, var(--o-color-2) 100%);\" class=\"text-gradient\">Teljes elmerülés</font>"
+
+#. module: theme_kea
+#: model_terms:theme.ir.ui.view,arch:theme_kea.s_features
+msgid "A small explanation of this great feature, in clear words."
+msgstr "Egy kis magyarázat erről a nagyszerű funkcióról, világos szavakkal."
+
+#. module: theme_kea
+#: model_terms:theme.ir.ui.view,arch:theme_kea.s_media_list
+msgid "Comfort &amp; Ease"
+msgstr "Kényelem és könnyedség"
+
+#. module: theme_kea
+#: model_terms:theme.ir.ui.view,arch:theme_kea.s_color_blocks_2
+msgid ""
+"Conquer leaderboards, crush workouts, create with friends and more. Get lost "
+"in a growing library of VR classics and all-new experiences."
+msgstr "Hódítsd meg a ranglistákat, zúzd le az edzéseket, alkoss barátaiddal és még sok más. Merülj el a VR-klasszikusok és teljesen új élmények egyre bővülő könyvtárában."
+
+#. module: theme_kea
+#: model_terms:theme.ir.ui.view,arch:theme_kea.s_three_columns
+msgid "Design"
+msgstr "Tervezés"
+
+#. module: theme_kea
+#: model_terms:theme.ir.ui.view,arch:theme_kea.s_numbers
+msgid "Different lenses"
+msgstr "Különböző lencsék"
+
+#. module: theme_kea
+#: model_terms:theme.ir.ui.view,arch:theme_kea.s_cover
+msgid "Discover more"
+msgstr "Fedezzen fel többet"
+
+#. module: theme_kea
+#: model_terms:theme.ir.ui.view,arch:theme_kea.s_picture
+msgid "Experience a new world"
+msgstr "Tapasztaljon meg egy új világot"
+
+#. module: theme_kea
+#: model_terms:theme.ir.ui.view,arch:theme_kea.s_media_list
+msgid "Fitting design"
+msgstr "Illeszkedő kialakítás"
+
+#. module: theme_kea
+#: model_terms:theme.ir.ui.view,arch:theme_kea.s_color_blocks_2
+msgid "Freedom"
+msgstr "Szabadság"
+
+#. module: theme_kea
+#: model_terms:theme.ir.ui.view,arch:theme_kea.s_three_columns
+msgid ""
+"From design concept to the showroom, create and manage workflows with better "
+"collaboration."
+msgstr "A tervezési koncepciótól a bemutatóteremig, hozzon létre és kezeljen munkafolyamatokat jobb együttműködéssel."
+
+#. module: theme_kea
+#: model_terms:theme.ir.ui.view,arch:theme_kea.s_three_columns
+msgid ""
+"From high-risk safety simulations and maintenance procedures to soft skills "
+"like public speaking."
+msgstr "A nagy kockázatú biztonsági szimulációktól és karbantartási eljárásoktól kezdve az olyan puha készségekig, mint a nyilvános beszéd."
+
+#. module: theme_kea
+#: model_terms:theme.ir.ui.view,arch:theme_kea.s_three_columns
+msgid "Gaming"
+msgstr "Játszás"
+
+#. module: theme_kea
+#: model_terms:theme.ir.ui.view,arch:theme_kea.s_color_blocks_2
+msgid "Multiplayer"
+msgstr "Többjátékos"
+
+#. module: theme_kea
+#: model_terms:theme.ir.ui.view,arch:theme_kea.s_media_list
+msgid "Natural control"
+msgstr "Természetes vezérlés"
+
+#. module: theme_kea
+#: model_terms:theme.ir.ui.view,arch:theme_kea.s_numbers
+msgid "New games every week"
+msgstr "Új játék minden héten"
+
+#. module: theme_kea
+#: model_terms:theme.ir.ui.view,arch:theme_kea.s_color_blocks_2
+msgid ""
+"No matter who you are, with a growing library of games and experiences there "
+"is no limit to where you can go and what you can do in virtual reality."
+msgstr "Nem számít, hogy ki vagy, a játékok és élmények egyre bővülő könyvtárával nincs határa annak, hogy hová mehetsz és mit csinálhatsz a virtuális valóságban."
+
+#. module: theme_kea
+#: model_terms:theme.ir.ui.view,arch:theme_kea.s_numbers
+msgid "Number of controllers"
+msgstr "Vezérlők száma"
+
+#. module: theme_kea
+#: model_terms:theme.ir.ui.view,arch:theme_kea.s_picture
+msgid ""
+"Put yourself at the center of an extraordinary gaming universe with "
+"exclusive games."
+msgstr "Tegye magát egy rendkívüli játékuniverzum középpontjába exkluzív játékokkal."
+
+#. module: theme_kea
+#: model_terms:theme.ir.ui.view,arch:theme_kea.s_numbers
+msgid "Storage capacity (GB)"
+msgstr "Tárolási kapacitás (GB)"
+
+#. module: theme_kea
+#: model_terms:theme.ir.ui.view,arch:theme_kea.s_features
+msgid "Tell what's the value for the customer for this feature."
+msgstr "Mondja el, hogy mi az értéke a vevője számára ennek a funkciónak."
+
+#. module: theme_kea
+#: model_terms:theme.ir.ui.view,arch:theme_kea.s_cover
+msgid "The Revolution <br/> in Virtual Reality"
+msgstr "A forradalom <br/> a virtuális valóságban"
+
+#. module: theme_kea
+#: model:ir.model,name:theme_kea.model_theme_utils
+msgid "Theme Utils"
+msgstr "Téma segédek"
+
+#. module: theme_kea
+#: model_terms:theme.ir.ui.view,arch:theme_kea.s_three_columns
+msgid "Training"
+msgstr "Képzés"
+
+#. module: theme_kea
+#: model_terms:theme.ir.ui.view,arch:theme_kea.s_media_list
+msgid ""
+"Use this snippet to build various types of components that feature a left- "
+"or right-aligned image alongside textual content. Duplicate the element to "
+"create a list that fits your needs."
+msgstr "Használja ezt a snippet-et különböző típusú komponensek létrehozásához, amelyekben a szöveges tartalom mellett balra vagy jobbra igazított kép is szerepel. Duplikálja az elemet az igényeinek megfelelő lista létrehozásához."
+
+#. module: theme_kea
+#: model_terms:theme.ir.ui.view,arch:theme_kea.s_three_columns
+msgid ""
+"VR takes immersive gaming to another level. From deep environmental "
+"interactions to puzzle solving."
+msgstr "A VR egy új szintre emeli a magával ragadó játékot. A mély környezeti interakcióktól a rejtvényfejtésig."
+
+#. module: theme_kea
+#: model_terms:theme.ir.ui.view,arch:theme_kea.s_picture
+msgid ""
+"Watch as a living game world comes alive all around you, with a seamless "
+"field of view wherever you look."
+msgstr "Nézze meg, ahogy egy élő játékvilág elevenedik meg Ön körül, zökkenőmentes látómezővel, bármerre is nézzen."
+
+#. module: theme_kea
+#: model_terms:theme.ir.ui.view,arch:theme_kea.s_media_list
+msgid ""
+"We only use original parts or parts of equivalent quality. ​We make sure you "
+"get the best quality available on the market at the best price. All our "
+"interventions are guaranteed for a period of one year."
+msgstr "Csak eredeti vagy ezzel egyenértékű alkatrészeket használunk. Gondoskodunk arról, hogy a legjobb minőséget érje el a piacon, a legjobb áron. Minden beavatkozásunkra egy év garanciát vállalunk."
+
+#. module: theme_kea
+#: model_terms:theme.ir.ui.view,arch:theme_kea.s_text_image
+msgid ""
+"Write one or two paragraphs describing your product or services. To be "
+"successful your content needs to be useful to your readers."
+msgstr "Írjon egy vagy két bekezdést a termék vagy szolgáltatás leírásáról. Ahhoz, hogy sikeres legyen a tartalomnak hasznosnak kell lennie az olvasók számára."
+
+#. module: theme_kea
+#: model_terms:theme.ir.ui.view,arch:theme_kea.s_features
+msgid "Write what the customer would like to know, not what you want to show."
+msgstr "Azt írja, amit az ügyfél szeretne tudni, ne pedig azt, amit ön akar megmutatni."

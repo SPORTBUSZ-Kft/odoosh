@@ -1,0 +1,4997 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* spreadsheet
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0beta\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-10 10:23+0000\n"
+"PO-Revision-Date: 2022-11-03 18:01+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/spreadsheet/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+" A string, possible empty, or a reference to a valid string. If empty, the "
+"text will be simply concatenated."
+msgstr " Egy szöveg, lehet üres, vagy egy érvényes szövegre való hivatkozás. Ha üres, a szöveg egyszerűen össze lesz fűzve."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "%s %s and %s"
+msgstr "%s %s és %s"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "%s Columns left"
+msgstr "%s Oszlop balra"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "%s Columns right"
+msgstr "%s Oszlop jobbra"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "%s Rows above"
+msgstr "%s Sor fölé"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "%s Rows below"
+msgstr "%s Sor alá"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/assets_backend/spreadsheet_action_loader.js:0
+#, python-format
+msgid "%s couldn't be loaded"
+msgstr "%s nem tölthető be"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"(0) Exact match. (-1) Return next smaller item if no match. (1) Return next "
+"greater item if no match."
+msgstr "(0) Pontos egyezés. (-1) A következő kisebb elem visszaadása, ha nincs egyezés. (1) A következő nagyobb elem visszaadása, ha nincs egyezés."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"(1) Search starting at first item. \n"
+"    (-1) Search starting at last item. \n"
+"    (2) Perform a binary search that relies on lookup_array being sorted in "
+"ascending order. If not sorted, invalid results will be returned. \n"
+"    (-2) Perform a binary search that relies on lookup_array being sorted in "
+"descending order. If not sorted, invalid results will be returned.\n"
+"    "
+msgstr ""
+"(1) Keresés az első elemtől kezdve. \n"
+"    (-1) Keresés az utolsó elemtől kezdve. \n"
+"    (2) Olyan bináris keresés végrehajtása, amely a lookup_array növekvő sorrendbe rendezésén alapul. Ha nincs rendezve, érvénytelen eredményeket kapunk vissza. \n"
+"    (-2) Olyan bináris keresés végrehajtása, amely a lookup_array csökkenő sorrendbe rendezésén alapul. Ha nincs rendezve, érvénytelen eredmények kerülnek visszaadásra.\n"
+"    "
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "(Blanks)"
+msgstr ""
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "+ Add another rule"
+msgstr "+ Másik szabály hozzáadása"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "- [optional]"
+msgstr "- [opcionális]"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid ""
+"/** Font Awesome by Dave Gandy\n"
+" *  http://fontawesome.io/\n"
+" *  https://fontawesome.com/license\n"
+" */"
+msgstr ""
+"/** Font Awesome by Dave Gandy\n"
+" *  http://fontawesome.io/\n"
+" *  https://fontawesome.com/license\n"
+" */"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "1 column"
+msgstr "1 oszlop"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "1 row"
+msgstr "1 sor"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "2 columns"
+msgstr "2 oszlop"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "2 rows"
+msgstr "2 sor"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"A boolean; if TRUE, empty cells selected in the text arguments won't be "
+"included in the result."
+msgstr "Boolean; ha IGAZ, akkor a szöveges argumentumokban kijelölt üres cellák nem kerülnek bele az eredménybe."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "A conditional count across a range."
+msgstr "Feltételes számlálás egy tartományon keresztül."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "A conditional sum across a range."
+msgstr "Feltételes összeg egy tartományon keresztül."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "A filter can only be created on a continuous selection."
+msgstr "Szűrő csak folyamatos kijelölésre hozható létre."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "A maximum range limit value is needed"
+msgstr "Szükség van egy maximális tartomány határértékre"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "A minimum range limit value is needed"
+msgstr "Szükség van egy minimális tartományi határértékre"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "A number raised to a power."
+msgstr "Egy hatványra emelt szám."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "A random number between 0 inclusive and 1 exclusive."
+msgstr "Egy véletlen szám 0 beleértve és 1 nem beleértve között."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "A range needs to be defined"
+msgstr "Egy tartományt meg kell adni"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "A sheet with the name %s already exists. Please select another name."
+msgstr "A %s nevű lap már létezik. Kérjük, válasszon másik nevet."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "ABOUT"
+msgstr "NÉVJEGY"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Absolute value"
+msgstr "Abszolút érték"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Absolute value of a number."
+msgstr "Egy szám abszolút értéke."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Add"
+msgstr "Hozzáadás"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Add Filter"
+msgstr "Szűrő hozzáadása"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Add range"
+msgstr "Tartomány hozzáadása"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Additional text item(s)."
+msgstr "További szöveges elem."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Angle from the X axis to a point (x,y), in radians."
+msgstr "Az X tengely és egy (x,y) pont közötti szög radiánban."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Annual yield of a security paying interest at maturity."
+msgstr "A lejáratkor kamatot fizető értékpapír éves hozama."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Annual yield of a security paying periodic interest."
+msgstr "Az időszakos kamatot fizető értékpapír éves hozama."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Anonymous"
+msgstr "Névtelen"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Any text item. This could be a string, or an array of strings in a range."
+msgstr "Bármilyen szöveges elem. Ez lehet egy szöveg, vagy egy tartományban lévő szövegek tömbje."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Apply"
+msgstr "Alkalmazás"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Apply a large number format"
+msgstr "Nagy szám formátum alkalmazása"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Apply to range"
+msgstr "Alkalmazás tartományra"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/assets_backend/constants.js:0
+#, python-format
+msgid "April"
+msgstr "Április"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Are you sure you want to delete this sheet ?"
+msgstr "Biztosan törli ezt a munkafüzetet ?"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Argument must be a reference to a cell or range."
+msgstr "Az argumentumnak egy cellára vagy tartományra való hivatkozásnak kell lennie."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Ascending (A ⟶ Z)"
+msgstr "Növekvő (A ⟶ Z)"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/assets_backend/constants.js:0
+#, python-format
+msgid "August"
+msgstr "Augusztus"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Automatic"
+msgstr "Automatikus"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Average magnitude of deviations from mean."
+msgstr "Az átlagtól való eltérések átlagos nagysága."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Average of a set of values from a table-like range."
+msgstr "Egy táblázatszerű tartomány értékkészletének átlaga."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Average of values depending on criteria."
+msgstr "Az értékek átlaga a kritériumoktól függően."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Average of values depending on multiple criteria."
+msgstr "Több kritériumtól függő értékek átlaga."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Avg"
+msgstr "Átl"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Background Color"
+msgstr "Háttér színe"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Background color"
+msgstr "Háttérszín"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Bad zone format"
+msgstr "Rossz zóna formátum"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/chart/odoo_chart/odoo_bar_chart.js:0
+#, python-format
+msgid "Bar"
+msgstr "Oszlop"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Baseline color"
+msgstr "Alapszín"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Baseline configuration"
+msgstr "Alapkonfiguráció"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Baseline description"
+msgstr "Az alaphelyzet leírása"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Baseline format"
+msgstr "Alapformátum"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Baseline value"
+msgstr "Alapérték"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Bold"
+msgstr "Vastag"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Borders"
+msgstr "Szegélyek"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Bottom"
+msgstr "Alul"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Cancel"
+msgstr "Mégsem"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Cannot do a special paste of a figure."
+msgstr "Nem tud speciálisan beilleszteni egy ábrát."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Cannot find workbook relations file"
+msgstr "Nem találja a munkafüzet kapcsolatai fájlt"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Cannot open the chart side panel while no chart are selected"
+msgstr "Nem lehet megnyitni a diagram oldalsó panelt, ha nincs diagram kijelölve"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Cannot paste merged cells over a frozen pane."
+msgstr "Nem lehet beilleszteni az egyesített cellákat egy befagyasztott ablaktábla fölé."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Cannot sort. To sort, select only cells or only merges that have the same "
+"size."
+msgstr "Nem lehet rendezni. A rendezéshez csak az azonos méretű cellákat vagy csak az azonos méretű összevonásokat válassza ki."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Categories / Labels"
+msgstr "Kategóriák / Címkék"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Cell values"
+msgstr "Cella értékek"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Chart"
+msgstr "Diagram"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/chart/plugins/odoo_chart_core_plugin.js:0
+#, python-format
+msgid "Chart - %s"
+msgstr "Táblázat - %s"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Chart type"
+msgstr "Diagram típus"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Circular reference"
+msgstr "Körkörös hivatkozás"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/global_filters/components/filter_value/filter_value.xml:0
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Clear"
+msgstr "Törlés"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Clear Format"
+msgstr "Formázás törlése"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Clear column %s"
+msgstr "%s oszlop ürítése"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Clear columns"
+msgstr "Oszlopok törlése"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Clear columns %s - %s"
+msgstr "%s - %s oszlopok ürítése"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Clear formatting"
+msgstr "Formázás törlése"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Clear row %s"
+msgstr "%s sor ürítése"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Clear rows"
+msgstr "Sorok törlése"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Clear rows %s - %s"
+msgstr "%s - %s sorok ürítése"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Code"
+msgstr "Kód"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Color Up"
+msgstr "Szín Fel"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Color on value decrease"
+msgstr "Szín az érték csökkenésekor"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Color on value increase"
+msgstr "Szín az érték növekedésekor"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Color scale"
+msgstr "Színskála"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Column left"
+msgstr "Oszlop balra"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Column number of a specified cell."
+msgstr "A megadott cella oszlopszáma."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Column right"
+msgstr "Oszlop jobbra"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Compare two numeric values, returning 1 if they're equal."
+msgstr "Összehasonlít két szám értéket, 1-el tér vissza ha egyenlőek."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Computes the number of periods needed for an investment to reach a value."
+msgstr "Kiszámítja, hány időszak szükséges ahhoz, hogy egy befektetés elérjen egy értéket."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Conditional formatting"
+msgstr "Feltételes formázás"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Configuration"
+msgstr "Beállítások"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Confirm"
+msgstr "Megerősítés"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Contains"
+msgstr "Tartalmazza"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Converts a date string to a date value."
+msgstr "Egy dátum szöveget dátum értékké alakít."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Converts a time string into its serial number representation."
+msgstr "Egy idő szöveget konvertál sorszám ábrázolásába."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Converts an angle value in radians to degrees."
+msgstr "A radiánban megadott szögértéket fokra konvertálja."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Converts from another base to decimal."
+msgstr "Más bázisról decimálisra konvertál."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Converts hour/minute/second into a time."
+msgstr "Óra/perc/másodpercet idővé alakít."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Converts year/month/day into a date."
+msgstr "Év/hónap/napot dátummá alakít."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Copy"
+msgstr "Másolás"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Copy of %s"
+msgstr "%s másolata"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Cosecant of an angle provided in radians."
+msgstr "Radiánban megadott szög koszinusza."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Cosine of an angle provided in radians."
+msgstr "Radiánban megadott szög koszinusza."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Cotangent of an angle provided in radians."
+msgstr "Radiánban megadott szög kotangense."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#: code:addons/spreadsheet/static/src/pivot/pivot_model.js:0
+#, python-format
+msgid "Count"
+msgstr "Mennyiség"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Count Numbers"
+msgstr "Megszámolja a számokat"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Count values depending on multiple criteria."
+msgstr "Értékek megszámlálása több kritériumtól függően."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Counts number of unique values in a range, filtered by a set of criteria."
+msgstr "Megszámolja az egyedi értékek számát egy tartományban, bizonyos kritériumok alapján szűrve."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Counts number of unique values in a range."
+msgstr "Megszámolja a tartomány egyedi értékeinek számát."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Counts values and text from a table-like range."
+msgstr "Megszámolja az értékeket és a szöveget egy táblázatszerű tartományból."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Counts values from a table-like range."
+msgstr "Megszámolja az értékeket egy táblázatszerű tartományból."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Create filter"
+msgstr "Szűrő létrehozása"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#: model:ir.model,name:spreadsheet.model_res_currency
+#, python-format
+msgid "Currency"
+msgstr "Pénznem"
+
+#. module: spreadsheet
+#: model:ir.model,name:spreadsheet.model_res_currency_rate
+msgid "Currency Rate"
+msgstr "Árfolyam"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/currency/currency_data_source.js:0
+#, python-format
+msgid "Currency not available for this company."
+msgstr "Árfolyam nem érhető el ehhez a vállalathoz."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/currency/currency_data_source.js:0
+#, python-format
+msgid "Currency rate unavailable."
+msgstr "Árfolyam nem érhető el."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Currency rounded"
+msgstr "Pénznem kerekített"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Current date and time as a date value."
+msgstr "Aktuális dátum és idő dátumértékként."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Current date as a date value."
+msgstr "Aktuális dátum dátumértékként."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Custom"
+msgstr "Egyéni"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Custom currency"
+msgstr "Egyéni árfolyam"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Custom currency format"
+msgstr "Egyéni árfolyam formátum"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Cut"
+msgstr "Kivágás"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Data"
+msgstr "Adat"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Data Series"
+msgstr "Adatsorok"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/errors.js:0
+#, python-format
+msgid "Data is loading"
+msgstr "Az adat töltődik"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Data not available"
+msgstr "Adat nem érhető el"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Data range"
+msgstr "Adat tartomány"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Data series include title"
+msgstr "Adatsor tartalmazza a címet"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Date"
+msgstr "Dátum"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Date a number of months before/after another date."
+msgstr "Dátum néhány hónappal egy másik dátum előtt/után."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Date after a number of workdays (specifying weekends)."
+msgstr "Dátum a munkanapok száma után (a hétvégék megjelölésével)."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Date after a number of workdays."
+msgstr "Dátum adott számú munkanap után."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Date time"
+msgstr "Időpont"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Day of the month that a specific date falls on."
+msgstr "A hónap azon napja, amelyre egy adott dátum esik."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Day of the week of the date provided (as number)."
+msgstr "A megadott dátum hetének napja (számként)."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/assets_backend/constants.js:0
+#, python-format
+msgid "December"
+msgstr "December"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Decrease decimal places"
+msgstr "Tizedes helyek csökkentése"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Delete"
+msgstr "Törlés"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Delete cell and shift left"
+msgstr "Cella törlése és eltolás balra"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Delete cell and shift up"
+msgstr "Cella törlése és eltolás fel"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Delete cells"
+msgstr "Cellák törlése"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Delete column %s"
+msgstr "%s oszlop törlése"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Delete columns"
+msgstr "Oszlopok törlése"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Delete columns %s - %s"
+msgstr "%s - %s oszlopok törlése"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Delete row %s"
+msgstr "%s sor törlése"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Delete rows"
+msgstr "Sorok törlése"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Delete rows %s - %s"
+msgstr "%s - %s sorok törlése"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Delete values"
+msgstr "Értékek törlése"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Depreciation via declining balance method."
+msgstr "Értékcsökkenési leírás degresszív módszerrel."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Descending (Z ⟶ A)"
+msgstr "Csökkenő (Z ⟶ A)"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Design"
+msgstr "Tervezés"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Did not find value '%s' in [[FUNCTION_NAME]] evaluation."
+msgstr "Nem találtuk a '%s' értéket a [[FUNCTION_NAME]] kiértékelésben."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Does not contain"
+msgstr "Nem tartalmazza"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Duplicate"
+msgstr "Duplikálás"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Duration"
+msgstr "Időtartam"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Edit"
+msgstr "Szerkesztés"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Edit link"
+msgstr "Link szerkesztése"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Else"
+msgstr "Egyébként"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Ends with"
+msgstr "Végződik"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Euler's number, e (~2.718) raised to a power."
+msgstr "Euler száma, e (~2,718) hatványra emelve."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Evaluation of function [[FUNCTION_NAME]] caused a divide by zero error."
+msgstr "A [[FUNCTION_NAME]] függvény kiértékelése nullával való osztás hibát okozott."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Exact number of years between two dates."
+msgstr "Két dátum közötti évek pontos száma."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/assets_backend/constants.js:0
+#, python-format
+msgid "February"
+msgstr "Február"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/pivot/pivot_model.js:0
+#, python-format
+msgid "Field %s does not exist"
+msgstr "A %s mező nem létezik"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/pivot/pivot_model.js:0
+#, python-format
+msgid "Field %s is not supported because of its type (%s)"
+msgstr "A %s mező nem támogatott a típusa miatt (%s)"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "File"
+msgstr "Fájl"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Fill Color"
+msgstr "Kitöltés színe"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "FillColor"
+msgstr ""
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/global_filters/plugins/global_filters_ui_plugin.js:0
+#, python-format
+msgid "Filter \"%s\" not found"
+msgstr "A \"%s\" szűrő nem található"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Find and Replace"
+msgstr "Keresés és csere"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Find and replace"
+msgstr "Keresés és csere"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "First day of the month preceding a date."
+msgstr "A dátumot megelőző hónap első napja."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "First day of the quarter of the year a specific date falls in."
+msgstr "Az év negyedévének első napja, amelyre egy adott dátum esik."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "First day of the year a specific date falls in."
+msgstr "Az év első napja, amelyre egy adott dátum esik."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "FixedNumber"
+msgstr ""
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Font Size"
+msgstr "Betű méret"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Font size"
+msgstr "Betű méret"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Format"
+msgstr "Formátum"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Format as percent"
+msgstr "Formázás mint százalék"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Format cells if..."
+msgstr "Cellák formázása, ha..."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Format rules"
+msgstr "Formázási szabály"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Formatting style"
+msgstr "Formázási stílus"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Formula"
+msgstr "Képlet"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Freeze"
+msgstr "Befagyasztás"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Function ${name} has an argument that has been declared with more than one "
+"type whose type 'META'. The 'META' type can only be declared alone."
+msgstr "A ${név} függvénynek egynél több olyan típusú argumentuma van, amelynek típusa 'META'. A 'META' típus csak egyedül deklarálható."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Function ${name} has at mandatory arguments declared after optional ones. "
+"All optional arguments must be after all mandatory arguments."
+msgstr "A ${név} függvénynek a kötelező argumentumokat az opcionálisak után deklarálták. Minden opcionális argumentumnak az összes kötelező argumentum után kell állnia."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Function ${name} has no-repeatable arguments declared after repeatable ones. "
+"All repeatable arguments must be declared last."
+msgstr "A ${név} függvénynek nem ismételhető argumentumai vannak az ismételhető argumentumok után deklarálva. Minden megismételhető argumentumot utoljára kell deklarálni."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Function %s expects its parameters to be single values or single cell "
+"references, not ranges."
+msgstr "A %s függvény elvárja, hogy a paraméterei egyetlen értékek vagy egyetlen cellahivatkozások legyenek, ne pedig tartományok."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Function %s expects the parameter %s to be a single value or a single cell "
+"reference, not a range."
+msgstr "A %s függvény a %s paramétertől egyetlen értéket vagy egyetlen cellahivatkozást vár, nem pedig tartományt."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Function %s expects the parameter %s to be reference to a cell or range, not "
+"a %s."
+msgstr "A %s függvény azt várja, hogy a %s paraméter egy cellára vagy tartományra való hivatkozás legyen, nem pedig egy %s."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/pivot/pivot_functions.js:0
+#, python-format
+msgid "Function PIVOT takes an even number of arguments."
+msgstr "A PIVOT függvény páros számú argumentumot fogad el."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Function [[FUNCTION_NAME]] caused a divide by zero error."
+msgstr "A [[FUNCTION_NAME]] függvény nullával való osztás hibát okozott."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Function [[FUNCTION_NAME]] didn't find any result"
+msgstr "A [[FUNCTION_NAME]] függvény nem talált eredményt"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Function [[FUNCTION_NAME]] expects criteria_range and criterion to be in "
+"pairs."
+msgstr "A [[FUNCTION_NAME]] függvény elvárja, hogy a criteria_range és a criterion párban legyenek."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Function [[FUNCTION_NAME]] expects criteria_range to have the same dimension"
+msgstr "A [[FUNCTION_NAME]] függvény elvárja, hogy a criteria_range azonos dimenzióval rendelkezzen"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Function [[FUNCTION_NAME]] parameter 2 value (%s) is out of range."
+msgstr "A [[FUNCTION_NAME]] függvény 2. paraméterének értéke (%s) tartományon kívül van."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Function [[FUNCTION_NAME]] parameter 2 value is out of range."
+msgstr "A [[FUNCTION_NAME]] függvény 2. paraméterének értéke a tartományon kívül van."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Future value of an annuity investment."
+msgstr "Egy járadék befektetés jövőbeli értéke."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/pivot/pivot_functions.js:0
+#, python-format
+msgid "Get the absolute ID of an element in the pivot"
+msgstr "Egy elem abszolút azonosítójának kinyerése a pivotban"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/list/list_functions.js:0
+#, python-format
+msgid "Get the header of a list."
+msgstr "Egy lista fejlécének kinyerése."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/pivot/pivot_functions.js:0
+#, python-format
+msgid "Get the header of a pivot."
+msgstr "A pivot fejlécének kinyerése."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/translation.js:0
+#, python-format
+msgid "Get the translated value of the given string"
+msgstr "Az adott szöveg lefordított értékének kinyerése"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/list/list_functions.js:0
+#, python-format
+msgid "Get the value from a list."
+msgstr "Az érték kinyerése egy listából."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/pivot/pivot_functions.js:0
+#, python-format
+msgid "Get the value from a pivot."
+msgstr "Az érték kinyerése egy pivotból."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Hide column %s"
+msgstr "%s oszlop elrejtése"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Hide columns"
+msgstr "Oszlopok elrejtése"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Hide columns %s - %s"
+msgstr "%s - %s oszlopok elrejtése"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Hide formulas"
+msgstr "Képletek elrejtése"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Hide gridlines"
+msgstr "Rácsozás elrejtése"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Hide row %s"
+msgstr "%s sor elrejtése"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Hide rows"
+msgstr "Sorok elrejtése"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Hide rows %s - %s"
+msgstr "%s - %s sorok elrejtése"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Hide sheet"
+msgstr "Lap elrejtése"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Horizontal align"
+msgstr "Vízszintes rendezés"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Horizontal lookup"
+msgstr "Vízszintes keresés"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Hour component of a specific time."
+msgstr "Egy adott idő óra összetevője."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Hyperbolic cosecant of any real number."
+msgstr "Bármely valós szám hiperbolikus együtthatója."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Hyperbolic cosine of any real number."
+msgstr "Bármely valós szám hiperbolikus koszinusza."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Hyperbolic cotangent of any real number."
+msgstr "Bármely valós szám hiperbolikus kotangense."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Hyperbolic secant of any real number."
+msgstr "Bármely valós szám hiperbolikus metszete."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Hyperbolic sine of any real number."
+msgstr "Bármely valós szám hiperbolikus szinusza."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Hyperbolic tangent of any real number."
+msgstr "Bármely valós szám hiperbolikus tangense."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "ISO week number of the year."
+msgstr "Az év ISO hetének száma."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Icon set"
+msgstr "Ikon gyűjtemény"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Icons"
+msgstr "Ikonok"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "If a valid match is not found, return this value."
+msgstr "Ha nem talál érvényes egyezést, akkor ezt az értéket adja vissza."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Increase decimal places"
+msgstr "Tizedes helyek növelése"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Insert"
+msgstr "Beszúrás"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Insert %s columns"
+msgstr "%s oszlop beszúrása"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Insert %s columns left"
+msgstr "%s oszlop beszúrása balra"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Insert %s columns right"
+msgstr "%s oszlop beszúrása jobbra"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Insert %s rows"
+msgstr "%s sor beszúrása"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Insert %s rows above"
+msgstr "%s sor beszúrása fölé"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Insert %s rows below"
+msgstr "%s sor beszúrása alá"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Insert cells"
+msgstr "Cellák beszúrása"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Insert cells and shift down"
+msgstr "Cellák beszúrása és eltolás lefelé"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Insert cells and shift right"
+msgstr "Cellák beszúrása és eltolás jobbra"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Insert column"
+msgstr "Oszlop beszúrása"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Insert column left"
+msgstr "Oszlop beszúrása balra"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Insert column right"
+msgstr "Oszlop beszúrása jobbra"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Insert link"
+msgstr "Link beszúrása"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Insert row"
+msgstr "Sor beszúrása"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Insert row above"
+msgstr "Sor beszúrása fölé"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Insert row below"
+msgstr "Sor beszúrása alá"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Internal rate of return given periodic cashflows."
+msgstr "Belső megtérülési ráta az időszakos pénzforgalom mellett."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Invalid Maxpoint formula"
+msgstr "Érvénytelen Maxpoint képlet"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Invalid Midpoint formula"
+msgstr "Érvénytelen Midpoint képlet"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Invalid Minpoint formula"
+msgstr "Érvénytelen Minpoint képlet"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Invalid expression"
+msgstr "Érvénytelen kifejezés"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Invalid lower inflection point formula"
+msgstr "Érvénytelen alsó inflexiós pont képlete"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Invalid merge zone"
+msgstr "Érvénytelen egyesítési zóna"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Invalid number of arguments for the %s function. Expected %s maximum, but "
+"got %s instead."
+msgstr "A %s függvényhez tartozó argumentumok száma érvénytelen. Maximum %s-t várt, de ehelyett %s-t kapott."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Invalid number of arguments for the %s function. Expected %s minimum, but "
+"got %s instead."
+msgstr "A %s függvényhez tartozó argumentumok száma érvénytelen. Minimum %s-t várt, de ehelyett %s-t kapott."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Invalid number of arguments for the %s function. Expected all arguments "
+"after position %s to be supplied by groups of %s arguments"
+msgstr "A %s függvényhez tartozó argumentumok száma érvénytelen. Azt várta, hogy a %s pozíció utáni összes argumentumot %s argumentumcsoportok adják meg"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Invalid reference"
+msgstr "Érvénytelen hivatkozás"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Invalid sheet"
+msgstr "Érvénytelen adatlap"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Invalid sheet name"
+msgstr "Érvénytelen adatlap név"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Invalid sheet name: %s"
+msgstr "Érvénytelen adatlap név: %s"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Invalid upper inflection point formula"
+msgstr "Érvénytelen felső inflexiós pont képlete"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Inverse cosine of a value, in radians."
+msgstr "Egy érték inverz koszinusza radiánban."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Inverse cotangent of a value."
+msgstr "Egy érték inverz katangense."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Inverse hyperbolic cosine of a number."
+msgstr "Egy szám inverz hiperbolikus koszinusza."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Inverse hyperbolic cotangent of a value."
+msgstr "Egy érték inverz hiperbolikus katangense."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Inverse hyperbolic sine of a number."
+msgstr "Egy szám inverz hiperbolikus szinusza."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Inverse hyperbolic tangent of a number."
+msgstr "Egy szám inverz hiperbolikus tangense."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Inverse sine of a value, in radians."
+msgstr "Egy érték inverz szinusza radiánban."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Inverse tangent of a value, in radians."
+msgstr "Egy érték inverz tangense radiánban."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Is between"
+msgstr "Közötte van"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Is empty"
+msgstr "Üres"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Is equal to"
+msgstr "Egyenlő, mint"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Is greater than"
+msgstr "Nagyobb, mint"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Is greater than or equal to"
+msgstr "Nagyobb vagy egyenlő, mint"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Is less than"
+msgstr "Kisebb, mint"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Is less than or equal to"
+msgstr "Kisebb vagy egyenlő, mint"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Is not between"
+msgstr "Nincs közötte"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Is not empty"
+msgstr "Nem üres"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Is not equal to"
+msgstr "Nem egyenlő, mint"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Italic"
+msgstr "Dőlt"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/assets_backend/constants.js:0
+#, python-format
+msgid "January"
+msgstr "Január"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/assets_backend/constants.js:0
+#, python-format
+msgid "July"
+msgstr "Július"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/assets_backend/constants.js:0
+#, python-format
+msgid "June"
+msgstr "Június"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Key value"
+msgstr "Kulcs érték"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Labels are invalid"
+msgstr "A címkék érvénytelenek"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/helpers/constants.js:0
+#, python-format
+msgid "Last 180 Days"
+msgstr "Előző 180 nap"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/helpers/constants.js:0
+#, python-format
+msgid "Last 3 Years"
+msgstr "Előző 3 év"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/helpers/constants.js:0
+#, python-format
+msgid "Last 30 Days"
+msgstr "Előző 30 nap"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/helpers/constants.js:0
+#, python-format
+msgid "Last 365 Days"
+msgstr "Előző 365 nap"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/helpers/constants.js:0
+#, python-format
+msgid "Last 7 Days"
+msgstr "Előző 7 nap"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/helpers/constants.js:0
+#, python-format
+msgid "Last 90 Days"
+msgstr "Előző 90 nap"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Last day of a month before or after a date."
+msgstr "Egy hónap utolsó napja egy dátum előtt vagy után."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Last day of the month following a date."
+msgstr "A dátumot követő hónap utolsó napja."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Last day of the quarter of the year a specific date falls in."
+msgstr "Az év negyedévének utolsó napja, amelyre egy adott dátum esik."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Last day of the year a specific date falls in."
+msgstr "Az év utolsó napja, amelyre egy adott dátum esik."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Left"
+msgstr "Bal"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Legend position"
+msgstr "Jelmagyarázat pozíciója"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/chart/odoo_chart/odoo_line_chart.js:0
+#, python-format
+msgid "Line"
+msgstr "Vonal"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Link"
+msgstr "Link"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Link sheet"
+msgstr "Link egy munkalapra"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/list/plugins/list_core_plugin.js:0
+#, python-format
+msgid "List #%s"
+msgstr "lista #%s"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/errors.js:0
+#, python-format
+msgid "Loading..."
+msgstr "Betöltés..."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Logical `and` operator."
+msgstr "Logikai `és` operátor."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Logical `or` operator."
+msgstr "Logikai `vagy` operátor."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Logical `xor` operator."
+msgstr "Logikai `xvagy` operátor."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Look up a value."
+msgstr "Megkeres egy értéket."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Lower inflection point must be smaller than upper inflection point"
+msgstr "Az alsó inflexiós pontnak kisebbnek kell lennie, mint a felső inflexiós pontnak"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/assets_backend/constants.js:0
+#, python-format
+msgid "March"
+msgstr "Március"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Match case"
+msgstr "Egyezés betű érzékenysége"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Match entire cell content"
+msgstr "Teljes cellatartalom egyezése"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Max"
+msgstr "Max"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "MaxPoint"
+msgstr ""
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Maximum numeric value in a dataset."
+msgstr "Maximális számérték egy adathalmazban."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Maximum of values from a table-like range."
+msgstr "Egy táblázatszerű tartomány értékeinek maximuma."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Maximum value in a numeric dataset."
+msgstr "Maximális érték egy számszerű adatkészletben."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/assets_backend/constants.js:0
+#, python-format
+msgid "May"
+msgstr "Május"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Median value in a numeric dataset."
+msgstr "Középérték egy számértékes adatkészletben."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Merge Cells"
+msgstr "Cellák egyesítése"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Merged cells are preventing this operation. Unmerge those cells and try "
+"again."
+msgstr "Az összevont cellák megakadályozzák ezt a műveletet. Távolítsa el ezeket a cellákat, és próbálja meg újra."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Merging these cells will only preserve the top-leftmost value. Merge anyway?"
+msgstr "Ezeknek a celláknak az összevonása csak a bal felső értéket fogja megőrizni. Mindenképp összevonja?"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "MidPoint"
+msgstr ""
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Midpoint must be smaller then Maximum"
+msgstr "A középpontnak kisebbnek kell lennie, mint a maximumnak"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Min"
+msgstr "Min"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Minimum must be smaller then Maximum"
+msgstr "A minimumnak kisebbnek kell lennie, mint a maximumnak"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Minimum must be smaller then Midpoint"
+msgstr "A minimumnak kisebbnek kell lennie, mint a középpontnak"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Minimum numeric value in a dataset."
+msgstr "Minimális számérték egy adathalmazban."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Minimum of values from a table-like range."
+msgstr "Egy táblázatszerű tartomány értékeinek minimuma."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Minimum range limit must be smaller than maximum range limit"
+msgstr "A minimális tartomány határértékek kisebbnek kell lennie, mint a maximális tartomány határértéknek"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Minimum value in a numeric dataset."
+msgstr "Minimális érték egy számértékes adatkészletben."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Minpoint"
+msgstr "Minpoint"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Minute component of a specific time."
+msgstr "Egy adott idő perc összetevője."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Modified Macaulay duration."
+msgstr "Módosított Macaulay időtartam."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Modulo (remainder) operator."
+msgstr "Modulo (maradék) operátor."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Month of the year a specific date falls in"
+msgstr "Az év hónapja, amelyre egy adott dátum esik"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "More formats"
+msgstr "További formátumok"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "More strings to append in sequence."
+msgstr "További szövegek hozzáfűzése sorrendben."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "More than one match found in DGET evaluation."
+msgstr "Egynél több egyezést található a DGET-értékelés során."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "More values to be appended using delimiter."
+msgstr "További értékek hozzáfűzése az elválasztójel használatával."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Move left"
+msgstr "Mozgatás balra"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Move right"
+msgstr "Mozgatás jobbra"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Net working days between two dates (specifying weekends)."
+msgstr "Két dátum közötti nettó munkanapok (hétvégék megjelölésével)."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Net working days between two provided days."
+msgstr "Két megadott nap közötti nettó munkanap."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "New Chart"
+msgstr "Új grafikon"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "New sheet"
+msgstr "Új munkalap"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Next"
+msgstr "Következő"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "No columns"
+msgstr "Nincsenek oszlopok"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "No match."
+msgstr "Nincs egyezés."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "No results"
+msgstr "Nincs eredmény"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "No rows"
+msgstr "Nincs sor"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#: code:addons/spreadsheet/static/src/pivot/pivot_helpers.js:0
+#: code:addons/spreadsheet/static/src/pivot/pivot_model.js:0
+#, python-format
+msgid "None"
+msgstr "Nincs"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Not implemented operator %s for kind of conditional formatting:  %s"
+msgstr "Nem implementált operátor %s a feltételes formázás típusához:  %s"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/assets_backend/constants.js:0
+#, python-format
+msgid "November"
+msgstr "November"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Nth largest element from a data set."
+msgstr "Az N-edik legnagyobb elem egy adathalmazból."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Nth smallest element in a data set."
+msgstr "Egy adathalmaz N-edik legkisebb eleme."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Number"
+msgstr "Szám"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Number of columns in a specified array or range."
+msgstr "A megadott tömb vagy tartomány oszlopainak száma."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Number of days between two dates."
+msgstr "Két dátum közötti napok száma."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Number of empty values."
+msgstr "Az üres értékek száma."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Number of periods for an investment to reach a value."
+msgstr "Azon időszakok száma, amelyek alatt egy befektetés elér egy értéket."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Number of rows in a specified array or range."
+msgstr "A sorok száma egy megadott tömbben vagy tartományban."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Numbers"
+msgstr "Számok"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Numerical average value in a dataset, ignoring text."
+msgstr "Számszerű átlagérték egy adathalmazban, a szövegek figyelmen kívül hagyásával."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Numerical average value in a dataset."
+msgstr "Számszerű átlagérték egy adathalmazban."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/assets_backend/constants.js:0
+#, python-format
+msgid "October"
+msgstr "Október"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Paint Format"
+msgstr "Formátum másolás"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Paste"
+msgstr "Beillesztés"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Paste format only"
+msgstr "Beillesztés csak formázást"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Paste special"
+msgstr "Beillesztés speciális"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Paste value only"
+msgstr "Beillesztés csak az értéket"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Paste values only"
+msgstr "Beillesztés csak az értékeket"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Percent"
+msgstr "Százalék"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Percentage"
+msgstr "Százalék"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Percentage change from key value"
+msgstr "A kulcsértéktől való százalékos változás"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Percentile"
+msgstr "Százalékos"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/chart/odoo_chart/odoo_pie_chart.js:0
+#, python-format
+msgid "Pie"
+msgstr "Torta"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/pivot/plugins/pivot_core_plugin.js:0
+#, python-format
+msgid "Pivot #%s"
+msgstr "Pivot #%s"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Position of item in range that matches value."
+msgstr "Az értéknek megfelelő elem pozíciója a tartományban."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Positive square root of a positive number."
+msgstr "Pozitív szám pozitív négyzetgyöke."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Present value of an annuity investment."
+msgstr "Egy járadékos befektetés jelenértéke."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Preview"
+msgstr "Előnézet"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Preview text"
+msgstr "Szöveges előnézet"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Previous"
+msgstr "Előző"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Price of a security paying periodic interest."
+msgstr "Az időszakos kamatot fizető értékpapír ára."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Product of values from a table-like range."
+msgstr "Egy táblázatszerű tartomány értékeinek szorzata."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Quarter of the year a specific date falls in"
+msgstr "Az év negyedéve, amelyre egy adott dátum esik"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Random integer between two values, inclusive."
+msgstr "Véletlen egész szám két érték között, beleértve."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Range"
+msgstr "Tartomány"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Readonly Access"
+msgstr "Csak-olvasható hozzáférés"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Redo"
+msgstr "Újra"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Remove Filter"
+msgstr "Szűrő eltávolítása"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Remove link"
+msgstr "Link eltávolítása"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Remove rule"
+msgstr "Szabály eltávolítása"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Remove selected filters"
+msgstr "Kiválasztott szűrők eltávolítása"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Rename"
+msgstr "Átnevezés"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Rename Sheet"
+msgstr "Munkalap átnevezése"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Reorder rules"
+msgstr "Szabályok újrarendezése"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Replace"
+msgstr "Csere"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Replace all"
+msgstr "Csere mind"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Reset"
+msgstr "Visszaállítás"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Result of multiplying a series of numbers together."
+msgstr "Egy számsorozat összeszorzásának eredménye."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/pivot/pivot_functions.js:0
+#, python-format
+msgid "Return the current value of a spreadsheet filter."
+msgstr "Egy táblázatkezelő szűrő aktuális értékének visszaadása."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Returns a value depending on multiple logical expressions."
+msgstr "Több logikai kifejezéstől függő értéket ad vissza."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Returns opposite of provided logical value."
+msgstr "A megadott logikai érték ellenkezőjét adja vissza."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Returns the error value #N/A."
+msgstr "Visszaadja a hiba értékét #N/A."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Returns the maximum value in a range of cells, filtered by a set of criteria."
+msgstr "Visszaadja a legnagyobb értéket egy cellatartományban, bizonyos kritériumok alapján szűrve."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Returns the minimum value in a range of cells, filtered by a set of criteria."
+msgstr "Visszaadja a legkisebb értéket egy cellatartományban, bizonyos kritériumok alapján szűrve."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Returns value depending on logical expression."
+msgstr "A logikai kifejezéstől függő értéket ad vissza."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Reverse icons"
+msgstr "Fordított ikonok"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Right"
+msgstr "Jobb"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Rounds a number according to standard rules."
+msgstr "Egy számot az általános szabályok szerint kerekít."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Rounds a number up to the nearest odd integer."
+msgstr "Egy számot a legközelebbi páratlan egész számra kerekít."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Rounds down a number."
+msgstr "Egy számot lefele kerekít."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Rounds number down to nearest multiple of factor."
+msgstr "A számot a szorzat legközelebbi alsó többszörösére kerekíti."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Rounds number up to nearest multiple of factor."
+msgstr "A számot a szorzat legközelebbi felső többszörösére kerekíti."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Rounds up a number."
+msgstr "Egy számot fel kerekít."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Row above"
+msgstr "Sor felette"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Row below"
+msgstr "Sor alatta"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Row number of a specified cell."
+msgstr "Egy adott cella sorának száma."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Save"
+msgstr "Mentés"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Search"
+msgstr "Keresés"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Search a range for a match and return the corresponding item from a second "
+"range."
+msgstr "Keressen egy tartományban egyezést, és adja vissza a megfelelő elemet a második tartományból."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Search in formulas"
+msgstr "Keresés a képletekben"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Search..."
+msgstr "Keresés..."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Secant of an angle provided in radians."
+msgstr "Egy szög szektánsa radiánban megadva."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/list/index.js:0
+#, python-format
+msgid "See record"
+msgstr "Rekord megtekintése"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/pivot/index.js:0
+#, python-format
+msgid "See records"
+msgstr "Rekordok megtekintése"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Select a color..."
+msgstr "Szín kiválasztása..."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Select all"
+msgstr "Összes kijelölése"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/global_filters/components/filter_date_value/filter_date_value.xml:0
+#: code:addons/spreadsheet/static/src/global_filters/components/filter_value/filter_value.xml:0
+#, python-format
+msgid "Select period..."
+msgstr "Periódus kijelölése..."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/assets_backend/constants.js:0
+#, python-format
+msgid "September"
+msgstr "Szeptember"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Series"
+msgstr "Sorozat"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Sheet"
+msgstr "Munkalap"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Shift down"
+msgstr "Váltás lefelé"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Shift left"
+msgstr "Váltás balra"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Shift right"
+msgstr "Váltás jobbra"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Shift up"
+msgstr "Váltás felfelés"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Show formulas"
+msgstr "Képletek megjelenítése"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Show gridlines"
+msgstr "Rácsvonalak megjelenítése"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Sine of an angle provided in radians."
+msgstr "Egy szög szinusza radiánban megadva."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Single color"
+msgstr "Egyszínű"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Single value from a table-like range."
+msgstr "Egyetlen érték egy táblázatszerű tartományból."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Some used characters are not allowed in a sheet name (Forbidden characters "
+"are %s)."
+msgstr "Néhány használt karakter nem megengedett a lap nevében (A tiltott karakterek: %s)."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Sort ascending (A ⟶ Z)"
+msgstr "Rendezés növekvő (A ⟶ Z)"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Sort column"
+msgstr "Oszlop rendezése"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Sort columns"
+msgstr "Oszlopok rendezése"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Sort descending (Z ⟶ A)"
+msgstr "Rendezés csökkenő (Z ⟶ A)"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Sort range"
+msgstr "Tartomány rendezése"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Stacked barchart"
+msgstr "Halmozott oszlopdiagram"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Stacked linechart"
+msgstr "Halmozott vonaldiagram"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Standard"
+msgstr "Átlagos"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Standard deviation of entire population (text as 0)."
+msgstr "A teljes populáció szórása (a szöveg 0)."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Standard deviation of entire population from table."
+msgstr "A teljes populáció szórása a táblázatból."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Standard deviation of entire population."
+msgstr "A teljes populáció szórása."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Standard deviation of population sample from table."
+msgstr "A populációs minta szórása a táblázatból."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Standard deviation of sample (text as 0)."
+msgstr "A minta szórása (a szöveg 0)."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Standard deviation."
+msgstr "A populációs minta szórása."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Starts with"
+msgstr "Kezdődik ezzel"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Stop reordering rules"
+msgstr "Szabályok átrendezésének leállítása"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Strikethrough"
+msgstr "Áthúzás"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Sum"
+msgstr "Összeg"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Sum of a series of numbers and/or cells."
+msgstr "Számok és/vagy cellák sorozatának összege."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Sum of values from a table-like range."
+msgstr "Egy táblázatszerű tartomány értékeinek összege."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Sums a range depending on multiple criteria."
+msgstr "Összead egy tartományt több kritériumtól függően."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Symbol"
+msgstr "Szimbólum"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Tangent of an angle provided in radians."
+msgstr "Egy szög érintője radiánban megadva."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Text"
+msgstr "Szöveg"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Text Color"
+msgstr "Szöveg színe"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "TextColor"
+msgstr ""
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The anchor must be part of the provided zone"
+msgstr "A horgonynak a megadott zóna részét kell képeznie"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/pivot/pivot_functions.js:0
+#, python-format
+msgid "The argument %s is not a valid measure. Here are the measures: %s"
+msgstr "A %s argumentum nem érvényes mérőszám. Itt vannak a mérőszámok: %s"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The argument is missing. Please provide a value"
+msgstr "A paraméter hiányzik. Kérjük, adja meg az értéket"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The base (%s) must be between 2 and 36 inclusive."
+msgstr "Az alapnak (%s) 2 és 36 között kell lennie."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The baseline value is invalid"
+msgstr "Az alapérték érvénytelen"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The cashflow_amounts must include negative and positive values."
+msgstr "A cashflow_amounts-nak negatív és pozitív értékeket is tartalmaznia kell."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The cell you are trying to edit has been deleted."
+msgstr "A szerkeszteni kívánt cella törlésre került."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The character or string to place between each concatenated value."
+msgstr "Az egyes összekapcsolt értékek közé helyezendő karakter vagy karakterlánc."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The character within text_to_search at which to start the search."
+msgstr "Az a karakter a text_to_search-en belül, amelynél a keresést el kell kezdeni."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The chart definition is invalid for an unknown reason"
+msgstr "A diagram definíciója ismeretlen okból érvénytelen"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The cost (%s) must be strictly positive."
+msgstr "A költségnek (%s) szigorúan pozitívnak kell lennie."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The covariance of a dataset."
+msgstr "Egy adathalmaz kovarianciája."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The criteria range contains %s row, it must be at least 2 rows."
+msgstr "A kritériumtartomány %s sort tartalmaz, legalább 2 sornak kell lennie."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"The current window is too small to display this sheet properly. Consider "
+"resizing your browser window or adjusting frozen rows and columns."
+msgstr "Az aktuális ablak túl kicsi ahhoz, hogy megfelelően megjelenítse ezt a lapot. Fontolja meg a böngészőablak átméretezését vagy a befagyasztott sorok és oszlopok beállítását."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The data range is invalid"
+msgstr "Az adat tartomány érvénytelen"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The dataset is invalid"
+msgstr "Az adatkészlet érvénytelen"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The date_string (%s) cannot be parsed to date/time."
+msgstr "A date_string (%s) nem értelmezhető mint dátum vagy idő."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The day_count_convention (%s) must be between 0 and 4 inclusive."
+msgstr "A day_count_convention (%s) értékének 0 és 4 között kell lennie (beleértve)."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The day_count_convention (%s) must between 0 and 4 inclusive."
+msgstr "A day_count_convention (%s) értékének 0 és 4 között kell lennie (beleértve)."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The discount (%s) must be different from -1."
+msgstr "A kedvezménynek (%s) -1-től eltérőnek kell lennie."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The divisor must be different from 0."
+msgstr "Az osztónak 0-tól különbözőnek kell lennie."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The end_date (%s) must be positive or null."
+msgstr "A end_date (%s) értéknek pozitívnak vagy nullának kell lennie."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The exponent (%s) must be an integer when the base is negative."
+msgstr "Az exponensnek (%s) egész számnak kell lennie, ha az alap negatív."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The exponent to raise base to."
+msgstr "Az exponens, amelyre a bázist emelni kell."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The factor (%s) must be positive when the value (%s) is positive."
+msgstr "A tényezőnek (%s) pozitívnak kell lennie, ha az érték (%s) pozitív."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/list/list_data_source.js:0
+#, python-format
+msgid "The field %s does not exist or you do not have access to that field"
+msgstr "A %s mező nem létezik, vagy nincs hozzáférése ahhoz a mezőhöz"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"The field (%s) must be one of %s or must be a number between 1 and %s "
+"inclusive."
+msgstr "A mezőnek (%s) a %s egyikének kell lennie, vagy 1 és %s közötti számnak (beleértve)."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The field (%s) must be one of %s."
+msgstr "A mezőnek (%s) a %s egyikének kell lennie."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The field must be a number or a string"
+msgstr "A mezőnek számnak vagy szövegnek kell lennie"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The first addend."
+msgstr "Az első tag."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The first multiplicand."
+msgstr "Az első szorzandó."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The first string to compare."
+msgstr "Az első összehasonlítandó szöveg."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The first value must be a number"
+msgstr "Az első értéknek számnak kell lennie"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The first value."
+msgstr "Az első érték."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The formatting unit should be 'k', 'm' or 'b'."
+msgstr "A formázási egység csak \"k\", \"m\" vagy \"b\" lehet."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The frequency (%s) must be one of %s"
+msgstr "A gyakoriságnak (%s) a %s egyikének kell lennie"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The frequency (%s) must be one of %s."
+msgstr "A gyakoriságnak (%s) a %s egyikének kell lennie."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"The function [[FUNCTION_NAME]] expects a boolean value, but '%s' is a text, "
+"and cannot be coerced to a number."
+msgstr "A [[FUNCTION_NAME]] függvény boolean értéket vár, de a '%s' egy szöveg, és nem lehet számmá alakítani."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"The function [[FUNCTION_NAME]] expects a number value, but '%s' is a string, "
+"and cannot be coerced to a number."
+msgstr "A [[FUNCTION_NAME]] függvény számértéket vár, de a '%s' egy szöveg, és nem lehet számmá alakítani."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The function [[FUNCTION_NAME]] result cannot be negative"
+msgstr "A [[FUNCTION_NAME]] függvény eredménye nem lehet negatív"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"The function [[FUNCTION_NAME]] result must be greater than or equal "
+"01/01/1900."
+msgstr "A [[FUNCTION_NAME]] függvény eredményének nagyobbnak vagy egyenlőnek kell lennie mint 1900-01-01."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The future_value (%s) must be strictly positive."
+msgstr "A future_value (%s) értéknek szigorúan pozitívnak kell lennie."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The high (%s) must be greater than or equal to the low (%s)."
+msgstr "A magas értéknek (%s) nagyobbnak vagy egyenlőnek kell lennie az alacsony értéknél (%s)."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"The index from the left of string from which to begin extracting. The first "
+"character in string has the index 1."
+msgstr "Az index a szöveg bal oldaláról, ahonnan a kivonatolást el kell kezdeni. A szöveg első karakterének indexe 1."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The initial string."
+msgstr "A kezdő szöveg."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"The instance of search_for within text_to_search to replace with "
+"replace_with. By default, all occurrences of search_for are replaced; "
+"however, if occurrence_number is specified, only the indicated instance of "
+"search_for is replaced."
+msgstr "A search_for példánya a text_to_search-en belül, amelyet replace_with-vel kell helyettesíteni. Alapértelmezés szerint a search_for minden előfordulása kicserélődik; ha azonban az occurrence_number meg van adva, akkor csak a search_for megadott példánya kerül kicserélésre."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The key value is invalid"
+msgstr "A kulcs érték érvénytelen"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The length of the segment to extract."
+msgstr "A kinyerendő tartomány hossza."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The life (%s) must be strictly positive."
+msgstr "Az élettartamnak (%s) szigorúan pozitívnak kell lennie."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The logarithm of a number, base e (euler's number)."
+msgstr "Egy szám logaritmusa, alapja e (Euler-szám)."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The lower inflection point value must be a number"
+msgstr "Az alsó inflexiós pont értékének egy számnak kell lennie"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The maturity (%s) must be strictly greater than the settlement (%s)."
+msgstr "A lejáratnak (%s) szigorúan nagyobbnak kell lennie, mint az egyenlegnek (%s)."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The maximum range limit value must be a number"
+msgstr "A maximum tartomány határértéknek egy számnak kell lennie"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The maxpoint must be a number"
+msgstr "A maxpointnak egy számnak kell lennie"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The midpoint must be a number"
+msgstr "A midpointnak egy számnak kell lennie"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The minimum range limit value must be a number"
+msgstr "A minimum tartomány határértéknek egy számnak kell lennie"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The minpoint must be a number"
+msgstr "A minpointnak egy számnak kell lennie"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The minuend, or number to be subtracted from."
+msgstr "A minuend vagy a kivonandó szám."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The month (%s) must be between 1 and 12 inclusive."
+msgstr "A hónapnak (%s) 1 és 12 között kell lennie (beleértve)."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"The net present value of an investment based on a series of periodic cash "
+"flows and a discount rate."
+msgstr "Egy befektetés nettó jelenértéke, amely rendszeres pénzmozgások sorozatán és egy kedvezményes kamatlábon alapul."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The number of characters in the text to be replaced."
+msgstr "A helyettesítendő szövegben lévő karakterek száma."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The number of characters to return from the left side of string."
+msgstr "A karakterek száma, amelyeket a szöveg bal oldaláról kell visszaadni."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The number of characters to return from the right side of string."
+msgstr "A karakterek száma, amelyeket a szöveg jobb oldaláról kell visszaadni."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The number of numeric values in dataset."
+msgstr "Az adathalmazban szereplő számértékek száma."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"The number of the character to look up from the current Unicode table in "
+"decimal format."
+msgstr "A keresendő karakter száma az aktuális Unicode táblázatból decimális formátumban."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The number of values in a dataset."
+msgstr "Az adathalmazban szereplő számok."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The number pi."
+msgstr "Pí értéke."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The number to be divided."
+msgstr "Az osztandó szám."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The number to divide by."
+msgstr "Az osztó szám."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"The number to have its sign reversed. Equivalently, the number to multiply "
+"by -1."
+msgstr "Az a szám, amelynek az előjelét meg kell fordítani. Ezzel egyenértékű a -1-gyel szorzás."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The number to raise to the exponent power."
+msgstr "Az exponens hatványára emelni kívánt szám."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The number to return."
+msgstr "A visszatérési szám."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The number, date or time to format."
+msgstr "A formázandó szám, dátum vagy időpont."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The pattern by which to format the number, enclosed in quotation marks."
+msgstr "A minta, amellyel a számot formázni kell, idézőjelek közé zárva."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The period (%s) must be less than or equal to %s."
+msgstr "A periódusnak (%s) kisebbnek vagy egyenlőnek kell lennie %s-nél."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The period (%s) must be strictly positive."
+msgstr "A periódusnak (%s) szigorúan pozitívnak kell lennie."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The position where the replacement will begin (starting from 1)."
+msgstr "Az a pozíció, ahol a csere kezdődik (1-től kezdődően)."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The present_value (%s) must be strictly positive."
+msgstr "A present_value (%s) értéknek szigorúan pozitívnak kell lennie."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The price (%s) must be strictly positive."
+msgstr "Az árnak (%s) szigorúan pozitívnak kell lennie."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The provided anchor is invalid. The cell must be part of the zone."
+msgstr "A megadott horgony érvénytelen. A cellának a zóna részét kell képeznie."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"The range containing the return value. Should have the same dimensions as "
+"lookup_range."
+msgstr "A visszatérési értéket tartalmazó tartomány. Ugyanazokkal a méretekkel kell rendelkeznie, mint a lookup_range."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The range is invalid"
+msgstr "A tartomány érvénytelen"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The range must be a single row or a single column."
+msgstr "A tartománynak egyetlen sornak vagy oszlopnak kell lennie."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"The range to consider for the search. Should be a single column or a single "
+"row."
+msgstr "A kereséshez figyelembe veendő tartomány. Egyetlen oszlopnak vagy egyetlen sornak kell lennie."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The rate (%s) must be positive or null."
+msgstr "Az aránynak (%s) pozitívnak vagy nullának kell lennie."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The rate (%s) must be strictly positive."
+msgstr "Az aránynak (%s) szigorúan pozitívnak kell lennie."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The rate_guess (%s) must be strictly greater than -1."
+msgstr "A rate_guess (%s) értéknek szigorúan nagyobbnak kell lennie, mint -1."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The redemption (%s) must be strictly positive."
+msgstr "A megváltásnak (%s) szigorúan pozitívnak kell lennie."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The result_range must be a single row or a single column."
+msgstr "Az eredménytartománynak egyetlen sornak vagy oszlopnak kell lennie."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The rule is invalid for an unknown reason"
+msgstr "A szabály ismeretlen okból érvénytelen"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The salvage (%s) must be positive or null."
+msgstr "A megmentési értéknek (%s) pozitívnak vagy null-nak kell lennie."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The sample covariance of a dataset."
+msgstr "Egy adathalmaz mintakovarianciája."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The second addend."
+msgstr "A második tag."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The second argument is missing. Please provide a value"
+msgstr "A második paraméter hiányzik. Kérjük, adja meg az értéket"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The second multiplicand."
+msgstr "A második tényező."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The second string to compare."
+msgstr "A második összehasonlítandó szöveg."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The second value must be a number"
+msgstr "A második értéknek számnak kell lennie"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The second value."
+msgstr "A második érték."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The settlement (%s) must be greater than or equal to the issue (%s)."
+msgstr "Az egyenlegnek (%s) nagyobbnak vagy egyenlőnek kell lennie a kiadásnál (%s)."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The sheet name cannot be empty."
+msgstr "A lap neve nem lehet üres."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The start_date (%s) must be positive or null."
+msgstr "A kezdő dátumnak (%s) pozitívnak vagy null-nak kell lennie."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The string from which the left portion will be returned."
+msgstr "Az a szöveg, amelyből a bal oldali rész visszaadásra kerül."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The string from which the right portion will be returned."
+msgstr "Az a szöveg, amelyből a jobb oldali rész visszaadásra kerül."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The string that will replace search_for."
+msgstr "A search_for helyettesítendő szöveg."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The string to convert to lowercase."
+msgstr "A kisbetűvé alakítandó szöveg."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The string to convert to uppercase."
+msgstr "A nagybetűvé alakítandó szöveg."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The string to extract a segment from."
+msgstr "Az a szöveg, amelyből egy részt kiszedünk."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The string to look for within text_to_search."
+msgstr "A text_to_search-ben keresendő szöveg."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The string to search for within text_to_search."
+msgstr "A keresendő szöveg a text_to_search-ben."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The string whose length will be returned."
+msgstr "Az a szöveg, amelynek a hosszát visszaadjuk."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The subtrahend, or number to subtract from value1."
+msgstr ""
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The text or reference to a cell containing text to be trimmed."
+msgstr "A lecsonkítandó szöveget tartalmazó cella szövege vagy a cellára való hivatkozás."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The text to search for the first occurrence of search_for."
+msgstr "A search_for első előfordulásakor keresendő szöveg."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The text which will be inserted into the original text."
+msgstr "Az eredeti szövegbe beillesztendő szöveg."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"The text which will be returned with the first letter of each word in "
+"uppercase and all other letters in lowercase."
+msgstr "A szöveg, amely minden szó első betűjét nagybetűvel, az összes többi betűt pedig kisbetűvel adja vissza."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The text whose non-printable characters are to be removed."
+msgstr "A szöveg, amelynek nem nyomtatható karaktereit el kell távolítani."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The text within which to search and replace."
+msgstr "A szöveg, amelyen belül keresni és helyettesíteni kell."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The text, a part of which will be replaced."
+msgstr "A szöveg, amelynek egy részét ki kell cserélni."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The time_string (%s) cannot be parsed to date/time."
+msgstr "A time_string (%s) nem értelmezhető mint dátum / idő."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The type (%s) is out of range."
+msgstr "A típus (%s) tartományon kívül van."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The type (%s) must be 1, 2 or 3."
+msgstr "A típusnak (%s) 1, 2 vagy 3 kell lennie."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The upper inflection point value must be a number"
+msgstr "A felső inflexiós pont értékének egy számnak kell lennie"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The value (%s) cannot be between -1 and 1 inclusive."
+msgstr "Az érték (%s) nem lehet -1 és 1 között (beleértve)."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The value (%s) must be a valid base %s representation."
+msgstr "Az értéknek (%s) érvényes %s alapú ábrázolásnak kell lennie."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The value (%s) must be between -1 and 1 exclusive."
+msgstr "Az értéknek (%s) -1 és 1 között kell lennie (nem beleértve)."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The value (%s) must be between -1 and 1 inclusive."
+msgstr "Az értéknek (%s) -1 és 1 között kell lennie (beleértve)."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The value (%s) must be greater than or equal to 1."
+msgstr "Az értéknek (%s) nagyobbnak vagy egyenlőnek kell lennie, mint 1."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The value (%s) must be positive or null."
+msgstr "Az értéknek (%s) pozitívnak vagy null-nak kell lennie."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The value (%s) must be strictly positive."
+msgstr "Az értéknek (%s) szigorúan pozitívnak kell lennie."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The value or values to be appended using delimiter."
+msgstr "Az érték vagy értékek, amelyeket össze kell fűzni az elválasztójellel."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The value to append to value1."
+msgstr "A value1-hez hozzáfűzendő érték."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The value to interpret as a percentage."
+msgstr "Százalékként értelmezendő érték."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The value to search for."
+msgstr "A keresendő érték."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The value to test against value1 for equality."
+msgstr "Az érték, amelynek egyenlőségét value1 ellenében kell tesztelni."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The value to test against value1 for inequality."
+msgstr "Az érték, amelynek nem egyenlőségét value1 ellenében kell tesztelni."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The value to test as being greater than or equal to value2."
+msgstr "Az érték, amelyet tesztelni kell, hogy nagyobb vagy egyenlő-e value2-nél."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The value to test as being greater than value2."
+msgstr "Az érték, amelyet tesztelni kell, hogy nagyobb-e, mint az érték2."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The value to test as being less than or equal to value2."
+msgstr "Az érték, amelyet tesztelni kell, hogy kisebb vagy egyenlő-e value2-nél."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The value to test as being less than value2."
+msgstr "Az érték, amelyet tesztelni kell, hogy kisebb-e, mint érték2."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The value to which value2 will be appended."
+msgstr "Az az érték, amelyhez value2 hozzá lesz fűzve."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"The weekend (%s) must be a string or a number in the range 1-7 or 11-17."
+msgstr "A hétvégének (%s) egy szövegnek vagy egy számnak kell lennie az 1-7 vagy 11-17 tartományokban."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The weekend (%s) must be different from '1111111'."
+msgstr "A hétvége (%s) nem lehet '1111111'."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The weekend must be a number or a string."
+msgstr "A hétvégének egy számnak vagy egy szövegnek kell lennie."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The year (%s) must be between 0 and 9999 inclusive."
+msgstr "Az évnek (%s) 0 és 9999 között kell lennie (beleértve)."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The yield (%s) must be positive or null."
+msgstr "A hozamnak (%s) pozitívnak vagy null-nak kell lennie."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/list/list_functions.js:0
+#, python-format
+msgid "There is no list with id \"%s\""
+msgstr "Nincs lista \"%s\" azonosítóval"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/pivot/pivot_functions.js:0
+#, python-format
+msgid "There is no pivot with id \"%s\""
+msgstr "Nem létezik pivot \"%s\" azonosítóval"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "This formula depends on invalid values"
+msgstr "Ez a képlet érvénytelen értékektől függ"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/currency/formulas.js:0
+#, python-format
+msgid ""
+"This function takes in two currency codes as arguments, and returns the "
+"exchange rate from the first currency to the second as float."
+msgstr "Ez a függvény két pénznemkódot vesz fel argumentumként, és az első pénznem árfolyamát adja vissza a második pénznemre tizedestört értékként."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "This operation is not allowed with multiple selections."
+msgstr "Ez a művelet többszörös kiválasztás esetén nem engedélyezett."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"This operation is not possible due to a merge. Please remove the merges "
+"first than try again."
+msgstr "Ez a művelet nem lehetséges egy egyesítés miatt. Kérjük, először távolítsa el az összevonásokat, majd próbálja meg újra."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Thresholds"
+msgstr "Küszöbértékek"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Time"
+msgstr "Idő"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Title"
+msgstr "Cím"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Top"
+msgstr "Top"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/pivot/plugins/pivot_ui_plugin.js:0
+#, python-format
+msgid "Total"
+msgstr "Végösszeg"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Treat labels as text"
+msgstr "Címkék szövegként való kezelése"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Truncates a number."
+msgstr "Csonkít egy számot."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Type"
+msgstr "Típus"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/data_sources/metadata_repository.js:0
+#, python-format
+msgid "Unable to fetch the label of %s of model %s"
+msgstr "A %s modell %s címkéjét nem sikerült lekérni"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Underline"
+msgstr "Aláhúzás"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Undo"
+msgstr "Visszavonás"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Unfreeze"
+msgstr "Befagyasztás feloldása"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Unhide all columns"
+msgstr "Minden oszlop elrejtésének feloldása"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Unhide all rows"
+msgstr "Minden sor elrejtésének feloldása"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Unknown function: \"%s\""
+msgstr "Ismeretlen funkció: \"%s\""
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/helpers/constants.js:0
+#, python-format
+msgid "Untitled spreadsheet"
+msgstr "Névtelen számolótábla"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Up to current column"
+msgstr "Az aktuális oszlopig"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Up to current row"
+msgstr "Az aktuális sorig"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Value"
+msgstr "Érték"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Value at a given percentile of a dataset exclusive of 0 and 1."
+msgstr "Egy adathalmaz adott percentilisének értéke, 0 és 1 kivételével."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Value at a given percentile of a dataset."
+msgstr "Egy adathalmaz adott percentilisének értéke."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Value change from key value"
+msgstr "Érték megváltozott a kulcsértéktől"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Value if it is not an #N/A error, otherwise 2nd argument."
+msgstr "Érték, ha nem #N/A hiba, egyébként a 2. argumentum."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Value if it is not an error, otherwise 2nd argument."
+msgstr "Érték, ha nem hiba, egyébként 2. argumentum."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Value nearest to a specific quartile of a dataset exclusive of 0 and 4."
+msgstr "Az adathalmaz egy adott negyedéhez legközelebbi érték, 0 és 4 kivételével."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Value nearest to a specific quartile of a dataset."
+msgstr "Az adathalmaz egy adott negyedéhez legközelebbi érték."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Variance of a population from a table-like range."
+msgstr "Egy populáció szórása egy táblázatszerű tartománytól."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Variance of entire population (text as 0)."
+msgstr "A teljes populáció szórása (a szöveg 0)."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Variance of entire population."
+msgstr "A teljes populáció szórása."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Variance of population sample from table-like range."
+msgstr "A populációs minta szórása a táblázatszerű tartománytól."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Variance of sample (text as 0)."
+msgstr "A minta szórása (a szöveg 0)."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Variance."
+msgstr "Eltérés."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "Vertical axis position"
+msgstr "Függőleges tengely pozíciója"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Vertical lookup."
+msgstr "Függőleges keresés."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "View"
+msgstr "Megtekintés"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"We found data next to your selection. Since this data was not selected, it "
+"will not be sorted. Do you want to extend your selection?"
+msgstr "A kiválasztása mellett még adatok találhatóak. Mivel ezek az adatok nincsenek kiválasztva, nem lesznek rendezve. Szeretné bővíteni a kijelölést?"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Week number of the year."
+msgstr "Az év hetének száma."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Weighted average."
+msgstr "Súlyozott átlag."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "When value is"
+msgstr "Amikor az érték egy"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "When value is below"
+msgstr "Ha az érték alatta van"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "When weekend is a string (%s) it must be composed of \"0\" or \"1\"."
+msgstr "Ha a hétvége egy szöveg (%s), akkor annak \"0\"-ból vagy \"1\"-ből kell állnia."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Whether a value is `true` or `false`."
+msgstr "Hogy egy érték `true` vagy `false`."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Whether a value is a number."
+msgstr "Hogy az érték egy szám-e."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Whether a value is an error other than #N/A."
+msgstr "Az, hogy egy érték hiba ami nem #N/A hiba-e."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Whether a value is an error."
+msgstr "Hogy az érték egy hiba-e."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Whether a value is non-textual."
+msgstr "Hogy az érték nem szöveges-e."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Whether a value is text."
+msgstr "Hogy az érték egy szöveg-e."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Whether a value is the error #N/A."
+msgstr "Az érték #N/A hiba-e."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Whether the provided value is even."
+msgstr "Hogy a megadott érték páros-e."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Whether the referenced cell is empty"
+msgstr "Üres-e a hivatkozott cella"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Wrapping"
+msgstr "Csomagolás"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Wrong number of Argument[]. Expected an even number of Argument[]."
+msgstr "Nem megfelelő számú Argumentum[]. Páros számú Argumentum[]-ot várunk."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Wrong number of arguments. Expected an even number of arguments."
+msgstr "Nem megfelelő számú argumentum. Páros számú argumentumot várunk."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Year specified by a given date."
+msgstr "Egy adott dátum által meghatározott év."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "You can't create a filter over a range that contains a merge."
+msgstr "Nem hozhat létre szűrőt olyan tartományon, amely összevonást tartalmaz."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "You can't merge cells inside of an existing filter."
+msgstr "Egy meglévő szűrőn belül nem lehet cellákat egyesíteni."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "You cannot create overlapping filters."
+msgstr "Nem hozhat létre átfedő szűrőket."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/pivot/pivot_functions.js:0
+#, python-format
+msgid "[[FUNCTION_NAME]] cannot be called from the spreadsheet."
+msgstr "A [[FUNCTION_NAME]] nem hívható meg a táblázatkezelőből."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "[[FUNCTION_NAME]] evaluates to an out of bounds range."
+msgstr "[[FUNCTION_NAME]] egy határon túli tartományt értékel ki."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "[[FUNCTION_NAME]] evaluates to an out of range column value %s."
+msgstr "[[FUNCTION_NAME]] egy tartományon kívüli oszlop értékére mutat %s."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "[[FUNCTION_NAME]] evaluates to an out of range row value %s."
+msgstr "[[FUNCTION_NAME]] egy tartományon kívüli sor értékére mutat %s."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "[[FUNCTION_NAME]] expects number values."
+msgstr "[[FUNCTION_NAME]] szám értékeket vár."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "[[FUNCTION_NAME]] expects the weight to be positive or equal to 0."
+msgstr "[[FUNCTION_NAME]] elvárja, hogy a súly pozitív vagy 0-val egyenlő legyen."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "[[FUNCTION_NAME]] has mismatched argument count %s vs %s."
+msgstr "[[FUNCTION_NAME]] paramétereinek száma nem egyezik %s vs %s."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "[[FUNCTION_NAME]] has mismatched range sizes."
+msgstr "[[FUNCTION_NAME]] tartományméretei nem egyeznek."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "[[FUNCTION_NAME]] has no valid input data."
+msgstr "[[FUNCTION_NAME]] nem rendelkezik érvényes bemeneti adatokkal."
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "and"
+msgstr "és"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "and value"
+msgstr "és érték"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "by default"
+msgstr "alapértelmezettként"
+
+#. module: spreadsheet
+#. openerp-web
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+#, python-format
+msgid "repeatable"
+msgstr "ismételhető"

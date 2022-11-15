@@ -1,0 +1,122 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* theme_enark
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-13 08:00+0000\n"
+"PO-Revision-Date: 2022-10-16 04:01+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/theme_enark/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#. module: theme_enark
+#: model_terms:theme.ir.ui.view,arch:theme_enark.s_parallax
+msgid ""
+"<i>“One of the great beauties of architecture is that each time, it is like "
+"life starting all over again.”</i>"
+msgstr "<i>\"Az építészet egyik nagy szépsége, hogy minden alkalommal olyan, mintha az élet kezdődne elölről.\"</i>"
+
+#. module: theme_enark
+#: model_terms:theme.ir.ui.view,arch:theme_enark.s_banner
+msgid "A Different Viewpoint."
+msgstr "Egy másik nézőpont."
+
+#. module: theme_enark
+#: model_terms:theme.ir.ui.view,arch:theme_enark.s_call_to_action
+msgid "As <b>436 clients</b> before you, let’s work together"
+msgstr "Mint Ön előtt <b>436 ügyféllel</b>, dolgozzunk együtt"
+
+#. module: theme_enark
+#: model_terms:theme.ir.ui.view,arch:theme_enark.s_text_image
+msgid "Building Castle in Cloud"
+msgstr "Vár építése a felhőben"
+
+#. module: theme_enark
+#: model_terms:theme.ir.ui.view,arch:theme_enark.s_media_list
+msgid "Construction site"
+msgstr "Építési terület"
+
+#. module: theme_enark
+#: model_terms:theme.ir.ui.view,arch:theme_enark.s_picture
+msgid "Creating places that enhance the human experience."
+msgstr "Olyan helyek létrehozása, amelyek javítják az emberi élményt."
+
+#. module: theme_enark
+#: model_terms:theme.ir.ui.view,arch:theme_enark.s_banner
+msgid "Discover More"
+msgstr "Fedezzen fel többet"
+
+#. module: theme_enark
+#: model_terms:theme.ir.ui.view,arch:theme_enark.enark_snippet_options
+msgid "Gradients"
+msgstr "Színátmenetek"
+
+#. module: theme_enark
+#: model_terms:theme.ir.ui.view,arch:theme_enark.s_media_list
+msgid "Know our clients."
+msgstr "Ismerjük vásárlóinkat."
+
+#. module: theme_enark
+#: model_terms:theme.ir.ui.view,arch:theme_enark.s_media_list
+msgid "Nature friendly"
+msgstr "Természetbarát"
+
+#. module: theme_enark
+#: model_terms:theme.ir.ui.view,arch:theme_enark.enark_snippet_options
+msgid "None"
+msgstr "Nincs"
+
+#. module: theme_enark
+#: model_terms:theme.ir.ui.view,arch:theme_enark.s_media_list
+msgid ""
+"Our creations integrate and are in perfect harmony with their environment."
+msgstr "Alkotásaink illeszkednek és tökéletes összhangban vannak a környezetükkel."
+
+#. module: theme_enark
+#: model_terms:theme.ir.ui.view,arch:theme_enark.s_media_list
+msgid ""
+"Our mastery of construction techniques has been built up over time through "
+"our close collaboration with the workers and our sustained presence on the "
+"construction sites."
+msgstr "Az építési technikák elsajátítását az idők során a munkásokkal való szoros együttműködés és az építkezésen való folyamatos jelenlétünk révén építettük fel."
+
+#. module: theme_enark
+#: model:ir.model,name:theme_enark.model_theme_utils
+msgid "Theme Utils"
+msgstr "Téma segédek"
+
+#. module: theme_enark
+#: model_terms:theme.ir.ui.view,arch:theme_enark.s_picture
+msgid "We always put people and nature at the center of our projects."
+msgstr "Projektjeink középpontjában mindig az ember és a természet áll."
+
+#. module: theme_enark
+#: model_terms:theme.ir.ui.view,arch:theme_enark.s_media_list
+msgid ""
+"We always start by exploring our clients goals, priorities, lifestyle, and "
+"tastes."
+msgstr "Mindig azzal kezdjük, hogy feltárjuk ügyfeleink céljait, prioritásait, életmódját és ízlését."
+
+#. module: theme_enark
+#: model_terms:theme.ir.ui.view,arch:theme_enark.s_banner
+msgid ""
+"We are a contemporary architecture firm working mainly in the residential, "
+"commercial and office sectors. Our projects are built all over the world, in "
+"urban and natural environments."
+msgstr "Kortárs építésziroda vagyunk, amely elsősorban a lakó-, kereskedelmi és irodai szektorban dolgozik. Projektjeink a világ minden táján, városi és természeti környezetben épülnek."
+
+#. module: theme_enark
+#: model_terms:theme.ir.ui.view,arch:theme_enark.s_text_image
+msgid ""
+"When designing an architectural concept, we take into account the nine "
+"criteria that Zumthor considers to be important in creating an architectural "
+"atmosphere."
+msgstr "Egy építészeti koncepció megtervezésekor figyelembe vesszük azt a kilenc kritériumot, amelyeket Zumthor fontosnak tart az építészeti légkör megteremtése szempontjából."

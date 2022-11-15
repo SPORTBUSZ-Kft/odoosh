@@ -1,0 +1,4419 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* web_studio
+#
+# Translators:
+# Kovács Tibor <kovika@gmail.com>, 2019
+# Tibor Kőnig <konig.tibor@evitalit.hu>, 2019
+# Martin Trigaux, 2019
+# krnkris, 2019
+# gezza <geza.nagy@oregional.hu>, 2019
+# Ákos Nagy <akos.nagy@oregional.hu>, 2019
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-23 08:22+0000\n"
+"PO-Revision-Date: 2022-11-01 16:14+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/web_studio/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_model.py:0
+#, python-format
+msgid ""
+"\n"
+"                <p class=\"o_view_nocontent_smiling_face\">\n"
+"                    This is your new action.\n"
+"                </p>\n"
+"                <p>By default, it contains a list and a form view and possibly\n"
+"                    other view types depending on the options you chose for your model.\n"
+"                </p>\n"
+"                <p>\n"
+"                    You can start customizing these screens by clicking on the Studio icon on the\n"
+"                    top right corner (you can also customize this help message there).\n"
+"                </p>\n"
+"            "
+msgstr ""
+"\n"
+"<p class=\"o_view_nocontent_smiling_face\">\n"
+"                    Ez az új művelete.\n"
+"                </p>\n"
+"                <p>Alapértelmezés szerint egy listát és egy űrlap nézetet tartalmaz,\n"
+"                    és esetleg más nézettípusokat is, a modellhez választott beállításoktól függően.\n"
+"                </p>\n"
+"                <p>\n"
+"                    Ezeket a képernyőket a jobb felső sarokban található Stúdió ikonra kattintva\n"
+"                    kezdheti el testreszabni (ott testre szabhatja ezt a súgóüzenetet is).\n"
+"                </p>\n"
+"            "
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:0
+#, python-format
+msgid ""
+" <p class=\"o_view_nocontent_empty_report\">\n"
+"                Add a new report\n"
+"            </p>\n"
+"            "
+msgstr ""
+" <p class=\"o_view_nocontent_empty_report\">\n"
+"                 Új jelentés hozzáadása\n"
+"            </p>\n"
+"            "
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:0
+#, python-format
+msgid ""
+" <p class=\"o_view_nocontent_smiling_face\">\n"
+"                Add a new automated action\n"
+"            </p>\n"
+"            "
+msgstr ""
+" <p class=\"o_view_nocontent_smiling_face\">\n"
+"                 Új automatizált műveletet hozzáadása\n"
+"            </p>\n"
+"            "
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:0
+#, python-format
+msgid ""
+" <p class=\"o_view_nocontent_smiling_face\">\n"
+"                Add a new filter\n"
+"            </p>\n"
+"            "
+msgstr ""
+" <p class=\"o_view_nocontent_smiling_face\">\n"
+"                 Új szűrő hozzáadása\n"
+"            </p>\n"
+"            "
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#, python-format
+msgid " to "
+msgstr " eddig "
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/report.py:0
+#, python-format
+msgid "%s Report"
+msgstr "%s Jelentés"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "(id)"
+msgstr "(azonosító)"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "(t-if=\""
+msgstr "(t-if=\""
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_editor_sidebar.js:0
+#, python-format
+msgid "<div><p>The <strong>%s</strong> property is only applied to records matching this filter.</p></div>"
+msgstr "<div><p>A <strong>%s</strong> tulajdonság csak a szűrőnek megfelelő rekordokon lesz alkalmazva.</p></div>"
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:0
+#, python-format
+msgid ""
+"<p class=\"o_view_nocontent_smiling_face\">\n"
+"                Add a new access control list\n"
+"            </p>\n"
+"            "
+msgstr ""
+"<p class=\"o_view_nocontent_smiling_face\">\n"
+"                Új hozzáférés lista hozzáadása\n"
+"            </p>\n"
+"            "
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_editor_sidebar.js:0
+#, python-format
+msgid "A field with the same name already exists."
+msgstr "Egy azonos nevű mező már létezik."
+
+#. module: web_studio
+#: model:ir.model.constraint,message:web_studio.constraint_studio_approval_entry_uniq_combination
+msgid "A rule can only be approved/rejected once per record."
+msgstr "Egy szabály rekordonként csak egyszer fogadható el/utasítható vissza."
+
+#. module: web_studio
+#: model:ir.model.constraint,message:web_studio.constraint_studio_approval_rule_method_or_action_together
+msgid "A rule must apply to an action or a method (but not both)."
+msgstr "Egy szabálynak egy akcióra vagy egy metódusra kell vonatkoznia (de nem mindkettőre)."
+
+#. module: web_studio
+#: model:ir.model.constraint,message:web_studio.constraint_studio_approval_rule_method_or_action_not_null
+msgid "A rule must apply to an action or a method."
+msgstr "Egy szabály csak műveletre vagy metódusra lehet érvényes."
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_ir_model__abstract
+msgid "Abstract"
+msgstr "Absztrakt"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/editor/editor_menu/editor_menu.js:0
+#, python-format
+msgid "Access Control"
+msgstr "Hozzáférés vezérlés"
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:0
+#, python-format
+msgid "Access Control Lists"
+msgstr "Hozzáférés vezérlési listák"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_res_groups
+msgid "Access Groups"
+msgstr "Hozzáférési csoportok"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Access records from cell"
+msgstr "Hozzáférés a rekordokhoz a cellából"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Access records from graph"
+msgstr "Hozzáférés a rekordokhoz a grafikonból"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_mail_activity_type__category
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__action_id
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__action_id
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_entry_search_view
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_rule_search_view
+msgid "Action"
+msgstr "Művelet"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_actions_act_window
+msgid "Action Window"
+msgstr "Művelet ablak"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_actions_act_window_view
+msgid "Action Window View"
+msgstr "Művelet ablak megjelenítése"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/approval/approval_infos.xml:0
+#: code:addons/web_studio/static/src/legacy/xml/approval_component.xml:0
+#, python-format
+msgid "Action to approve:"
+msgstr "Jóváhagyási művelet:"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/action_editor_sidebar.xml:0
+#, python-format
+msgid "Action's title"
+msgstr "Művelet neve"
+
+#. module: web_studio
+#: model:ir.model.fields,help:web_studio.field_mail_activity_type__category
+msgid "Actions may trigger specific behavior like opening calendar view or automatically mark as done when a document is uploaded"
+msgstr "A műveletek speciális viselkedést válthatnak ki, mint például a naptárnézet megnyitása vagy egy dokumentum feltöltésekor az automatikus késznek jelölés"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/editor/new_view_dialogs/map_new_view_dialog.xml:0
+#: code:addons/web_studio/static/src/client_action/editor/new_view_dialogs/new_view_dialog.xml:0
+#: code:addons/web_studio/static/src/legacy/xml/action_editor.xml:0
+#, python-format
+msgid "Activate View"
+msgstr "Nézet bekapcsolása"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_model.py:0
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__active
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_rule_search_view
+#, python-format
+msgid "Active"
+msgstr "Aktív"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/editor/editor_menu/editor_menu.js:0
+#: model:ir.model,name:web_studio.model_mail_activity
+#, python-format
+msgid "Activity"
+msgstr "Tevékenység"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_mail_activity_type
+msgid "Activity Type"
+msgstr "Tevékenység típus"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/editor/editor_adapter.js:0
+#, python-format
+msgid "Activity view unavailable on this model"
+msgstr "Tevékenység nézet nem érhető el ezen a modellen"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Add"
+msgstr "Hozzáadás"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_editors/form_editor.js:0
+#, python-format
+msgid "Add Chatter Widget"
+msgstr "Beszélgetések widget hozzáadása"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_editors/form_editor.js:0
+#, python-format
+msgid "Add Picture"
+msgstr "Kép hozzáadása"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_editors/new_buttonbox_dialog.js:0
+#, python-format
+msgid "Add a Button"
+msgstr "Gomb hozzáadása"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Add a description..."
+msgstr "Leírás hozzáadása..."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_editors/form_editor.js:0
+#, python-format
+msgid "Add a pipeline status bar"
+msgstr "Folyamat állapotjelző hozzáadása"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_editors/kanban_record_editor.js:0
+#, python-format
+msgid "Add a priority"
+msgstr "Prioritás hozzáadása"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Add an approval rule"
+msgstr "Új jóváhagyási szabály hozzáadása"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_editors/kanban_record_editor.js:0
+#, python-format
+msgid "Add an avatar"
+msgstr "Avatár hozzáadása"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+#, python-format
+msgid "Add details to your records with an embedded list view"
+msgstr "Részletek hozzáadása a rekordokhoz beágyazott listanézet segítségével"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Add in the print menu"
+msgstr "Hozzáadás a nyomtatás menühöz"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/new_field_dialog.xml:0
+#, python-format
+msgid "Add new value"
+msgstr "Új érték hozzáadása"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/new_field_dialog.xml:0
+#, python-format
+msgid "Add selection"
+msgstr "Kiválasztó mező hozzáadása"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_editors/kanban_record_editor.js:0
+#, python-format
+msgid "Add tags"
+msgstr "Címkék hozzáadása"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Additional Fields"
+msgstr "További mezők"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks.js:0
+#, python-format
+msgid "Address Block"
+msgstr "Cím blokk"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Aggregate"
+msgstr "Összesít"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Alignment"
+msgstr "Igazítás"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "All Day"
+msgstr "Egész nap"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+#, python-format
+msgid "All set? You are just one click away from <b>generating your first app</b>."
+msgstr "Készen áll? Már csak egy kattintás választja el <b>az első alkalmazás létrehozásától</b>."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Amount total"
+msgstr "Végösszeg"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Amount untaxed"
+msgstr "Nettó összeg"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/approval/approval_infos.xml:0
+#, python-format
+msgid "Approval"
+msgstr "Jóváhagyás"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_entry_search_view
+msgid "Approval Entries"
+msgstr "Jóváhagyási tételek"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Approval Group"
+msgstr "Jóváhagyási csoport"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__rule_id
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_request__rule_id
+msgid "Approval Rule"
+msgstr "Jóváhagyási szabály"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_rule_search_view
+msgid "Approval Rules"
+msgstr "Jóváhagyási szabályok"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Approvals"
+msgstr "Jóváhagyások"
+
+#. module: web_studio
+#: code:addons/web_studio/models/studio_approval.py:0
+#, python-format
+msgid "Approvals can only be done on a method or an action, not both."
+msgstr "Jóváhagyás csak egy metóduson vagy egy akción végezhető, mindkettőn nem."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/approval/approval_infos.xml:0
+#: code:addons/web_studio/static/src/legacy/xml/approval_component.xml:0
+#, python-format
+msgid "Approve"
+msgstr "Jóváhagyás"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__approved
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_entry_search_view
+msgid "Approved"
+msgstr "Jóváhagyva"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.notify_approval
+msgid "Approved as"
+msgstr "Jóváhagyta mint"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/approval/approval_infos.xml:0
+#: code:addons/web_studio/static/src/legacy/xml/approval_component.xml:0
+#, python-format
+msgid "Approved on"
+msgstr "Jóváhagyva"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__user_id
+msgid "Approved/rejected by"
+msgstr "Jóváhagyta/visszautasította"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+#, python-format
+msgid "Archive deprecated records"
+msgstr "Archiválja az elavult rekordokat"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_rule_form_view
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_rule_search_view
+#, python-format
+msgid "Archived"
+msgstr "Archivált"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+#, python-format
+msgid "Archiving"
+msgstr "Archiválás"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_editor_manager.js:0
+#, python-format
+msgid "Are you sure you want to remove the selection values?"
+msgstr "Biztos benne, hogy el akarja távolítani a kiválasztási értékeket?"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_editor_sidebar.js:0
+#, python-format
+msgid "Are you sure you want to remove this %s from the view?"
+msgstr "Biztos benne, hogy el akarja távolítani ezt a %s a nézetből?"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/navbar/home_menu_customizer/home_menu_customizer.js:0
+#, python-format
+msgid "Are you sure you want to reset the background image?"
+msgstr "Biztosan vissza akarja állítani a háttérképet?"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_editor_sidebar.js:0
+#, python-format
+msgid ""
+"Are you sure you want to restore the default view?\r\n"
+"All customization done with Studio on this view will be lost."
+msgstr ""
+"Biztosan visszaállítja az alapértelmezett nézetet?\n"
+"A stúdióval végzett minden testreszabás elveszik ezen a nézeten."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/editor/editor_adapter.js:0
+#: code:addons/web_studio/static/src/legacy/action_editor_main.js:0
+#, python-format
+msgid ""
+"Are you sure you want to restore the default view?\r\n"
+"All customization done with studio on this view will be lost."
+msgstr ""
+"Biztosan visszaállítja az alapértelmezett nézetet?\n"
+"A stúdióval végzett minden testreszabás elveszik ezen a nézeten."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "As expression"
+msgstr "Mint kifejezés"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Ascending"
+msgstr "Növekvő"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+#, python-format
+msgid "Assign a responsible to each record"
+msgstr "Rendeljen felelőst minden rekordhoz"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+#, python-format
+msgid "Assign dates and visualize records in a calendar"
+msgstr "Rendeljen hozzá dátumot és jelenítse meg naptárban"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+#, python-format
+msgid "Attach a picture to a record"
+msgstr "Csatoljon egy képet egy rekordhoz"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_editor_sidebar.js:0
+#, python-format
+msgid "Auto-complete with"
+msgstr "Automatikus kitöltés"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/search_renderer.xml:0
+#, python-format
+msgid "Autocompletion Fields"
+msgstr "Automatikus kitöltés mezők"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_base_automation
+msgid "Automated Action"
+msgstr "Automatizált művelet"
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:0
+#, python-format
+msgid "Automated Actions"
+msgstr "Automatizált műveletek"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/editor/editor_menu/editor_menu.js:0
+#, python-format
+msgid "Automations"
+msgstr "Automatizálás"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Average"
+msgstr "Átlagos"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/approval/approval_infos.xml:0
+#: code:addons/web_studio/static/src/legacy/xml/approval_component.xml:0
+#, python-format
+msgid "Awaiting approval"
+msgstr "Jóváhagyásra várakozik"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Backward"
+msgstr "Visszafelé"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Bar"
+msgstr "Sáv"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_base
+msgid "Base"
+msgstr "Alap"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/reports/report_kanban_view.js:0
+#, python-format
+msgid "Blank"
+msgstr "Üres"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks_registry.js:0
+#, python-format
+msgid "Block"
+msgstr "Blokk"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_model.py:0
+#, python-format
+msgid "Blocked"
+msgstr "Blokkolt"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Bold"
+msgstr "Félkövér"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Bordered"
+msgstr "Szegélyezett"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Borderless"
+msgstr "Szegély nélküli"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/reports/report_kanban_view.js:0
+#, python-format
+msgid "Business header/footer"
+msgstr "Üzleti fejléc/lábléc"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/reports/report_editor_sidebar.js:0
+#, python-format
+msgid "By default: "
+msgstr "Alapértelmezés szerint: "
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/editor/editor_menu/editor_menu.js:0
+#, python-format
+msgid "Calendar"
+msgstr "Naptár"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Can Create"
+msgstr "Létrehozhat"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Can Delete"
+msgstr "Törölhet"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Can Edit"
+msgstr "Módosíthat"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__can_validate
+msgid "Can be approved"
+msgstr "Jóvá lehet hagyni"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/editor/new_view_dialogs/map_new_view_dialog.xml:0
+#: code:addons/web_studio/static/src/client_action/editor/new_view_dialogs/new_view_dialog.xml:0
+#: code:addons/web_studio/static/src/client_action/studio_home_menu/icon_creator_dialog/icon_creator_dialog.xml:0
+#: code:addons/web_studio/static/src/legacy/js/common/field_selector_dialog.js:0
+#: code:addons/web_studio/static/src/legacy/js/common/new_field_dialog.js:0
+#: code:addons/web_studio/static/src/legacy/js/edit_menu.js:0
+#: code:addons/web_studio/static/src/legacy/js/new_model.js:0
+#: code:addons/web_studio/static/src/legacy/js/views/view_editors/new_buttonbox_dialog.js:0
+#: model_terms:ir.ui.view,arch_db:web_studio.simplified_form_view_import_module
+#, python-format
+msgid "Cancel"
+msgstr "Mégsem"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+#, python-format
+msgid "Categorize records with custom tags"
+msgstr "Kategorizálja rekordjait egyéni címkékkel"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/navbar/home_menu_customizer/home_menu_customizer.xml:0
+#, python-format
+msgid "Change Background"
+msgstr "Háttér megváltoztatása"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Change Image"
+msgstr "Kép megváltoztatása"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+#, python-format
+msgid "Change the <b>background</b>, make it yours."
+msgstr "Változtassa meg a <b>hátteret</b>, tegye magáévá."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+#, python-format
+msgid "Chatter"
+msgstr "Beszélgetés"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_components.js:0
+#, python-format
+msgid "Checkbox"
+msgstr "Jelölő négyzet"
+
+#. module: web_studio
+#: model:ir.model.fields,help:web_studio.field_ir_model_data__studio
+msgid "Checked if it has been edited with Studio."
+msgstr "Bepipálva ha lett a Stúdióval szerkesztve."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/app_creator/app_creator.xml:0
+#, python-format
+msgid "Choose an app name"
+msgstr "Válasszon egy alkalmazás nevet"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/app_creator/app_creator.xml:0
+#, python-format
+msgid "Choose your first object name"
+msgstr "Válassza ki az első objektuma nevét"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Churn"
+msgstr "Változás"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Class"
+msgstr "Osztály"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/new_field_dialog.xml:0
+#, python-format
+msgid "Clear"
+msgstr "Törlés"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+#, python-format
+msgid "Click here."
+msgstr "Kattinton ide."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+#, python-format
+msgid "Click to edit messaging features on your model."
+msgstr "Kattintson a modell üzenetküldési lehetőségeinek szerkesztéséhez."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/approval/studio_approval.xml:0
+#: code:addons/web_studio/static/src/legacy/xml/approval_component.xml:0
+#, python-format
+msgid "Click to see all approval rules."
+msgstr "Kattintson az összes jóváhagyási szabály megtekintéséhez."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/approval/approval_infos.xml:0
+#: code:addons/web_studio/static/src/client_action/navbar/navbar.xml:0
+#: code:addons/web_studio/static/src/legacy/js/common/new_field_dialog.js:0
+#: code:addons/web_studio/static/src/legacy/xml/approval_component.xml:0
+#: model_terms:ir.ui.view,arch_db:web_studio.simplified_form_view_import_module
+#, python-format
+msgid "Close"
+msgstr "Bezárás"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/editor/editor_menu/editor_menu.js:0
+#, python-format
+msgid "Cohort"
+msgstr "Kohort"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Collapse First Level"
+msgstr "Első szint összecsukása"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/models/ir_model.py:0
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Color"
+msgstr "Szín"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Colors"
+msgstr "Színek"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks_registry.js:0
+#, python-format
+msgid "Column"
+msgstr "Oszlop"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Column Title"
+msgstr "Oszlop cím"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Column grouping"
+msgstr "Oszlopok csoportosítása"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_components.js:0
+#, python-format
+msgid "Columns"
+msgstr "Oszlopok"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Compact"
+msgstr "Tömör"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_res_company
+msgid "Companies"
+msgstr "Vállalatok"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/models/ir_model.py:0
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+#, python-format
+msgid "Company"
+msgstr "Vállalat"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_editor_sidebar.js:0
+#, python-format
+msgid "Components"
+msgstr "Alkotóelemek"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_editor_sidebar.js:0
+#, python-format
+msgid "Condition"
+msgstr "Feltétel"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Conditional"
+msgstr "Feltételes"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__conditional
+msgid "Conditional Rule"
+msgstr "Feltétel szabály"
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:0
+#: code:addons/web_studio/models/ir_ui_menu.py:0
+#, python-format
+msgid "Configuration"
+msgstr "Beállítások"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/edit_menu.js:0
+#: code:addons/web_studio/static/src/legacy/js/new_model.js:0
+#, python-format
+msgid "Configure Model"
+msgstr "Modell beállítása"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/studio_home_menu/icon_creator_dialog/icon_creator_dialog.xml:0
+#: code:addons/web_studio/static/src/legacy/js/common/field_selector_dialog.js:0
+#: code:addons/web_studio/static/src/legacy/js/common/new_field_dialog.js:0
+#: code:addons/web_studio/static/src/legacy/js/edit_menu.js:0
+#: code:addons/web_studio/static/src/legacy/js/views/view_editors/new_buttonbox_dialog.js:0
+#, python-format
+msgid "Confirm"
+msgstr "Megerősítés"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/navbar/home_menu_customizer/home_menu_customizer.js:0
+#, python-format
+msgid "Confirmation"
+msgstr "Megerősítés"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_model.py:0
+#, python-format
+msgid "Contact"
+msgstr "Névjegy"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/editor/new_view_dialogs/map_new_view_dialog.xml:0
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Contact Field"
+msgstr "Névjegy mező"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/editor/new_view_dialogs/map_new_view_dialog.js:0
+#, python-format
+msgid "Contact Field Required"
+msgstr "Névjegy mező kötelező"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+#, python-format
+msgid "Contact details"
+msgstr "Névjegy adatai"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Context"
+msgstr "Kontextus"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+#, python-format
+msgid "Continue to configure some typical behaviors for your new type of object."
+msgstr "Folytassa az új objektumtípus néhány tipikus viselkedésének beállítását."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/navbar/home_menu_customizer/home_menu_customizer.js:0
+#, python-format
+msgid "Could not change the background"
+msgstr "Háttér megváltoztatása nem sikerült"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/edit_menu.js:0
+#, python-format
+msgid "Create Menu"
+msgstr "Menü létrehozása"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/new_model.js:0
+#, python-format
+msgid "Create Model"
+msgstr "Modell létrehozása"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/edit_menu.js:0
+#, python-format
+msgid "Create a new Menu"
+msgstr "Új menü létrehozása"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/new_model.js:0
+#, python-format
+msgid "Create a new Model"
+msgstr "Új modell létrehozása"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+#, python-format
+msgid "Create your <b>selection values</b> (e.g.: Romance, Polar, Fantasy, etc.)"
+msgstr "Hozza létre a <b>kiválasztási értékeket</b> (például: Romance, Polar, Fantasy, stb.)"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/app_creator/app_creator.xml:0
+#, python-format
+msgid "Create your App"
+msgstr "Hozza létre az alkalmazását"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/app_creator/app_creator.xml:0
+#, python-format
+msgid "Create your app"
+msgstr "Hozza létre az alkalmazását"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/app_creator/app_creator.xml:0
+#, python-format
+msgid "Create your first Menu"
+msgstr "Hozza létre az első menüjét"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__create_uid
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_request__create_uid
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__create_uid
+msgid "Created by"
+msgstr "Létrehozta"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__create_date
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_request__create_date
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__create_date
+msgid "Created on"
+msgstr "Létrehozva"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/editor/editor_adapter.js:0
+#, python-format
+msgid "Creating this type of view is not currently supported in Studio."
+msgstr "Az ilyen típusú nézet létrehozását a Stúdió jelenleg nem támogatja."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/models/ir_model.py:0
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Currency"
+msgstr "Pénznem"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_ui_menu.py:0
+#, python-format
+msgid "Custom Configuration"
+msgstr "Egyéni beállítás"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_base_module_uninstall__custom_fields
+msgid "Custom Fields"
+msgstr "Egyéni mezők"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_base_module_uninstall__custom_models
+msgid "Custom Models"
+msgstr "Egyéni modellek"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_base_module_uninstall__custom_reports
+msgid "Custom Reports"
+msgstr "Egyéni jelentések"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+#, python-format
+msgid "Custom Sorting"
+msgstr "Egyéni rendezés"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_base_module_uninstall__custom_views
+msgid "Custom Views"
+msgstr "Egyéni nézetek"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Custom color"
+msgstr "Egyéni szín"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_model.py:0
+#, python-format
+msgid "Custom field names cannot contain double underscores."
+msgstr "Egyéni mező nevek nem tartalmazhatnak dupla aláhúzást."
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.view_base_module_uninstall_studio
+msgid "Custom fields:"
+msgstr "Egyéni mezők:"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.view_base_module_uninstall_studio
+msgid "Custom models:"
+msgstr "Egyéni modellek:"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.view_base_module_uninstall_studio
+msgid "Custom reports:"
+msgstr "Egyéni jelentések:"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.view_base_module_uninstall_studio
+msgid "Custom views:"
+msgstr "Egyéni nézetek:"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.view_base_module_uninstall_studio
+msgid "Customization made with Studio will be permanently lost"
+msgstr "A Stúdióval végzett testreszabás véglegesen el fog veszni"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/navbar/home_menu_customizer/home_menu_customizer.xml:0
+#, python-format
+msgid "Customizations"
+msgstr "Testreszabások"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/editor/editor_menu/editor_menu.js:0
+#, python-format
+msgid "Dashboard"
+msgstr "Műszerfal"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks.js:0
+#, python-format
+msgid "Data table"
+msgstr "Adat tábla"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/models/ir_model.py:0
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#: code:addons/web_studio/static/src/legacy/js/views/view_components.js:0
+#, python-format
+msgid "Date"
+msgstr "Dátum"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+#, python-format
+msgid "Date & Calendar"
+msgstr "Dátum és naptár"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_components.js:0
+#, python-format
+msgid "Date & Time"
+msgstr "Dátum és idő"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+#, python-format
+msgid "Date range & Gantt"
+msgstr "Dátum időszak és gantt"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Day"
+msgstr "Nap"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Day Precision"
+msgstr "Nap pontosság"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_components.js:0
+#, python-format
+msgid "Decimal"
+msgstr "Tizedestört"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Default"
+msgstr "Alapértelmezett"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Default Display Mode"
+msgstr "Alapértelmezett megjelenítési mód"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Default Group by"
+msgstr "Alapértelmezett csoportosítás"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Default Scale"
+msgstr "Alapértelmezett méretarány"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_editor_manager.js:0
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#: model:ir.model,name:web_studio.model_ir_default
+#, python-format
+msgid "Default Values"
+msgstr "Alapértelmezett értékek"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Default value"
+msgstr "Alapértelmezett érték"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/action_editor.xml:0
+#, python-format
+msgid "Default view"
+msgstr "Alapértelmezett nézet"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+#, python-format
+msgid "Define start/end dates and visualize records in a Gantt chart"
+msgstr "Határozzon meg kezdő és befejező dátumokat és jelenítse meg a rekordokat Gantt-diagramban"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Delay Field"
+msgstr "Késleltetés mező"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#: model_terms:ir.ui.view,arch_db:web_studio.act_report_xml_view_kanban
+#, python-format
+msgid "Delete"
+msgstr "Törlés"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/edit_menu.xml:0
+#, python-format
+msgid "Delete Menu Item"
+msgstr "Menüelem törlése"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Descending"
+msgstr "Csökkenő"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/models/ir_model.py:0
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Description"
+msgstr "Leírás"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/icon_creator/icon_creator.xml:0
+#, python-format
+msgid "Design your Icon"
+msgstr "Tervezze meg az ikonját"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/action_editor.xml:0
+#, python-format
+msgid "Disable"
+msgstr "Letiltás"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_editor_sidebar.js:0
+#, python-format
+msgid "Disable creation"
+msgstr "Létrehozás letiltása"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_editor_sidebar.js:0
+#, python-format
+msgid "Disable opening"
+msgstr "Megnyitás letiltása"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Display"
+msgstr "Megjelenítés"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__display_name
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_request__display_name
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__display_name
+msgid "Display Name"
+msgstr "Megjelenített név"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Display Total row"
+msgstr "Végösszeg sor megjelenítése"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Display Unavailability"
+msgstr "Elérhetetlenség megjelenítése"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Display count"
+msgstr "Számláló megjelenítése"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_editor_sidebar.js:0
+#, python-format
+msgid "Display horizontally"
+msgstr "Megjelenítés vízszintesen"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_editors/kanban_record_editor.js:0
+#, python-format
+msgid "Do you want to add a dropdown with colors?"
+msgstr "Szeretne egy legördülő menüt hozzáadni színekkel?"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__domain
+#, python-format
+msgid "Domain"
+msgstr "Tartomány"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_model.py:0
+#, python-format
+msgid "Done"
+msgstr "Kész"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+#, python-format
+msgid "Drag & drop <b>another field</b>. Let’s try with a <i>selection field</i>."
+msgstr "Ragadjon meg és húzzon be egy <b>másik mezőt</b>. Próbáljunk meg egy <i>kiválasztás mezőt</i>."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/edit_menu.xml:0
+#, python-format
+msgid "Drag a menu to the right to create a sub-menu"
+msgstr "Húzzon egy menüt jobbra egy almenü létrehozásához"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/reports/report_editor.js:0
+#, python-format
+msgid "Drag building block here"
+msgstr "Húzzon ide építőkockát"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#, python-format
+msgid "Dropdown Menu"
+msgstr "Legördülő menü"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/action_editor.xml:0
+#: model_terms:ir.ui.view,arch_db:web_studio.act_report_xml_view_kanban
+#, python-format
+msgid "Dropdown menu"
+msgstr "Legördülő menü"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.act_report_xml_view_kanban
+msgid "Duplicate"
+msgstr "Duplikálás"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#, python-format
+msgid "Edit"
+msgstr "Szerkesztés"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/studio_home_menu/icon_creator_dialog/icon_creator_dialog.js:0
+#, python-format
+msgid "Edit Application Icon"
+msgstr "Alkalmazás ikonjának szerkesztése"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_manager.xml:0
+#, python-format
+msgid "Edit Form View"
+msgstr "Űrlap nézet szerkesztése"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_manager.xml:0
+#, python-format
+msgid "Edit List View"
+msgstr "Lista nézet szerkesztése"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/edit_menu.js:0
+#: code:addons/web_studio/static/src/legacy/xml/edit_menu.xml:0
+#, python-format
+msgid "Edit Menu"
+msgstr "Menü szerkesztése"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/edit_menu.xml:0
+#, python-format
+msgid "Edit Menu Item"
+msgstr "Menüelem szerkesztése"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/common/new_field_dialog.js:0
+#, python-format
+msgid "Edit Value"
+msgstr "Érték szerkesztése"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Edit Values"
+msgstr "Értékek szerkesztése"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/new_field_dialog.xml:0
+#, python-format
+msgid "Edit selection"
+msgstr "Kiválasztás szerkesztése"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Editable"
+msgstr "Szerkeszthető"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Else"
+msgstr "Egyébként"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_model.py:0
+#, python-format
+msgid "Email"
+msgstr "E-mail"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Email Alias"
+msgstr "E-mail álnév"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_mail_template
+msgid "Email Templates"
+msgstr "E-mail sablonok"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_mail_thread
+msgid "Email Thread"
+msgstr "E-mail üzenetszál"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/action_editor_sidebar.xml:0
+#, python-format
+msgid "Empty List Message"
+msgstr "Üres lista üzenet"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Enable Mass Editing"
+msgstr "Tömeges szerkesztés engedélyezése"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Enable Routing"
+msgstr "Útválasztás engedélyezése"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_editor_sidebar.js:0
+#, python-format
+msgid "Enable SMS"
+msgstr "SMS engedélyezése"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_model.py:0
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#, python-format
+msgid "End Date"
+msgstr "Vége dátum"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__entry_ids
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_rule_form_view
+msgid "Entries"
+msgstr "Tételek"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/common/abstract_editor_manager.js:0
+#, python-format
+msgid "Error"
+msgstr "Hiba"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Esc expression"
+msgstr "Esc kifejezés"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_editor_sidebar.js:0
+#, python-format
+msgid "Existing Fields"
+msgstr "Létező mezők"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/app_creator/app_creator.xml:0
+#: code:addons/web_studio/static/src/legacy/js/edit_menu.js:0
+#, python-format
+msgid "Existing Model"
+msgstr "Létező modell"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/navbar/home_menu_customizer/home_menu_customizer.xml:0
+#, python-format
+msgid "Export"
+msgstr "Exportálás"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/reports/report_kanban_view.js:0
+#, python-format
+msgid "External"
+msgstr "Külső"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Fadeout Speed"
+msgstr "Elhalványulás sebesség"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Fast"
+msgstr "Gyors"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/search_renderer.xml:0
+#, python-format
+msgid "Favourites"
+msgstr "Kedvencek"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks.js:0
+#: code:addons/web_studio/static/src/legacy/xml/field_selector_dialog.xml:0
+#: code:addons/web_studio/static/src/legacy/xml/kanban_editor.xml:0
+#, python-format
+msgid "Field"
+msgstr "Mező"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks.js:0
+#, python-format
+msgid "Field & Label"
+msgstr "Mező és címke"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks.js:0
+#, python-format
+msgid "Field Column"
+msgstr "Mező oszlop"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/common/new_field_dialog.js:0
+#, python-format
+msgid "Field Properties"
+msgstr "Mező tulajdonságai"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Field expression"
+msgstr "Mező kifejezés"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks.js:0
+#, python-format
+msgid "Field in Cell"
+msgstr "Mező a cellában"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_model_fields
+msgid "Fields"
+msgstr "Mezők"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_components.js:0
+#: model_terms:ir.ui.view,arch_db:web_studio.act_report_xml_view_kanban
+#, python-format
+msgid "File"
+msgstr "Fájl"
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:0
+#, python-format
+msgid "Filename for %s"
+msgstr "Fájlnév a %s számára"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_components.js:0
+#, python-format
+msgid "Filter"
+msgstr "Szűrő"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/controllers/main.py:0
+#: code:addons/web_studio/static/src/client_action/editor/editor_menu/editor_menu.js:0
+#, python-format
+msgid "Filter Rules"
+msgstr "Szűrési szabályok"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/search_renderer.xml:0
+#: model:ir.model,name:web_studio.model_ir_filters
+#, python-format
+msgid "Filters"
+msgstr "Szűrők"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_editors/form_editor.js:0
+#, python-format
+msgid "First Status"
+msgstr "Első állapot"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "First dimension"
+msgstr "Első dimenzió"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Font style"
+msgstr "Betű stílus"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Foreach expression"
+msgstr "Foreach kifejezés"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/editor/editor_menu/editor_menu.js:0
+#, python-format
+msgid "Form"
+msgstr "Űrlap"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Forward"
+msgstr "Előre"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/editor/editor_menu/editor_menu.js:0
+#, python-format
+msgid "Gantt"
+msgstr "Gantt"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/action_editor.xml:0
+#, python-format
+msgid "General Views"
+msgstr "Általános nézetek"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/editor/new_view_dialogs/new_view_dialog.js:0
+#, python-format
+msgid "Generate %s View"
+msgstr "%s nézet generálása"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+#, python-format
+msgid "Get contact, phone and email fields on records"
+msgstr "Névjegy, telefon és e-mail mezők lekérdezése a rekordokon"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+#, python-format
+msgid "Go on, you are almost done!"
+msgstr "Folytassa, már majdnem kész!"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+#, python-format
+msgid "Good job! To add more <b>fields</b>, come back to the <i>Add tab</i>."
+msgstr "Szép munka! További <b>mezők</b> hozzáadásához térjen vissza a <i>Hozzáadás fülre</i>."
+
+#. module: web_studio
+#: code:addons/web_studio/models/studio_approval.py:0
+#: model:ir.model.fields.selection,name:web_studio.selection__mail_activity_type__category__grant_approval
+#: model:mail.activity.type,name:web_studio.mail_activity_data_approve
+#, python-format
+msgid "Grant Approval"
+msgstr "Jóváhagyás biztosítása"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/editor/editor_menu/editor_menu.js:0
+#, python-format
+msgid "Graph"
+msgstr "Grafikon"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/search_renderer.xml:0
+#, python-format
+msgid "Graph View"
+msgstr "Grafikon nézet"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Great !"
+msgstr "Nagyszerű !"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/search_renderer.xml:0
+#, python-format
+msgid "Grid View"
+msgstr "Táblázat nézet"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__group_id
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__group_id
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_rule_search_view
+msgid "Group"
+msgstr "Csoport"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_entry_search_view
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_rule_search_view
+#, python-format
+msgid "Group By"
+msgstr "Csoportosítás"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/search_renderer.xml:0
+#, python-format
+msgid "Group by"
+msgstr "Csoportosítás"
+
+#. module: web_studio
+#: code:addons/web_studio/models/studio_approval.py:0
+#, python-format
+msgid "Groups used in approval rules must have an external identifier."
+msgstr "A jóváhagyási szabályokban használt csoportoknak külső azonosítóval kell rendelkezniük."
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_http
+msgid "HTTP Routing"
+msgstr "HTTP útválasztás"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Half Day"
+msgstr "Fél nap"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Half Hour"
+msgstr "Fél óra"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Heading1"
+msgstr "Címsor1"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Heading2"
+msgstr "Címsor2"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Heading3"
+msgstr "Címsor3"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Heading4"
+msgstr "Címsor4"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Heading5"
+msgstr "Címsor5"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Heading6"
+msgstr "Címsor6"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Help Tooltip"
+msgstr "Helyérzékeny súgó"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+#, python-format
+msgid "Here, you can <b>name</b> your field (e.g. Book reference, ISBN, Internal Note, etc.)."
+msgstr "Itt megadhat egy <b>nevet</b> a mezőnek (például: könyvhivatkozás, ISBN, belső megjegyzés, stb.)."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Hide Address"
+msgstr "Cím elrejtése"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Hide Name"
+msgstr "Név elrejtése"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Hide by default"
+msgstr "Elrejtés alapértelmezettként"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_model.py:0
+#, python-format
+msgid "High Priority"
+msgstr "Magas prioritás"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/edit_menu.xml:0
+#, python-format
+msgid "Home"
+msgstr "Kezdőlap"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_res_company__background_image
+msgid "Home Menu Background Image"
+msgstr "Főmenü háttérkép"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Hour"
+msgstr "Óra"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+#, python-format
+msgid "How do you want to <b>name</b> your app? Library, Academy, …?"
+msgstr "Hogyan szeretné <b>elnevezni</b> az alkalmazását? Könyvtár, Akadémia, …?"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+#, python-format
+msgid "How do you want to name your first <b>menu</b>? My books, My courses?"
+msgstr "Hogyan szeretné elnevezni az első <b>menüt</b>? Könyveim, Képzéseim?"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_components.js:0
+#, python-format
+msgid "Html"
+msgstr "Html"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+#, python-format
+msgid "I bet you can <b>build an app</b> in 5 minutes. Ready for the challenge?"
+msgstr "Fogadok, hogy tud <b>készíteni egy alkalmazást</b> 5 perc alatt. Készen áll a kihívásra?"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__id
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_request__id
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__id
+#, python-format
+msgid "ID"
+msgstr "Azonosító"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/new_buttonbox_dialog.xml:0
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Icon"
+msgstr "Ikon"
+
+#. module: web_studio
+#: model:ir.model.fields,help:web_studio.field_studio_approval_rule__domain
+msgid "If set, the rule will only apply on records that match the domain."
+msgstr "Ha be van állítva, a szabály csak a tartománynak megfelelő rekordokra vonatkozik."
+
+#. module: web_studio
+#: model:ir.model.fields,help:web_studio.field_studio_approval_rule__exclusive_user
+msgid "If set, the user who approves this rule will not be able to approve other rules for the same record"
+msgstr "Ha be van állítva, az a felhasználó, aki jóváhagyja ezt a szabályt, nem hagyhat jóvá más szabályokat ugyanarra a rekordra vonatkozóan"
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:0
+#, python-format
+msgid "If you don't want to create a new model, an existing model should be selected."
+msgstr "Ha nem szeretne új modellt létrehozni, akkor egy meglévő modellt kell kiválasztani."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/models/ir_model.py:0
+#: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks.js:0
+#: code:addons/web_studio/static/src/legacy/js/views/view_components.js:0
+#, python-format
+msgid "Image"
+msgstr "Kép"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/navbar/home_menu_customizer/home_menu_customizer.xml:0
+#: model_terms:ir.ui.view,arch_db:web_studio.simplified_form_view_import_module
+#, python-format
+msgid "Import"
+msgstr "Importálás"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_model.py:0
+#, python-format
+msgid "In Progress"
+msgstr "Folyamatban"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_editor_manager.js:0
+#, python-format
+msgid "In order to use a monetary field, you need a currency field on the model. Do you want to create a currency field first? You can make this field invisible afterwards."
+msgstr "Pénzügyi mező használatához szükség van egy pénznem mezőre a modellben. Szeretne először létrehozni egy pénznem mezőt? Ezt a mezőt utólag láthatatlanná teheti."
+
+#. module: web_studio
+#: model:ir.model.fields,help:web_studio.field_ir_ui_menu__is_studio_configuration
+msgid "Indicates that this menu was created by Studio to hold configuration sub-menus"
+msgstr "Jelzi, hogy ezt a menüt a Stúdió hozta létre a konfigurációs almenük számára"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks_registry.js:0
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Inline"
+msgstr "Soron belül"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_components.js:0
+#, python-format
+msgid "Integer"
+msgstr "Egész szám"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/reports/report_kanban_view.js:0
+#, python-format
+msgid "Internal"
+msgstr "Belső"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Interval"
+msgstr "Időszak"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#, python-format
+msgid "Invalid studio_approval %s in button"
+msgstr "Érvénytelen studio_approval %s a gombon"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Invisible"
+msgstr "Láthatatlan"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_base_module_uninstall__is_studio
+msgid "Is Studio"
+msgstr "Egy stúdió"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/action_editor.xml:0
+#, python-format
+msgid "Is default view"
+msgstr "Alapértelmezett nézet"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Italic"
+msgstr "Dőlt"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/editor/editor_menu/editor_menu.js:0
+#, python-format
+msgid "Kanban"
+msgstr "Kanban"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_model.py:0
+#, python-format
+msgid "Kanban State"
+msgstr "Kanban állapot"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/new_buttonbox_dialog.xml:0
+#: code:addons/web_studio/static/src/legacy/xml/new_field_dialog.xml:0
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Label"
+msgstr "Címke"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_editor_sidebar.js:0
+#, python-format
+msgid "Large"
+msgstr "Nagy"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry____last_update
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_request____last_update
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule____last_update
+msgid "Last Modified on"
+msgstr "Utolsó módosítás ideje"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__write_uid
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_request__write_uid
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__write_uid
+msgid "Last Updated by"
+msgstr "Utoljára frissítette"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__write_date
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_request__write_date
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__write_date
+msgid "Last Updated on"
+msgstr "Legutóbb frissítve"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+#, python-format
+msgid "Let’s check the result. Close Odoo Studio to get an <b>overview of your app</b>."
+msgstr "Nézzük meg az eredményt. Zárja be az Odoo Stúdiót, hogy <b>megtekinthesse az alkalmazását</b>."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__exclusive_user
+#, python-format
+msgid "Limit approver to this rule"
+msgstr "A jóváhagyó korlátozása erre a szabályra"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/sidebar_common.xml:0
+#, python-format
+msgid "Limit visibility to groups"
+msgstr "Korlátozza a láthatóságot csoportok számára"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Line"
+msgstr "Sor"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+#: code:addons/web_studio/static/src/legacy/js/views/view_components.js:0
+#, python-format
+msgid "Lines"
+msgstr "Sorok"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_request__mail_activity_id
+msgid "Linked Activity"
+msgstr "Kapcsolt tevékenység"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/editor/editor_menu/editor_menu.js:0
+#, python-format
+msgid "List"
+msgstr "Lista"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/search_renderer.xml:0
+#, python-format
+msgid "List View"
+msgstr "Lista nézet"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor.xml:0
+#, python-format
+msgid "Loading..."
+msgstr "Betöltés…"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+#, python-format
+msgid "Manually sort records in the list view"
+msgstr "Kézzel legyen sorba rendezés a lista nézeten"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_components.js:0
+#, python-format
+msgid "Many2many"
+msgstr "Több-a-többhöz"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_components.js:0
+#, python-format
+msgid "Many2one"
+msgstr "Több-az-egyhez"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/editor/editor_menu/editor_menu.js:0
+#, python-format
+msgid "Map"
+msgstr "Térkép"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Margins"
+msgstr "Margók"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Measure"
+msgstr "Mérés"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Measure Field"
+msgstr "Mérőszám mező"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Measures"
+msgstr "Mérések"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_editor_sidebar.js:0
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Medium"
+msgstr "Közepes"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_ui_menu
+msgid "Menu"
+msgstr "Menü"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__message
+#, python-format
+msgid "Message"
+msgstr "Üzenet"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__method
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__method
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_entry_search_view
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_rule_search_view
+msgid "Method"
+msgstr "Metódus"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/reports/report_kanban_view.js:0
+#, python-format
+msgid "Minimal header/footer"
+msgstr "Minimális fejléc/lábléc"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Mode"
+msgstr "Mód"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/app_creator/app_creator.xml:0
+#: code:addons/web_studio/static/src/legacy/xml/edit_menu.xml:0
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__model_id
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_entry_search_view
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_rule_search_view
+#, python-format
+msgid "Model"
+msgstr "Modell"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_model_access
+msgid "Model Access"
+msgstr "Modell hozzáférés"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_model_data
+msgid "Model Data"
+msgstr "Modell adat"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__model
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__model_name
+msgid "Model Name"
+msgstr "Modell neve"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_model
+msgid "Models"
+msgstr "Modellek"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_module_module
+msgid "Module"
+msgstr "Modul"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_base_module_uninstall
+msgid "Module Uninstall"
+msgstr "Modul eltávolítása"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.simplified_form_view_import_module
+msgid "Module file (.zip)"
+msgstr "Modul fájl (.zip)"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_components.js:0
+#, python-format
+msgid "Monetary"
+msgstr "Pénzügyi"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+#, python-format
+msgid "Monetary value"
+msgstr "Pénzügyi érték"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Month"
+msgstr "Hónap"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Month Precision"
+msgstr "Hónap pontosság"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/sidebar_common.xml:0
+#, python-format
+msgid "More"
+msgstr "Továbbiak"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_components.js:0
+#, python-format
+msgid "Multiline Text"
+msgstr "Többsoros szöveg"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/action_editor.xml:0
+#, python-format
+msgid "Multiple Records Views"
+msgstr "Több rekord nézetek"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#, python-format
+msgid "My %s"
+msgstr "Saját %s"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/new_buttonbox_dialog.xml:0
+#, python-format
+msgid "My Button"
+msgstr "Gombom"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/edit_menu.xml:0
+#, python-format
+msgid "My Menu"
+msgstr "Menüm"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/new_model.xml:0
+#, python-format
+msgid "My Model"
+msgstr "Modellem"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_entry_search_view
+msgid "My entries"
+msgstr "Tételeim"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/models/ir_model.py:0
+#: code:addons/web_studio/static/src/legacy/xml/edit_menu.xml:0
+#: code:addons/web_studio/static/src/legacy/xml/new_model.xml:0
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__name
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__name
+#, python-format
+msgid "Name"
+msgstr "Név"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_model.py:0
+#, python-format
+msgid "New"
+msgstr "Új"
+
+#. module: web_studio
+#: code:addons/web_studio/models/studio_approval.py:0
+#, python-format
+msgid "New Approval Entry"
+msgstr "Új jóváhagyási tétel"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/field_selector_dialog.xml:0
+#: code:addons/web_studio/static/src/legacy/xml/kanban_editor.xml:0
+#, python-format
+msgid "New Field"
+msgstr "Új mező"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_editor_sidebar.js:0
+#, python-format
+msgid "New Fields"
+msgstr "Új mezők"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_editors/search_editor.js:0
+#, python-format
+msgid "New Filter"
+msgstr "Új szűrő"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_model.py:0
+#, python-format
+msgid "New Lines"
+msgstr "Új sorok"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/edit_menu.js:0
+#, python-format
+msgid "New Menu"
+msgstr "Új menü"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/app_creator/app_creator.xml:0
+#: code:addons/web_studio/static/src/legacy/js/edit_menu.js:0
+#: code:addons/web_studio/static/src/legacy/xml/new_model.xml:0
+#, python-format
+msgid "New Model"
+msgstr "Új modell"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "New record at the bottom"
+msgstr "Új rekord az alján"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "New record on top"
+msgstr "Új rekord a tetején"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/app_creator/app_creator.xml:0
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.xml:0
+#, python-format
+msgid "Next"
+msgstr "Következő"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+#, python-format
+msgid "Nicely done! Let’s build your screen now; <b>drag</b> a <i>text field</i> and <b>drop</b> it in your view, on the right."
+msgstr "Szép munka! Építsük most meg a képernyőt; <b>ragadjon meg</b> egy <i>szövegmezőt</i>, és <b>engedje el</b> a nézetben, a jobb oldalon."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "No"
+msgstr "Nem"
+
+#. module: web_studio
+#: code:addons/web_studio/models/studio_approval.py:0
+#, python-format
+msgid "No approval found for this rule, record and user combination."
+msgstr "Nem található jóváhagyás ehhez a szabály, rekord és felhasználó kombinációhoz."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/reports/report_kanban_view.js:0
+#, python-format
+msgid "No header/footer"
+msgstr "Nincs fejléc/lábléc"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_editor_manager.js:0
+#, python-format
+msgid "No related many2one fields found"
+msgstr "Nem található kapcsolodó több-az-egyhez mező"
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/report.py:0
+#, python-format
+msgid "No view found for the given report!"
+msgstr "Az adott kimutatáshoz nem található nézet!"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Normal"
+msgstr "Normál"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/models/ir_model.py:0
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+#: code:addons/web_studio/static/src/client_action/navbar/navbar.xml:0
+#, python-format
+msgid "Notes"
+msgstr "Megjegyzések"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+#, python-format
+msgid "Now you’re on your own. Enjoy your <b>super power</b>."
+msgstr "Most már magára van utalva. Élvezze a <b>szuper erejét</b>."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+#, python-format
+msgid "Now, customize your icon. Make it yours."
+msgstr "Most pedig egyediesítse az ikonját. Tegye magáévá."
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__entries_count
+msgid "Number of Entries"
+msgstr "Tételek száma"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/app_creator/app_creator.xml:0
+#, python-format
+msgid "Odoo Studio"
+msgstr "Odoo Stúdió"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/systray_item/systray_item.xml:0
+#, python-format
+msgid "Odoo Studio Icon"
+msgstr "Odoo Stúdió ikon"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Offset"
+msgstr "Eltolás"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_components.js:0
+#, python-format
+msgid "One2many"
+msgstr "Egy-a-többhöz"
+
+#. module: web_studio
+#: code:addons/web_studio/models/studio_approval.py:0
+#, python-format
+msgid "Only %s members can approve this rule."
+msgstr "Ezt a szabályt csak %s tag hagyhatja jóvá."
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:0
+#, python-format
+msgid "Only groups with an external ID can be used here. Please choose another group or assign manually an external ID to this group."
+msgstr "Csak külső azonosítóval rendelkező csoportok használhatóak itt. Kérjük, válasszon másik csoportot, vagy rendeljen manuálisan egy külső azonosítót ehhez a csoporthoz."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Only members of this group will be able to approve or reject the rule."
+msgstr "Csak ennek a csoportnak a tagjai hagyhatják jóvá vagy utasíthatják el a szabályt."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Optional"
+msgstr "Választható"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Options"
+msgstr "Beállítások"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Order"
+msgstr "Sorba rendezés"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/editor/editor_menu/editor_menu.js:0
+#, python-format
+msgid "Other"
+msgstr "Egyéb"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.act_report_xml_view_kanban
+msgid "PDF file"
+msgstr "PDF fájl"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_report_paperformat
+msgid "Paper Format Config"
+msgstr "Papír formátum beállítás"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Paper format"
+msgstr "Papír formátum"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/edit_menu.js:0
+#, python-format
+msgid "Parent Menu"
+msgstr "Szülő menü"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#, python-format
+msgid "Partner"
+msgstr "Partner"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_model.py:0
+#, python-format
+msgid "Phone"
+msgstr "Telefon"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+#, python-format
+msgid "Picture"
+msgstr "Kép"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Pie"
+msgstr "Torta diagram"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+#, python-format
+msgid "Pipeline stages"
+msgstr "Folyamat szakaszai"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/editor/editor_menu/editor_menu.js:0
+#, python-format
+msgid "Pivot"
+msgstr "Pivot"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Placeholder"
+msgstr "Helyörző"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Placeholder Text"
+msgstr "Helyörző szöveg"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks.js:0
+#, python-format
+msgid "Please specify a field name for the selected model."
+msgstr "Kérjük adja meg a mező nevét a kiválasztott modellhez."
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:0
+#, python-format
+msgid "Please specify a field."
+msgstr "Kérjük, adja meg a mezőt."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/app_creator/app_creator.xml:0
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.xml:0
+#, python-format
+msgid "Previous"
+msgstr "Előző"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_manager.xml:0
+#, python-format
+msgid "Print"
+msgstr "Nyomtatás"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Printed Report Name"
+msgstr "Nyomtatott jelentés neve"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_components.js:0
+#, python-format
+msgid "Priority"
+msgstr "Prioritás"
+
+#. module: web_studio
+#: code:addons/web_studio/models/studio_approval.py:0
+#, python-format
+msgid "Private methods cannot be restricted (since they cannot be called remotely, this would be useless)."
+msgstr "A privát metódusok nem korlátozhatóak (mivel távolról nem hívhatóak, ez felesleges lenne)."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Properties"
+msgstr "Tulajdonságok"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Pull Right"
+msgstr "Jobbra húzás"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Quarter Hour"
+msgstr "Negyed óra"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Quick Create"
+msgstr "Gyors létrehozás"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Quick Create Field"
+msgstr "Mező gyors létrehozás"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_qweb
+msgid "Qweb"
+msgstr "Qweb"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Rainbow Effect"
+msgstr "Szivárvány effektus"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Rainbow Man"
+msgstr "Szivárvány ember"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Read only"
+msgstr "Írásvédett"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_model.py:0
+#, python-format
+msgid "Ready"
+msgstr "Kész"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_entry_form_view
+msgid "Record"
+msgstr "Rekord"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__res_id
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_request__res_id
+msgid "Record ID"
+msgstr "Rekord azonosító"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/editor/editor_menu/editor_menu.xml:0
+#, python-format
+msgid "Redo"
+msgstr "Újra"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__reference
+msgid "Reference"
+msgstr "Hivatkozás"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/approval/approval_infos.xml:0
+#: code:addons/web_studio/static/src/legacy/xml/approval_component.xml:0
+#, python-format
+msgid "Reject"
+msgstr "Visszautasítás"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_entry_search_view
+msgid "Rejected"
+msgstr "Visszautasított"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.notify_approval
+msgid "Rejected as"
+msgstr "Visszautasítva mint"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/approval/approval_infos.xml:0
+#: code:addons/web_studio/static/src/legacy/xml/approval_component.xml:0
+#, python-format
+msgid "Rejected on"
+msgstr "Visszautasítás ideje"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_editor_sidebar.js:0
+#, python-format
+msgid "Related End Date"
+msgstr "Kapcsolódó befejezési dátum"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_components.js:0
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Related Field"
+msgstr "Kapcsolódó mező"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_editor_sidebar.js:0
+#, python-format
+msgid "Related Start Date"
+msgstr "Kapcsolódó kezdési dátum"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Related expression"
+msgstr "Kapcsolodó kifejezés"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/new_field_dialog.xml:0
+#, python-format
+msgid "Relation:"
+msgstr "Reláció:"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Reload from attachment"
+msgstr "Újratöltés mellékletből"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/sidebar_common.xml:0
+#, python-format
+msgid "Remove from View"
+msgstr "Eltávolítás a nézetből"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Remove rule"
+msgstr "Szabály eltávolítása"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/new_field_dialog.xml:0
+#, python-format
+msgid "Remove selection"
+msgstr "Kiválasztás eltávolítása"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Report"
+msgstr "Jelentés"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_actions_report
+msgid "Report Action"
+msgstr "Jelentés művelet"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/action_editor.xml:0
+#, python-format
+msgid "Reporting Views"
+msgstr "Jelentés nézetek"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/controllers/main.py:0
+#: code:addons/web_studio/static/src/client_action/editor/editor_menu/editor_menu.js:0
+#, python-format
+msgid "Reports"
+msgstr "Jelentések"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Required"
+msgstr "Kötelező"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/navbar/home_menu_customizer/home_menu_customizer.xml:0
+#, python-format
+msgid "Reset Default Background"
+msgstr "Alapértelmezett háttér visszaállítása"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Reset Image"
+msgstr "Kép visszaállítása"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/models/ir_model.py:0
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__responsible_id
+#, python-format
+msgid "Responsible"
+msgstr "Felelős"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/action_editor.xml:0
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Restore Default View"
+msgstr "Alapértelmezett nézet visszaállítása"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+#, python-format
+msgid "Restrict a record to a specific company"
+msgstr "Rekord korlátozása egy adott vállalatra"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Retention"
+msgstr "Maradék"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/approval/approval_infos.xml:0
+#: code:addons/web_studio/static/src/legacy/xml/approval_component.xml:0
+#, python-format
+msgid "Revoke"
+msgstr "Visszavonás"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Row grouping - First level"
+msgstr "Sor csoportosítás - Első szint"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Row grouping - Second level"
+msgstr "Sor csoportosítás - Második szint"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_rule
+msgid "Rule"
+msgstr "Szabály"
+
+#. module: web_studio
+#: code:addons/web_studio/models/studio_approval.py:0
+#, python-format
+msgid "Rules with existing entries cannot be deleted since it would delete existing approval entries. You should archive the rule instead."
+msgstr "A meglévő bejegyzéseket tartalmazó szabályokat nem lehet törölni, mivel ez törölné a meglévő jóváhagyási tételeket. Ehelyett archiválnia kell a szabályt."
+
+#. module: web_studio
+#: code:addons/web_studio/models/studio_approval.py:0
+#, python-format
+msgid "Rules with existing entries cannot be modified since it would break existing approval entries. You should archive the rule and create a new one instead."
+msgstr "A meglévő tételekkel rendelkező szabályok nem módosíthatók, mivel ez a meglévő jóváhagyási tételeket megszakítaná. A szabályt archiválnia kell, és helyette újat kell létrehoznia."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+#, python-format
+msgid "Save."
+msgstr "Mentés."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/editor/editor_menu/editor_menu.js:0
+#, python-format
+msgid "Search"
+msgstr "Keresés"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Search..."
+msgstr "Keresés..."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_editors/form_editor.js:0
+#, python-format
+msgid "Second Status"
+msgstr "Második állapot"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Second dimension"
+msgstr "Második dimenzió"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/common/field_selector_dialog.js:0
+#, python-format
+msgid "Select a Field"
+msgstr "Válasszon egy mezőt"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/new_buttonbox_dialog.xml:0
+#, python-format
+msgid "Select a related field"
+msgstr "Válasszon egy kapcsolódó mezőt"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_editors/new_buttonbox_dialog.js:0
+#, python-format
+msgid "Select a related field."
+msgstr "Válasszon egy kapcsolódó mezőt."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/new_field_dialog.xml:0
+#, python-format
+msgid "Select a related field:"
+msgstr "Válasszon egy kapcsolódó mezőt:"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/editor/new_view_dialogs/map_new_view_dialog.xml:0
+#, python-format
+msgid "Select the contact field to use to get the coordinates of your records."
+msgstr "Válassza ki azt a névjegy mezőt, amelyet a rekordok koordinátáinak lekérdezéséhez kíván használni."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_components.js:0
+#, python-format
+msgid "Selection"
+msgstr "Kiválasztás"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Send a"
+msgstr "Küldjön egy"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+#, python-format
+msgid "Send messages, log notes and schedule activities"
+msgstr "Küldjön üzeneteket, rögzítsen jegyzeteket és ütemezzen tevékenységeket"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_components.js:0
+#, python-format
+msgid "Separator"
+msgstr "Elválasztó"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_model.py:0
+#, python-format
+msgid "Sequence"
+msgstr "Sorszám"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_actions_server
+msgid "Server Action"
+msgstr "Szerver művelet"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Set Cover Image"
+msgstr "Borítókép beállítása"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+#, python-format
+msgid "Set a price or cost on records"
+msgstr "Ár vagy költség megadása a rekordon"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+#, python-format
+msgid "Set an <b>email alias</b>. Then, try to send an email to this address; it will create a document automatically for you. Pretty cool, huh?"
+msgstr "Állítson be egy <b>e-mail álnevet</b>. Ezután próbáljon e-mailt küldeni erre a címre; automatikusan létrehoz egy dokumentumot az Ön számára. Szuper jó, mi?"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Set approval rules"
+msgstr "Jóváhagyási szabályok megadása"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/action_editor.xml:0
+#, python-format
+msgid "Set as Default"
+msgstr "Beállítás alapértelmezettként"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Set expression"
+msgstr "Kifejezés beállítása"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Show Invisible Elements"
+msgstr "Mutassa a láthatatlan elemeket"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Show by default"
+msgstr "Megjelenítés alapértelmezésként"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_components.js:0
+#, python-format
+msgid "Signature"
+msgstr "Aláírás"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_editor_sidebar.js:0
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Size"
+msgstr "Méret"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Slow"
+msgstr "Lassú"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_editor_sidebar.js:0
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Small"
+msgstr "Kicsi"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Sort By"
+msgstr "Sorbarendezés"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Sort by"
+msgstr "Rendezés"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Sorting"
+msgstr "Rendezés"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Source"
+msgstr "Forrás"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/new_field_dialog.xml:0
+#, python-format
+msgid "Specify all possible values"
+msgstr "Összes lehetséges érték megadása"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Stacked graph"
+msgstr "Halmozott grafikon"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_model.py:0
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#, python-format
+msgid "Stage"
+msgstr "Szakasz"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_model.py:0
+#, python-format
+msgid "Stage Name"
+msgstr "Szakasz neve"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+#, python-format
+msgid "Stage and visualize records in a custom pipeline"
+msgstr "Egyéni folyamat alapján rekordok szakaszolása és vizualizálása"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_model.py:0
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#, python-format
+msgid "Start Date"
+msgstr "Kezdés dátuma"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/editor/new_view_dialogs/new_view_dialog.xml:0
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Start Date Field"
+msgstr "Kezdő dátum mező"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/editor/new_view_dialogs/new_view_dialog.xml:0
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Stop Date Field"
+msgstr "Vége dátum mező"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Striped"
+msgstr "Csíkos"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/action_editor_main.js:0
+#: model:ir.model.fields,field_description:web_studio.field_ir_model_data__studio
+#, python-format
+msgid "Studio"
+msgstr "Stúdió"
+
+#. module: web_studio
+#: model:ir.actions.client,name:web_studio.action_web_studio_app_creator
+msgid "Studio App Creator"
+msgstr "Stúdió alkalmazás készítő"
+
+#. module: web_studio
+#: model:ir.actions.act_window,name:web_studio.studio_approval_entry_action
+#: model:ir.ui.menu,name:web_studio.menu_studio_approval_entry
+msgid "Studio Approval Entries"
+msgstr "Stúdió jóváhagyási tételek"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_studio_approval_entry
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_entry_form_view
+msgid "Studio Approval Entry"
+msgstr "Stúdió jóváhagyási tétel"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_studio_approval_request
+msgid "Studio Approval Request"
+msgstr "Stúdió jóváhagyási kérés"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_studio_approval_rule
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_rule_form_view
+msgid "Studio Approval Rule"
+msgstr "Stúdió jóváhagyási szabály"
+
+#. module: web_studio
+#: model:ir.actions.act_window,name:web_studio.studio_approval_rule_action
+msgid "Studio Approvals"
+msgstr "Stúdió jóváhagyások"
+
+#. module: web_studio
+#: model:ir.ui.menu,name:web_studio.menu_studio_approval_rule
+msgid "Studio Approvals Rules"
+msgstr "Stúdió jóváhagyási szabályok"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_ir_ui_menu__is_studio_configuration
+msgid "Studio Configuration Menu"
+msgstr "Stúdió beállítások menü"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_customizations_filter
+msgid "Studio Customizations"
+msgstr "Stúdió testreszabások"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_studio_mixin
+msgid "Studio Mixin"
+msgstr "Stúdió mixin"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/edit_menu.xml:0
+#, python-format
+msgid "Submenu label"
+msgstr "Almenü cím"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks.js:0
+#, python-format
+msgid "Subtotal & Total"
+msgstr "Nettó és Végösszeg"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/editor/editor_menu/editor_menu.js:0
+#, python-format
+msgid "Subview %s"
+msgstr "Alnézet %s"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.xml:0
+#, python-format
+msgid "Suggested features for your new model"
+msgstr "Javasolt funkciók az új modellhez"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Sum"
+msgstr "Összeg"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks_registry.js:0
+#, python-format
+msgid "Table"
+msgstr "Táblázat"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Table style"
+msgstr "Táblázat stílus"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_components.js:0
+#, python-format
+msgid "Tabs"
+msgstr "Fülek"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/models/ir_model.py:0
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+#: code:addons/web_studio/static/src/legacy/js/views/view_components.js:0
+#, python-format
+msgid "Tags"
+msgstr "Címkék"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Taxes amount by groups"
+msgstr "Az adók összege csoportonként"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Technical Name"
+msgstr "Technikai név"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#, python-format
+msgid "Template '%s' not found"
+msgstr "'%s' sablon nem található"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks.js:0
+#: code:addons/web_studio/static/src/legacy/js/views/view_components.js:0
+#, python-format
+msgid "Text"
+msgstr "Többsoros szöveg"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Text decoration"
+msgstr "Szöveg dekoráció"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks.js:0
+#, python-format
+msgid "Text in Cell"
+msgstr "Szöveg a cellában"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_editor_sidebar.js:0
+#, python-format
+msgid "The approval rule is only applied to records matching the following condition:"
+msgstr "A jóváhagyási szabály csak a következő feltételnek megfelelő rekordokra vonatkozik:"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "The description will be shown to users to understand why they must ask for approval."
+msgstr "A leírás megjelenik a felhasználók számára, hogy megértsék, miért kell jóváhagyást kérniük."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/app_creator/app_creator.xml:0
+#, python-format
+msgid "The fastest way to create a web application."
+msgstr "A leggyorsabb módszer egy webes alkalmazás létrehozására."
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:0
+#, python-format
+msgid "The field %s does not exist."
+msgstr "A %s mező nem létezik."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/approval/approval_hook.js:0
+#: code:addons/web_studio/static/src/legacy/js/views/controllers/form_controller.js:0
+#, python-format
+msgid "The following approvals are missing:"
+msgstr "A következő jóváhagyások hiányoznak:"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_editor_sidebar.js:0
+#, python-format
+msgid "The following fields are currently not in the view."
+msgstr "A következő mezők jelenleg nem szerepelnek a nézetben."
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:0
+#, python-format
+msgid "The icon has not a correct format"
+msgstr "Az ikon formátuma nem megfelelő"
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:0
+#, python-format
+msgid "The icon is not linked to an attachment"
+msgstr "Az ikon nincs csatolva egy melléklethez"
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:0
+#, python-format
+msgid "The model %s does not exist."
+msgstr "A %s modell nem létezik."
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:0
+#, python-format
+msgid "The model %s doesn't support adding fields."
+msgstr "A %s modell nem támogatja a mezők hozzáadását."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_editor_sidebar.js:0
+#, python-format
+msgid "The new name can contain only a to z lower letters, numbers and _, with a maximum of 53 characters."
+msgstr "Az új név csak a – z kisbetűket, számokat és _-t tartalmazhat, legfeljebb 53 karakterrel."
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:0
+#, python-format
+msgid "The operation  type \"%s\" is not supported"
+msgstr "A \"%s\" típusú  művelet nem támogatott"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks.js:0
+#, python-format
+msgid "The record field name is missing"
+msgstr "A rekord mező neve hiányzik"
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:0
+#, python-format
+msgid "The related field of a button has to be a many2one to %s."
+msgstr "A gombhoz kapcsolódó mezőnek egy %s modellre mutató több-az-egyhez mezőnek kell lennie."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/common/abstract_editor_manager.js:0
+#, python-format
+msgid "The requested change caused an error in the view. It could be because a field was deleted, but still used somewhere else."
+msgstr "A kért módosítás hibát okozott a nézetben. Ennek oka az lehet, hogy egy mezőt töröltek, de máshol még mindig használták."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "The user who approves this rule will not be able to approve other rules for the same record."
+msgstr "Az a felhasználó, aki jóváhagyja ezt a szabályt, nem hagyhat jóvá más szabályokat ugyanarra a rekordra vonatkozóan."
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:0
+#, python-format
+msgid ""
+"There are %s records using selection values not listed in those you are trying to save.\n"
+"Are you sure you want to remove the selection values of those records?"
+msgstr ""
+"%s olyan rekord van, amely olyan kiválasztási értékeket használ, amelyek nem szerepelnek azokban a rekordokban, amelyeket megpróbál menteni.\n"
+"Biztos, hogy el akarja távolítani ezeknek a rekordoknak a kiválasztási értékeit?"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_manager.xml:0
+#, python-format
+msgid "There are no many2one fields related to the current model."
+msgstr "A jelenlegi modellhez nincs több-az-egyhez mező."
+
+#. module: web_studio
+#: code:addons/web_studio/models/studio_approval.py:0
+#, python-format
+msgid "There is no method %s on the model %s (%s)"
+msgstr "Nincs %s metódus a %s (%s) modellen"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_editors/form_editor.js:0
+#, python-format
+msgid "Third Status"
+msgstr "Harmadik állapot"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/navbar/navbar.js:0
+#: code:addons/web_studio/static/src/client_action/studio_home_menu/studio_home_menu.js:0
+#, python-format
+msgid "This action is not editable by Studio"
+msgstr "Ez a művelet nem szerkeszthető a Stúdió által"
+
+#. module: web_studio
+#: code:addons/web_studio/models/studio_approval.py:0
+#, python-format
+msgid ""
+"This approval or the one you already submitted limits you to a single approval on this action.\n"
+"Another user is required to further approve this action."
+msgstr ""
+"Ez a jóváhagyás vagy a már beküldött jóváhagyás egyetlen jóváhagyásra korlátozódik az adott művelethez.\n"
+"A művelet további jóváhagyásához egy másik felhasználóra van szükség."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/sidebar_common.xml:0
+#, python-format
+msgid "This field is placed after another element that is only displayed under certain conditions."
+msgstr "Ez a mező egy másik elem után helyezkedik el, amely csak bizonyos feltételek mellett jelenik meg."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "This field will be used when creating records directly from the calendar view."
+msgstr "Ezt a mezőt akkor kell használni, amikor közvetlenül a naptárnézetből hoz létre rekordokat."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/common/abstract_editor_manager.js:0
+#, python-format
+msgid "This operation caused an error, probably because a xpath was broken"
+msgstr "Ez a művelet hibát okozott, valószínűleg azért mert az xpath hibás volt"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/reports/report_editor.js:0
+#, python-format
+msgid "This report could not be previewed or edited because it could not be rendered with this message: %s. This could be happening because this is a custom report type that needs custom data to be rendered and so is not editable by studio."
+msgstr "Ezt a jelentést nem lehetett előnézetben megjeleníteni vagy szerkeszteni, mert nem lehetett megjeleníteni ezzel az üzenettel: %s. Ez azért történhetett, mert ez egy egyéni jelentéstípus, amelynek megjelenítéséhez egyéni adatokra van szükség, és ezért a stúdióval nem szerkeszthető."
+
+#. module: web_studio
+#: code:addons/web_studio/models/studio_approval.py:0
+#, python-format
+msgid "This rule has already been approved/rejected."
+msgstr "Ezt a szabályt már jóváhagyták/elutasították."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/approval/approval_infos.xml:0
+#: code:addons/web_studio/static/src/legacy/xml/approval_component.xml:0
+#, python-format
+msgid "This rule limits this user to a single approval for this action."
+msgstr "Ez a szabály korlátozza a felhasználót az adott művelet egyetlen jóváhagyására."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "This user will be assigned a next activity when approval is requested."
+msgstr "A jóváhagyás kérelmezésekor ez a felhasználó kapja meg a következő tevékenységet."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks.js:0
+#, python-format
+msgid "Three Columns"
+msgstr "Három oszlop"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Timeline"
+msgstr "Idővonal"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/action_editor.xml:0
+#, python-format
+msgid "Timeline Views"
+msgstr "Idővonal nézetek"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks.js:0
+#, python-format
+msgid "Title Block"
+msgstr "Cím blokk"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+#, python-format
+msgid "To <b>customize a field</b>, click on its <i>label</i>."
+msgstr "A <b>mező testreszabásához</b> kattintson a <i>címkéjére</i>."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_manager.xml:0
+#, python-format
+msgid "To create a one2many field on the current model, you must first create its many2one counterpart on the model you want to relate to."
+msgstr "Az egy-a-többhöz mező létrehozásához az aktuális modellben először létre kell hoznia annak több-az-egyhez párját abban a modellben, amelyre hivatkozni szeretne."
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/report.py:0
+#, python-format
+msgid "To edit this document please create a record first"
+msgstr "A dokumentum szerkesztéséhez kérjük, először hozzon létre egy rekordot"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/systray_item/systray_item.xml:0
+#, python-format
+msgid "Toggle Studio"
+msgstr "Stúdió be/ki kapcsolása"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#, python-format
+msgid "Total"
+msgstr "Végösszeg"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks.js:0
+#, python-format
+msgid "Two Columns"
+msgstr "Két oszlop"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Type"
+msgstr "Típus"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#, python-format
+msgid "Type down your notes here..."
+msgstr "Írja le a jegyzetét ide..."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Underline"
+msgstr "Aláhúzott"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/editor/editor_menu/editor_menu.xml:0
+#, python-format
+msgid "Undo"
+msgstr "Visszavonás"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_editor_sidebar.js:0
+#, python-format
+msgid "Use colors"
+msgstr "Használjon színeket"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_entry_search_view
+msgid "User"
+msgstr "Felhasználó"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+#, python-format
+msgid "User assignment"
+msgstr "Felhasználó hozzárendelés"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/approval/studio_approval.xml:0
+#: code:addons/web_studio/static/src/legacy/xml/approval_component.xml:0
+#, python-format
+msgid "User avatar placeholder"
+msgstr "Felhasználó avatár helyőrzője"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/models/ir_model.py:0
+#: code:addons/web_studio/static/src/legacy/xml/new_field_dialog.xml:0
+#, python-format
+msgid "Value"
+msgstr "Érték"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/new_field_dialog.xml:0
+#, python-format
+msgid "Value of list"
+msgstr "A lista értéke"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#: model:ir.model,name:web_studio.model_ir_ui_view
+#, python-format
+msgid "View"
+msgstr "Nézet"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/editor/editor_menu/editor_menu.js:0
+#, python-format
+msgid "Views"
+msgstr "Nézetek"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Visible for"
+msgstr "Látható számára"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Visible if"
+msgstr "Látható, ha"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/approval/studio_approval.xml:0
+#: code:addons/web_studio/static/src/legacy/xml/approval_component.xml:0
+#, python-format
+msgid "Waiting for approval"
+msgstr "Várakotás jóváhagyásra"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+#, python-format
+msgid "Want more fun? Let’s create more <b>views</b>."
+msgstr "Szeretne még több szórakozást? Készítsünk további <b>nézeteket</b>."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+#, python-format
+msgid "Want to customize the background? Let’s activate <b>Odoo Studio</b>."
+msgstr "Szeretné testreszabni a hátteret? Kapcsolja be az <b>Odoo Stúdiót</b>."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Week"
+msgstr "Hét"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Week Precision"
+msgstr "Hét pontosság"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/app_creator/app_creator.xml:0
+#, python-format
+msgid "Welcome to"
+msgstr "Üdvözlöm"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+#, python-format
+msgid "What about a <b>Kanban view</b>?"
+msgstr "Mit szólna egy <b>Kanban nézethez</b>?"
+
+#. module: web_studio
+#: model:ir.model.fields,help:web_studio.field_studio_approval_rule__can_validate
+msgid "Whether the rule can be approved by the current user"
+msgstr "Jóváhagyhatja-e a szabályt az aktuális felhasználó"
+
+#. module: web_studio
+#: model:ir.model.fields,help:web_studio.field_ir_model__abstract
+msgid "Whether this model is abstract"
+msgstr "Ez a modell absztrakt-e"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/reports/report_kanban_view.js:0
+#, python-format
+msgid "Which type of report do you want to create?"
+msgstr "Milyen típusú jelentést szeretne létrehozni?"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Widget"
+msgstr "Widget"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Width"
+msgstr "Szélesség"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+#, python-format
+msgid "Wow, nice! And I’m sure you can make it even better! Use this icon to open <b>Odoo Studio</b> and customize any screen."
+msgstr "Nahát, szép! És biztos vagyok benne, hogy még jobbá teheti! Használja ezt az ikont az <b>Odoo Stúdió</b> megnyitásához és testreszabhatja bármelyik képernyőt."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+#, python-format
+msgid "Write additional notes or comments"
+msgstr "Írjon további jegyzetet vagy megjegyzést"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/sidebar_common.xml:0
+#, python-format
+msgid "XML"
+msgstr "XML"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Year"
+msgstr "Év"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks.js:0
+#, python-format
+msgid "You can only display a user or a partner"
+msgstr "Csak egy felhasználót vagy egy partnert jeleníthet meg"
+
+#. module: web_studio
+#: code:addons/web_studio/models/studio_approval.py:0
+#, python-format
+msgid "You cannot cancel an approval you didn't set yourself."
+msgstr "Nem vonhat vissza egy jóváhagyást amit nem Önmaga csinált."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/editor/editor_adapter.js:0
+#: code:addons/web_studio/static/src/legacy/action_editor_main.js:0
+#, python-format
+msgid "You cannot deactivate this view as it is the last one active."
+msgstr "Ezt a nézetet nem tilthatja le, mivel ez az utolsó aktív."
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/report.py:0
+#, python-format
+msgid "You cannot modify this view, it is part of the generic layout"
+msgstr "Ezt a nézetet nem módosíthatja, ez az általános elrendezés része"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/edit_menu.js:0
+#, python-format
+msgid ""
+"You cannot remove all the menu items of an app.\r\n"
+"Try uninstalling the app instead."
+msgstr ""
+"Egy alkalmazás összes menüpontja nem távolítható el.\n"
+"Próbálja meg inkább az alkalmazás eltávolítását."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_editors/kanban_record_editor.js:0
+#, python-format
+msgid "You first need to create a many2many field in the form view."
+msgstr "Először létre kell hoznia egy több-a-többhöz mezőt az űrlap nézetben."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/views/view_editors/kanban_record_editor.js:0
+#, python-format
+msgid "You first need to create a many2one field to Partner or User in the form view."
+msgstr "Először létre kell hoznia a több-az-egyhez mezőt a Partner vagy a Felhasználó számára az űrlap nézetben."
+
+#. module: web_studio
+#: code:addons/web_studio/models/studio_approval.py:0
+#, python-format
+msgid "You just like to break things, don't you?"
+msgstr "Szereti elrontani a dolgokat, nemde?"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/common/new_field_dialog.js:0
+#, python-format
+msgid "You must have at least one option set"
+msgstr "Meg kell adnia legalább egy lehetőséget"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/common/new_field_dialog.js:0
+#, python-format
+msgid "You must select a related field"
+msgstr "Ki kell választania egy relációs mezőt"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/common/new_field_dialog.js:0
+#, python-format
+msgid "You must select a relation"
+msgstr "Ki kell választania egy relációt"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/sidebar_common.xml:0
+#, python-format
+msgid "You need to be part of these groups to see this field:"
+msgstr "A mező megtekintéséhez a következő csoportokba kell tartoznia:"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks.js:0
+#, python-format
+msgid "You need to use a many2many or one2many field to display a list of items"
+msgstr "A tételek listájának megjelenítéséhez több-a-többhöz vagy egy-a-többhöz mezőt kell használnia"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "bottom"
+msgstr "alul"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "day"
+msgstr "nap"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/app_creator/app_creator.xml:0
+#, python-format
+msgid "e.g. Properties"
+msgstr "pl.: Tulajdonságok"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/app_creator/app_creator.xml:0
+#, python-format
+msgid "e.g. Real Estate"
+msgstr "pl.: Ingatlan"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "left"
+msgstr "bal"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "month"
+msgstr "hónap"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/icon_creator/icon_creator.xml:0
+#, python-format
+msgid "or"
+msgstr "vagy"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "px"
+msgstr "px"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "reset color"
+msgstr "szín visszaállítása"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "right"
+msgstr "jobb"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#, python-format
+msgid "studio_approval attribute can only be set in form views"
+msgstr "studio_approval attribútum csak űrlap nézetben állítható be"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "test email"
+msgstr "teszt e-mail"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "top"
+msgstr "felső"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/icon_creator/icon_creator.xml:0
+#, python-format
+msgid "upload it"
+msgstr "töltse fel"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/client_action/icon_creator/icon_creator.xml:0
+#, python-format
+msgid "upload one"
+msgstr "egy feltöltése"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "week"
+msgstr "hét"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "x_studio_"
+msgstr "x_studio_"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "year"
+msgstr "év"
+
+#~ msgid "Saved"
+#~ msgstr "Mentve"
+
+#~ msgid "Translations"
+#~ msgstr "Fordítások"
+
+#~ msgid "Warning"
+#~ msgstr "Figyelmeztetés"

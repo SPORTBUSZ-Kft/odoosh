@@ -1,0 +1,268 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* web_gantt
+#
+# Translators:
+# Martin Trigaux, 2019
+# krnkris, 2019
+# gezza <geza.nagy@oregional.hu>, 2019
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-20 09:49+0000\n"
+"PO-Revision-Date: 2022-10-16 19:00+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/web_gantt/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#. module: web_gantt
+#. openerp-web
+#: code:addons/web_gantt/static/src/xml/web_gantt.xml:0
+#, python-format
+msgid "&nbsp;"
+msgstr "&nbsp;"
+
+#. module: web_gantt
+#. openerp-web
+#: code:addons/web_gantt/static/src/xml/web_gantt.xml:0
+#, python-format
+msgid "Add"
+msgstr "Hozzáadás"
+
+#. module: web_gantt
+#. openerp-web
+#: code:addons/web_gantt/static/src/xml/web_gantt.xml:0
+#, python-format
+msgid "Add record"
+msgstr "Rekord hozzáadása"
+
+#. module: web_gantt
+#. openerp-web
+#: code:addons/web_gantt/static/src/js/gantt_controller.js:0
+#, python-format
+msgid "Are you sure to delete this record?"
+msgstr "Biztosan törli ezt a rekordot?"
+
+#. module: web_gantt
+#: model:ir.model,name:web_gantt.model_base
+msgid "Base"
+msgstr "Alap"
+
+#. module: web_gantt
+#. openerp-web
+#: code:addons/web_gantt/static/src/xml/web_gantt.xml:0
+#, python-format
+msgid "Collapse rows"
+msgstr "Sorok összecsukása"
+
+#. module: web_gantt
+#. openerp-web
+#: code:addons/web_gantt/static/src/js/gantt_controller.js:0
+#: code:addons/web_gantt/static/src/xml/web_gantt.xml:0
+#, python-format
+msgid "Create"
+msgstr "Létrehozás"
+
+#. module: web_gantt
+#. openerp-web
+#: code:addons/web_gantt/static/src/js/gantt_view.js:0
+#, python-format
+msgid "Day"
+msgstr "Nap"
+
+#. module: web_gantt
+#. openerp-web
+#: code:addons/web_gantt/static/src/xml/web_gantt.xml:0
+#, python-format
+msgid "Expand rows"
+msgstr "Sorok kibontása"
+
+#. module: web_gantt
+#. openerp-web
+#: code:addons/web_gantt/static/src/js/gantt_view.js:0
+#, python-format
+msgid "Gantt"
+msgstr "Gantt"
+
+#. module: web_gantt
+#. openerp-web
+#: code:addons/web_gantt/static/src/js/gantt_view.js:0
+#, python-format
+msgid "Gantt View"
+msgstr "Gantt nézet"
+
+#. module: web_gantt
+#: code:addons/web_gantt/models/ir_ui_view.py:0
+#, python-format
+msgid "Gantt child can only be field or template, got %s"
+msgstr "Gantt gyermek csak mező vagy sablon lehet, %s-t kapott"
+
+#. module: web_gantt
+#: code:addons/web_gantt/models/ir_ui_view.py:0
+#, python-format
+msgid "Gantt must have a 'date_start' attribute"
+msgstr "A Ganttnak rendelkeznie kell a 'date_start' attribútummal"
+
+#. module: web_gantt
+#: code:addons/web_gantt/models/ir_ui_view.py:0
+#, python-format
+msgid "Gantt must have a 'date_stop' attribute"
+msgstr "A Ganttnak rendelkeznie kell a 'date_stop' attribútummal"
+
+#. module: web_gantt
+#: code:addons/web_gantt/models/ir_ui_view.py:0
+#, python-format
+msgid "Gantt must have a 'dependency_inverted_field' attribute once the 'dependency_field' is specified"
+msgstr "A Ganttnak rendelkeznie kell a \"dependency_inverted_field\" attribútummal, ha a \"dependency_field\" meg van adva"
+
+#. module: web_gantt
+#: code:addons/web_gantt/models/ir_ui_view.py:0
+#, python-format
+msgid "Gantt view can contain only one templates tag"
+msgstr "A Gantt nézet csak egy sablon címkét tartalmazhat"
+
+#. module: web_gantt
+#. openerp-web
+#: code:addons/web_gantt/static/src/js/gantt_model.js:0
+#, python-format
+msgid "Grouping by date is not supported"
+msgstr "A dátum szerinti csoportosítás nem támogatott"
+
+#. module: web_gantt
+#: code:addons/web_gantt/models/models.py:0
+#, python-format
+msgid "Insufficient fields for Gantt View!"
+msgstr "Nem elegendő mezők a Gantt nézet számára!"
+
+#. module: web_gantt
+#: code:addons/web_gantt/models/ir_ui_view.py:0
+#, python-format
+msgid "Invalid attributes (%s) in gantt view. Attributes must be in (%s)"
+msgstr "Érvénytelen attribútumok (%s) a gantt nézetben. Az attribútumoknak a (%s) ben kell lenniük"
+
+#. module: web_gantt
+#: code:addons/web_gantt/models/ir_ui_view.py:0
+#, python-format
+msgid "Invalid default_scale '%s' in gantt"
+msgstr "Érvénytelen default_scale '%s' a ganttban"
+
+#. module: web_gantt
+#. openerp-web
+#: code:addons/web_gantt/static/src/js/gantt_view.js:0
+#, python-format
+msgid "Month"
+msgstr "Hónap"
+
+#. module: web_gantt
+#. openerp-web
+#: code:addons/web_gantt/static/src/xml/web_gantt.xml:0
+#, python-format
+msgid "Name:"
+msgstr "Név:"
+
+#. module: web_gantt
+#. openerp-web
+#: code:addons/web_gantt/static/src/xml/web_gantt.xml:0
+#, python-format
+msgid "Next"
+msgstr "Következő"
+
+#. module: web_gantt
+#. openerp-web
+#: code:addons/web_gantt/static/src/js/gantt_controller.js:0
+#, python-format
+msgid "Open"
+msgstr "Megnyitás"
+
+#. module: web_gantt
+#. openerp-web
+#: code:addons/web_gantt/static/src/js/gantt_controller.js:0
+#, python-format
+msgid "Plan"
+msgstr "Terv"
+
+#. module: web_gantt
+#. openerp-web
+#: code:addons/web_gantt/static/src/xml/web_gantt.xml:0
+#, python-format
+msgid "Plan existing"
+msgstr "Meglévő tervezése"
+
+#. module: web_gantt
+#. openerp-web
+#: code:addons/web_gantt/static/src/xml/web_gantt.xml:0
+#, python-format
+msgid "Previous"
+msgstr "Előző"
+
+#. module: web_gantt
+#: code:addons/web_gantt/models/models.py:0
+#, python-format
+msgid "Records that are in the past cannot be automatically rescheduled. They should be manually rescheduled instead."
+msgstr "A múltban lévő rekordok nem ütemezhetők át automatikusan. Helyettük kézzel kell átütemezni őket."
+
+#. module: web_gantt
+#. openerp-web
+#: code:addons/web_gantt/static/src/xml/web_gantt.xml:0
+#, python-format
+msgid "Start:"
+msgstr "Kezdete:"
+
+#. module: web_gantt
+#. openerp-web
+#: code:addons/web_gantt/static/src/xml/web_gantt.xml:0
+#, python-format
+msgid "Stop:"
+msgstr "Vége:"
+
+#. module: web_gantt
+#. openerp-web
+#: code:addons/web_gantt/static/src/xml/web_gantt.xml:0
+#, python-format
+msgid "Today"
+msgstr "Ma"
+
+#. module: web_gantt
+#. openerp-web
+#: code:addons/web_gantt/static/src/js/gantt_model.js:0
+#, python-format
+msgid "Undefined %s"
+msgstr "Meghatározatlan %s"
+
+#. module: web_gantt
+#: model:ir.model,name:web_gantt.model_ir_ui_view
+msgid "View"
+msgstr "Nézet"
+
+#. module: web_gantt
+#. openerp-web
+#: code:addons/web_gantt/static/src/js/gantt_view.js:0
+#, python-format
+msgid "Week"
+msgstr "Hét"
+
+#. module: web_gantt
+#. openerp-web
+#: code:addons/web_gantt/static/src/js/gantt_view.js:0
+#, python-format
+msgid "Year"
+msgstr "Év"
+
+#. module: web_gantt
+#: code:addons/web_gantt/models/models.py:0
+#, python-format
+msgid "You cannot reschedule %s towards %s."
+msgstr "Nem tudja átütemezni %s-t %s felé."
+
+#. module: web_gantt
+#: code:addons/web_gantt/models/models.py:0
+#, python-format
+msgid "You cannot reschedule tasks that do not follow a direct dependency path. Only the first task has been automatically rescheduled."
+msgstr "Nem lehet átütemezni olyan feladatokat, amelyek nem közvetlen függőségi útvonalat követnek. Csak az első feladatot ütemezte át automatikusan."

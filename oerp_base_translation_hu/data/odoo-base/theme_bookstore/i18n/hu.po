@@ -1,0 +1,209 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* theme_bookstore
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-13 08:00+0000\n"
+"PO-Revision-Date: 2022-10-16 04:01+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/theme_bookstore/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#. module: theme_bookstore
+#: model_terms:theme.ir.ui.view,arch:theme_bookstore.s_text_image
+msgid ""
+"<br/>\n"
+"        Discover all the publications. There is probably your next favorite book amoung them."
+msgstr ""
+"<br/>\n"
+"        Fedezze fel az összes kiadványt. Valószínűleg ott van közöttük a következő kedvenc könyve."
+
+#. module: theme_bookstore
+#: model_terms:theme.ir.ui.view,arch:theme_bookstore.s_image_text
+msgid ""
+"<br/>\n"
+"        Discover the history of Belgium in this well-documented book with many illustrations and testimonials."
+msgstr ""
+"<br/>\n"
+"        Fedezze fel Belgium történelmét ebben a jól dokumentált, számos illusztrációval és tanúvallomással ellátott könyvben."
+
+#. module: theme_bookstore
+#: model_terms:theme.ir.ui.view,arch:theme_bookstore.s_three_columns
+msgid "A Belgian Story"
+msgstr "Egy belga történet"
+
+#. module: theme_bookstore
+#: model_terms:theme.ir.ui.view,arch:theme_bookstore.s_numbers
+msgid "Amazing pages"
+msgstr "Lenyűgöző oldalak"
+
+#. module: theme_bookstore
+#: model_terms:theme.ir.ui.view,arch:theme_bookstore.s_three_columns
+msgid "At the Mars conquest"
+msgstr "A Mars meghódításakor"
+
+#. module: theme_bookstore
+#: model_terms:theme.ir.ui.view,arch:theme_bookstore.s_numbers
+msgid "Beautiful snippets"
+msgstr "Gyönyörű sznippetek"
+
+#. module: theme_bookstore
+#: model_terms:theme.ir.ui.view,arch:theme_bookstore.s_masonry_block_default_template
+msgid "Biographies"
+msgstr "Biográfiák"
+
+#. module: theme_bookstore
+#: model_terms:theme.ir.ui.view,arch:theme_bookstore.s_call_to_action
+msgid "Browse collection"
+msgstr "Kollekció böngészése"
+
+#. module: theme_bookstore
+#: model_terms:theme.ir.ui.view,arch:theme_bookstore.s_call_to_action
+msgid "Browse through <br/>our complete library"
+msgstr "Böngésszen teljes <br/>könyvtárunkban"
+
+#. module: theme_bookstore
+#: model_terms:theme.ir.ui.view,arch:theme_bookstore.s_banner
+msgid "Discover it"
+msgstr "Fedezze fel"
+
+#. module: theme_bookstore
+#: model_terms:theme.ir.ui.view,arch:theme_bookstore.s_cover
+msgid "Discover more"
+msgstr "Fedezzen fel többet"
+
+#. module: theme_bookstore
+#: model_terms:theme.ir.ui.view,arch:theme_bookstore.s_picture
+msgid "Discover our <br/>limited editions"
+msgstr "Fedezze fel <br/>limitált kiadásainkat"
+
+#. module: theme_bookstore
+#: model_terms:theme.ir.ui.view,arch:theme_bookstore.s_three_columns
+msgid "Discover the history of Belgium in this well-documented book with many illustrations and testimonials."
+msgstr "Fedezze fel Belgium történelmét ebben a jól dokumentált, számos illusztrációval és tanúvallomással ellátott könyvben."
+
+#. module: theme_bookstore
+#: model_terms:theme.ir.ui.view,arch:theme_bookstore.s_masonry_block_default_template
+msgid "Discover unknown universes"
+msgstr "Fedezzen fel ismeretlen univerzumokat"
+
+#. module: theme_bookstore
+#: model_terms:theme.ir.ui.view,arch:theme_bookstore.s_picture
+msgid "Don't rely on a book's cover,"
+msgstr "Ne hagyatkozz a könyv borítójára,"
+
+#. module: theme_bookstore
+#: model_terms:theme.ir.ui.view,arch:theme_bookstore.s_masonry_block_default_template
+msgid "Enjoy your fears"
+msgstr "Élvezze a félelmeit"
+
+#. module: theme_bookstore
+#: model_terms:theme.ir.ui.view,arch:theme_bookstore.s_picture
+msgid "Explore our top-end Collector's Editions. <br/>Signed and limited tributes to some of the most outstanding writers of all time."
+msgstr "Fedezze fel csúcsminőségű gyűjtői kiadásainkat. <br/>Dedikált és limitált tiszteletadás minden idők legkiemelkedőbb íróinak."
+
+#. module: theme_bookstore
+#: model_terms:theme.ir.ui.view,arch:theme_bookstore.s_masonry_block_default_template
+msgid "Horror"
+msgstr "Horror"
+
+#. module: theme_bookstore
+#: model_terms:theme.ir.ui.view,arch:theme_bookstore.s_cover
+msgid "Immerse yourself <br/>in original universes"
+msgstr "Merüljön el <br/>eredeti univerzumokban"
+
+#. module: theme_bookstore
+#: model_terms:theme.ir.ui.view,arch:theme_bookstore.s_image_text
+#: model_terms:theme.ir.ui.view,arch:theme_bookstore.s_three_columns
+msgid "Learn about the difficulties encountered by NASA engineers in sending the first men to Mars."
+msgstr "Ismerje meg, milyen nehézségekkel szembesültek a NASA mérnökei az első ember Marsra küldésekor."
+
+#. module: theme_bookstore
+#: model_terms:theme.ir.ui.view,arch:theme_bookstore.s_masonry_block_default_template
+msgid "Meet great people"
+msgstr "Találkozzon nagyszerű emberekkel"
+
+#. module: theme_bookstore
+#: model_terms:theme.ir.ui.view,arch:theme_bookstore.s_image_text
+msgid "Once upon a time..."
+msgstr "Egyszer volt, hol nem volt..."
+
+#. module: theme_bookstore
+#: model_terms:theme.ir.ui.view,arch:theme_bookstore.s_numbers
+msgid "Outstanding images"
+msgstr "Rendkívüli képek"
+
+#. module: theme_bookstore
+#: model_terms:theme.ir.ui.view,arch:theme_bookstore.s_text_image
+msgid "Probably your next <br/>favorite book"
+msgstr "Valószínűleg a következő <br/>kedvenc könyve"
+
+#. module: theme_bookstore
+#: model_terms:theme.ir.ui.view,arch:theme_bookstore.s_three_columns
+msgid "Re-edition"
+msgstr "Újrakiadás"
+
+#. module: theme_bookstore
+#: model_terms:theme.ir.ui.view,arch:theme_bookstore.s_masonry_block_default_template
+msgid "Read the best love stories"
+msgstr "Olvassa el a legjobb szerelmi történeteket"
+
+#. module: theme_bookstore
+#: model_terms:theme.ir.ui.view,arch:theme_bookstore.s_title
+msgid "Reading means borrowing"
+msgstr "Az olvasás kölcsönzést jelent"
+
+#. module: theme_bookstore
+#: model_terms:theme.ir.ui.view,arch:theme_bookstore.s_masonry_block_default_template
+msgid "Romance"
+msgstr "Romantika"
+
+#. module: theme_bookstore
+#: model_terms:theme.ir.ui.view,arch:theme_bookstore.s_masonry_block_default_template
+msgid "Science fiction"
+msgstr "Science fiction"
+
+#. module: theme_bookstore
+#: model_terms:theme.ir.ui.view,arch:theme_bookstore.s_banner
+msgid "The best sellers <br/>of the year"
+msgstr "Az év <br/>bestsellerei"
+
+#. module: theme_bookstore
+#: model_terms:theme.ir.ui.view,arch:theme_bookstore.s_three_columns
+msgid "The first re-edition of this Latin dictionary, from 1460. Printed originally on the Gutenberg press."
+msgstr "E latin szótár első, 1460-ban készült újrakiadása. Eredetileg a Gutenberg-nyomdában nyomtatták."
+
+#. module: theme_bookstore
+#: model:ir.model,name:theme_bookstore.model_theme_utils
+msgid "Theme Utils"
+msgstr "Téma segédek"
+
+#. module: theme_bookstore
+#: model_terms:theme.ir.ui.view,arch:theme_bookstore.s_numbers
+msgid "Useful options"
+msgstr "Hasznos beállítások"
+
+#. module: theme_bookstore
+#: model_terms:theme.ir.ui.view,arch:theme_bookstore.s_product_list
+msgid "View the book"
+msgstr "Könyv megtekintése"
+
+#. module: theme_bookstore
+#: model_terms:theme.ir.ui.view,arch:theme_bookstore.s_picture
+msgid "discover more about it"
+msgstr "tudjon meg róla többet"
+
+#. module: theme_bookstore
+#. openerp-web
+#: code:addons/theme_bookstore/static/src/js/tour.js:0
+#, python-format
+msgid "width"
+msgstr "szélesség"

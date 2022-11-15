@@ -1,0 +1,383 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* theme_notes
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-13 08:01+0000\n"
+"PO-Revision-Date: 2022-10-16 04:01+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/theme_notes/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_product_catalog
+msgid "$109.50"
+msgstr "$109.50"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_product_catalog
+msgid "$115.50"
+msgstr "$115.50"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_product_catalog
+msgid "$19.00"
+msgstr "$19.00"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_product_catalog
+msgid "$25.00"
+msgstr "$25.00"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_product_catalog
+msgid "$59.00"
+msgstr "$59.00"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_product_catalog
+msgid "$65.00"
+msgstr "$65.00"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_masonry_block_default_template
+msgid "21th of August"
+msgstr "Augusztus 21."
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_masonry_block_default_template
+msgid "24th of August"
+msgstr "Augusztus 24."
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_masonry_block_default_template
+msgid "27th of August"
+msgstr "Augusztus 27."
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_masonry_block_default_template
+msgid "4th of September"
+msgstr "Szeptember 4."
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_carousel
+msgid "6 Days Pass"
+msgstr "6 napos belépő"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_cover
+msgid "<b>Discover <br/>the Miraillet Festival</b>"
+msgstr "<b>Fedezze fel <br/>a Miraillet Fesztivált</b>"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_media_list
+msgid ""
+"<br/>\n"
+"        Once again this year, the festival, with the support of the non-"
+"profit organisations that implement the necessary means to facilitate access "
+"to the event for people with reduced mobility and people affected by or "
+"carrying a disability."
+msgstr ""
+"<br/>\n"
+"        A fesztivál idén is olyan nonprofit szervezetek támogatásával valósítja meg a szükséges megoldásokat, amelyek megkönnyítik a mozgáskorlátozottak és a fogyatékkal élő vagy fogyatékossággal élő emberek számára a rendezvényre való bejutást."
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_media_list
+msgid ""
+"<br/>\n"
+"        Where and when to exchange your festival bracelets? Where to buy "
+"food and drink tickets? What is the price for children? The answer can be "
+"found here!"
+msgstr ""
+"<br/>\n"
+"        Hol és mikor cserélje le a fesztivál karkötőit? Hol lehet étel- és italjegyet vásárolni? Mennyit kell fizetni a gyerekeknek? A válaszokat itt találja!"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_media_list
+msgid ""
+"<br/>\n"
+"        You will find here the different means of transport to get to the "
+"festival. The festival is accessible by bike. Be careful, you will be riding "
+"in the city centre where there are a lot of cars. Please make sure to park "
+"your bikes in the designated areas of the city."
+msgstr ""
+"<br/>\n"
+"        Itt megtalálja a fesztiválra való eljutás különböző közlekedési eszközeit. A fesztivál kerékpárral is megközelíthető. Kérjük, ügyeljenek arra, hogy a kerékpárokat a város erre kijelölt területein parkolják le."
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_text_image
+msgid "About the Festival"
+msgstr "A fesztiválról"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_company_team
+msgid "Aline"
+msgstr "Aline"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_company_team
+msgid ""
+"Aline, is a French singer, songwriter and producer. In 2016, she was ranked "
+"as the most powerful and influential French person by Vanity Fair, who "
+"noticed her \"radiance of French genius."
+msgstr "Aline, francia énekesnő, dalszerző és producer. 2016-ban a Vanity Fair a legbefolyásosabb és legmeghatározóbb francia személyiségek közé sorolta, aki felfigyelt a \"francia zsenialitás kisugárzására\"."
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_masonry_block_default_template
+msgid "Amsterdam"
+msgstr "Amszterdam"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_numbers
+msgid "Artists from around the world"
+msgstr "Előadók a világ minden tályáról"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_masonry_block_default_template
+msgid "Barcelona"
+msgstr "Barcelona"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_masonry_block_default_template
+msgid "Brussels"
+msgstr "Brüsszel"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_product_catalog
+msgid "Brussels edition"
+msgstr "Brüsszeli kiadás"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_product_list
+msgid "CD Albums"
+msgstr "CD albumok"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_product_list
+msgid "Caps"
+msgstr "Sapkák"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_text_image
+msgid "Discover more"
+msgstr "Fedezzen fel többet"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_carousel
+msgid ""
+"Discover what makes the reputation of the Miraillet festival through these "
+"after-movies."
+msgstr "Fedezze fel, mi teszi a Miraillet fesztivál hírnevét ezeken az utófilmeken keresztül."
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_numbers
+msgid "Editions through the Europe"
+msgstr "Kiadások Európán keresztül"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_banner
+msgid "Enjoy the atmosphere"
+msgstr "Élvezze a légkört"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_carousel
+msgid ""
+"From the 12th to the 17th of August, come and enjoy the atmosphere at the "
+"Miraillet Festival. Discover the line up below."
+msgstr "Augusztus 12. és 17. között élvezze a Miraillet Fesztivál hangulatát. Az alábbiakban felfedezheti a fellépők listáját."
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_call_to_action
+msgid "Get your ticket"
+msgstr "Szerezze be jegyét"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_product_catalog
+msgid "Get your ticket now"
+msgstr "Szerezze be jegyét most"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_media_list
+msgid "Go to the <br/>Miraillet Festival"
+msgstr "Jöjjön el <br/>a Miraillet Fesztiválra"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_product_list
+msgid "Hoodies"
+msgstr "Kapucnis pulcsi"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_call_to_action
+msgid "Join us and make this weekend unforgettable!"
+msgstr "Csatlakozzon hozzánk, és tegye felejthetetlenné ezt a hétvégét!"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_company_team
+msgid "Joseris"
+msgstr "Joseris"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_company_team
+msgid ""
+"Joseris is a Belgian band that formed in October 1995. Though originally "
+"categorised as a trip hop group, they quickly expanded their sound to the "
+"point where they could no longer be described as a lone genre, but rather "
+"encompass alternative, electronica, electro-pop, rock, and a mixture of "
+"others."
+msgstr "A Joseris egy belga zenekar, amely 1995 októberében alakult. Bár eredetileg a trip-hop csoportként kategorizálták őket, hamarosan olyannyira kibővítették hangzásukat, hogy már nem lehet őket egy magányos műfajként leírni, hanem inkább az alternatív, az elektronika, az elektro-pop, a rock és más műfajok keverékét foglalják magukban."
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_call_to_action
+msgid "Live the Miraillet <br/>Festival experience"
+msgstr "Élje meg a Miraillet <br/>Fesztivál élményét"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_numbers
+msgid "Loyal partners"
+msgstr "Hűséges partnereink"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_company_team
+msgid "Mich Starck"
+msgstr "Mich Starck"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_company_team
+msgid ""
+"Mich Starck is a French DJ, record producer and songwriter. He has sold over "
+"nine million albums and thirty million singles worldwide. In 2011, he was "
+"voted as the number one DJ in the DJ Mag Top 100 DJs poll."
+msgstr "Mich Starck francia DJ, lemezproducer és dalszerző. Több mint kilencmillió albumot és harmincmillió kislemezt adott el világszerte. 2011-ben a DJ Mag Top 100 DJs szavazásán az első számú DJ-nek választották."
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_carousel
+msgid "Miraillet Festival"
+msgstr "Miraillet Fesztivál"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_carousel
+msgid "More Info"
+msgstr "Több információ"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_media_list
+msgid "More info"
+msgstr "Több információ"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_masonry_block_default_template
+msgid "Paris"
+msgstr "Párizs"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_product_catalog
+msgid "Paris edition"
+msgstr "Párizsi kiadás"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_carousel
+msgid "Recent Editions"
+msgstr "Legutóbbi kiadások"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_product_catalog
+msgid "Regular ticket"
+msgstr "Általános jegy"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_product_catalog
+msgid "Regular ticket + hotel"
+msgstr "Általános jegy + szállás"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_numbers
+msgid "Scenes outdoor &amp; indoor"
+msgstr "Helyszínek kültéri és beltéri"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_product_list
+msgid "Sunglasses"
+msgstr "Napszemüvegek"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_product_list
+msgid "T-shirts"
+msgstr "Pólók"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_image_text
+msgid "The History"
+msgstr "A történet"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_image_text
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_text_image
+msgid ""
+"The Miraillet Festival was born in 2002 from a common will of cultural, "
+"touristic and institutional actors of the region to propose a major cultural "
+"event in the very heart of the region during the summer period."
+msgstr "A Miraillet Fesztivál 2002-ben született a régió kulturális, turisztikai és intézményi szereplőinek közös akaratából, hogy a nyári időszakban a régió szívében egy jelentős kulturális eseményt szervezzenek."
+
+#. module: theme_notes
+#: model:ir.model,name:theme_notes.model_theme_utils
+msgid "Theme Utils"
+msgstr "Téma segédek"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_media_list
+msgid "Ticketing <br/>&amp; timetables"
+msgstr "Jegyrendelés <br/>és időrend"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_carousel
+msgid ""
+"Tickets will be on sale soon. Do not miss our 6 Days Pass. Free camping!"
+msgstr "A jegyek hamarosan kaphatók. Ne hagyja ki a 6 napos bérletünket. Ingyenes kempingezés!"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_company_team
+msgid "Tony"
+msgstr "Tony"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_company_team
+msgid ""
+"Tony is praised for the quality of his flow and beats but often criticised "
+"because of the controversial nature of his lyrics. He has also established a "
+"label, and developed a line of jewellery."
+msgstr "Tony-t dicsérik a flow és a beatek minőségéért, de gyakran kritizálják a dalszövegei ellentmondásos jellege miatt. Egy kiadót is alapított, és ékszercsaládot fejlesztett ki."
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_product_catalog
+msgid "Upcoming events"
+msgstr "Közelgő rendezvények"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_product_catalog
+msgid "VIP ticket"
+msgstr "VIP jegy"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_product_list
+msgid "Vinyls"
+msgstr "Bakelitek"
+
+#. module: theme_notes
+#: model_terms:theme.ir.ui.view,arch:theme_notes.s_media_list
+msgid "Wheelchair <br/>accessibility"
+msgstr "Mozgássérült <br/>megközelíthetőség"
+
+#. module: theme_notes
+#. openerp-web
+#: code:addons/theme_notes/static/src/js/tour.js:0
+#, python-format
+msgid "width"
+msgstr "szélesség"

@@ -1,0 +1,244 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* helpdesk_fsm
+#
+# Translators:
+# Tamás Dombos, 2019
+# krnkris, 2019
+# gezza <geza.nagy@oregional.hu>, 2019
+# Ákos Nagy <akos.nagy@oregional.hu>, 2019
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-04 09:42+0000\n"
+"PO-Revision-Date: 2022-10-16 01:01+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/helpdesk_fsm/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#. module: helpdesk_fsm
+#: model:project.task,legend_blocked:helpdesk_fsm.helpdesk_fsm_task_1
+#: model:project.task,legend_blocked:helpdesk_fsm.helpdesk_fsm_task_2
+msgid "Blocked"
+msgstr "Blokkolt"
+
+#. module: helpdesk_fsm
+#: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_create_fsm_task__company_id
+msgid "Company"
+msgstr "Vállalat"
+
+#. module: helpdesk_fsm
+#: model:ir.model,name:helpdesk_fsm.model_helpdesk_ticket_convert_wizard
+#, fuzzy
+#| msgid "Helpdesk Ticket"
+msgid "Convert Helpdesk Tickets to Tasks"
+msgstr "Ügyfélszolgálati kérés"
+
+#. module: helpdesk_fsm
+#: model:ir.model.fields,help:helpdesk_fsm.field_helpdesk_ticket__use_fsm
+msgid "Convert tickets into Field Service tasks"
+msgstr "Jegyek átalakítása terepmunka feladatokká"
+
+#. module: helpdesk_fsm
+#: model_terms:ir.ui.view,arch_db:helpdesk_fsm.create_fsm_task_view_form
+msgid "Create & View Task"
+msgstr "Feladat létrehozása és megtekintése"
+
+#. module: helpdesk_fsm
+#: model_terms:ir.ui.view,arch_db:helpdesk_fsm.create_fsm_task_view_form
+#: model_terms:ir.ui.view,arch_db:helpdesk_fsm.helpdesk_ticket_view_form
+msgid "Create Task"
+msgstr "Új feladat létrehozása"
+
+#. module: helpdesk_fsm
+#: code:addons/helpdesk_fsm/models/helpdesk.py:0
+#: model:ir.model,name:helpdesk_fsm.model_helpdesk_create_fsm_task
+#, python-format
+msgid "Create a Field Service task"
+msgstr "Új terepmunka feladat létrehozása"
+
+#. module: helpdesk_fsm
+#: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_create_fsm_task__create_uid
+msgid "Created by"
+msgstr "Létrehozta"
+
+#. module: helpdesk_fsm
+#: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_create_fsm_task__create_date
+msgid "Created on"
+msgstr "Létrehozva"
+
+#. module: helpdesk_fsm
+#: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_create_fsm_task__partner_id
+msgid "Customer"
+msgstr "Vevő"
+
+#. module: helpdesk_fsm
+#: model_terms:ir.ui.view,arch_db:helpdesk_fsm.create_fsm_task_view_form
+msgid "Discard"
+msgstr "Elvetés"
+
+#. module: helpdesk_fsm
+#: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_create_fsm_task__display_name
+msgid "Display Name"
+msgstr "Megjelenített név"
+
+#. module: helpdesk_fsm
+#: model:ir.model.fields,field_description:helpdesk_fsm.field_project_task__display_helpdesk_ticket_button
+#, fuzzy
+#| msgid "Display Name"
+msgid "Display Ticket"
+msgstr "Megjelenített név"
+
+#. module: helpdesk_fsm
+#: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_team__fsm_project_id
+msgid "FSM Project"
+msgstr "Terepmunka projekt"
+
+#. module: helpdesk_fsm
+#: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_ticket__use_fsm
+msgid "Field Service"
+msgstr "Terepmunka"
+
+#. module: helpdesk_fsm
+#: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_ticket__fsm_task_count
+msgid "Fsm Task Count"
+msgstr "Terepmunka feladatok száma"
+
+#. module: helpdesk_fsm
+#: model:ir.model,name:helpdesk_fsm.model_helpdesk_team
+msgid "Helpdesk Team"
+msgstr "Ügyfélszolgálati csapat"
+
+#. module: helpdesk_fsm
+#: model:ir.model,name:helpdesk_fsm.model_helpdesk_ticket
+msgid "Helpdesk Ticket"
+msgstr "Ügyfélszolgálati jegy"
+
+#. module: helpdesk_fsm
+#: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_create_fsm_task__id
+msgid "ID"
+msgstr "Azonosító"
+
+#. module: helpdesk_fsm
+#: model:project.task,legend_normal:helpdesk_fsm.helpdesk_fsm_task_1
+#: model:project.task,legend_normal:helpdesk_fsm.helpdesk_fsm_task_2
+msgid "In Progress"
+msgstr "Folyamatban"
+
+#. module: helpdesk_fsm
+#: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_create_fsm_task____last_update
+msgid "Last Modified on"
+msgstr "Utolsó módosítás ideje"
+
+#. module: helpdesk_fsm
+#: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_create_fsm_task__write_uid
+msgid "Last Updated by"
+msgstr "Utoljára frissítette"
+
+#. module: helpdesk_fsm
+#: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_create_fsm_task__write_date
+msgid "Last Updated on"
+msgstr "Utolsó frissítés ideje"
+
+#. module: helpdesk_fsm
+#: model:ir.model.fields,field_description:helpdesk_fsm.field_project_task__helpdesk_ticket_id
+msgid "Original Ticket"
+msgstr ""
+
+#. module: helpdesk_fsm
+#: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_create_fsm_task__project_id
+#: model_terms:ir.ui.view,arch_db:helpdesk_fsm.helpdesk_team_view_form
+msgid "Project"
+msgstr "Projekt"
+
+#. module: helpdesk_fsm
+#: model:ir.model.fields,help:helpdesk_fsm.field_helpdesk_create_fsm_task__project_id
+msgid "Project in which to create the task"
+msgstr "Projekt amin belül létrejön a feladat"
+
+#. module: helpdesk_fsm
+#: model:project.task,legend_done:helpdesk_fsm.helpdesk_fsm_task_1
+#: model:project.task,legend_done:helpdesk_fsm.helpdesk_fsm_task_2
+msgid "Ready"
+msgstr "Készen áll"
+
+#. module: helpdesk_fsm
+#: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_create_fsm_task__helpdesk_ticket_id
+msgid "Related ticket"
+msgstr "Kapcsolódó jegy"
+
+#. module: helpdesk_fsm
+#: code:addons/helpdesk_fsm/controllers/portal.py:0
+#: model:ir.model,name:helpdesk_fsm.model_project_task
+#, python-format
+msgid "Task"
+msgstr "Feladat"
+
+#. module: helpdesk_fsm
+#: model:mail.message.subtype,description:helpdesk_fsm.mt_team_ticket_task_done
+#: model:mail.message.subtype,description:helpdesk_fsm.mt_ticket_task_done
+#: model:mail.message.subtype,name:helpdesk_fsm.mt_team_ticket_task_done
+#: model:mail.message.subtype,name:helpdesk_fsm.mt_ticket_task_done
+msgid "Task Done"
+msgstr "Feladat kész"
+
+#. module: helpdesk_fsm
+#: code:addons/helpdesk_fsm/wizard/create_task.py:0
+#, python-format
+msgid "Task created"
+msgstr ""
+
+#. module: helpdesk_fsm
+#: code:addons/helpdesk_fsm/controllers/portal.py:0
+#: code:addons/helpdesk_fsm/models/helpdesk.py:0
+#: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_ticket__fsm_task_ids
+#: model_terms:ir.ui.view,arch_db:helpdesk_fsm.helpdesk_ticket_view_form
+#, python-format
+msgid "Tasks"
+msgstr "Feladatok"
+
+#. module: helpdesk_fsm
+#: code:addons/helpdesk_fsm/wizard/create_task.py:0
+#, python-format
+msgid "Tasks from Tickets"
+msgstr "Feladatok jegyekből"
+
+#. module: helpdesk_fsm
+#: model:ir.model.fields,help:helpdesk_fsm.field_helpdesk_ticket__fsm_task_ids
+msgid "Tasks generated from this ticket"
+msgstr "Generált feladatok ebből a jegyből"
+
+#. module: helpdesk_fsm
+#: code:addons/helpdesk_fsm/controllers/portal.py:0
+#: model_terms:ir.ui.view,arch_db:helpdesk_fsm.project_sharing_inherit_project_task_view_form
+#, python-format
+msgid "Ticket"
+msgstr "Jegy"
+
+#. module: helpdesk_fsm
+#: model_terms:ir.ui.view,arch_db:helpdesk_fsm.project_sharing_inherit_project_task_view_form
+msgid "Ticket from this task"
+msgstr "Ebből a feladatból származó jegy"
+
+#. module: helpdesk_fsm
+#: model:ir.model.fields,help:helpdesk_fsm.field_helpdesk_create_fsm_task__partner_id
+msgid "Ticket's customer, will be linked to the task"
+msgstr "A jegyhez tartozó ügyfél, kapcsolódva lesz a feladathoz"
+
+#. module: helpdesk_fsm
+#: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_create_fsm_task__name
+msgid "Title"
+msgstr "Cím"
+
+#~ msgid "Helpdesk"
+#~ msgstr "Ügyfélszolgálat"
+
+#~ msgid "Tickets"
+#~ msgstr "Kérések"

@@ -1,0 +1,39 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* barcodes_mobile
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~15.4+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-09 14:10+0000\n"
+"PO-Revision-Date: 2022-10-16 01:02+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/barcodes_mobile/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#. module: barcodes_mobile
+#. openerp-web
+#: code:addons/barcodes_mobile/static/src/xml/barcodes.xml:0
+#, python-format
+msgid "Barcode"
+msgstr "Vonalkód"
+
+#. module: barcodes_mobile
+#. openerp-web
+#: code:addons/barcodes_mobile/static/src/js/barcode_mobile_mixin.js:0
+#, python-format
+msgid "Please, Scan again !"
+msgstr "Kérem, olvassa be újra !"
+
+#. module: barcodes_mobile
+#. openerp-web
+#: code:addons/barcodes_mobile/static/src/xml/barcodes.xml:0
+#, python-format
+msgid "Tap to scan"
+msgstr "Érintse meg az olvasáshoz"

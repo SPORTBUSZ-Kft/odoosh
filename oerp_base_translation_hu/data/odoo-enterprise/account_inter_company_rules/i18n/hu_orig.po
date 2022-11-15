@@ -1,0 +1,191 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* inter_company_rules
+#
+# Translators:
+# Martin Trigaux, 2019
+# krnkris, 2019
+# gezza <geza.nagy@oregional.hu>, 2019
+# Tibor Kőnig <konig.tibor@evitalit.hu>, 2019
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-12 07:57+0000\n"
+"PO-Revision-Date: 2019-08-26 09:36+0000\n"
+"Last-Translator: Tibor Kőnig <konig.tibor@evitalit.hu>, 2019\n"
+"Language-Team: Hungarian (https://www.transifex.com/odoo/teams/41243/hu/)\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: account_inter_company_rules
+#: code:addons/account_inter_company_rules/models/account_move.py:0
+#, python-format
+msgid "%s Invoice: %s"
+msgstr ""
+
+#. module: account_inter_company_rules
+#: model:ir.model.fields,field_description:account_inter_company_rules.field_account_bank_statement_line__auto_generated
+#: model:ir.model.fields,field_description:account_inter_company_rules.field_account_move__auto_generated
+#: model:ir.model.fields,field_description:account_inter_company_rules.field_account_payment__auto_generated
+msgid "Auto Generated Document"
+msgstr "Automatikusan létrehozott dokumentum"
+
+#. module: account_inter_company_rules
+#: code:addons/account_inter_company_rules/models/account_move.py:0
+#, python-format
+msgid "Automatically generated from %(origin)s of company %(company)s."
+msgstr ""
+
+#. module: account_inter_company_rules
+#: model:ir.model,name:account_inter_company_rules.model_res_company
+msgid "Companies"
+msgstr "Vállalatok"
+
+#. module: account_inter_company_rules
+#: model:ir.model,name:account_inter_company_rules.model_res_config_settings
+msgid "Config Settings"
+msgstr "Konfigurációs beállítások"
+
+#. module: account_inter_company_rules
+#: model:ir.model.fields,field_description:account_inter_company_rules.field_res_company__intercompany_user_id
+#: model:ir.model.fields,field_description:account_inter_company_rules.field_res_config_settings__intercompany_user_id
+msgid "Create as"
+msgstr ""
+
+#. module: account_inter_company_rules
+#: model:ir.model.fields.selection,name:account_inter_company_rules.selection__res_company__rule_type__not_synchronize
+msgid "Do not synchronize"
+msgstr ""
+
+#. module: account_inter_company_rules
+#: code:addons/account_inter_company_rules/models/res_company.py:0
+#, python-format
+msgid "Generate a bill/invoice when a company confirms an invoice/bill for %s."
+msgstr ""
+
+#. module: account_inter_company_rules
+#: model_terms:ir.ui.view,arch_db:account_inter_company_rules.view_company_inter_change_inherit_form
+msgid "Inter-Company Transactions"
+msgstr ""
+
+#. module: account_inter_company_rules
+#: model:ir.model.fields,field_description:account_inter_company_rules.field_res_company__intercompany_transaction_message
+#: model:ir.model.fields,field_description:account_inter_company_rules.field_res_config_settings__intercompany_transaction_message
+msgid "Intercompany Transaction Message"
+msgstr ""
+
+#. module: account_inter_company_rules
+#: model:ir.model,name:account_inter_company_rules.model_account_move
+#, fuzzy
+#| msgid "Journal Entries"
+msgid "Journal Entry"
+msgstr "Könyvelési tételek"
+
+#. module: account_inter_company_rules
+#: model:ir.model,name:account_inter_company_rules.model_account_move_line
+msgid "Journal Item"
+msgstr "Könyvelési napló tételsor"
+
+#. module: account_inter_company_rules
+#: model:ir.model.fields,help:account_inter_company_rules.field_res_company__intercompany_user_id
+#: model:ir.model.fields,help:account_inter_company_rules.field_res_config_settings__intercompany_user_id
+msgid ""
+"Responsible user for creation of documents triggered by intercompany rules."
+msgstr ""
+"Felelős felhasználó a belső vállalati szabályok által létrehozott "
+"dokumentumokhoz."
+
+#. module: account_inter_company_rules
+#: model:ir.model.fields,field_description:account_inter_company_rules.field_res_company__rule_type
+#: model:ir.model.fields,field_description:account_inter_company_rules.field_res_config_settings__rule_type
+msgid "Rule"
+msgstr "Szabály"
+
+#. module: account_inter_company_rules
+#: model:ir.model.fields,field_description:account_inter_company_rules.field_res_config_settings__rules_company_id
+msgid "Select Company"
+msgstr "Vállalat kiválasztása"
+
+#. module: account_inter_company_rules
+#: model:ir.model.fields,help:account_inter_company_rules.field_res_company__rule_type
+#: model:ir.model.fields,help:account_inter_company_rules.field_res_config_settings__rule_type
+msgid "Select the type to setup inter company rules in selected company."
+msgstr ""
+"A kiválasztott vállalathoz tartozó belső vállalati szabályok beállításához "
+"válasszon típust."
+
+#. module: account_inter_company_rules
+#: model:ir.model.fields,field_description:account_inter_company_rules.field_account_bank_statement_line__auto_invoice_id
+#: model:ir.model.fields,field_description:account_inter_company_rules.field_account_move__auto_invoice_id
+#: model:ir.model.fields,field_description:account_inter_company_rules.field_account_payment__auto_invoice_id
+msgid "Source Invoice"
+msgstr "Forrás számla"
+
+#. module: account_inter_company_rules
+#: model:ir.model.fields.selection,name:account_inter_company_rules.selection__res_company__rule_type__invoice_and_refund
+msgid "Synchronize invoices/bills"
+msgstr ""
+
+#~ msgid "Apply on"
+#~ msgstr "Alkalmazás itt"
+
+#~ msgid "Auto Generated Purchase Order"
+#~ msgstr "Automatikusan létrehozott beszerzési megrendelés"
+
+#~ msgid ""
+#~ "Configure correct warehouse for company(%s) from Menu: Settings/Users/"
+#~ "Companies"
+#~ msgstr ""
+#~ "Állítson be megfelelő raktárépületet a (%s) vállalathoz a következő "
+#~ "Menüből: Beállítások/Felhasználók/Vállalatok"
+
+#~ msgid ""
+#~ "Default value to set on Purchase(Sales) Orders that will be created based "
+#~ "on Sale(Purchase) Orders made to this company"
+#~ msgstr ""
+#~ "A Beszerzési(Vásárlói/Értékesítési) Megrendeléseken beállított "
+#~ "alapértelmezett érték, melyet a vállalat a Vásárlói(Beszerzési) "
+#~ "megrendelés alapján hozza létre"
+
+#~ msgid "Inter company user of company %s doesn't have enough access rights"
+#~ msgstr ""
+#~ "Belső vállalkozás %s vállalat felhasználójának nincs megfelelő "
+#~ "hozzáférési jogosultsága"
+
+#~ msgid "Provide at least one user for inter company relation for % "
+#~ msgstr ""
+#~ "Szolgáltasson legalább egy felhasználót a belső vállalathoz ami "
+#~ "hozzátartozik ehhez % "
+
+#~ msgid "Provide one user for intercompany relation for % "
+#~ msgstr ""
+#~ "Szolgáltasson egy felhasználót a belső vállalathoz ami hozzátartozik "
+#~ "ehhez % "
+
+#~ msgid "Purchase Order"
+#~ msgstr "Beszerzési megrendelés"
+
+#~ msgid "Sales Order"
+#~ msgstr "Vásárlói megrendelés"
+
+#~ msgid "Source Purchase Order"
+#~ msgstr "Forrás Beszerzési megrendelés"
+
+#~ msgid "Warehouse"
+#~ msgstr "Raktár"
+
+#~ msgid "Warehouse For Purchase Orders"
+#~ msgstr "Raktár a beszerzési megrendelésekhez"
+
+#~ msgid ""
+#~ "You cannot create SO from PO because sale price list currency is "
+#~ "different than purchase price list currency."
+#~ msgstr ""
+#~ "Nem hozhat létre Vásárlói Megrendelést /VM/ a Beszerzési Megrendelésből /"
+#~ "BM/, mert az értékesítési árlista pénzneme eltér a beszerzési árlista "
+#~ "pénznemétől."

@@ -1,0 +1,117 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* crm_livechat
+#
+# Translators:
+# krnkris, 2019
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-19 13:57+0000\n"
+"PO-Revision-Date: 2022-11-04 14:42+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/crm_livechat/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#. module: crm_livechat
+#: code:addons/crm_livechat/models/chatbot_script_step.py:0
+#, python-format
+msgid "%s's New Lead"
+msgstr "%s új érdeklődése"
+
+#. module: crm_livechat
+#: model:ir.model,name:crm_livechat.model_chatbot_script
+msgid "Chatbot Script"
+msgstr "Chatbot forgatókönyv"
+
+#. module: crm_livechat
+#: model:ir.model,name:crm_livechat.model_chatbot_script_step
+msgid "Chatbot Script Step"
+msgstr "Chatbot forgatókönyv lépés"
+
+#. module: crm_livechat
+#: model:ir.model.fields.selection,name:crm_livechat.selection__chatbot_script_step__step_type__create_lead
+msgid "Create Lead"
+msgstr "Érdeklődés létrehozása"
+
+#. module: crm_livechat
+#. openerp-web
+#: code:addons/crm_livechat/models/mail_channel.py:0
+#: code:addons/crm_livechat/static/src/models/messaging_initializer.js:0
+#, python-format
+msgid "Create a new lead (/lead lead title)"
+msgstr "Hozzon létre új érdeklődést (/lead érdeklődés címe)"
+
+#. module: crm_livechat
+#: code:addons/crm_livechat/models/mail_channel.py:0
+#, python-format
+msgid "Created a new lead: %s"
+msgstr "Új érdeklődés létrehozása: %s"
+
+#. module: crm_livechat
+#: model:ir.model,name:crm_livechat.model_mail_channel
+msgid "Discussion Channel"
+msgstr "Kommunikációs csatorna"
+
+#. module: crm_livechat
+#: model:ir.model.fields,field_description:crm_livechat.field_chatbot_script__lead_count
+msgid "Generated Lead Count"
+msgstr "Generált érdeklődések száma"
+
+#. module: crm_livechat
+#: model:chatbot.script.step,message:crm_livechat.chatbot_script_lead_generation_step_welcome
+msgid "Hi there, what brings you to our website today? 👋"
+msgstr "Üdvözlöm, mi hozta Önt ma a weboldalunkra? 👋"
+
+#. module: crm_livechat
+#: model:chatbot.script.step,message:crm_livechat.chatbot_script_lead_generation_step_noone_available
+msgid "Hu-ho, it looks like none of our operators are available 🙁"
+msgstr "Hoppá, úgy tűnik egyik operátorunk sem érhető el éppen 🙁"
+
+#. module: crm_livechat
+#: model:chatbot.script,title:crm_livechat.chatbot_script_lead_generation_bot
+msgid "Lead Generation Bot"
+msgstr "Érdeklődés generáló bot"
+
+#. module: crm_livechat
+#: model_terms:ir.ui.view,arch_db:crm_livechat.chatbot_script_view_form
+msgid "Leads"
+msgstr "Érdeklődések"
+
+#. module: crm_livechat
+#: model:ir.model.fields,field_description:crm_livechat.field_chatbot_script_step__crm_team_id
+msgid "Sales Team"
+msgstr "Értékesítési csapat"
+
+#. module: crm_livechat
+#: model:ir.model.fields,field_description:crm_livechat.field_chatbot_script_step__step_type
+msgid "Step Type"
+msgstr "Lépés típusa"
+
+#. module: crm_livechat
+#: model:chatbot.script.step,message:crm_livechat.chatbot_script_welcome_step_just_looking
+msgid "Thank you, you should hear back from us very soon!"
+msgstr "Köszönjük, hamarosan jelentkezni fogunk!"
+
+#. module: crm_livechat
+#: model:ir.model.fields,help:crm_livechat.field_chatbot_script_step__crm_team_id
+msgid ""
+"Used in combination with 'create_lead' step type in order to automatically "
+"assign the created lead/opportunity to the defined team"
+msgstr "A \"create_lead\" lépés típussal együtt használjuk, hogy a létrehozott érdeklődést/lehetőséget automatikusan hozzárendeljük a meghatározott csapathoz"
+
+#. module: crm_livechat
+#: model:chatbot.script.step,message:crm_livechat.chatbot_script_welcome_step_pricing_email
+msgid ""
+"Would you mind leaving your email address so that we can reach you back?"
+msgstr "Meghagyná az e-mail címét, hogy elérhessük Önt?"
+
+#~ msgid "Livechat"
+#~ msgstr "Élő társalgás"

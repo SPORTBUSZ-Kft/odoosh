@@ -1,0 +1,574 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pos_sale
+#
+# Translators:
+# Martin Trigaux, 2019
+# krnkris, 2019
+# gezza <geza.nagy@oregional.hu>, 2019
+# Kovács Tibor <kovika@gmail.com>, 2019
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-20 09:01+0000\n"
+"PO-Revision-Date: 2022-10-16 08:01+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/pos_sale/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#. module: pos_sale
+#. openerp-web
+#: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderRow.xml:0
+#, python-format
+msgid "(left:"
+msgstr ""
+
+#. module: pos_sale
+#. openerp-web
+#: code:addons/pos_sale/static/src/xml/ProductScreen/Orderline.xml:0
+#, python-format
+msgid "(tax incl.)"
+msgstr "(bruttó)"
+
+#. module: pos_sale
+#: model_terms:ir.ui.view,arch_db:pos_sale.res_config_settings_view_form
+msgid "<span class=\"o_form_label\">Down Payment Product</span>"
+msgstr "<span class=\"o_form_label\">Előleg termék</span>"
+
+#. module: pos_sale
+#: model_terms:ir.ui.view,arch_db:pos_sale.res_config_settings_view_form
+msgid "<span class=\"o_form_label\">Sales Team</span>"
+msgstr "<span class=\"o_form_label\">Értékesítési csapat</span>"
+
+#. module: pos_sale
+#: model_terms:ir.ui.view,arch_db:pos_sale.report_invoice_document
+msgid "<span style=\"margin: 0px 5px;\">:</span>"
+msgstr "<span style=\"margin: 0px 5px;\">:</span>"
+
+#. module: pos_sale
+#. openerp-web
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
+#, python-format
+msgid "Apply a down payment"
+msgstr "Előleg alkalmazása"
+
+#. module: pos_sale
+#. openerp-web
+#: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderManagementControlPanel.xml:0
+#, python-format
+msgid "Back"
+msgstr "Vissza"
+
+#. module: pos_sale
+#. openerp-web
+#: code:addons/pos_sale/static/src/xml/OrderManagementScreen/MobileSaleOrderManagementScreen.xml:0
+#, python-format
+msgid "Back to list"
+msgstr "Vissza a listához"
+
+#. module: pos_sale
+#. openerp-web
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderRow.js:0
+#, python-format
+msgid "Cancelled"
+msgstr "Visszavont"
+
+#. module: pos_sale
+#. openerp-web
+#: code:addons/pos_sale/static/src/js/SetSaleOrderButton.js:0
+#, python-format
+msgid "Cannot access order management screen if offline."
+msgstr "Nem érhető el a rendeléskezelési képernyő, ha nincs kapcsolat."
+
+#. module: pos_sale
+#: model:ir.model,name:pos_sale.model_res_config_settings
+msgid "Config Settings"
+msgstr "Beállítások"
+
+#. module: pos_sale
+#: model:ir.model.fields,field_description:pos_sale.field_pos_order__currency_rate
+msgid "Currency Rate"
+msgstr "Árfolyam"
+
+#. module: pos_sale
+#. openerp-web
+#: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderList.xml:0
+#: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderRow.xml:0
+#, python-format
+msgid "Customer"
+msgstr "Vevő"
+
+#. module: pos_sale
+#. openerp-web
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
+#, python-format
+msgid "Customer loading error"
+msgstr ""
+
+#. module: pos_sale
+#. openerp-web
+#: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderList.xml:0
+#: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderRow.xml:0
+#, python-format
+msgid "Date"
+msgstr "Dátum"
+
+#. module: pos_sale
+#: model_terms:ir.ui.view,arch_db:pos_sale.message_body
+msgid "Delivered from"
+msgstr "Szállítva innen"
+
+#. module: pos_sale
+#. openerp-web
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
+#, python-format
+msgid "Do you want to load the SN/Lots linked to the Sales Order?"
+msgstr "Szeretné betölteni az értékesítési megrendeléshez kapcsolódó SN/Lot-okat?"
+
+#. module: pos_sale
+#: model:product.product,name:pos_sale.default_downpayment_product
+#: model:product.template,name:pos_sale.default_downpayment_product_product_template
+msgid "Down Payment (POS)"
+msgstr "Előleg (POS)"
+
+#. module: pos_sale
+#: model:ir.model.fields,field_description:pos_sale.field_pos_order_line__down_payment_details
+msgid "Down Payment Details"
+msgstr "Előleg részletek"
+
+#. module: pos_sale
+#: model:ir.model.fields,field_description:pos_sale.field_pos_config__down_payment_product_id
+#: model:ir.model.fields,field_description:pos_sale.field_res_config_settings__pos_down_payment_product_id
+msgid "Down Payment Product"
+msgstr "Előleg termék"
+
+#. module: pos_sale
+#. openerp-web
+#: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderManagementControlPanel.xml:0
+#, python-format
+msgid "E.g. customer: Steward, date: 2020-05-09"
+msgstr "Pl. vevő: Sándor, dátum: 2020-05-09"
+
+#. module: pos_sale
+#. openerp-web
+#: code:addons/pos_sale/static/src/xml/ReceiptScreen/OrderReceipt.xml:0
+#: model_terms:ir.ui.view,arch_db:pos_sale.report_invoice_document
+#, python-format
+msgid "From"
+msgstr "Forrás"
+
+#. module: pos_sale
+#: model:ir.model.fields.selection,name:pos_sale.selection__sale_report__state__invoiced
+msgid "Invoiced"
+msgstr "Számlázva"
+
+#. module: pos_sale
+#. openerp-web
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
+#, python-format
+msgid ""
+"It seems that you didn't configure a down payment product in your point of "
+"sale.\n"
+"                        You can go to your point of sale configuration to "
+"choose one."
+msgstr ""
+"Úgy tűnik, hogy Ön nem állított be előleg terméket az értékesítési ponton.\n"
+"                        Az értékesítési pont beállításaiban kiválaszthat egyet."
+
+#. module: pos_sale
+#: code:addons/pos_sale/models/sale_order.py:0
+#, python-format
+msgid "Linked POS Orders"
+msgstr "Kapcsolt PoS Rendelések"
+
+#. module: pos_sale
+#: model:ir.model.fields,field_description:pos_sale.field_pos_order_line__sale_order_origin_id
+msgid "Linked Sale Order"
+msgstr "Kapcsolt értékesítés rendelés"
+
+#. module: pos_sale
+#: code:addons/pos_sale/models/pos_order.py:0
+#, python-format
+msgid "Linked Sale Orders"
+msgstr "Kapcsolódó vevői megrendelések"
+
+#. module: pos_sale
+#. openerp-web
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderRow.js:0
+#, python-format
+msgid "Locked"
+msgstr "Zárolva"
+
+#. module: pos_sale
+#. openerp-web
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderFetcher.js:0
+#: code:addons/pos_sale/static/src/js/SetSaleOrderButton.js:0
+#, python-format
+msgid "Network Error"
+msgstr "Hálózat Hiba"
+
+#. module: pos_sale
+#: model:ir.model.fields.selection,name:pos_sale.selection__sale_report__state__pos_draft
+msgid "New"
+msgstr "Új"
+
+#. module: pos_sale
+#. openerp-web
+#: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderManagementControlPanel.xml:0
+#, python-format
+msgid "Next Order List"
+msgstr "Következő rendelés lista"
+
+#. module: pos_sale
+#. openerp-web
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
+#, python-format
+msgid "No"
+msgstr "Nem"
+
+#. module: pos_sale
+#. openerp-web
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
+#, python-format
+msgid "No down payment product"
+msgstr "Nincs előleg termék"
+
+#. module: pos_sale
+#: model:ir.model.fields,field_description:pos_sale.field_crm_team__pos_sessions_open_count
+msgid "Open POS Sessions"
+msgstr "Nyitott POS munkamenetek"
+
+#. module: pos_sale
+#: model:ir.actions.act_window,name:pos_sale.pos_session_action_from_crm_team
+msgid "Open Sessions"
+msgstr "Nyitott munkamenetek"
+
+#. module: pos_sale
+#. openerp-web
+#: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderList.xml:0
+#: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderRow.xml:0
+#, python-format
+msgid "Order"
+msgstr "Rendelés"
+
+#. module: pos_sale
+#: model:ir.model.fields,field_description:pos_sale.field_sale_order__pos_order_line_ids
+#: model:ir.model.fields,field_description:pos_sale.field_sale_order_line__pos_order_line_ids
+msgid "Order lines Transfered to Point of Sale"
+msgstr "Az értékesítési pontra átvitt rendelési sorok"
+
+#. module: pos_sale
+#: model:ir.model.fields.selection,name:pos_sale.selection__sale_report__state__paid
+msgid "Paid"
+msgstr "Kifizetve"
+
+#. module: pos_sale
+#. openerp-web
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
+#, python-format
+msgid "Percentage of %s"
+msgstr "%s százaléka"
+
+#. module: pos_sale
+#: model:ir.model,name:pos_sale.model_pos_config
+msgid "Point of Sale Configuration"
+msgstr "Értékesítési pont beállítása"
+
+#. module: pos_sale
+#: model:ir.model,name:pos_sale.model_pos_order_line
+msgid "Point of Sale Order Lines"
+msgstr "Értékesítési pont megrendelési sorok"
+
+#. module: pos_sale
+#: model:ir.model,name:pos_sale.model_pos_order
+msgid "Point of Sale Orders"
+msgstr "Értékesítési pont rendelések"
+
+#. module: pos_sale
+#: model:ir.model,name:pos_sale.model_pos_session
+msgid "Point of Sale Session"
+msgstr "Értékesítési Pont munkafolyamat"
+
+#. module: pos_sale
+#: model:ir.model.fields,field_description:pos_sale.field_crm_team__pos_config_ids
+msgid "Point of Sales"
+msgstr "Értékesítési pont"
+
+#. module: pos_sale
+#: model:ir.model.fields,field_description:pos_sale.field_sale_order__pos_order_count
+msgid "Pos Order Count"
+msgstr "PoS Rendelések száma"
+
+#. module: pos_sale
+#: model:ir.model.fields.selection,name:pos_sale.selection__sale_report__state__pos_done
+msgid "Posted"
+msgstr "Könyvelt"
+
+#. module: pos_sale
+#. openerp-web
+#: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderManagementControlPanel.xml:0
+#, python-format
+msgid "Previous Order List"
+msgstr "Előző rendelések listája"
+
+#. module: pos_sale
+#. openerp-web
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
+#, python-format
+msgid "Products not available in POS"
+msgstr "Termékek nem érhetőek el a PoS-ben"
+
+#. module: pos_sale
+#. openerp-web
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderRow.js:0
+#, python-format
+msgid "Quotation"
+msgstr "Árajánlat"
+
+#. module: pos_sale
+#. openerp-web
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderRow.js:0
+#, python-format
+msgid "Quotation Sent"
+msgstr "Árajánlat elküldve"
+
+#. module: pos_sale
+#. openerp-web
+#: code:addons/pos_sale/static/src/xml/SetSaleOrderButton.xml:0
+#, python-format
+msgid "Quotation/Order"
+msgstr "Ajánlat/Rendelés"
+
+#. module: pos_sale
+#. openerp-web
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
+#, python-format
+msgid "SN/Lots Loading"
+msgstr "SN/Lot betöltés"
+
+#. module: pos_sale
+#. openerp-web
+#: code:addons/pos_sale/static/src/xml/ProductScreen/Orderline.xml:0
+#, python-format
+msgid "SO"
+msgstr "SO"
+
+#. module: pos_sale
+#: model:ir.model.fields,field_description:pos_sale.field_pos_order__sale_order_count
+msgid "Sale Order Count"
+msgstr "Rendelések mennyisége"
+
+#. module: pos_sale
+#: model_terms:ir.ui.view,arch_db:pos_sale.res_config_settings_view_form
+msgid "Sales"
+msgstr "Értékesítés"
+
+#. module: pos_sale
+#: model:ir.model,name:pos_sale.model_sale_report
+msgid "Sales Analysis Report"
+msgstr "Értékesítési elemzés kimutatás"
+
+#. module: pos_sale
+#. openerp-web
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderRow.js:0
+#: model:ir.model,name:pos_sale.model_sale_order
+#, python-format
+msgid "Sales Order"
+msgstr "Rendelési megbízás"
+
+#. module: pos_sale
+#: model:ir.model,name:pos_sale.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Vevői rendelés tétel"
+
+#. module: pos_sale
+#: model:ir.model,name:pos_sale.model_crm_team
+#: model:ir.model.fields,field_description:pos_sale.field_pos_config__crm_team_id
+#: model:ir.model.fields,field_description:pos_sale.field_pos_order__crm_team_id
+#: model:ir.model.fields,field_description:pos_sale.field_pos_session__crm_team_id
+msgid "Sales Team"
+msgstr "Értékesítési csapat"
+
+#. module: pos_sale
+#: model:ir.model.fields,field_description:pos_sale.field_res_config_settings__pos_crm_team_id
+#, fuzzy
+#| msgid "Sales Team"
+msgid "Sales Team (PoS)"
+msgstr "Értékesítési csapat"
+
+#. module: pos_sale
+#: model_terms:ir.ui.view,arch_db:pos_sale.res_config_settings_view_form
+msgid "Sales are reported to the following sales team"
+msgstr "Az értékesítésről a következő értékesítési csoport jelentést kap"
+
+#. module: pos_sale
+#. openerp-web
+#: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderRow.xml:0
+#, python-format
+msgid "Salesman"
+msgstr "Értékesítő"
+
+#. module: pos_sale
+#. openerp-web
+#: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderList.xml:0
+#, python-format
+msgid "Salesperson"
+msgstr "Értékesítő"
+
+#. module: pos_sale
+#: model_terms:ir.ui.view,arch_db:pos_sale.crm_team_view_kanban_dashboard
+msgid "Session Running"
+msgstr "Munkamenet fut"
+
+#. module: pos_sale
+#: model:ir.model.fields,field_description:pos_sale.field_crm_team__pos_order_amount_total
+msgid "Session Sale Amount"
+msgstr "Munkamenet eladás összege"
+
+#. module: pos_sale
+#: model_terms:ir.ui.view,arch_db:pos_sale.crm_team_view_kanban_dashboard
+msgid "Sessions Running"
+msgstr "Munkamenetek futnak"
+
+#. module: pos_sale
+#. openerp-web
+#: code:addons/pos_sale/static/src/xml/SetSaleOrderButton.xml:0
+#, python-format
+msgid "Set Sale Order"
+msgstr "Vevői rendelés beállítása"
+
+#. module: pos_sale
+#. openerp-web
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
+#, python-format
+msgid "Settle the order"
+msgstr "Rendelés lezárása"
+
+#. module: pos_sale
+#. openerp-web
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
+#, python-format
+msgid ""
+"Some of the products in your Sale Order are not available in POS, do you "
+"want to import them?"
+msgstr "Az Eladói megrendelésben szereplő termékek közül néhány nem érhető el a POS-ban, szeretné importálni őket?"
+
+#. module: pos_sale
+#: model:ir.model.fields,field_description:pos_sale.field_pos_order_line__sale_order_line_id
+msgid "Source Sale Order Line"
+msgstr "Forrás Értékesítési rendelés sor"
+
+#. module: pos_sale
+#. openerp-web
+#: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderList.xml:0
+#: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderRow.xml:0
+#, python-format
+msgid "State"
+msgstr "Állapot"
+
+#. module: pos_sale
+#: model:ir.model.fields,field_description:pos_sale.field_sale_report__state
+msgid "Status"
+msgstr "Állapot"
+
+#. module: pos_sale
+#: model:ir.model.fields,help:pos_sale.field_sale_order__amount_unpaid
+msgid "The amount due from the sale order."
+msgstr ""
+
+#. module: pos_sale
+#: model:ir.model.fields,help:pos_sale.field_pos_order__currency_rate
+msgid ""
+"The rate of the currency to the currency of rate applicable at the date of "
+"the order"
+msgstr "A pénznemnek a megrendelés időpontjában érvényes árfolyamához viszonyított árfolyama"
+
+#. module: pos_sale
+#. openerp-web
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
+#, python-format
+msgid "There was a problem in loading the %s customer."
+msgstr ""
+
+#. module: pos_sale
+#: model:ir.model.fields,help:pos_sale.field_pos_config__crm_team_id
+#: model:ir.model.fields,help:pos_sale.field_pos_session__crm_team_id
+#: model:ir.model.fields,help:pos_sale.field_res_config_settings__pos_crm_team_id
+msgid "This Point of sale's sales will be related to this Sales Team."
+msgstr "Ennek az értékesítési pontnak az értékesítése kapcsolódni fog ehhez az értékesítési csapathoz."
+
+#. module: pos_sale
+#: model_terms:ir.ui.view,arch_db:pos_sale.res_config_settings_view_form
+msgid "This product will be applied when down payment is made"
+msgstr "Ez a termék az előleg befizetésekor kerül alkalmazásra"
+
+#. module: pos_sale
+#: model:ir.model.fields,help:pos_sale.field_pos_config__down_payment_product_id
+#: model:ir.model.fields,help:pos_sale.field_res_config_settings__pos_down_payment_product_id
+msgid "This product will be used as down payment on a sale order."
+msgstr "Ez a termék előlegként lesz felhasználva egy vevői megrendelésen."
+
+#. module: pos_sale
+#. openerp-web
+#: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderList.xml:0
+#: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderRow.xml:0
+#, python-format
+msgid "Total"
+msgstr "Végösszeg"
+
+#. module: pos_sale
+#: model_terms:ir.ui.view,arch_db:pos_sale.view_pos_order_form_inherit_pos_sale
+msgid ""
+"Transfered<br/>\n"
+"                                from Sale"
+msgstr ""
+"Átmozgatva<br/>\n"
+"                                megrendelésből"
+
+#. module: pos_sale
+#: model_terms:ir.ui.view,arch_db:pos_sale.view_order_form_inherit_pos_sale
+msgid ""
+"Transfered<br/>\n"
+"                                to POS"
+msgstr ""
+"Átmozgatva<br/>\n"
+"                                a PoS-be"
+
+#. module: pos_sale
+#. openerp-web
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderFetcher.js:0
+#, python-format
+msgid "Unable to fetch orders if offline."
+msgstr "Offline állapotban a rendelések nem lekérdezhetőek."
+
+#. module: pos_sale
+#: model:product.product,uom_name:pos_sale.default_downpayment_product
+#: model:product.template,uom_name:pos_sale.default_downpayment_product_product_template
+msgid "Units"
+msgstr "Darab"
+
+#. module: pos_sale
+#: model:ir.model.fields,field_description:pos_sale.field_sale_order__amount_unpaid
+msgid "Unpaid Amount"
+msgstr ""
+
+#. module: pos_sale
+#. openerp-web
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
+#, python-format
+msgid "What do you want to do?"
+msgstr "Mit szeretne tenni?"
+
+#. module: pos_sale
+#. openerp-web
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
+#, python-format
+msgid "Yes"
+msgstr "Igen"

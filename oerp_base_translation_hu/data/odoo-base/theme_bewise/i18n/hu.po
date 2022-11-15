@@ -1,0 +1,266 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* theme_bewise
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-13 08:01+0000\n"
+"PO-Revision-Date: 2022-10-16 04:01+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/theme_bewise/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#. module: theme_bewise
+#: model_terms:theme.ir.ui.view,arch:theme_bewise.s_numbers
+msgid "16,456"
+msgstr "16456"
+
+#. module: theme_bewise
+#: model_terms:theme.ir.ui.view,arch:theme_bewise.s_call_to_action
+msgid "<b>3,000 students</b> graduate each year find a job within 2 months"
+msgstr "Évente <b>3000 diák</b> talál munkát 2 hónapon belül"
+
+#. module: theme_bewise
+#: model_terms:theme.ir.ui.view,arch:theme_bewise.s_company_team
+msgid "<b>Aline Turner, Law professor</b>"
+msgstr "<b>Aline Turner, jogászprofesszor</b>"
+
+#. module: theme_bewise
+#: model_terms:theme.ir.ui.view,arch:theme_bewise.s_quotes_carousel
+msgid "<b>Iris DOE</b> • Graduated in 2019"
+msgstr "<b>Iris DOE</b> • 2019-ben diplomázott"
+
+#. module: theme_bewise
+#: model_terms:theme.ir.ui.view,arch:theme_bewise.s_company_team
+msgid "<b>Iris Joe, team leader professor</b>"
+msgstr "<b>Iris Joe, csoportvezető professzor</b>"
+
+#. module: theme_bewise
+#: model_terms:theme.ir.ui.view,arch:theme_bewise.s_quotes_carousel
+msgid "<b>Jane DOE</b> • Graduated in 2017"
+msgstr "<b>Jane DOE</b> • 2017-ben diplomázott"
+
+#. module: theme_bewise
+#: model_terms:theme.ir.ui.view,arch:theme_bewise.s_quotes_carousel
+msgid "<b>John DOE</b> • Graduated in 2016"
+msgstr "<b>John DOE</b> • 2016-ban diplomázott"
+
+#. module: theme_bewise
+#: model_terms:theme.ir.ui.view,arch:theme_bewise.s_company_team
+msgid "<b>Mich Stark, IT Officer</b>"
+msgstr "<b>Mich Stark, IT munkatárs</b>"
+
+#. module: theme_bewise
+#: model_terms:theme.ir.ui.view,arch:theme_bewise.s_company_team
+msgid "<b>Tony Fred, Faculty Head of IT</b>"
+msgstr "<b>Tony Fred, kari informatikai vezető</b>"
+
+#. module: theme_bewise
+#: model_terms:theme.ir.ui.view,arch:theme_bewise.s_color_blocks_2
+msgid ""
+"<br/>\n"
+"        Are you searching for a school where cutting-edge programmes are "
+"taught, in a continually evolving environment and located in the heart of a "
+"dynamic city? You have just found it!\n"
+"        <br/>\n"
+"        <br/>"
+msgstr ""
+"<br/>\n"
+"        Olyan iskolát keresel, ahol a legmodernebb programokat oktatják, folyamatosan fejlődő környezetben, egy dinamikus város szívében? Épp most találtad meg!\n"
+"        <br/>\n"
+"        <br/>"
+
+#. module: theme_bewise
+#: model_terms:theme.ir.ui.view,arch:theme_bewise.s_text_image
+msgid ""
+"<br/>\n"
+"        Teachers are selected among experts of their domains. They are not "
+"just professors, they are professionals in their field of expertise."
+msgstr ""
+"<br/>\n"
+"        A tanárokat saját területük szakértői közül választják ki. Ők nem egyszerűen professzorok, hanem a szakterületükön dolgozó szakemberek."
+
+#. module: theme_bewise
+#: model_terms:theme.ir.ui.view,arch:theme_bewise.s_color_blocks_2
+msgid ""
+"<br/>\n"
+"        The small and modern campus is only a 10-minute walk away from the "
+"city centre and is easily accessible by car and public transport. It is also "
+"close to the train stations.\n"
+"        <br/>\n"
+"        <br/>"
+msgstr ""
+"<br/>\n"
+"        A kis és modern campus mindössze 10 perces sétára található a városközponttól, és autóval és tömegközlekedéssel is könnyen megközelíthető. A vasútállomásokhoz is közel van.\n"
+"        <br/>\n"
+"        <br/>"
+
+#. module: theme_bewise
+#: model_terms:theme.ir.ui.view,arch:theme_bewise.s_image_text
+msgid ""
+"<br/>\n"
+"        We make sure that everyone blossoms. We keep a human size in a warm "
+"and modern setting. All students benefit from individualised support."
+msgstr ""
+"<br/>\n"
+"        Gondoskodunk arról, hogy mindenki kivirágozzon. Emberi méretet tartunk egy meleg és modern környezetben. Minden tanuló részesül az egyénre szabott támogatásban."
+
+#. module: theme_bewise
+#: model_terms:theme.ir.ui.view,arch:theme_bewise.s_carousel
+msgid ""
+"<font class=\"bg-o-color-4\">Good copy starts with understanding how your "
+"product or service helps your customers. Simple words communicate better "
+"than big words and pompous language.</font>"
+msgstr "<font class=\"bg-o-color-4\">A jó szöveg azzal kezdődik, hogy megérti, hogyan segít a termék vagy szolgáltatás az ügyfeleknek. Az egyszerű szavak jobban kommunikálnak, mint a nagy szavak és a nagyképű nyelvezet.</font>"
+
+#. module: theme_bewise
+#: model_terms:theme.ir.ui.view,arch:theme_bewise.s_picture
+msgid "A punchy Headline"
+msgstr "Egy ütős főcím"
+
+#. module: theme_bewise
+#: model_terms:theme.ir.ui.view,arch:theme_bewise.s_image_text
+msgid "All students benefit from individualised support."
+msgstr "Minden diák részesül az egyénre szabott támogatásban."
+
+#. module: theme_bewise
+#: model_terms:theme.ir.ui.view,arch:theme_bewise.s_cover
+msgid "Always at the top"
+msgstr "Mindig a csúcson"
+
+#. module: theme_bewise
+#. openerp-web
+#: code:addons/theme_bewise/static/src/js/tour.js:0
+#, python-format
+msgid "Background Shape"
+msgstr "Háttér alakzata"
+
+#. module: theme_bewise
+#: model_terms:theme.ir.ui.view,arch:theme_bewise.s_comparisons
+msgid "Basic sales &amp; marketing"
+msgstr "Alapvető értékesítés és marketing"
+
+#. module: theme_bewise
+#: model_terms:theme.ir.ui.view,arch:theme_bewise.s_text_image
+msgid "Driven by Excellence"
+msgstr "Kiválóság által vezérelve"
+
+#. module: theme_bewise
+#: model_terms:theme.ir.ui.view,arch:theme_bewise.s_numbers
+msgid "Faculties"
+msgstr "Karok"
+
+#. module: theme_bewise
+#: model_terms:theme.ir.ui.view,arch:theme_bewise.s_quotes_carousel
+msgid ""
+"Great support and quality courses! A mentor helps you move forward and can "
+"be contacted through flexible schedules. Everything you need to start your "
+"career on the web."
+msgstr "Nagyszerű támogatás és minőségi tanfolyamok! Egy mentor segít a továbblépésben, és rugalmas időbeosztáson keresztül elérhető. Minden, amire szükséged van a webes karriered elindításához."
+
+#. module: theme_bewise
+#: model_terms:theme.ir.ui.view,arch:theme_bewise.s_company_team
+msgid ""
+"He is professor in the Institute of Mechanics, Materials and Civil "
+"Engineering since 2000. He lectures in mechanical drawing and mechanical "
+"design for undergraduate and graduate students. He is active in Problem and "
+"Project based learning. He is the promoter of 8 doctoral theses."
+msgstr "2000 óta a Mechanikai, Anyag- és Építőmérnöki Intézet professzora. Mechanikai rajz és mechanikai tervezés témakörben tart előadásokat alap- és mesterszakos hallgatóknak. Aktívan részt vesz a probléma- és projektalapú tanulásban. 8 doktori értekezés témavezetője."
+
+#. module: theme_bewise
+#: model_terms:theme.ir.ui.view,arch:theme_bewise.s_quotes_carousel
+msgid ""
+"I have learned a lot, and I have realised professional projects thanks to "
+"the support of the mentors! The team is always at the top and always looking "
+"for solutions to problems, I felt accompanied and supported! It's not easy "
+"every day, but it's a great adventure!"
+msgstr "Sokat tanultam, és a mentorok támogatásának köszönhetően szakmai projekteket valósítottam meg! A csapat mindig a csúcson van és mindig keresi a megoldásokat a problémákra, úgy éreztem, hogy elkísérnek és támogatnak! Ez nem minden nap könnyű, de ez egy nagy kaland!"
+
+#. module: theme_bewise
+#: model_terms:theme.ir.ui.view,arch:theme_bewise.s_call_to_action
+msgid "Join them and increase your chances to get hired."
+msgstr "Csatlakozzon hozzájuk, és növelje esélyeit a felvételre."
+
+#. module: theme_bewise
+#: model_terms:theme.ir.ui.view,arch:theme_bewise.s_text_image
+msgid ""
+"Journalists, directors, developers, etc. working effectively in their fields "
+"of excellence."
+msgstr "Újságírók, rendezők, fejlesztők stb., akik hatékonyan dolgoznak a saját szakterületükön."
+
+#. module: theme_bewise
+#: model_terms:theme.ir.ui.view,arch:theme_bewise.s_numbers
+msgid "Libraries"
+msgstr "Könyvtárak"
+
+#. module: theme_bewise
+#: model_terms:theme.ir.ui.view,arch:theme_bewise.s_numbers
+msgid "Nationalities"
+msgstr "Állampolgárságok"
+
+#. module: theme_bewise
+#: model_terms:theme.ir.ui.view,arch:theme_bewise.s_cover
+msgid ""
+"Our university has topped the The World University<br/>Rankings for a fifth "
+"consecutive year."
+msgstr "Egyetemünk már ötödik egymást követő évben vezette a The World University<br/>Rankings rangsorát."
+
+#. module: theme_bewise
+#: model_terms:theme.ir.ui.view,arch:theme_bewise.s_color_blocks_2
+msgid "Programmes"
+msgstr "Programok"
+
+#. module: theme_bewise
+#: model_terms:theme.ir.ui.view,arch:theme_bewise.s_banner
+msgid "Sell Online. <br/>Easily."
+msgstr "Értékesítsen online. <br/>Könnyű."
+
+#. module: theme_bewise
+#: model_terms:theme.ir.ui.view,arch:theme_bewise.s_company_team
+msgid ""
+"She has been practicing law at the French-speaking Brussels Bar since 2006. "
+"She has worked in various major law firms based in Brussels, as member and "
+"then head of their litigation/arbitration practice groups."
+msgstr "2006 óta a francia nyelvű brüsszeli ügyvédi kamara tagja. Több nagy brüsszeli ügyvédi irodában dolgozott, ahol előbb a peres/vitarendezési csoport tagja, majd vezetője volt."
+
+#. module: theme_bewise
+#: model_terms:theme.ir.ui.view,arch:theme_bewise.s_numbers
+msgid "Students"
+msgstr "Diákok"
+
+#. module: theme_bewise
+#: model_terms:theme.ir.ui.view,arch:theme_bewise.s_quotes_carousel
+msgid ""
+"Thanks to its innovative system, the school offers a diplomatic training "
+"during which we are followed by a \"mentor\", a sort of \"tutor\"!"
+msgstr "Innovatív rendszerének köszönhetően az iskola diplomáciai képzést kínál, amely során egy mentor, egyfajta oktató követ minket!"
+
+#. module: theme_bewise
+#: model_terms:theme.ir.ui.view,arch:theme_bewise.s_color_blocks_2
+msgid "The campus"
+msgstr "Az egyetem"
+
+#. module: theme_bewise
+#: model:ir.model,name:theme_bewise.model_theme_utils
+msgid "Theme Utils"
+msgstr "Téma segédek"
+
+#. module: theme_bewise
+#: model_terms:theme.ir.ui.view,arch:theme_bewise.s_company_team
+msgid ""
+"Tony received a degree in Electrical and Mechanical Engineering and a Ph D. "
+"degree in 1998 and 2004. After a post-doctoral experience  he joined the "
+"school as professor of mechatronics in 2006. In 2010, he became Head of IT."
+msgstr "Tony 1998-ban villamosmérnöki és gépészmérnöki diplomát, majd 2004-ben doktori fokozatot szerzett. Egy posztdoktori tapasztalatot követően 2006-ban csatlakozott az iskolához mechatronika professzorként. 2010-ben az informatikai részleg vezetője lett."
+
+#. module: theme_bewise
+#: model_terms:theme.ir.ui.view,arch:theme_bewise.s_image_text
+msgid "What makes us different?"
+msgstr "Mitől különbözünk?"

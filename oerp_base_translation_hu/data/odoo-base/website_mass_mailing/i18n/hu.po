@@ -1,0 +1,299 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_mass_mailing
+#
+# Translators:
+# Martin Trigaux, 2019
+# krnkris, 2019
+# gezza <geza.nagy@oregional.hu>, 2019
+# Ákos Nagy <akos.nagy@oregional.hu>, 2019
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-20 09:02+0000\n"
+"PO-Revision-Date: 2022-11-10 22:51+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/website_mass_mailing/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.2\n"
+
+#. module: website_mass_mailing
+#: model_terms:ir.ui.view,arch_db:website_mass_mailing.newsletter_subscribe_options
+msgid ", .o_newsletter_popup"
+msgstr ", .o_newsletter_popup"
+
+#. module: website_mass_mailing
+#: model_terms:ir.ui.view,arch_db:website_mass_mailing.newsletter_subscribe_options
+msgid ".o_newsletter_popup"
+msgstr ".o_newsletter_popup"
+
+#. module: website_mass_mailing
+#: model_terms:ir.ui.view,arch_db:website_mass_mailing.newsletter_subscribe_options
+msgid ""
+".s_newsletter_block .s_newsletter_list, .o_newsletter_popup ."
+"s_newsletter_list"
+msgstr ".s_newsletter_block .s_newsletter_list, .o_newsletter_popup .s_newsletter_list"
+
+#. module: website_mass_mailing
+#: model_terms:ir.ui.view,arch_db:website_mass_mailing.newsletter_subscribe_options
+msgid ".s_newsletter_list"
+msgstr ".s_newsletter_list"
+
+#. module: website_mass_mailing
+#: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_block_form_template
+msgid ""
+"<span class=\"fa fa-check-circle\"/>\n"
+"                                Thank you for subscribing !"
+msgstr ""
+"<span class=\"fa fa-check-circle\"/>\n"
+"                                Köszönjük, hogy feliratkozott !"
+
+#. module: website_mass_mailing
+#: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_block_form_template
+msgid ""
+"<span class=\"s_website_form_label_content\">I agree to receive updates</"
+"span>\n"
+"                                <span class=\"s_website_form_mark\"> *</span>"
+msgstr ""
+"<span class=\"s_website_form_label_content\">Hozzájárulok, hogy frissítéseket kapjak</span>\n"
+"                                <span class=\"s_website_form_mark\"> *</span>"
+
+#. module: website_mass_mailing
+#: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_block_form_template
+msgid ""
+"<span class=\"s_website_form_label_content\">Subscribe to</span>\n"
+"                                <span class=\"s_website_form_mark\"> *</span>"
+msgstr ""
+"<span class=\"s_website_form_label_content\">Feliratkozás a listára</span>\n"
+"                                <span class=\"s_website_form_mark\"> *</span>"
+
+#. module: website_mass_mailing
+#: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_block_form_template
+msgid ""
+"<span class=\"s_website_form_label_content\">Your Email</span>\n"
+"                                <span class=\"s_website_form_mark\"> *</span>"
+msgstr ""
+"<span class=\"s_website_form_label_content\">Az Ön e-mail címe</span>\n"
+"                                <span class=\"s_website_form_mark\"> *</span>"
+
+#. module: website_mass_mailing
+#: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_block_form_template
+msgid ""
+"<span class=\"s_website_form_label_content\">Your Name</span>\n"
+"                                <span class=\"s_website_form_mark\"> *</span>"
+msgstr ""
+"<span class=\"s_website_form_label_content\">Az Ön neve</span>\n"
+"                                <span class=\"s_website_form_mark\"> *</span>"
+
+#. module: website_mass_mailing
+#: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_subscribe_popup
+msgid "Always <b>First</b>."
+msgstr "Mindig <b>legelől</b>."
+
+#. module: website_mass_mailing
+#: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_block_default_template
+msgid "Always First."
+msgstr "Mindig legelől."
+
+#. module: website_mass_mailing
+#: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_block_default_template
+msgid "Be the first to find out all the latest news, products, and trends."
+msgstr "Legyen az első, aki értesül a legújabb hírekről, termékekről és trendekről."
+
+#. module: website_mass_mailing
+#: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_subscribe_popup
+msgid ""
+"Be the first to find out all the latest news,<br/> products, and trends."
+msgstr "Legyen az első, aki értesül a legújabb hírekről,<br/> termékekről és trendekről."
+
+#. module: website_mass_mailing
+#. openerp-web
+#: code:addons/website_mass_mailing/static/src/xml/website_mass_mailing.xml:0
+#: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_subscribe_popup
+#, python-format
+msgid "Close"
+msgstr "Bezárás"
+
+#. module: website_mass_mailing
+#: model:ir.model,name:website_mass_mailing.model_res_company
+msgid "Companies"
+msgstr "Vállalatok"
+
+#. module: website_mass_mailing
+#: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_mail_block_footer_social
+#: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_mail_block_footer_social_left
+msgid "Contact"
+msgstr "Névjegy"
+
+#. module: website_mass_mailing
+#. openerp-web
+#: code:addons/website_mass_mailing/static/src/js/website_mass_mailing.editor.js:0
+#, python-format
+msgid "Display Thanks Button"
+msgstr "Jelenítse meg a köszönjük gombot"
+
+#. module: website_mass_mailing
+#: model_terms:ir.ui.view,arch_db:website_mass_mailing.newsletter_subscribe_options
+msgid "Email Subscription"
+msgstr "E-mail feliratkozás"
+
+#. module: website_mass_mailing
+#. openerp-web
+#: code:addons/website_mass_mailing/static/src/js/website_mass_mailing.js:0
+#, python-format
+msgid "Error"
+msgstr "Hiba"
+
+#. module: website_mass_mailing
+#: model_terms:ir.ui.view,arch_db:website_mass_mailing.newsletter_subscribe_options
+msgid "Form Subscription"
+msgstr "Űrlap feliratkozás"
+
+#. module: website_mass_mailing
+#: model_terms:ir.ui.view,arch_db:website_mass_mailing.newsletter_subscribe_options_common
+msgid "Newsletter"
+msgstr "Hírlevél"
+
+#. module: website_mass_mailing
+#. openerp-web
+#: code:addons/website_mass_mailing/static/src/js/website_mass_mailing.editor.js:0
+#, python-format
+msgid ""
+"No mailing list found, do you want to create a new one? This will save all "
+"your changes, are you sure you want to proceed?"
+msgstr "Nem talált levelezőlistát, szeretne újat létrehozni? Ez elmenti az összes módosítását, biztos, hogy folytatni akarja?"
+
+#. module: website_mass_mailing
+#: model_terms:ir.ui.view,arch_db:website_mass_mailing.newsletter_subscribe_options_common
+msgid "Show reCaptcha Policy"
+msgstr "reCaptcha megjelenítési szabály"
+
+#. module: website_mass_mailing
+#: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_block_form_template
+#: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_subscribe_form
+msgid "Subscribe"
+msgstr "Feliratkozás"
+
+#. module: website_mass_mailing
+#. openerp-web
+#: code:addons/website_mass_mailing/static/src/js/mass_mailing_form_editor.js:0
+#, python-format
+msgid "Subscribe to"
+msgstr "Feliratkozás a listára"
+
+#. module: website_mass_mailing
+#. openerp-web
+#: code:addons/website_mass_mailing/static/src/js/website_mass_mailing.js:0
+#, python-format
+msgid "Success"
+msgstr "Sikeres"
+
+#. module: website_mass_mailing
+#: code:addons/website_mass_mailing/controllers/main.py:0
+#, python-format
+msgid "Suspicious activity detected by Google reCaptcha."
+msgstr "A Google reCaptcha gyanús tevékenységet észlelt."
+
+#. module: website_mass_mailing
+#: model_terms:ir.ui.view,arch_db:website_mass_mailing.newsletter_subscribe_options
+msgid "Template"
+msgstr "Sablon"
+
+#. module: website_mass_mailing
+#: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_subscribe_form
+msgid "Thanks"
+msgstr "Köszönjük"
+
+#. module: website_mass_mailing
+#: code:addons/website_mass_mailing/controllers/main.py:0
+#, python-format
+msgid "Thanks for subscribing!"
+msgstr "Köszönjük a feliratkozást!"
+
+#. module: website_mass_mailing
+#: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_block_form_template
+msgid ""
+"We send one weekly newsletter per list and always try to keep it "
+"interesting. You can unsubscribe at any time."
+msgstr "Listánként heti egy hírlevelet küldünk, és mindig igyekszünk érdekeset írni. Bármikor leiratkozhat."
+
+#. module: website_mass_mailing
+#: code:addons/website_mass_mailing/controllers/website_form.py:0
+#, python-format
+msgid "You cannot subscribe to the following list anymore : %s"
+msgstr "A következő listára már nem lehet feliratkozni : %s"
+
+#. module: website_mass_mailing
+#: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_block_form_template
+msgid "You will now be informed about the latest news.<br/>"
+msgstr "Mostantól értesülni fog a legfrissebb hírekről.<br/>"
+
+#. module: website_mass_mailing
+#. openerp-web
+#: code:addons/website_mass_mailing/static/src/js/mass_mailing_form_editor.js:0
+#, python-format
+msgid "Your Email"
+msgstr "E-mail címe"
+
+#. module: website_mass_mailing
+#. openerp-web
+#: code:addons/website_mass_mailing/static/src/js/mass_mailing_form_editor.js:0
+#, python-format
+msgid "Your Name"
+msgstr "Neve"
+
+#. module: website_mass_mailing
+#: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_subscribe_form
+msgid "your email..."
+msgstr "e-mailje..."
+
+#~ msgid "Add a Newsletter Subscribe Button"
+#~ msgstr "Hozzáad egy Hírekre feliratkozás gombot"
+
+#~ msgid "Change Newsletter"
+#~ msgstr "Hírújság megváltoztatása"
+
+#~ msgid "Created by"
+#~ msgstr "Létrehozta"
+
+#~ msgid "Created on"
+#~ msgstr "Létrehozva"
+
+#~ msgid "Display Name"
+#~ msgstr "Megjelenített név"
+
+#~ msgid "Facebook"
+#~ msgstr "Facebook"
+
+#~ msgid "ID"
+#~ msgstr "Azonosító"
+
+#~ msgid "Last Modified on"
+#~ msgstr "Legutóbb frissítve"
+
+#~ msgid "Last Updated by"
+#~ msgstr "Frissítette"
+
+#~ msgid "Last Updated on"
+#~ msgstr "Frissítve "
+
+#~ msgid "LinkedIn"
+#~ msgstr "LinkedIn"
+
+#~ msgid "Mailing List"
+#~ msgstr "Levelezőlista"
+
+#~ msgid "Twitter"
+#~ msgstr "Twitter"
+
+#~ msgid "Website"
+#~ msgstr "Weboldal"
+
+#~ msgid "Website Popup Content"
+#~ msgstr "Honlap-felugró tartalma"

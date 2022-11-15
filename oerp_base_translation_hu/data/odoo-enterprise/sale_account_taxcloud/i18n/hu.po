@@ -1,0 +1,79 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sale_account_taxcloud
+#
+# Translators:
+# krnkris, 2019
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-23 08:24+0000\n"
+"PO-Revision-Date: 2022-10-16 01:01+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/sale_account_taxcloud/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#. module: sale_account_taxcloud
+#: model_terms:ir.ui.view,arch_db:sale_account_taxcloud.view_order_form_inherit
+msgid "Go to Settings."
+msgstr "Ugrás a beállításokba."
+
+#. module: sale_account_taxcloud
+#: model:ir.model.fields,field_description:sale_account_taxcloud.field_sale_order__is_taxcloud_configured
+msgid "Is Taxcloud Configured"
+msgstr "TaxCloud beállítva"
+
+#. module: sale_account_taxcloud
+#: model_terms:ir.ui.view,arch_db:sale_account_taxcloud.view_order_form_inherit
+msgid ""
+"Please enter your Taxcloud credentials to compute tax rates automatically."
+msgstr "Adja meg a Taxcloud hitelesítő adatait az adók automatikus kiszámításához."
+
+#. module: sale_account_taxcloud
+#: model:ir.model,name:sale_account_taxcloud.model_sale_advance_payment_inv
+msgid "Sales Advance Payment Invoice"
+msgstr "Értékesítés előleg fizetés számla"
+
+#. module: sale_account_taxcloud
+#: model:ir.model,name:sale_account_taxcloud.model_sale_order
+msgid "Sales Order"
+msgstr "Vevői rendelés"
+
+#. module: sale_account_taxcloud
+#: model:ir.model,name:sale_account_taxcloud.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Vevői rendelés tétel"
+
+#. module: sale_account_taxcloud
+#: model_terms:ir.ui.view,arch_db:sale_account_taxcloud.view_order_form_inherit
+msgid "Tax"
+msgstr "Adó"
+
+#. module: sale_account_taxcloud
+#: code:addons/sale_account_taxcloud/models/sale_order.py:0
+#, python-format
+msgid "Unable to retrieve taxes from TaxCloud: "
+msgstr "Nem sikerült lekérni az adókat a TaxCloudból:"
+
+#. module: sale_account_taxcloud
+#: model_terms:ir.ui.view,arch_db:sale_account_taxcloud.view_order_form_inherit
+msgid "Update taxes"
+msgstr "Adók frissítése"
+
+#. module: sale_account_taxcloud
+#: model:ir.model.fields,field_description:sale_account_taxcloud.field_sale_order__is_taxcloud
+msgid "Use TaxCloud API"
+msgstr "TaxCloud API használata"
+
+#. module: sale_account_taxcloud
+#: model:ir.model.fields,help:sale_account_taxcloud.field_sale_order__is_taxcloud_configured
+msgid ""
+"Used to determine whether or not to warn the user to configure TaxCloud."
+msgstr "Annak meghatározására szolgál, hogy figyelmezteti-e a felhasználót a TaxCloud beállítására."

@@ -1,0 +1,341 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* payment_authorize
+#
+# Translators:
+# Martin Trigaux, 2019
+# krnkris, 2019
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-09 14:05+0000\n"
+"PO-Revision-Date: 2022-10-16 01:01+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/payment_authorize/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#. module: payment_authorize
+#: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
+msgid "ABA Routing Number"
+msgstr "ABA útvonal szám"
+
+#. module: payment_authorize
+#: model:ir.model.fields,field_description:payment_authorize.field_payment_acquirer__authorize_client_key
+msgid "API Client Key"
+msgstr "API kliens kulcs"
+
+#. module: payment_authorize
+#: model:ir.model.fields,field_description:payment_authorize.field_payment_acquirer__authorize_login
+msgid "API Login ID"
+msgstr "API Bejelentkezés ID"
+
+#. module: payment_authorize
+#: model:ir.model.fields,field_description:payment_authorize.field_payment_acquirer__authorize_signature_key
+msgid "API Signature Key"
+msgstr "API aláírás kulcs"
+
+#. module: payment_authorize
+#: model:ir.model.fields,field_description:payment_authorize.field_payment_acquirer__authorize_transaction_key
+msgid "API Transaction Key"
+msgstr "API tranzakciós kulcs"
+
+#. module: payment_authorize
+#: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
+msgid "Account Number"
+msgstr "Fiók száma"
+
+#. module: payment_authorize
+#: model:ir.model.fields,field_description:payment_authorize.field_payment_acquirer__authorize_payment_method_type
+msgid "Allow Payments From"
+msgstr "Fizetési űrlap engedélyezése"
+
+#. module: payment_authorize
+#. openerp-web
+#: code:addons/payment_authorize/static/src/js/payment_form.js:0
+#, python-format
+msgid "An error occurred when displayed this payment form."
+msgstr "Hiba történt ezen fizetési űrlap megjelenítésekor."
+
+#. module: payment_authorize
+#: model:ir.model.fields,field_description:payment_authorize.field_payment_acquirer__authorize_currency_id
+msgid "Authorize Currency"
+msgstr "Authorize pénznem"
+
+#. module: payment_authorize
+#: model:account.payment.method,name:payment_authorize.payment_method_authorize
+#: model:ir.model.fields.selection,name:payment_authorize.selection__payment_acquirer__provider__authorize
+msgid "Authorize.Net"
+msgstr "Authorize.Net"
+
+#. module: payment_authorize
+#: model:ir.model.fields,field_description:payment_authorize.field_payment_token__authorize_payment_method_type
+msgid "Authorize.Net Payment Type"
+msgstr "Authorize.net fizetés típus"
+
+#. module: payment_authorize
+#: model:ir.model.fields,field_description:payment_authorize.field_payment_token__authorize_profile
+msgid "Authorize.Net Profile ID"
+msgstr "Authorize.net profil azonosító"
+
+#. module: payment_authorize
+#: code:addons/payment_authorize/models/payment_acquirer.py:0
+#, python-format
+msgid "Bank (powered by Authorize)"
+msgstr "Bank (működteti az Authorize)"
+
+#. module: payment_authorize
+#: model:ir.model.fields.selection,name:payment_authorize.selection__payment_acquirer__authorize_payment_method_type__bank_account
+#: model:ir.model.fields.selection,name:payment_authorize.selection__payment_token__authorize_payment_method_type__bank_account
+msgid "Bank Account (USA Only)"
+msgstr "Bank számla (csak USA)"
+
+#. module: payment_authorize
+#: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
+msgid "Bank Account Type"
+msgstr "Bankszámla típusa"
+
+#. module: payment_authorize
+#: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
+msgid "Bank Name"
+msgstr "Bank neve"
+
+#. module: payment_authorize
+#: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
+msgid "Business Checking"
+msgstr "Üzleti ellenőrzés"
+
+#. module: payment_authorize
+#: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
+msgid "Card Code"
+msgstr "Kártya kód"
+
+#. module: payment_authorize
+#: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
+msgid "Card Number"
+msgstr "Kártya neve"
+
+#. module: payment_authorize
+#: code:addons/payment_authorize/models/payment_acquirer.py:0
+#, python-format
+msgid ""
+"Could not fetch merchant details:\n"
+"%s"
+msgstr ""
+"Nem sikerült lekérni a kereskedő adatait:\n"
+"%s"
+
+#. module: payment_authorize
+#: code:addons/payment_authorize/models/payment_transaction.py:0
+#, python-format
+msgid ""
+"Could not retrieve the transaction details. (error code: %s; error_details: "
+"%s)"
+msgstr ""
+
+#. module: payment_authorize
+#: model:ir.model.fields.selection,name:payment_authorize.selection__payment_acquirer__authorize_payment_method_type__credit_card
+#: model:ir.model.fields.selection,name:payment_authorize.selection__payment_token__authorize_payment_method_type__credit_card
+msgid "Credit Card"
+msgstr "Hitelkártya"
+
+#. module: payment_authorize
+#: code:addons/payment_authorize/models/payment_acquirer.py:0
+#, python-format
+msgid "Credit Card (powered by Authorize)"
+msgstr "Hitelkártya (működteti az Authorize)"
+
+#. module: payment_authorize
+#: model_terms:ir.ui.view,arch_db:payment_authorize.payment_acquirer_form
+msgid "Currency"
+msgstr "Pénznem"
+
+#. module: payment_authorize
+#: model:ir.model.fields,help:payment_authorize.field_payment_acquirer__authorize_payment_method_type
+msgid "Determines with what payment method the customer can pay."
+msgstr "Meghatározza, hogy az ügyfél milyen fizetési móddal fizethet."
+
+#. module: payment_authorize
+#: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
+msgid "Expiration"
+msgstr "Lejárat"
+
+#. module: payment_authorize
+#: code:addons/payment_authorize/models/payment_acquirer.py:0
+#, python-format
+msgid ""
+"Failed to authenticate.\n"
+"%s"
+msgstr ""
+"Nem sikerült a hitelesítés.\n"
+"%s"
+
+#. module: payment_authorize
+#: model_terms:ir.ui.view,arch_db:payment_authorize.payment_acquirer_form
+msgid "Generate Client Key"
+msgstr "Kliens kulcs generálása"
+
+#. module: payment_authorize
+#: model_terms:ir.ui.view,arch_db:payment_authorize.payment_acquirer_form
+msgid "How to get paid with Authorize.Net"
+msgstr "Hogyan kaphat fizetést az Authorize.Net szolgáltatással"
+
+#. module: payment_authorize
+#: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
+msgid "MM"
+msgstr "MM"
+
+#. module: payment_authorize
+#: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
+msgid "Name On Account"
+msgstr "Fiók elnevezése"
+
+#. module: payment_authorize
+#: code:addons/payment_authorize/models/payment_transaction.py:0
+#, python-format
+msgid "No transaction found matching reference %s."
+msgstr "Nem találtunk tranzakciót, amely megfelelne a %s hivatkozásnak."
+
+#. module: payment_authorize
+#: model:ir.model,name:payment_authorize.model_payment_acquirer
+msgid "Payment Acquirer"
+msgstr "Fizetési szolgáltató"
+
+#. module: payment_authorize
+#: model:ir.model,name:payment_authorize.model_account_payment_method
+msgid "Payment Methods"
+msgstr "Fizetési módszerek"
+
+#. module: payment_authorize
+#: model:ir.model,name:payment_authorize.model_payment_token
+msgid "Payment Token"
+msgstr "Fizetési token"
+
+#. module: payment_authorize
+#: model:ir.model,name:payment_authorize.model_payment_transaction
+msgid "Payment Transaction"
+msgstr "Fizetési tranzakció"
+
+#. module: payment_authorize
+#: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
+msgid "Personal Checking"
+msgstr "Személy ellenőrzése"
+
+#. module: payment_authorize
+#: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
+msgid "Personal Savings"
+msgstr "Személyes megtakarítások"
+
+#. module: payment_authorize
+#: model:ir.model.fields,field_description:payment_authorize.field_payment_acquirer__provider
+msgid "Provider"
+msgstr "Szolgáltató"
+
+#. module: payment_authorize
+#: code:addons/payment_authorize/models/payment_transaction.py:0
+#, python-format
+msgid ""
+"Received data with status code \"%(status)s\" and error code \"%(error)s\""
+msgstr "Érkezett adat \"%(status)s\" státuszkóddal és \"%(error)s\" hibakóddal"
+
+#. module: payment_authorize
+#: code:addons/payment_authorize/controllers/main.py:0
+#, python-format
+msgid "Received tampered payment request data."
+msgstr "Meghamisított fizetési kérelem adatok érkeztek."
+
+#. module: payment_authorize
+#: code:addons/payment_authorize/models/payment_token.py:0
+#, python-format
+msgid "Saved payment methods cannot be restored once they have been deleted."
+msgstr "A mentett fizetési módszerek nem állíthatók vissza, ha egyszer már törölték őket."
+
+#. module: payment_authorize
+#. openerp-web
+#: code:addons/payment_authorize/static/src/js/payment_form.js:0
+#, python-format
+msgid "Server Error"
+msgstr "Szerverhiba"
+
+#. module: payment_authorize
+#: model_terms:ir.ui.view,arch_db:payment_authorize.payment_acquirer_form
+msgid "Set Account Currency"
+msgstr "Adja meg a fiók pénznemét"
+
+#. module: payment_authorize
+#: model:ir.model.fields,help:payment_authorize.field_payment_acquirer__authorize_login
+msgid "The ID solely used to identify the account with Authorize.Net"
+msgstr "Az azonosító, amelyet kizárólag a fiók azonosítására használnak az Authorize.Net-nél"
+
+#. module: payment_authorize
+#: model:ir.model.fields,help:payment_authorize.field_payment_acquirer__provider
+msgid "The Payment Service Provider to use with this acquirer"
+msgstr "Az adott elfogadóval együtt használandó fizetési szolgáltató"
+
+#. module: payment_authorize
+#: model:ir.model.fields,help:payment_authorize.field_payment_acquirer__authorize_client_key
+msgid ""
+"The public client key. To generate directly from Odoo or from Authorize.Net "
+"backend."
+msgstr "A nyilvános ügyfélkulcs. Közvetlenül az Odoo-ból vagy az Authorize.Net backendből történő generáláshoz."
+
+#. module: payment_authorize
+#: code:addons/payment_authorize/models/payment_transaction.py:0
+#, python-format
+msgid ""
+"The transaction is not in a status to be refunded. (status: %s, details: %s)"
+msgstr ""
+
+#. module: payment_authorize
+#: code:addons/payment_authorize/models/payment_transaction.py:0
+#, python-format
+msgid "The transaction is not linked to a token."
+msgstr "A tranzakció nincs tokenhez kapcsolva."
+
+#. module: payment_authorize
+#: model:ir.model.fields,help:payment_authorize.field_payment_token__authorize_payment_method_type
+msgid "The type of payment method this token is linked to."
+msgstr "A fizetési módszer típusa amihez ez a token kapcsolva van."
+
+#. module: payment_authorize
+#: model:ir.model.fields,help:payment_authorize.field_payment_token__authorize_profile
+msgid ""
+"The unique reference for the partner/token combination in the Authorize.net "
+"backend."
+msgstr "A partner/token kombináció egyedi hivatkozása az Authorize.net backendben."
+
+#. module: payment_authorize
+#: code:addons/payment_authorize/models/payment_acquirer.py:0
+#, python-format
+msgid ""
+"There are active tokens linked to this acquirer. To change the payment "
+"method type, please disable the acquirer and duplicate it. Then, change the "
+"payment method type on the duplicated acquirer."
+msgstr "Ehhez az elfogadóhoz aktív tokenek kapcsolódnak. A fizetési módszer típusának megváltoztatásához, kérjük, tiltsa le az elfogadót, és duplikálja azt. Ezután változtassa meg a fizetési módszer típusát a duplikált elfogadóban."
+
+#. module: payment_authorize
+#: code:addons/payment_authorize/models/payment_acquirer.py:0
+#, python-format
+msgid "This action cannot be performed while the acquirer is disabled."
+msgstr "Ez a művelet nem hajtható végre, amíg az elfogadó le van tiltva."
+
+#. module: payment_authorize
+#. openerp-web
+#: code:addons/payment_authorize/static/src/js/payment_form.js:0
+#, python-format
+msgid "We are not able to process your payment."
+msgstr "Nem tudjuk feldolgozni az Ön fizetését."
+
+#. module: payment_authorize
+#: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
+msgid "YY"
+msgstr "YY"
+
+#~ msgid "Warning"
+#~ msgstr "Figyelmeztetés"

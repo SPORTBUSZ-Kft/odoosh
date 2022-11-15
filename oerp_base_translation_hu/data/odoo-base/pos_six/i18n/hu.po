@@ -1,0 +1,66 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pos_six
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~15.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-11 14:34+0000\n"
+"PO-Revision-Date: 2022-10-16 04:01+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/pos_six/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#. module: pos_six
+#. openerp-web
+#: code:addons/pos_six/static/src/js/payment_six.js:0
+#, python-format
+msgid "Balance Failed"
+msgstr "Egyenleg nem sikerült"
+
+#. module: pos_six
+#: model:ir.model,name:pos_six.model_pos_config
+msgid "Point of Sale Configuration"
+msgstr "PoS beállítás"
+
+#. module: pos_six
+#: model:ir.model,name:pos_six.model_pos_payment_method
+msgid "Point of Sale Payment Methods"
+msgstr "PoS fizetési módok"
+
+#. module: pos_six
+#: model:ir.model,name:pos_six.model_pos_session
+msgid "Point of Sale Session"
+msgstr ""
+
+#. module: pos_six
+#. openerp-web
+#: code:addons/pos_six/static/src/xml/BalanceButton.xml:0
+#, python-format
+msgid "Send Balance"
+msgstr "Egyenleg küldése"
+
+#. module: pos_six
+#: model:ir.model.fields,field_description:pos_six.field_pos_payment_method__six_terminal_ip
+msgid "Six Terminal IP"
+msgstr "Six Terminál IP"
+
+#. module: pos_six
+#. openerp-web
+#: code:addons/pos_six/static/src/js/payment_six.js:0
+#, python-format
+msgid "The balance operation failed."
+msgstr "Az egyenleg művelet sikertelen volt."
+
+#. module: pos_six
+#. openerp-web
+#: code:addons/pos_six/static/src/js/payment_six.js:0
+#, python-format
+msgid "Transaction was not processed correctly"
+msgstr "A tranzakciót nem dolgozták fel megfelelően"

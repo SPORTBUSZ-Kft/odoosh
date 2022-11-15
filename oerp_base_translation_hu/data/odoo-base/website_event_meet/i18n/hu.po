@@ -1,0 +1,601 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_event_meet
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0beta\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-10 10:24+0000\n"
+"PO-Revision-Date: 2022-10-16 01:02+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/website_event_meet/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#. module: website_event_meet
+#: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_card
+msgid "&amp;nbsp;"
+msgstr "&amp;nbsp;"
+
+#. module: website_event_meet
+#: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_aside
+msgid "<b>&amp;#9900;&amp;nbsp;</b>"
+msgstr "<b>&amp;#9900;&amp;nbsp;</b>"
+
+#. module: website_event_meet
+#: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_main
+msgid ""
+"<i class=\"fa fa-spin fa-circle-o-notch me-3\"/>\n"
+"                        <span>Loading your room...</span>"
+msgstr ""
+
+#. module: website_event_meet
+#: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_card
+msgid "<span class=\"badge text-bg-danger\">Unpublished</span>"
+msgstr ""
+
+#. module: website_event_meet
+#: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_aside
+msgid "<span class=\"h5 m-3\">Other Rooms</span>"
+msgstr ""
+
+#. module: website_event_meet
+#: model_terms:ir.ui.view,arch_db:website_event_meet.community_aside
+msgid "<span>Create a Room</span>"
+msgstr "<span>Szoba létrehozása</span>"
+
+#. module: website_event_meet
+#: model_terms:ir.ui.view,arch_db:website_event_meet.community_main
+msgid "<span>Join a room</span>"
+msgstr "<span>Belépés a szobába</span>"
+
+#. module: website_event_meet
+#: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_main
+msgid ""
+"<span>Oops! This room is full !</span><br/>Come back later to have a chat "
+"with us!"
+msgstr "<span>Upsz! Ez a szoba tele van !</span><br/>Jöjjön vissza később, hogy beszélgessen velünk!"
+
+#. module: website_event_meet
+#: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_card
+msgid ""
+"<span>This room is not open right now!</span><br/>\n"
+"                        Join us here on the"
+msgstr ""
+"<span>Ez a szoba jelenleg nincs nyitva!</span><br/>\n"
+"                        Csatlakozzon hozzánk itt a"
+
+#. module: website_event_meet
+#: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_main
+msgid "A chat among"
+msgstr "Beszélgetés a"
+
+#. module: website_event_meet
+#: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__active
+msgid "Active"
+msgstr "Aktív"
+
+#. module: website_event_meet
+#: model_terms:ir.ui.view,arch_db:website_event_meet.community_main
+msgid "All Languages"
+msgstr "Minden nyelv"
+
+#. module: website_event_meet
+#: model:ir.model.fields,field_description:website_event_meet.field_event_event__meeting_room_allow_creation
+#: model:ir.model.fields,field_description:website_event_meet.field_event_type__meeting_room_allow_creation
+msgid "Allow Room Creation"
+msgstr "Engedélyezze a szoba létrehozást"
+
+#. module: website_event_meet
+#. openerp-web
+#: code:addons/website_event_meet/static/src/js/website_event_meeting_room.js:0
+#, python-format
+msgid "Are you sure you want to close this room ?"
+msgstr "Biztosan be szeretné zárni ezt a szobát ?"
+
+#. module: website_event_meet
+#. openerp-web
+#: code:addons/website_event_meet/static/src/js/website_event_meeting_room.js:0
+#, python-format
+msgid "Are you sure you want to duplicate this room ?"
+msgstr "Biztosan be szeretné duplikálni ezt a szobát ?"
+
+#. module: website_event_meet
+#: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__target_audience
+#: model_terms:ir.ui.view,arch_db:website_event_meet.event_meeting_room_view_search
+msgid "Audience"
+msgstr "Hallgatóság"
+
+#. module: website_event_meet
+#. openerp-web
+#: code:addons/website_event_meet/static/src/xml/website_event_meeting_room.xml:0
+#, python-format
+msgid ""
+"Be sure you are ready to spend at least 10 minutes in the room if you want "
+"to initiate a new topic."
+msgstr "Legyen készen arra, hogy legalább 10 percet töltsön a teremben, ha új témát szeretne kezdeményezni."
+
+#. module: website_event_meet
+#: model:event.meeting.room,name:website_event_meet.event_meeting_room_0
+msgid "Best wood for furniture"
+msgstr "Legjobb fa bútor számára"
+
+#. module: website_event_meet
+#: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__can_publish
+msgid "Can Publish"
+msgstr "Közzétehető"
+
+#. module: website_event_meet
+#. openerp-web
+#: code:addons/website_event_meet/static/src/xml/website_event_meeting_room.xml:0
+#, python-format
+msgid "Capacity"
+msgstr "Kapacitás"
+
+#. module: website_event_meet
+#: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__chat_room_id
+msgid "Chat Room"
+msgstr "Csevegés szoba"
+
+#. module: website_event_meet
+#: model_terms:ir.ui.view,arch_db:website_event_meet.community_main
+msgid ""
+"Choose a topic that interests you and start talking with the community. <br/"
+"> Don't forget to setup your camera and microphone."
+msgstr "Válasszon egy témát, ami érdekli, és kezdjen el beszélgetni a közösséggel. <br/> Ne felejtsd el beállítani a kamerát és a mikrofont."
+
+#. module: website_event_meet
+#: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_card
+msgid "Close"
+msgstr "Bezárás"
+
+#. module: website_event_meet
+#. openerp-web
+#: code:addons/website_event_meet/static/src/xml/website_event_meeting_room.xml:0
+#, python-format
+msgid "Create"
+msgstr "Létrehozás"
+
+#. module: website_event_meet
+#: model_terms:ir.actions.act_window,help:website_event_meet.action_meeting_room_from_event
+#: model_terms:ir.actions.act_window,help:website_event_meet.event_meeting_room_action
+#: model_terms:ir.ui.view,arch_db:website_event_meet.community_aside
+msgid "Create a Room"
+msgstr "Szoba létrehozása"
+
+#. module: website_event_meet
+#: model_terms:ir.ui.view,arch_db:website_event_meet.community_main
+msgid "Create one to get conversations going"
+msgstr "Hozzon létre egyet, hogy beinduljanak a beszélgetések"
+
+#. module: website_event_meet
+#: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__create_uid
+msgid "Created by"
+msgstr "Létrehozta"
+
+#. module: website_event_meet
+#: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__create_date
+msgid "Created on"
+msgstr "Létrehozva"
+
+#. module: website_event_meet
+#. openerp-web
+#: code:addons/website_event_meet/static/src/xml/website_event_meeting_room.xml:0
+#, python-format
+msgid "Discard"
+msgstr "Elvetés"
+
+#. module: website_event_meet
+#: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__display_name
+msgid "Display Name"
+msgstr "Megjelenített név"
+
+#. module: website_event_meet
+#: model_terms:ir.ui.view,arch_db:website_event_meet.community_main
+msgid "Dropdown menu"
+msgstr "Legördülő menü"
+
+#. module: website_event_meet
+#: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_card
+msgid "Duplicate"
+msgstr "Duplikálás"
+
+#. module: website_event_meet
+#: model:ir.model,name:website_event_meet.model_event_event
+#: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__event_id
+#: model_terms:ir.ui.view,arch_db:website_event_meet.event_meeting_room_view_search
+#: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_card
+msgid "Event"
+msgstr "Rendezvény"
+
+#. module: website_event_meet
+#: model:ir.model,name:website_event_meet.model_event_meeting_room
+msgid "Event Meeting Room"
+msgstr "Rendezvény megbeszélés szoba"
+
+#. module: website_event_meet
+#: model:ir.model.fields.selection,name:website_event_meet.selection__website_event_menu__menu_type__meeting_room
+msgid "Event Meeting Room Menus"
+msgstr "Rendezvény megbeszélés szoba menük"
+
+#. module: website_event_meet
+#: model_terms:ir.ui.view,arch_db:website_event_meet.snippet_options
+msgid "Event Page"
+msgstr ""
+
+#. module: website_event_meet
+#: model:ir.actions.act_window,name:website_event_meet.action_meeting_room_from_event
+msgid "Event Rooms"
+msgstr "Rendezvény szobák"
+
+#. module: website_event_meet
+#: model:ir.model,name:website_event_meet.model_event_type
+msgid "Event Template"
+msgstr "Rendezvény sablon"
+
+#. module: website_event_meet
+#: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_card
+msgid "Full"
+msgstr "Tele"
+
+#. module: website_event_meet
+#: model_terms:ir.ui.view,arch_db:website_event_meet.event_meeting_room_view_search
+msgid "Group By"
+msgstr "Csoportosítás"
+
+#. module: website_event_meet
+#: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__id
+msgid "ID"
+msgstr "Azonosító"
+
+#. module: website_event_meet
+#: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__is_pinned
+msgid "Is Pinned"
+msgstr "Kitűzött"
+
+#. module: website_event_meet
+#: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__is_published
+msgid "Is Published"
+msgstr "Közzétett"
+
+#. module: website_event_meet
+#: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_card
+#: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_main
+msgid "Join us next time to chat about"
+msgstr "Csatlakozzon hozzánk legközelebb, hogy beszélgessünk"
+
+#. module: website_event_meet
+#: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_main
+msgid "Join us there to chat about"
+msgstr "Csatlakozzon hozzánk, hogy beszélgessünk a következőkről"
+
+#. module: website_event_meet
+#. openerp-web
+#: code:addons/website_event_meet/static/src/xml/website_event_meeting_room.xml:0
+#: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__room_lang_id
+#, python-format
+msgid "Language"
+msgstr "Nyelv"
+
+#. module: website_event_meet
+#: model_terms:ir.ui.view,arch_db:website_event_meet.community_main
+msgid "Languages Menu"
+msgstr "Nyelv menü"
+
+#. module: website_event_meet
+#: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room____last_update
+msgid "Last Modified on"
+msgstr "Utolsó módosítás ideje"
+
+#. module: website_event_meet
+#: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__write_uid
+msgid "Last Updated by"
+msgstr "Utoljára frissítette"
+
+#. module: website_event_meet
+#: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__write_date
+msgid "Last Updated on"
+msgstr "Utolsó frissítés ideje"
+
+#. module: website_event_meet
+#: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__room_last_activity
+msgid "Last activity"
+msgstr "Legutóbbi tevékenység"
+
+#. module: website_event_meet
+#. openerp-web
+#: code:addons/website_event_meet/static/src/xml/website_event_meeting_room.xml:0
+#, python-format
+msgid "Launch a new topic"
+msgstr "Kezdjen el egy új témát"
+
+#. module: website_event_meet
+#: model:ir.model.fields,help:website_event_meet.field_event_event__meeting_room_allow_creation
+#: model:ir.model.fields,help:website_event_meet.field_event_type__meeting_room_allow_creation
+msgid "Let Visitors Create Rooms"
+msgstr "Hagyja, hogy a látogatók szobákat hozzanak létre"
+
+#. module: website_event_meet
+#: model:event.meeting.room,summary:website_event_meet.event_meeting_room_0
+msgid "Let's talk about wood types for furniture"
+msgstr "Beszéljünk a bútorkészítéshez használható fafajtákról"
+
+#. module: website_event_meet
+#: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__room_max_capacity
+msgid "Max capacity"
+msgstr "Max kapacitás"
+
+#. module: website_event_meet
+#: model:ir.model.fields,help:website_event_meet.field_event_meeting_room__room_max_participant_reached
+msgid "Maximum number of participant reached in the room at the same time"
+msgstr "Az egyidejűleg a teremben tartózkodó résztvevők maximális száma"
+
+#. module: website_event_meet
+#: model:ir.actions.act_window,name:website_event_meet.event_meeting_room_action
+#: model_terms:ir.ui.view,arch_db:website_event_meet.event_meeting_room_view_form
+#: model_terms:ir.ui.view,arch_db:website_event_meet.event_meeting_room_view_tree
+msgid "Meeting Room"
+msgstr "Megbeszélés szoba"
+
+#. module: website_event_meet
+#: model:ir.model.fields,field_description:website_event_meet.field_event_event__meeting_room_ids
+msgid "Meeting rooms"
+msgstr "Megbeszélési szobák"
+
+#. module: website_event_meet
+#: model:ir.model.fields,field_description:website_event_meet.field_website_event_menu__menu_type
+msgid "Menu Type"
+msgstr "Menü típus"
+
+#. module: website_event_meet
+#: model_terms:ir.ui.view,arch_db:website_event_meet.community_main
+msgid "No Room Open"
+msgstr "Nincs nyitott szoba"
+
+#. module: website_event_meet
+#: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__room_participant_count
+msgid "Participant count"
+msgstr "Résztvevők száma"
+
+#. module: website_event_meet
+#: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__room_max_participant_reached
+msgid "Peak participants"
+msgstr "Látogatói csúcs"
+
+#. module: website_event_meet
+#: model:event.meeting.room,name:website_event_meet.event_meeting_room_1
+msgid "Reducing the ecological footprint with wood ?"
+msgstr "Az ökológiai lábnyom csökkentése fával ?"
+
+#. module: website_event_meet
+#: model_terms:ir.ui.view,arch_db:website_event_meet.event_meeting_room_view_form
+msgid "Reporting"
+msgstr "Jelentés"
+
+#. module: website_event_meet
+#: model_terms:ir.ui.view,arch_db:website_event_meet.snippet_options
+msgid "Room Creation (Specific)"
+msgstr ""
+
+#. module: website_event_meet
+#: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__room_is_full
+msgid "Room Is Full"
+msgstr "A szoba tele van"
+
+#. module: website_event_meet
+#: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__room_name
+msgid "Room Name"
+msgstr "Szoba neve"
+
+#. module: website_event_meet
+#. openerp-web
+#: code:addons/website_event_meet/static/src/xml/website_event_meeting_room.xml:0
+#, python-format
+msgid "Room Topic"
+msgstr "Szoba tárgya"
+
+#. module: website_event_meet
+#: model:ir.model.fields,field_description:website_event_meet.field_event_event__meeting_room_count
+msgid "Room count"
+msgstr "Szoba számláló"
+
+#. module: website_event_meet
+#: model_terms:ir.ui.view,arch_db:website_event_meet.community_aside
+msgid "Room creation will be available when event starts at"
+msgstr "A szobák kialakítása a rendezvény kezdetekor lesz elérhető a"
+
+#. module: website_event_meet
+#: model_terms:ir.ui.view,arch_db:website_event_meet.event_event_view_form
+msgid "Rooms"
+msgstr "Szobák"
+
+#. module: website_event_meet
+#: model_terms:ir.actions.act_window,help:website_event_meet.action_meeting_room_from_event
+#: model_terms:ir.actions.act_window,help:website_event_meet.event_meeting_room_action
+msgid ""
+"Rooms allow your event attendees to meet up and chat on different topics."
+msgstr "A szobák lehetővé teszik, hogy a rendezvény résztvevői találkozhassanak és különböző témákról beszélgethessenek."
+
+#. module: website_event_meet
+#: model:event.meeting.room,summary:website_event_meet.event_meeting_room_1
+msgid "Share your tips to reduce your ecological footprint using wood."
+msgstr "Ossza meg tippjeit, hogyan csökkentheti ökológiai lábnyomát fa felhasználásával."
+
+#. module: website_event_meet
+#. openerp-web
+#: code:addons/website_event_meet/static/src/xml/website_event_meeting_room.xml:0
+#, python-format
+msgid "Short Summary"
+msgstr "Rövid összefoglaló"
+
+#. module: website_event_meet
+#: model_terms:ir.ui.view,arch_db:website_event_meet.community_aside
+msgid "Start a topic"
+msgstr "Kezdjen egy témát"
+
+#. module: website_event_meet
+#: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__summary
+#: model_terms:ir.ui.view,arch_db:website_event_meet.event_meeting_room_view_search
+msgid "Summary"
+msgstr "Összefoglaló"
+
+#. module: website_event_meet
+#. openerp-web
+#: code:addons/website_event_meet/static/src/xml/website_event_meeting_room.xml:0
+#, python-format
+msgid "Target People"
+msgstr "Célközönség"
+
+#. module: website_event_meet
+#: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_main
+msgid "The event"
+msgstr "A rendezvény"
+
+#. module: website_event_meet
+#: code:addons/website_event_meet/controllers/website_event_main.py:0
+#, python-format
+msgid ""
+"The event %s starts on %s (%s). \n"
+"Join us there to chat about \"%s\" !"
+msgstr ""
+"A rendezvény %s kezdődik %s napon (%s). \n"
+"Csatlakozzon hozzánk, hogy beszélgessünk a \"%s\" témáról !"
+
+#. module: website_event_meet
+#: model:ir.model.fields,help:website_event_meet.field_event_meeting_room__website_url
+msgid "The full URL to access the document through the website."
+msgstr "A teljes URL a dokumentum weboldalon keresztüli eléréséhez."
+
+#. module: website_event_meet
+#: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__name
+#: model_terms:ir.ui.view,arch_db:website_event_meet.event_meeting_room_view_search
+msgid "Topic"
+msgstr "Téma"
+
+#. module: website_event_meet
+#: model_terms:ir.ui.view,arch_db:website_event_meet.event_meeting_room_view_tree
+msgid "Total Participant Count"
+msgstr ""
+
+#. module: website_event_meet
+#: model_terms:ir.ui.view,arch_db:website_event_meet.event_meeting_room_view_search
+msgid "Unpublished"
+msgstr "Rejtett"
+
+#. module: website_event_meet
+#: model:event.meeting.room,summary:website_event_meet.event_meeting_room_2
+msgid ""
+"Venez partager vos meubles préférés et l'utilisation que vous en faites."
+msgstr "Venez partager vos meubles préférés et l'utilisation que vous en faites."
+
+#. module: website_event_meet
+#: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__website_published
+msgid "Visible on current website"
+msgstr "Látható a jelenlegi weboldalon"
+
+#. module: website_event_meet
+#: model:event.meeting.room,name:website_event_meet.event_meeting_room_2
+msgid "Vos meubles préférés ?"
+msgstr "Vos meubles préférés ?"
+
+#. module: website_event_meet
+#: model_terms:ir.ui.view,arch_db:website_event_meet.community_aside
+msgid "Want to create your own discussion room ?"
+msgstr "Szeretné létrehozni saját beszélgetőszobáját ?"
+
+#. module: website_event_meet
+#: model:ir.model,name:website_event_meet.model_website_event_menu
+msgid "Website Event Menu"
+msgstr "Weboldal rendezvény menü"
+
+#. module: website_event_meet
+#: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__website_url
+msgid "Website URL"
+msgstr "Weboldal URL"
+
+#. module: website_event_meet
+#: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_main
+msgid "a few seconds"
+msgstr ""
+
+#. module: website_event_meet
+#: model:event.meeting.room,target_audience:website_event_meet.event_meeting_room_2
+msgid "client(s)"
+msgstr "kliens(ek)"
+
+#. module: website_event_meet
+#. openerp-web
+#: code:addons/website_event_meet/static/src/xml/website_event_meeting_room.xml:0
+#: model_terms:ir.ui.view,arch_db:website_event_meet.event_meeting_room_view_form
+#, python-format
+msgid "e.g. Accountants"
+msgstr "pl. Könyvelők"
+
+#. module: website_event_meet
+#. openerp-web
+#: code:addons/website_event_meet/static/src/xml/website_event_meeting_room.xml:0
+#: model_terms:ir.ui.view,arch_db:website_event_meet.event_meeting_room_view_form
+#, python-format
+msgid "e.g. Finance"
+msgstr "pl. Pénzügy"
+
+#. module: website_event_meet
+#. openerp-web
+#: code:addons/website_event_meet/static/src/xml/website_event_meeting_room.xml:0
+#: model_terms:ir.ui.view,arch_db:website_event_meet.event_meeting_room_view_form
+#, python-format
+msgid "e.g. Let's talk about Corporate Finance"
+msgstr "pl. Beszéljünk a vállalati pénzügyekről"
+
+#. module: website_event_meet
+#: model:event.meeting.room,target_audience:website_event_meet.event_meeting_room_1
+msgid "ecologist(s)"
+msgstr "közgazdász(ok)"
+
+#. module: website_event_meet
+#: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_card
+msgid ""
+"is over.\n"
+"                        <br/>"
+msgstr ""
+"befejeződött.\n"
+"                        <br/>"
+
+#. module: website_event_meet
+#: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_main
+msgid ""
+"is over.\n"
+"                <br/>"
+msgstr ""
+"befejeződött.\n"
+"                <br/>"
+
+#. module: website_event_meet
+#: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_card
+msgid "participant(s)"
+msgstr "résztvevő(k)"
+
+#. module: website_event_meet
+#: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_main
+msgid "starts in"
+msgstr "kezdődik"
+
+#. module: website_event_meet
+#: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_main
+msgid "starts on"
+msgstr "kezdődik a"
+
+#. module: website_event_meet
+#: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_card
+msgid "to have a chat with us!"
+msgstr "hogy beszélgessen velünk!"
+
+#. module: website_event_meet
+#: model:event.meeting.room,target_audience:website_event_meet.event_meeting_room_0
+msgid "wood expert(s)"
+msgstr "fa szakértő(k)"

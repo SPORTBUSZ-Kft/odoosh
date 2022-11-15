@@ -1,0 +1,284 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_rating
+#
+# Translators:
+# Martin Trigaux, 2019
+# krnkris, 2019
+# gezza <geza.nagy@oregional.hu>, 2019
+# Ákos Nagy <akos.nagy@oregional.hu>, 2019
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-23 08:02+0000\n"
+"PO-Revision-Date: 2022-10-28 20:01+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/portal_rating/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#. module: portal_rating
+#. openerp-web
+#: code:addons/portal_rating/static/src/js/portal_rating_composer.js:0
+#: model_terms:ir.ui.view,arch_db:portal_rating.rating_stars_static_popup_composer
+#, python-format
+msgid "Add Review"
+msgstr "Értékelés hozzáadása"
+
+#. module: portal_rating
+#. openerp-web
+#: code:addons/portal_rating/static/src/xml/portal_tools.xml:0
+#, python-format
+msgid "Average"
+msgstr "Átlagos"
+
+#. module: portal_rating
+#. openerp-web
+#: code:addons/portal_rating/static/src/xml/portal_chatter.xml:0
+#, python-format
+msgid "Cancel"
+msgstr "Mégsem"
+
+#. module: portal_rating
+#. openerp-web
+#: code:addons/portal_rating/static/src/xml/portal_rating_composer.xml:0
+#, python-format
+msgid "Close"
+msgstr "Bezárás"
+
+#. module: portal_rating
+#. openerp-web
+#: code:addons/portal_rating/static/src/xml/portal_chatter.xml:0
+#: model_terms:ir.ui.view,arch_db:portal_rating.rating_rating_view_form
+#, python-format
+msgid "Comment"
+msgstr "Megjegyzés"
+
+#. module: portal_rating
+#: model:ir.model.fields,field_description:portal_rating.field_rating_rating__publisher_id
+msgid "Commented by"
+msgstr "Hozzászóló"
+
+#. module: portal_rating
+#: model:ir.model.fields,field_description:portal_rating.field_rating_rating__publisher_datetime
+msgid "Commented on"
+msgstr "Hozzászólás ideje"
+
+#. module: portal_rating
+#. openerp-web
+#: code:addons/portal_rating/static/src/xml/portal_chatter.xml:0
+#, python-format
+msgid "Delete"
+msgstr "Törlés"
+
+#. module: portal_rating
+#. openerp-web
+#: code:addons/portal_rating/static/src/xml/portal_tools.xml:0
+#, python-format
+msgid "Details"
+msgstr "Részletek"
+
+#. module: portal_rating
+#. openerp-web
+#: code:addons/portal_rating/static/src/xml/portal_chatter.xml:0
+#, python-format
+msgid "Edit"
+msgstr "Szerkesztés"
+
+#. module: portal_rating
+#. openerp-web
+#: code:addons/portal_rating/static/src/js/portal_rating_composer.js:0
+#: model_terms:ir.ui.view,arch_db:portal_rating.rating_stars_static_popup_composer
+#, python-format
+msgid "Edit Review"
+msgstr "Értékelés szerkesztése"
+
+#. module: portal_rating
+#. openerp-web
+#: code:addons/portal_rating/static/src/xml/portal_tools.xml:0
+#, python-format
+msgid "Empty star"
+msgstr "Üres csillag"
+
+#. module: portal_rating
+#. openerp-web
+#: code:addons/portal_rating/static/src/xml/portal_tools.xml:0
+#, python-format
+msgid "Full star"
+msgstr "Teljes csillag"
+
+#. module: portal_rating
+#: model:ir.model,name:portal_rating.model_ir_http
+msgid "HTTP Routing"
+msgstr "HTTP útválasztás"
+
+#. module: portal_rating
+#. openerp-web
+#: code:addons/portal_rating/static/src/xml/portal_tools.xml:0
+#, python-format
+msgid "Half a star"
+msgstr "Fél csillag"
+
+#. module: portal_rating
+#. openerp-web
+#: code:addons/portal_rating/static/src/js/portal_composer.js:0
+#, python-format
+msgid "I don't like it"
+msgstr "Nem kedvelem"
+
+#. module: portal_rating
+#. openerp-web
+#: code:addons/portal_rating/static/src/js/portal_composer.js:0
+#, python-format
+msgid "I hate it"
+msgstr "Utálom"
+
+#. module: portal_rating
+#. openerp-web
+#: code:addons/portal_rating/static/src/js/portal_composer.js:0
+#, python-format
+msgid "I like it"
+msgstr "Kedvelem"
+
+#. module: portal_rating
+#. openerp-web
+#: code:addons/portal_rating/static/src/js/portal_composer.js:0
+#, python-format
+msgid "I love it"
+msgstr "Szeretem"
+
+#. module: portal_rating
+#: code:addons/portal_rating/controllers/portal_rating.py:0
+#, python-format
+msgid "Invalid rating"
+msgstr "Érvénytelen értékelés"
+
+#. module: portal_rating
+#. openerp-web
+#: code:addons/portal_rating/static/src/js/portal_composer.js:0
+#, python-format
+msgid "It's okay"
+msgstr "Rendben van"
+
+#. module: portal_rating
+#. openerp-web
+#: code:addons/portal_rating/static/src/xml/portal_chatter.xml:0
+#, python-format
+msgid "Loading..."
+msgstr "Töltés..."
+
+#. module: portal_rating
+#: model:ir.model,name:portal_rating.model_mail_message
+msgid "Message"
+msgstr "Üzenet"
+
+#. module: portal_rating
+#. openerp-web
+#: code:addons/portal_rating/static/src/xml/portal_rating_composer.xml:0
+#, python-format
+msgid "Modify your review"
+msgstr "Értékelésem módosítása"
+
+#. module: portal_rating
+#: code:addons/portal_rating/models/rating_rating.py:0
+#, python-format
+msgid "Only the publisher of the website can change the rating comment"
+msgstr "Csak a weboldal közzétevője változtathatja meg az értékelés megjegyzését"
+
+#. module: portal_rating
+#. openerp-web
+#: code:addons/portal_rating/static/src/xml/portal_chatter.xml:0
+#, python-format
+msgid "Post comment"
+msgstr "Hozzászólás küldése"
+
+#. module: portal_rating
+#. openerp-web
+#: code:addons/portal_rating/static/src/xml/portal_chatter.xml:0
+#, python-format
+msgid "Published on"
+msgstr "Közzétéve"
+
+#. module: portal_rating
+#: model:ir.model.fields,field_description:portal_rating.field_rating_rating__publisher_comment
+msgid "Publisher comment"
+msgstr "Közzétevő hozzáaszólása"
+
+#. module: portal_rating
+#: model:ir.model,name:portal_rating.model_rating_rating
+msgid "Rating"
+msgstr "Értékelés"
+
+#. module: portal_rating
+#. openerp-web
+#: code:addons/portal_rating/static/src/xml/portal_tools.xml:0
+#, python-format
+msgid "Remove Selection"
+msgstr "Kiválasztás törlése"
+
+#. module: portal_rating
+#. openerp-web
+#: code:addons/portal_rating/static/src/js/portal_rating_composer.js:0
+#: model_terms:ir.ui.view,arch_db:portal_rating.rating_stars_static_popup_composer
+#, python-format
+msgid "Review"
+msgstr "Értékelés"
+
+#. module: portal_rating
+#. openerp-web
+#: code:addons/portal_rating/static/src/js/portal_composer.js:0
+#, python-format
+msgid ""
+"The rating is required. Please make sure to select one before sending your "
+"review."
+msgstr "A minősítés szükséges. Kérjük, győződjön meg róla, hogy kiválaszt egyet, mielőtt elküldi a véleményét."
+
+#. module: portal_rating
+#. openerp-web
+#: code:addons/portal_rating/static/src/xml/portal_chatter.xml:0
+#, python-format
+msgid "Update comment"
+msgstr "Hozzászólás frissítése"
+
+#. module: portal_rating
+#. openerp-web
+#: code:addons/portal_rating/static/src/xml/portal_rating_composer.xml:0
+#, python-format
+msgid "Write a review"
+msgstr "írjon egy értékelést"
+
+#. module: portal_rating
+#. openerp-web
+#: code:addons/portal_rating/static/src/js/portal_chatter.js:0
+#, python-format
+msgid "Write your comment"
+msgstr "Írjon megjegyzést"
+
+#. module: portal_rating
+#. openerp-web
+#: code:addons/portal_rating/static/src/xml/portal_chatter.xml:0
+#, python-format
+msgid "avatar"
+msgstr "avatár"
+
+#. module: portal_rating
+#. openerp-web
+#: code:addons/portal_rating/static/src/xml/portal_tools.xml:0
+#, python-format
+msgid "stars"
+msgstr "csillag"
+
+#~ msgid "&times;"
+#~ msgstr "&times;"
+
+#~ msgid "Published"
+#~ msgstr "Közzétett"
+
+#~ msgid "Visible on the website as a comment"
+#~ msgstr "Hozzászólásként látható a weboldalon"

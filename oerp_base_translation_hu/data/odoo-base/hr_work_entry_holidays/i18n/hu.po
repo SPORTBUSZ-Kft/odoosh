@@ -1,0 +1,114 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hr_work_entry_holidays
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.5alpha1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-20 09:01+0000\n"
+"PO-Revision-Date: 2022-10-16 04:01+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/hr_work_entry_holidays/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#. module: hr_work_entry_holidays
+#: code:addons/hr_work_entry_holidays/models/hr_leave.py:0
+#, python-format
+msgid "%s: Time Off"
+msgstr "%s: Szabadság"
+
+#. module: hr_work_entry_holidays
+#: code:addons/hr_work_entry_holidays/models/hr_leave.py:0
+#, python-format
+msgid ""
+"A leave cannot be set across multiple contracts with different working schedules.\n"
+"\n"
+"Please create one time off for each contract.\n"
+"\n"
+"Time off:\n"
+"%s\n"
+"\n"
+"Contracts:\n"
+"%s"
+msgstr ""
+"Egy szabadság nem adható ki több, eltérő munkaidő-beosztású szerződésben.\n"
+"\n"
+"Kérjük, minden egyes szerződéshez hozzon létre egy szabadnapot.\n"
+"\n"
+"Szabadság:\n"
+"%s\n"
+"\n"
+"Szerződések:\n"
+"%s"
+
+#. module: hr_work_entry_holidays
+#: model:ir.model,name:hr_work_entry_holidays.model_hr_contract
+msgid "Employee Contract"
+msgstr "Alkalmazott szerződés"
+
+#. module: hr_work_entry_holidays
+#: model:ir.model,name:hr_work_entry_holidays.model_hr_work_entry
+msgid "HR Work Entry"
+msgstr "HR Munka tétel"
+
+#. module: hr_work_entry_holidays
+#: model:ir.model,name:hr_work_entry_holidays.model_hr_work_entry_type
+msgid "HR Work Entry Type"
+msgstr "HR Munka tétel típusa"
+
+#. module: hr_work_entry_holidays
+#: model_terms:ir.ui.view,arch_db:hr_work_entry_holidays.work_entry_type_leave_form_inherit
+msgid "Payroll"
+msgstr "Bérszámfejtés"
+
+#. module: hr_work_entry_holidays
+#: model:ir.model.fields,field_description:hr_work_entry_holidays.field_hr_work_entry__leave_state
+msgid "Status"
+msgstr "Állapot"
+
+#. module: hr_work_entry_holidays
+#: model:ir.model.fields,help:hr_work_entry_holidays.field_hr_work_entry__leave_state
+msgid ""
+"The status is set to 'To Submit', when a time off request is created.\n"
+"The status is 'To Approve', when time off request is confirmed by user.\n"
+"The status is 'Refused', when time off request is refused by manager.\n"
+"The status is 'Approved', when time off request is approved by manager."
+msgstr ""
+"A szabadidő-kérelem létrehozásakor a státusz a \"Beadásra\" állapotot jelöli ki.\n"
+"A státusz \"Jóváhagyandó\", amikor a felhasználó megerősíti a szabadidő-kérelmet.\n"
+"A státusz \"Elutasítva\", ha a szabadidő-kérelmet a vezető elutasítja.\n"
+"A státusz \"Jóváhagyva\", ha a szabadidő-kérelmet a vezető jóváhagyta."
+
+#. module: hr_work_entry_holidays
+#: code:addons/hr_work_entry_holidays/models/hr_leave.py:0
+#, python-format
+msgid "There is no employee set on the time off. Please make sure you're logged in the correct company."
+msgstr "A szabadságra nincs alkalmazott megadva. Kérjük, győződjön meg róla, hogy a megfelelő cégnél van bejelentkezve."
+
+#. module: hr_work_entry_holidays
+#: model:ir.model,name:hr_work_entry_holidays.model_hr_leave
+#: model:ir.model.fields,field_description:hr_work_entry_holidays.field_hr_work_entry__leave_id
+msgid "Time Off"
+msgstr "Szabadság"
+
+#. module: hr_work_entry_holidays
+#: model:ir.model,name:hr_work_entry_holidays.model_hr_leave_type
+#: model:ir.model.fields,field_description:hr_work_entry_holidays.field_hr_work_entry_type__leave_type_ids
+msgid "Time Off Type"
+msgstr "Szabadság típusa"
+
+#. module: hr_work_entry_holidays
+#: model:ir.model.fields,field_description:hr_work_entry_holidays.field_hr_leave_type__work_entry_type_id
+msgid "Work Entry Type"
+msgstr "Munka tétel típusa"
+
+#. module: hr_work_entry_holidays
+#: model:ir.model.fields,help:hr_work_entry_holidays.field_hr_work_entry_type__leave_type_ids
+msgid "Work entry used in the payslip."
+msgstr ""

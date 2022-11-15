@@ -1,0 +1,1828 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* social
+#
+# Translators:
+# gezza <geza.nagy@oregional.hu>, 2019
+# Tibor Kőnig <konig.tibor@evitalit.hu>, 2019
+# Tamás Belinszky <tamasbelinszky@gmail.com>, 2019
+# Martin Trigaux, 2019
+# Ákos Nagy <akos.nagy@oregional.hu>, 2019
+# krnkris, 2019
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-10 13:27+0000\n"
+"PO-Revision-Date: 2022-11-03 18:01+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/social/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_media__accounts_count
+msgid "# Accounts"
+msgstr "# Fiók"
+
+#. module: social
+#: code:addons/social/models/social_post.py:0
+#, python-format
+msgid "%s (max %s chars)"
+msgstr ""
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#, python-format
+msgid ", you must first link a social media."
+msgstr ", először egy közösségi médiát kell összekapcsolnia."
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_http_error_view
+msgid "<b>An error occurred while trying to link your account</b>"
+msgstr "<b>Hiba történt a fiókod összekapcsolása során</b>"
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_form
+msgid "<i class=\"fa fa-globe\" title=\"See the post\"/>"
+msgstr ""
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_kanban
+msgid "<small>Clicks:</small>"
+msgstr "<small>Kattintások:</small>"
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/js/tours/social.js:0
+#, python-format
+msgid "<strong>Congrats! Come back in a few minutes to check your statistics.</strong>"
+msgstr ""
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_media__message_needaction
+#: model:ir.model.fields,field_description:social.field_social_post__message_needaction
+msgid "Action Needed"
+msgstr "Művelet szükséges"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_account__active
+msgid "Active"
+msgstr "Aktív"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__activity_ids
+msgid "Activities"
+msgstr "Tevékenységek"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Tevékenység kivétel dekoráció"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__activity_state
+msgid "Activity State"
+msgstr "Tevékenység állapota"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Tevékenység típus ikon"
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#, python-format
+msgid "Add"
+msgstr "Hozzáadás"
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.utm_campaign_view_form
+#, fuzzy
+#| msgid "Post"
+msgid "Add Post"
+msgstr "Könyvelésre küld"
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/js/add_stream_modal.js:0
+#: code:addons/social/static/src/js/stream_post_kanban_controller.js:0
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#, python-format
+msgid "Add a Stream"
+msgstr "Adatfolyam hozzáadása"
+
+#. module: social
+#: model_terms:ir.actions.act_window,help:social.action_social_stream_post
+msgid "Add a stream"
+msgstr "Adatfolyam hozzáadása"
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#, python-format
+msgid "Add an image"
+msgstr "Kép hozzáadása"
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#, python-format
+msgid "All Companies"
+msgstr "Összes vállalat"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_utm_campaign__social_post_ids
+msgid "All related social media posts"
+msgstr "Minden kapcsolódó közösségi média bejegyzés"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__account_allowed_ids
+msgid "Allowed Accounts"
+msgstr "Engedélyezett fiókok"
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_account_view_search
+msgid "Archived"
+msgstr "Archivált"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__has_active_accounts
+#: model:ir.model.fields,field_description:social.field_social_post_template__has_active_accounts
+msgid "Are Accounts Available?"
+msgstr "Elérhető fiók?"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__image_ids
+#: model:ir.model.fields,field_description:social.field_social_post_template__image_ids
+msgid "Attach Images"
+msgstr "Képek csatolása"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_media__message_attachment_count
+#: model:ir.model.fields,field_description:social.field_social_post__message_attachment_count
+msgid "Attachment Count"
+msgstr "Mellékletek száma"
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#: model:ir.model.fields,field_description:social.field_social_account__audience
+#, python-format
+msgid "Audience"
+msgstr "Közönség"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_account__audience_trend
+msgid "Audience Trend"
+msgstr "Közönségi trend"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_stream_post__author_link
+msgid "Author Link"
+msgstr "Szerző link"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_stream_post__author_name
+msgid "Author Name"
+msgstr "Szerző neve"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_stream_post__author_link
+msgid "Author link to the external social.media (ex: link to the Twitter Account)."
+msgstr "A szerző linkje a külső közösségi médiához (pl .: link a Twitter-fiókhoz)."
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_post_template_view_form
+msgid "Before posting, links will be converted to be trackable."
+msgstr ""
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_stream_post_view_search
+msgid "By Stream"
+msgstr "Adatfolyamonként"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_media__csrf_token
+msgid "CSRF Token"
+msgstr "CSRF Token"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__calendar_date
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_search
+msgid "Calendar Date"
+msgstr "Naptári dátum"
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_form
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_search
+#: model_terms:ir.ui.view,arch_db:social.utm_campaign_view_form_quick_create_social
+msgid "Campaign"
+msgstr "Kampány"
+
+#. module: social
+#: model:ir.actions.act_window,name:social.action_view_utm_campaigns
+#: model:ir.ui.menu,name:social.menu_social_campaign
+msgid "Campaigns"
+msgstr "Kampányok"
+
+#. module: social
+#: model_terms:ir.actions.act_window,help:social.action_view_utm_campaigns
+msgid "Campaigns are used to centralize your marketing efforts and track their results."
+msgstr "A kampányok a marketingtevékenységek központosítására és az eredmények nyomon követésére szolgálnak."
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_media__can_link_accounts
+msgid "Can link accounts ?"
+msgstr "Kapcsolhat fiókokat?"
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_form
+#, python-format
+msgid "Cancel"
+msgstr "Mégsem"
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/js/tours/social.js:0
+#, python-format
+msgid "Choose which <b>account</b> you would like to link first."
+msgstr "Válassza ki, hogy melyik <b>fiókot</b> szeretné először összekapcsolni."
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#, python-format
+msgid "Click to refresh."
+msgstr "Kattintson a frissítéshez."
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_form
+msgid "Clicks"
+msgstr "Kattintások"
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#, python-format
+msgid "Comment Image"
+msgstr "Képhez hozzászólás"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_account__company_id
+#: model:ir.model.fields,field_description:social.field_social_live_post__company_id
+#: model:ir.model.fields,field_description:social.field_social_post__company_id
+#: model:ir.model.fields,field_description:social.field_social_stream__company_id
+#: model:ir.model.fields,field_description:social.field_social_stream_post__company_id
+#: model_terms:ir.ui.view,arch_db:social.social_account_view_search
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_search
+#: model_terms:ir.ui.view,arch_db:social.social_stream_view_search
+msgid "Company"
+msgstr "Vállalat"
+
+#. module: social
+#: model:ir.model,name:social.model_res_config_settings
+msgid "Config Settings"
+msgstr "Beállítások"
+
+#. module: social
+#: model:ir.ui.menu,name:social.menu_social_configuration
+msgid "Configuration"
+msgstr "Beállítások"
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#, python-format
+msgid "Connecting Problem"
+msgstr "Kapcsolódási probléma"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_account__social_account_handle
+msgid "Contains the social media handle of the person that created this account. E.g: '@odoo.official' for the 'Odoo' Twitter account"
+msgstr ""
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_live_post__message
+msgid "Content of the social post message that is post-processed (links are shortened, UTMs, ...)"
+msgstr "A közösségi bejegyzés üzenet tartalma, amelyet utólag feldolgozunk (a linkek lerövidülnek, UTM-ek, ...)"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_media__has_streams
+msgid "Controls if social streams are handled on this social media."
+msgstr "Irányítja, hogy a közösségi adatfolyamokat kezelik-e ezen a közösségi médián."
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_media__can_link_accounts
+msgid "Controls if we can link accounts or not."
+msgstr "Irányítja, hogy összekapcsolhatjuk-e a fiókokat vagy sem."
+
+#. module: social
+#: model_terms:ir.actions.act_window,help:social.action_view_utm_campaigns
+msgid "Create a Campaign"
+msgstr "Kampány létrehozása"
+
+#. module: social
+#: model_terms:ir.actions.act_window,help:social.action_social_post
+msgid "Create a Post"
+msgstr "Bejegyzés létrehozása"
+
+#. module: social
+#: code:addons/social/models/social_account.py:0
+#, python-format
+msgid "Create other accounts for %(media_names)s for this company or ask %(company_names)s to share their accounts"
+msgstr "Hozzon létre más fiókokat a %(media_names)s médiáknak ehhez a vállalathoz, vagy kérje meg %(company_names)s vállalato(ka)t, hogy ossza meg fiókjait"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_account__create_uid
+#: model:ir.model.fields,field_description:social.field_social_live_post__create_uid
+#: model:ir.model.fields,field_description:social.field_social_media__create_uid
+#: model:ir.model.fields,field_description:social.field_social_post__create_uid
+#: model:ir.model.fields,field_description:social.field_social_post_template__create_uid
+#: model:ir.model.fields,field_description:social.field_social_stream__create_uid
+#: model:ir.model.fields,field_description:social.field_social_stream_post__create_uid
+#: model:ir.model.fields,field_description:social.field_social_stream_post_image__create_uid
+#: model:ir.model.fields,field_description:social.field_social_stream_type__create_uid
+msgid "Created by"
+msgstr "Létrehozta"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_account__create_date
+#: model:ir.model.fields,field_description:social.field_social_live_post__create_date
+#: model:ir.model.fields,field_description:social.field_social_media__create_date
+#: model:ir.model.fields,field_description:social.field_social_post__create_date
+#: model:ir.model.fields,field_description:social.field_social_post_template__create_date
+#: model:ir.model.fields,field_description:social.field_social_stream__create_date
+#: model:ir.model.fields,field_description:social.field_social_stream_post__create_date
+#: model:ir.model.fields,field_description:social.field_social_stream_post_image__create_date
+#: model:ir.model.fields,field_description:social.field_social_stream_type__create_date
+msgid "Created on"
+msgstr "Létrehozva"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_account__has_account_stats
+msgid ""
+"Defines whether this account has Audience/Engagements/Stories stats.\n"
+"        Account with stats are displayed on the dashboard."
+msgstr ""
+"Meghatározza, hogy ez a fiók rendelkezik-e közönség/megjelenések/történetek statisztikákkal.\n"
+"        A statisztikákkal rendelkező fiókok megjelennek a műszerfalon."
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_account__has_trends
+msgid "Defines whether this account has statistics tends or not."
+msgstr "Meghatározza, hogy ennek a fióknak statisztikai adatai vannak-e vagy sem."
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/js/stream_post_comment.js:0
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#, python-format
+msgid "Delete Comment"
+msgstr "Hozzászólás törlése"
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.res_config_settings_view_form
+msgid "Demo Mode"
+msgstr "Demó Üzemmód"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_media__media_description
+msgid "Description"
+msgstr "Leírás"
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.res_config_settings_view_form
+msgid "Developer Accounts"
+msgstr ""
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_account__display_name
+#: model:ir.model.fields,field_description:social.field_social_live_post__display_name
+#: model:ir.model.fields,field_description:social.field_social_media__display_name
+#: model:ir.model.fields,field_description:social.field_social_post__display_name
+#: model:ir.model.fields,field_description:social.field_social_post_template__display_name
+#: model:ir.model.fields,field_description:social.field_social_stream__display_name
+#: model:ir.model.fields,field_description:social.field_social_stream_post__display_name
+#: model:ir.model.fields,field_description:social.field_social_stream_post_image__display_name
+#: model:ir.model.fields,field_description:social.field_social_stream_type__display_name
+msgid "Display Name"
+msgstr "Megjelenített név"
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/js/stream_post_comment.js:0
+#, python-format
+msgid "Do you really want to delete %s"
+msgstr ""
+
+#. module: social
+#: model:ir.model.fields.selection,name:social.selection__social_post__state__draft
+msgid "Draft"
+msgstr "Tervezet"
+
+#. module: social
+#: code:addons/social/models/social_post.py:0
+#, python-format
+msgid ""
+"Due to length restrictions, the following posts cannot be posted:\n"
+" %s"
+msgstr ""
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#, python-format
+msgid "Edit Comment"
+msgstr "Hozzászólás szerkesztése"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_res_config_settings__module_social_demo
+msgid "Enable Demo Mode"
+msgstr "Demó üzemmód bekapcsolása"
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.res_config_settings_view_form
+msgid ""
+"Enable this option and load demo data to test the social module.<br/>\n"
+"                                        This must never be used on a production database!"
+msgstr ""
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#: model:ir.model.fields,field_description:social.field_social_account__engagement
+#: model:ir.model.fields,field_description:social.field_social_live_post__engagement
+#: model:ir.model.fields,field_description:social.field_social_post__engagement
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_form
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_kanban
+#: model_terms:ir.ui.view,arch_db:social.utm_campaign_view_form
+#, python-format
+msgid "Engagement"
+msgstr "Aktivitás"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_account__engagement_trend
+msgid "Engagement Trend"
+msgstr "Aktivitás trend"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_account__utm_medium_id
+msgid "Every time an account is created, a utm.medium is also created and linked to the account"
+msgstr "Minden egyes fiók létrehozásakor az utm.medium is létrehozásra kerül, és a fiókhoz kapcsolódik"
+
+#. module: social
+#: model:ir.model.fields.selection,name:social.selection__social_live_post__state__failed
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_kanban
+msgid "Failed"
+msgstr "Sikertelen"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_live_post__failure_reason
+msgid "Failure Reason"
+msgstr "Hiba oka"
+
+#. module: social
+#: model:ir.actions.act_window,name:social.action_social_stream_post
+#: model:ir.ui.menu,name:social.menu_social_stream_post
+msgid "Feed"
+msgstr "Hírfolyam"
+
+#. module: social
+#: code:addons/social/models/social_post.py:0
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_form
+#, python-format
+msgid "Feed Posts"
+msgstr "Hírfolyam bejegyzések"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__stream_posts_count
+msgid "Feed Posts Count"
+msgstr "Hírfolyam bejegyzések száma"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_media__message_follower_ids
+#: model:ir.model.fields,field_description:social.field_social_post__message_follower_ids
+msgid "Followers"
+msgstr "Követők"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_media__message_partner_ids
+#: model:ir.model.fields,field_description:social.field_social_post__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Követők (partnerek)"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_post__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Awesome betűkészlet ikon pl.: fa-tasks"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_stream_post__formatted_published_date
+msgid "Formatted Published Date"
+msgstr "Formázott közzététel dátuma"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_account__audience
+msgid "General audience of the Social Account (Page Likes, Account Follows, ...)."
+msgstr "A közösségi fiók általános közönsége (oldal kedvelések, oldal követések, ...)."
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_http_error_view
+msgid "Go back to Odoo"
+msgstr "Vissza az Odoo-ba"
+
+#. module: social
+#: model_terms:ir.actions.act_window,help:social.action_social_stream
+msgid "Go to the"
+msgstr "Ugrás a"
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_account_view_search
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_search
+#: model_terms:ir.ui.view,arch_db:social.social_stream_post_view_search
+#: model_terms:ir.ui.view,arch_db:social.social_stream_view_search
+msgid "Group By"
+msgstr "Csoportosítás"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_account__social_account_handle
+msgid "Handle / Short Name"
+msgstr ""
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/js/tours/social.js:0
+#, python-format
+msgid "Happy with the result? Let's post it!"
+msgstr "Elégedett az eredménnyel? Tegyük közzé!"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_account__has_account_stats
+msgid "Has Account Stats"
+msgstr "Vannak fiók statisztikái"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_media__has_message
+#: model:ir.model.fields,field_description:social.field_social_post__has_message
+msgid "Has Message"
+msgstr "Van üzenete"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_account__has_trends
+msgid "Has Trends?"
+msgstr "Vannak trendjei?"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_account__id
+#: model:ir.model.fields,field_description:social.field_social_live_post__id
+#: model:ir.model.fields,field_description:social.field_social_media__id
+#: model:ir.model.fields,field_description:social.field_social_post__id
+#: model:ir.model.fields,field_description:social.field_social_post_template__id
+#: model:ir.model.fields,field_description:social.field_social_stream__id
+#: model:ir.model.fields,field_description:social.field_social_stream_post__id
+#: model:ir.model.fields,field_description:social.field_social_stream_post_image__id
+#: model:ir.model.fields,field_description:social.field_social_stream_type__id
+msgid "ID"
+msgstr "Azonosító"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__activity_exception_icon
+msgid "Icon"
+msgstr "Ikon"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_post__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Ikon amely egy kivétel tevékenységet jelöl."
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_media__message_needaction
+#: model:ir.model.fields,help:social.field_social_post__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Ha be van jelölve, akkor az új üzenetek figyelmet igényelnek."
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_media__message_has_error
+#: model:ir.model.fields,help:social.field_social_media__message_has_sms_error
+#: model:ir.model.fields,help:social.field_social_post__message_has_error
+#: model:ir.model.fields,help:social.field_social_post__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Ha be van jelölve, akkor néhány üzenetnél kézbesítési hiba lépett fel."
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_account__image
+#: model:ir.model.fields,field_description:social.field_social_media__image
+msgid "Image"
+msgstr "Kép"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_stream_post_image__image_url
+msgid "Image URL"
+msgstr "Kép URL"
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#, python-format
+msgid "Image Url"
+msgstr "Kép Url"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__image_urls
+#: model:ir.model.fields,field_description:social.field_social_post_template__image_urls
+msgid "Images URLs"
+msgstr "Kép URL-ek"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_stream_post__stream_post_image_ids
+msgid "Images that were shared with this post."
+msgstr "Képek, amelyeket megosztottak ezzel a bejegyzéssel."
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#, python-format
+msgid "Insights"
+msgstr "Elemzések"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_media__message_is_follower
+#: model:ir.model.fields,field_description:social.field_social_post__message_is_follower
+msgid "Is Follower"
+msgstr "Követő"
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#, python-format
+msgid "It appears there is an issue with the Social Media link, click here to link the account again"
+msgstr "Úgy tűnik, hogy probléma van a közösségi média linkkel, kattintson ide a fiók újbóli összekapcsolásához"
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/js/stream_post_kanban_controller.js:0
+#, python-format
+msgid "It will appear in the Feed once it has posts to display."
+msgstr "Megjelenik a Feedben, amint lesznek megjelenítendő bejegyzések."
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_account____last_update
+#: model:ir.model.fields,field_description:social.field_social_live_post____last_update
+#: model:ir.model.fields,field_description:social.field_social_media____last_update
+#: model:ir.model.fields,field_description:social.field_social_post____last_update
+#: model:ir.model.fields,field_description:social.field_social_post_template____last_update
+#: model:ir.model.fields,field_description:social.field_social_stream____last_update
+#: model:ir.model.fields,field_description:social.field_social_stream_post____last_update
+#: model:ir.model.fields,field_description:social.field_social_stream_post_image____last_update
+#: model:ir.model.fields,field_description:social.field_social_stream_type____last_update
+msgid "Last Modified on"
+msgstr "Utolsó módosítás ideje"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_account__write_uid
+#: model:ir.model.fields,field_description:social.field_social_live_post__write_uid
+#: model:ir.model.fields,field_description:social.field_social_media__write_uid
+#: model:ir.model.fields,field_description:social.field_social_post__write_uid
+#: model:ir.model.fields,field_description:social.field_social_post_template__write_uid
+#: model:ir.model.fields,field_description:social.field_social_stream__write_uid
+#: model:ir.model.fields,field_description:social.field_social_stream_post__write_uid
+#: model:ir.model.fields,field_description:social.field_social_stream_post_image__write_uid
+#: model:ir.model.fields,field_description:social.field_social_stream_type__write_uid
+msgid "Last Updated by"
+msgstr "Utoljára frissítette"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_account__write_date
+#: model:ir.model.fields,field_description:social.field_social_live_post__write_date
+#: model:ir.model.fields,field_description:social.field_social_media__write_date
+#: model:ir.model.fields,field_description:social.field_social_post__write_date
+#: model:ir.model.fields,field_description:social.field_social_post_template__write_date
+#: model:ir.model.fields,field_description:social.field_social_stream__write_date
+#: model:ir.model.fields,field_description:social.field_social_stream_post__write_date
+#: model:ir.model.fields,field_description:social.field_social_stream_post_image__write_date
+#: model:ir.model.fields,field_description:social.field_social_stream_type__write_date
+msgid "Last Updated on"
+msgstr "Utolsó frissítés ideje"
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/js/tours/social.js:0
+#, python-format
+msgid "Let's <b>connect</b> to Facebook, LinkedIn or Twitter."
+msgstr "<b>Csatlakozzunk</b> a Facebook-hoz, LinkedIn-hez vagy Twitter-hez."
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/js/tours/social.js:0
+#, python-format
+msgid "Let's create your own <b>social media</b> dashboard."
+msgstr "Hozzuk létre az Ön saját <b>közösségi média</b> vezérlőpultját."
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/js/tours/social.js:0
+#, python-format
+msgid "Let's start posting."
+msgstr "Kezdjünk el posztolni."
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#, python-format
+msgid "Like"
+msgstr "Kedvel"
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#, python-format
+msgid "Likes"
+msgstr "Kedvelések"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_stream_post__link_description
+msgid "Link Description"
+msgstr "Link leírás"
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#: model_terms:ir.ui.view,arch_db:social.social_stream_post_view_kanban
+#, python-format
+msgid "Link Image"
+msgstr "Link kép"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_stream_post__link_image_url
+msgid "Link Image URL"
+msgstr "Link kép URL"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_stream_post__link_title
+msgid "Link Title"
+msgstr "Link cím"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_stream_post__link_url
+msgid "Link URL"
+msgstr "Link URL"
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#, python-format
+msgid "Link a new account"
+msgstr ""
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_media_view_kanban
+msgid "Link account"
+msgstr "Fiók összekapcsolása"
+
+#. module: social
+#: model_terms:ir.actions.act_window,help:social.action_social_account
+msgid "Link an Account"
+msgstr "Fiók összekapcsolása"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_account__company_id
+#: model:ir.model.fields,help:social.field_social_live_post__company_id
+#: model:ir.model.fields,help:social.field_social_stream__company_id
+#: model:ir.model.fields,help:social.field_social_stream_post__company_id
+msgid "Link an account to a company to restrict its usage or keep empty to let all companies use it."
+msgstr "A fiókot egy vállalathoz kötheti, hogy korlátozza a használatát, vagy hagyja üresen, hogy minden vállalat használhassa."
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_live_post__live_post_link
+msgid "Link of the live post on the target media."
+msgstr ""
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_post_template_view_form
+msgid "Link social accounts"
+msgstr "Közösségi fiókok kapcsolása"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_account__stats_link
+msgid "Link to the external Social Account statistics"
+msgstr "Kapcsolás külső közösségi fiók statisztikájához"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_account__is_media_disconnected
+msgid "Link with external Social Media is broken"
+msgstr "A kapcsolat a külső közösségi médiával megszakadt"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_post__account_allowed_ids
+msgid "List of the accounts which can be selected for this post."
+msgstr "Az ehhez a bejegyzéshez kiválasztható fiókok listája."
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__live_posts_by_media
+msgid "Live Posts by Social Media"
+msgstr "Élő bejegyzések közösségi médiánként"
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#, python-format
+msgid "Load more comments..."
+msgstr "További hozzászólások betöltése..."
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_media__message_main_attachment_id
+#: model:ir.model.fields,field_description:social.field_social_post__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Fő melléklet"
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#, python-format
+msgid "Main actions"
+msgstr ""
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_media__max_post_length
+msgid "Max Post Length"
+msgstr ""
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__media_ids
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_kanban
+msgid "Media"
+msgstr "Média"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_account__media_type
+#: model:ir.model.fields,field_description:social.field_social_media__media_type
+msgid "Media Type"
+msgstr "Médiatípus"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_live_post__message
+#: model:ir.model.fields,field_description:social.field_social_post__message
+#: model:ir.model.fields,field_description:social.field_social_post_template__message
+#: model:ir.model.fields,field_description:social.field_social_stream_post__message
+msgid "Message"
+msgstr "Üzenet"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_media__message_has_error
+#: model:ir.model.fields,field_description:social.field_social_post__message_has_error
+msgid "Message Delivery error"
+msgstr "Üzenetkézbesítési hiba"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__message_length
+#: model:ir.model.fields,field_description:social.field_social_post_template__message_length
+#, fuzzy
+#| msgid "Message"
+msgid "Message Length"
+msgstr "Üzenet"
+
+#. module: social
+#: code:addons/social/models/social_post.py:0
+#, python-format
+msgid "Message posted"
+msgstr "Üzenet bejegyezve"
+
+#. module: social
+#: code:addons/social/models/social_post.py:0
+#, python-format
+msgid "Message posted partially. These are the ones that couldn't be posted: <br>%s"
+msgstr "Részlegesen kiküldött üzenet. Ezek azok, amelyeket nem lehetett elküldeni: <br>%s"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_media__message_ids
+#: model:ir.model.fields,field_description:social.field_social_post__message_ids
+msgid "Messages"
+msgstr "Üzenetek"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_live_post__state
+msgid ""
+"Most social.live.posts directly go from Ready to Posted/Failed since they result of a single call to the third party API.\n"
+"        A 'Posting' state is also available for those that are sent through batching (like push notifications)."
+msgstr ""
+"A legtöbb social.live.posts közvetlenül a Készen áll-ból a Bejegyzett/Sikertelen-re megy át, mivel a harmadik fél API-jához történő egyetlen hívás eredményeként jönnek létre.\n"
+"         A \"Közzététel alatt” állapot elérhető azok számára is, akiket kötegelt módon jegyeznek be (például push értesítések)."
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "Tevékenységem határideje"
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_search
+msgid "My Posts"
+msgstr "Bejegyzéseim"
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_stream_post_view_search
+msgid "My Streams"
+msgstr "Adatfolyamaim"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_account__name
+#: model:ir.model.fields,field_description:social.field_social_media__name
+#: model:ir.model.fields,field_description:social.field_social_post__name
+#: model:ir.model.fields,field_description:social.field_social_stream_type__name
+#: model_terms:ir.ui.view,arch_db:social.social_account_view_form
+#: model_terms:ir.ui.view,arch_db:social.social_account_view_search
+msgid "Name"
+msgstr "Név"
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/js/stream_post_kanban_controller.js:0
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#, python-format
+msgid "New Post"
+msgstr "Új bejegyzés"
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#, python-format
+msgid "New content available"
+msgstr ""
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#, python-format
+msgid "Next"
+msgstr "Következő"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr "Következő tevékenység naptári esemény"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Következő tevékenység határideje"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__activity_summary
+msgid "Next Activity Summary"
+msgstr "Következő tevékenység összegzés"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__activity_type_id
+msgid "Next Activity Type"
+msgstr "Következő tevékenység típusa"
+
+#. module: social
+#: model_terms:ir.actions.act_window,help:social.action_social_account
+msgid "No Social Account yet!"
+msgstr "Még nincsenek közösségi fiókok!"
+
+#. module: social
+#: model_terms:ir.actions.act_window,help:social.action_social_stream
+msgid "No Social Streams yet!"
+msgstr "Még nincsenek közösség adatfolyamok!"
+
+#. module: social
+#: model_terms:ir.actions.act_window,help:social.action_social_stream_post
+msgid "No Stream added yet!"
+msgstr ""
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#, python-format
+msgid "No comments yet."
+msgstr "Még nincs hozzászólás."
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/js/stream_post_kanban_controller.js:0
+#, python-format
+msgid "No social accounts configured, please contact your administrator."
+msgstr "Nincsenek beállítva közösségi fiókok, kérjük, forduljon a rendszergazdához."
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_media__message_needaction_counter
+#: model:ir.model.fields,field_description:social.field_social_post__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Műveletek száma"
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#, python-format
+msgid "Number of Followers of your channel"
+msgstr "Csatornája követőinek száma"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__click_count
+msgid "Number of clicks"
+msgstr "Kattintások száma"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_media__message_has_error_counter
+#: model:ir.model.fields,field_description:social.field_social_post__message_has_error_counter
+msgid "Number of errors"
+msgstr "Hibák száma"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_utm_campaign__social_engagement
+msgid "Number of interactions (likes, shares, comments ...) with the social posts"
+msgstr "A közösségi hozzászólásokkal folytatott interakciók száma (kedvelések, megosztások, hozzászólások ...)"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_media__message_needaction_counter
+#: model:ir.model.fields,help:social.field_social_post__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Közbeavatkozást igénylő üzenetek száma"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_media__message_has_error_counter
+#: model:ir.model.fields,help:social.field_social_post__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Kézbesítési hibával rendelkező üzenetek száma"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_live_post__engagement
+#: model:ir.model.fields,help:social.field_social_post__engagement
+msgid "Number of people engagements with the post (Likes, comments...)"
+msgstr "A bejegyzésen aktív emberek száma (kedvelések, megjegyzések ...)"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_account__engagement
+msgid "Number of people engagements with your posts (Likes, Comments, ...)."
+msgstr "A bejegyzéseken aktív emberek száma (kedvelések, megjegyzések ...)."
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_account__stories
+msgid "Number of stories created from your posts (Shares, Re-tweets, ...)."
+msgstr "A bejegyzésedből létrehozott történetek száma (megosztások, re-tweetek, ...)."
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#, python-format
+msgid "Number of times people have engaged with your posts (likes, comments, shares,...)"
+msgstr "A bejegyzéseken aktív emberek száma (kedvelések, hozzászólások, megosztások, ...)"
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#, python-format
+msgid "Number of times people who have engaged with your channel have created stories on their friends' or followers' feed (Shares, Retweets...)"
+msgstr "A csatornáddal foglalkozó emberek által létrehozott történetek száma a barátaik vagy követőik feedjén (megosztások, retweetek...)"
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#, python-format
+msgid "Or add"
+msgstr ""
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_account__audience_trend
+msgid "Percentage of increase/decrease of the audience over a defined period."
+msgstr "A közönség növekedésének / csökkenésének százalékos aránya egy meghatározott időszakban."
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_account__engagement_trend
+msgid "Percentage of increase/decrease of the engagement over a defined period."
+msgstr "Az aktivitás növekedésének / csökkenésének százalékos aránya egy meghatározott időszakban."
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_account__stories_trend
+msgid "Percentage of increase/decrease of the stories over a defined period."
+msgstr "A történetek növekedésének / csökkenésének százalékos aránya egy meghatározott időszakban."
+
+#. module: social
+#: code:addons/social/models/social_post.py:0
+#, python-format
+msgid "Please specify at least one account to post into (for post ID(s) %s)."
+msgstr "Kérjük, adjon meg legalább egy fiókot, amelyre posztolni szeretne (post ID(s) %s)."
+
+#. module: social
+#: code:addons/social/models/social_post.py:0
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_form
+#, python-format
+msgid "Post"
+msgstr "Bejegyzés"
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_kanban
+#: model_terms:ir.ui.view,arch_db:social.social_stream_post_view_kanban
+#, python-format
+msgid "Post Image"
+msgstr "Kép bejegyzés"
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/js/post_kanban_view.js:0
+#: code:addons/social/static/src/js/stream_post_comments.js:0
+#: code:addons/social/static/src/js/stream_post_kanban_record.js:0
+#, python-format
+msgid "Post Images"
+msgstr "Képek bejegyzése"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_live_post__live_post_link
+#: model:ir.model.fields,field_description:social.field_social_stream_post__post_link
+msgid "Post Link"
+msgstr "Link bejegyzése"
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_search
+#: model_terms:ir.ui.view,arch_db:social.social_stream_post_view_search
+msgid "Post Message"
+msgstr "Üzenet bejegyzése"
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_form
+msgid "Post Now"
+msgstr "Bejegyzés most"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_stream_post__post_link
+msgid "Post link to the external social.media (ex: link to the actual Facebook Post)."
+msgstr "Link bejegyzése külső közösségi médiára (pl .: link az aktuális Facebook bejegyzéshez)."
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_post_template_view_form
+msgid "Post on"
+msgstr "Bejegyzés itt"
+
+#. module: social
+#: model:ir.model.fields.selection,name:social.selection__social_live_post__state__posted
+#: model:ir.model.fields.selection,name:social.selection__social_post__state__posted
+msgid "Posted"
+msgstr "Bejegyzett"
+
+#. module: social
+#: model:ir.model.fields.selection,name:social.selection__social_live_post__state__posting
+#: model:ir.model.fields.selection,name:social.selection__social_post__state__posting
+msgid "Posting"
+msgstr "Bejegyzés alatt"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_stream__stream_post_ids
+#: model:ir.ui.menu,name:social.menu_social_post
+#: model_terms:ir.ui.view,arch_db:social.utm_campaign_view_form
+#: model_terms:ir.ui.view,arch_db:social.utm_campaign_view_kanban
+msgid "Posts"
+msgstr "Bejegyzések"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__live_post_ids
+msgid "Posts By Account"
+msgstr "Bejegyzések fiókonként"
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_form
+msgid "Posts By Accounts"
+msgstr "Bejegyzések fiókonként"
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#, python-format
+msgid "Press Enter to post. Press Shift+Enter to insert a Line Break."
+msgstr "Nyomja meg az Entert a postázáshoz. Nyomja meg a Shift+Enter billentyűkombinációt a sortöréshez."
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_post_template_view_form
+msgid "Preview your post"
+msgstr "Bejegyzés előnézete"
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#, python-format
+msgid "Previous"
+msgstr "Előző"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_post__post_method
+msgid "Publish your post immediately or schedule it at a later time."
+msgstr "Tegye közzé bejegyzését most vagy ütemezze későbbre."
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_search
+msgid "Published By"
+msgstr "Közzétette"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__published_date
+msgid "Published Date"
+msgstr "Közzététel dátuma"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_stream_post__published_date
+msgid "Published date"
+msgstr "Közzététel dátuma"
+
+#. module: social
+#: model:ir.model.fields.selection,name:social.selection__social_live_post__state__ready
+msgid "Ready"
+msgstr "Készen áll"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_stream_post__media_type
+msgid "Related Social Media"
+msgstr "Kapcsolódó közösségi média"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_account__media_id
+msgid "Related Social Media (Facebook, Twitter, ...)."
+msgstr "Kapcsolódó közösségi média (Facebook, Twitter, ...)."
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_stream_post__account_id
+msgid "Related social Account"
+msgstr "Kapcsolódó közösségi fiók"
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#, python-format
+msgid "Reply"
+msgstr "Válasz"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__activity_user_id
+msgid "Responsible User"
+msgstr "Felelős felhasználó"
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_live_post_view_form
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_form
+msgid "Retry"
+msgstr "Újra"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_media__message_has_sms_error
+#: model:ir.model.fields,field_description:social.field_social_post__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "SMS kézbesítési hiba"
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_form
+msgid "Schedule"
+msgstr "Ütemezés"
+
+#. module: social
+#: model:ir.model.fields.selection,name:social.selection__social_post__post_method__scheduled
+msgid "Schedule later"
+msgstr "Ütemezés későbbre"
+
+#. module: social
+#: model:ir.model.fields.selection,name:social.selection__social_post__state__scheduled
+msgid "Scheduled"
+msgstr "Ütemezett"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__scheduled_date
+msgid "Scheduled Date"
+msgstr "Ütemezett dátum"
+
+#. module: social
+#: code:addons/social/models/social_post.py:0
+#, python-format
+msgid "Selected accounts (%s) do not match the selected company (%s)"
+msgstr "A kiválasztott fiókok (%s) nem egyeznek a kiválasztott vállalattal (%s)"
+
+#. module: social
+#: model:ir.model.fields.selection,name:social.selection__social_post__post_method__now
+msgid "Send now"
+msgstr "Küldés most"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_stream__sequence
+msgid "Sequence"
+msgstr "Sorszám"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_stream__sequence
+msgid "Sequence used to order streams (mainly for the 'Feed' kanban view)"
+msgstr "Sorszám, amelyet az adatfolyamok rendezéséhez használunk (főként a \"Feed\" kanban nézethez)"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_media__max_post_length
+msgid "Set a maximum number of characters can be posted in post. 0 for no limit."
+msgstr ""
+
+#. module: social
+#: model:ir.actions.act_window,name:social.action_social_global_settings
+#: model:ir.ui.menu,name:social.menu_social_global_settings
+msgid "Settings"
+msgstr "Beállítások"
+
+#. module: social
+#: model:ir.model,name:social.model_social_account
+#: model:ir.model.fields,field_description:social.field_social_live_post__account_id
+#: model:ir.model.fields,field_description:social.field_social_stream__account_id
+#: model_terms:ir.ui.view,arch_db:social.social_account_view_form
+msgid "Social Account"
+msgstr "Közösségi fiók"
+
+#. module: social
+#: model:ir.actions.act_window,name:social.action_social_account
+#: model:ir.model.fields,field_description:social.field_social_media__account_ids
+#: model:ir.model.fields,field_description:social.field_social_post__account_ids
+#: model:ir.model.fields,field_description:social.field_social_post_template__account_ids
+#: model:ir.ui.menu,name:social.menu_social_account
+#: model_terms:ir.ui.view,arch_db:social.social_account_view_list
+msgid "Social Accounts"
+msgstr "Közösségi fiókok"
+
+#. module: social
+#: model:ir.model,name:social.model_social_live_post
+msgid "Social Live Post"
+msgstr "Közösségi élő bejegyzés"
+
+#. module: social
+#: model:res.groups,name:social.group_social_manager
+msgid "Social Manager"
+msgstr "Közösségi vezető"
+
+#. module: social
+#: model:ir.ui.menu,name:social.menu_social_global
+msgid "Social Marketing"
+msgstr "Közösségi marketing"
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#: model:ir.actions.act_window,name:social.action_social_media
+#: model:ir.model,name:social.model_social_media
+#: model:ir.model.fields,field_description:social.field_social_account__media_id
+#: model:ir.model.fields,field_description:social.field_social_stream__media_id
+#: model:ir.model.fields,field_description:social.field_social_stream_type__media_id
+#: model:ir.ui.menu,name:social.menu_social_media
+#: model_terms:ir.ui.view,arch_db:social.res_config_settings_view_form
+#: model_terms:ir.ui.view,arch_db:social.social_media_view_kanban
+#: model_terms:ir.ui.view,arch_db:social.utm_campaign_view_form
+#, python-format
+msgid "Social Media"
+msgstr "Közösségi média"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_utm_campaign__social_posts_count
+msgid "Social Media Posts"
+msgstr "Közösségi média bejegyzések"
+
+#. module: social
+#: model:ir.model,name:social.model_social_post
+#: model:ir.model.fields,field_description:social.field_social_live_post__post_id
+#: model_terms:ir.ui.view,arch_db:social.social_live_post_view_form
+msgid "Social Post"
+msgstr "Közösségi bejegyzés"
+
+#. module: social
+#: model:ir.model,name:social.model_social_post_template
+#: model_terms:ir.ui.view,arch_db:social.social_post_template_view_form
+msgid "Social Post Template"
+msgstr "Közösségi bejegyzés sablon"
+
+#. module: social
+#: model:ir.actions.act_window,name:social.social_post_template_action
+msgid "Social Post Templates"
+msgstr "Közösségi bejegyzés sablonok"
+
+#. module: social
+#: model:ir.actions.act_window,name:social.action_social_post
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_calendar
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_pivot
+msgid "Social Posts"
+msgstr "Közösségi bejegyzések"
+
+#. module: social
+#: model:ir.model,name:social.model_social_stream
+#: model:ir.model.fields,field_description:social.field_social_stream_post__stream_id
+#: model_terms:ir.ui.view,arch_db:social.social_stream_view_form
+msgid "Social Stream"
+msgstr "Közösségi adatfolyam"
+
+#. module: social
+#: model:ir.model,name:social.model_social_stream_post
+#: model:ir.model,name:social.model_social_stream_type
+msgid "Social Stream Post"
+msgstr "Közösségi adatfolyam bejegyzés"
+
+#. module: social
+#: model:ir.model,name:social.model_social_stream_post_image
+msgid "Social Stream Post Image Attachment"
+msgstr "Közösségi adatfolyam bejegyzés kép melléklet"
+
+#. module: social
+#: model:ir.actions.act_window,name:social.action_social_stream
+#: model:ir.ui.menu,name:social.menu_social_stream
+msgid "Social Streams"
+msgstr "Közösség adatfolyamok"
+
+#. module: social
+#: model:res.groups,name:social.group_social_user
+#, fuzzy
+#| msgid "Social Media"
+msgid "Social User"
+msgstr "Közösségi média"
+
+#. module: social
+#: model:ir.actions.server,name:social.ir_cron_post_scheduled_ir_actions_server
+#: model:ir.cron,cron_name:social.ir_cron_post_scheduled
+#: model:ir.cron,name:social.ir_cron_post_scheduled
+msgid "Social: Publish Scheduled Posts"
+msgstr "Közösségi: Ütemezett bejegyzések közzététele"
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/js/stream_post_kanban_dashboard.js:0
+#, python-format
+msgid "Sorry, you're not allowed to re-link this account, please contact your administrator."
+msgstr "Sajnáljuk, de ezt a fiókot nem engedélyezett újra összekapcsolni, kérjük, vegye fel a kapcsolatot a rendszergazdával."
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__source_id
+msgid "Source"
+msgstr "Forrás"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_post__live_posts_by_media
+msgid "Special technical field that holds a dict containing the live posts names by media ids (used for kanban view)."
+msgstr "Speciális techniaki mező, amely egy élő lemezt tartalmaz, amely tartalmazza az élő bejegyzések nevét médiaazonosítónként (a kanban megjelenítéséhez használható)."
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_account__stats_link
+msgid "Stats Link"
+msgstr "Statisztika link"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_live_post__state
+#: model:ir.model.fields,field_description:social.field_social_post__state
+msgid "Status"
+msgstr "Állapot"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_post__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Tevékenységeken alapuló állapot\n"
+"Lejárt: Határidő már elmúlt\n"
+"Mai: A határidő ma van\n"
+"Tervezett: Jövőbeli határidő."
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#: model:ir.model.fields,field_description:social.field_social_account__stories
+#, python-format
+msgid "Stories"
+msgstr "Történetek"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_account__stories_trend
+msgid "Stories Trend"
+msgstr "Történet trend"
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/js/stream_post_kanban_controller.js:0
+#, python-format
+msgid "Stream Added (%s)"
+msgstr ""
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_stream_post_image__stream_post_id
+msgid "Stream Post"
+msgstr "Adatfolyam bejegyzés"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_stream_post__stream_post_image_ids
+msgid "Stream Post Images"
+msgstr "Adatfolyam bejegyzésképek"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_stream_post__stream_post_image_urls
+msgid "Stream Post Images URLs"
+msgstr "Adatfolyam bejegyzés képek URLek"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_media__stream_type_ids
+msgid "Stream Types"
+msgstr "Adatfolyam típusok"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_stream__stream_type_type
+#: model:ir.model.fields,field_description:social.field_social_stream_type__stream_type
+msgid "Stream type name (technical)"
+msgstr "Adatfolyam típus név (technikai)"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_media__has_streams
+msgid "Streams Enabled"
+msgstr "Adatfolyamok engedélyezve"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_post__live_post_ids
+msgid "Sub-posts that will be published on each selected social accounts."
+msgstr "Al-bejegyzések, amelyeket minden kiválasztott közösségi fiókon közzétesznek."
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#, python-format
+msgid "Synchronize"
+msgstr "Szinkronizálás"
+
+#. module: social
+#: code:addons/social/models/social_post_template.py:0
+#, python-format
+msgid "The 'message' field is required for post ID %s"
+msgstr "A 'message' mező kötelező a %s azonosítójú bejegyzéshez"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_post__account_ids
+#: model:ir.model.fields,help:social.field_social_post_template__account_ids
+msgid "The accounts on which this post will be published."
+msgstr "Azok a fiókok, amelyeken ez a bejegyzés közzé lesz téve."
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_stream_post__author_name
+msgid "The post author name based on third party information (ex: 'John Doe')."
+msgstr "A bejegyzés szerzője harmadik fél adatai alapján (pl.: 'Gipsz Jakab')."
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_post__state
+msgid "The post is considered as 'Posted' when all its sub-posts (one per social account) are either 'Failed' or 'Posted'"
+msgstr "A bejegyzés akkor tekinthető \"Közzétettnek”, ha az összes albejegyzés (közösségi fiókonként egy) \"sikertelen” vagy \"közzétett” állapotú"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_stream_post__published_date
+msgid "The post published date based on third party information."
+msgstr "A közzététel időpontja harmadik fél adatai alapján."
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_live_post__failure_reason
+msgid "The reason why a post is not successfully posted on the Social Media (eg: connection error, duplicated post, ...)."
+msgstr "Az ok, amiért egy bejegyzés közzététele nem sikeres a közösségi médiában (pl .: kapcsolathiba, duplikált bejegyzés, ...)."
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_stream__media_image
+msgid "The related Social Media's image"
+msgstr "A kapcsolodó közösségi média képe"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_post__media_ids
+msgid "The social medias linked to the selected social accounts."
+msgstr "A kiválasztott közösségi fiókokhoz kapcsolódó szociális médiumok."
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__has_post_errors
+msgid "There are post errors on sub-posts"
+msgstr "Az albejegyzéseknél vannak hibák"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_media__csrf_token
+msgid "This token can be used to verify that an incoming request from a social provider has not been forged."
+msgstr "Ez a token használható annak ellenőrzésére, hogy egy közösségi szolgáltatótól érkező kérés nem hamisított."
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_stream__name
+msgid "Title"
+msgstr "Cím"
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#, python-format
+msgid "To add a stream"
+msgstr "Egy adatfolyam hozzáadásához"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_stream__stream_type_id
+msgid "Type"
+msgstr "Típus"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_post__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "A kivétel tevékenység típusa a rekordon."
+
+#. module: social
+#: model:ir.model,name:social.model_utm_campaign
+#: model:ir.model.fields,field_description:social.field_social_post__utm_campaign_id
+msgid "UTM Campaign"
+msgstr "UTM kampány"
+
+#. module: social
+#: model:ir.model,name:social.model_utm_medium
+#: model:ir.model.fields,field_description:social.field_social_account__utm_medium_id
+msgid "UTM Medium"
+msgstr "UTM média"
+
+#. module: social
+#: model:ir.model,name:social.model_utm_source
+msgid "UTM Source"
+msgstr "UTM forrás"
+
+#. module: social
+#: code:addons/social/models/social_post.py:0
+#, python-format
+msgid "Unknown error"
+msgstr "Ismeretlen hiba"
+
+#. module: social
+#: code:addons/social/models/social_post_template.py:0
+#, python-format
+msgid "Uploaded file does not seem to be a valid image."
+msgstr "A feltöltött fájl nem tűnik érvényes képnek."
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.res_config_settings_view_form
+msgid ""
+"Use your own Developer Accounts on our Social app.\n"
+"                            Those credentials are provided in the developer section of your professional social media account."
+msgstr ""
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_account__media_type
+#: model:ir.model.fields,help:social.field_social_media__media_type
+#: model:ir.model.fields,help:social.field_social_stream_post__media_type
+msgid "Used to make comparisons when we need to restrict some features to a specific media ('facebook', 'twitter', ...)."
+msgstr "Összehasonlításra szolgál, amikor bizonyos funkciókat bizonyos médiumra kell korlátoznunk ('facebook', 'twitter', ...)."
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#, python-format
+msgid "View"
+msgstr "Megtekintés"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_media__website_message_ids
+#: model:ir.model.fields,field_description:social.field_social_post__website_message_ids
+msgid "Website Messages"
+msgstr "Weboldal üzenetek"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_media__website_message_ids
+#: model:ir.model.fields,help:social.field_social_post__website_message_ids
+msgid "Website communication history"
+msgstr "Weboldal kommunikáció előzmények"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__post_method
+msgid "When"
+msgstr "Mikor"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_post__published_date
+msgid "When the global post was published. The actual sub-posts published dates may be different depending on the media."
+msgstr "Amikor a globális bejegyzés megjelent. A tényleges al-hozzászólások közzétételének dátumai a médiától függően eltérőek lehetnek."
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_post__image_ids
+#: model:ir.model.fields,help:social.field_social_post_template__image_ids
+msgid "Will attach images to your posts (if the social media supports it)."
+msgstr "Képeket fog csatolni a bejegyzésekhez (ha a közösségi média támogatja)."
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#, python-format
+msgid "Write a comment..."
+msgstr "írjon hozzászólást..."
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/js/tours/social.js:0
+#, python-format
+msgid "Write a message to get a preview of your post."
+msgstr "Írjon üzenetet, hogy előnézetet láthasson a bejegyzéséről."
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#, python-format
+msgid "Write a reply..."
+msgstr "Írjon választ..."
+
+#. module: social
+#: model_terms:ir.actions.act_window,help:social.action_social_post
+msgid "Write an enticing post, add images and schedule it to be posted later on multiple platforms at once."
+msgstr "Írjon egy izgalmas bejegyzést, adjon hozzá képeket, és ütemezze be, hogy később egyszerre több platformon is közzétegye."
+
+#. module: social
+#: code:addons/social/models/social_post.py:0
+#, python-format
+msgid "You can only move posts that are scheduled."
+msgstr "Csak a beütemezett bejegyzéseket lehet mozgatni."
+
+#. module: social
+#: code:addons/social/models/utm_medium.py:0
+#, python-format
+msgid ""
+"You cannot delete these UTM Mediums as they are linked to the following social accounts in Social:\n"
+"%(social_accounts)s"
+msgstr ""
+
+#. module: social
+#: code:addons/social/models/utm_source.py:0
+#, python-format
+msgid ""
+"You cannot delete these UTM Sources as they are linked to social posts in Social:\n"
+"%(utm_sources)s"
+msgstr ""
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_post_template_view_form
+msgid "Your Post"
+msgstr "Az Ön bejegyzése"
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#, python-format
+msgid "a Stream from an existing account"
+msgstr ""
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_post_template_view_form
+msgid "before posting."
+msgstr "a bejegyzés előtt."
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/js/stream_post_comment.js:0
+#, python-format
+msgid "comment/reply"
+msgstr ""
+
+#. module: social
+#: model_terms:ir.actions.act_window,help:social.action_social_stream
+msgid "dashboard"
+msgstr "műszerfal"
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#, python-format
+msgid "for"
+msgstr ""
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#, python-format
+msgid "replies..."
+msgstr "választ..."
+
+#. module: social
+#: model_terms:ir.actions.act_window,help:social.action_social_stream_post
+msgid "to keep an eye on your own posts and monitor all social activities."
+msgstr ""
+
+#. module: social
+#: model_terms:ir.actions.act_window,help:social.action_social_stream
+msgid "to link your accounts and start posting."
+msgstr ""
+
+#. module: social
+#: model_terms:ir.actions.act_window,help:social.action_social_account
+msgid "to start posting from Odoo."
+msgstr ""
+
+#~ msgid "Comments"
+#~ msgstr "Megjegyzések"
+
+#~ msgid "Followers (Channels)"
+#~ msgstr "Követők (Csatornák)"
+
+#~ msgid "Number of unread messages"
+#~ msgstr "Olvasatlan üzenetek száma"
+
+#~ msgid "Ok"
+#~ msgstr "Ok"
+
+#~ msgid "Unread Messages"
+#~ msgstr "Olvasatlan üzenetek"
+
+#~ msgid "Unread Messages Counter"
+#~ msgstr "Olvasatlan üzenetek száma"

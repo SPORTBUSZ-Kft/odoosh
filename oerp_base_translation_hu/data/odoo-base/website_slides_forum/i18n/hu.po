@@ -1,0 +1,494 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_slides_forum
+#
+# Translators:
+# krnkris, 2019
+# Ákos Nagy <akos.nagy@oregional.hu>, 2019
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-04 09:26+0000\n"
+"PO-Revision-Date: 2022-10-16 04:01+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/website_slides_forum/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid "(The above section was adapted from Stackoverflow’s FAQ.)"
+msgstr "(A fenti rész a Stackoverflow GYIK-jából származik.)"
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid ""
+"<b>Answers should not add or expand questions</b>. Instead either edit the "
+"question or add a question comment."
+msgstr "<b>A válaszoknak nem szabad kiegészíteniük vagy kibővíteniük a kérdéseket</b>. Ehelyett vagy szerkessze a kérdést, vagy adjon hozzá egy kérdésre vonatkozó megjegyzést."
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid ""
+"<b>Answers should not add or expand questions</b>. Insteadeither edit the "
+"question or add a comment."
+msgstr "<b>A válaszoknak nem szabad kiegészíteniük vagy kibővíteniük a kérdéseket</b>. Ehelyett vagy szerkessze a kérdést, vagy adjon hozzá megjegyzést."
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid ""
+"<b>Answers should not comment other answers</b>. Instead add a comment on "
+"the other answers."
+msgstr "<b>A válaszok nem kommentálhatnak más válaszokat</b>. Ehelyett adjon hozzá egy megjegyzést a többi válaszhoz."
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid ""
+"<b>Answers should not start debates</b> This community Q&amp;A is not a "
+"discussion group. Please avoid holding debates in your answers as they tend "
+"to dilute the essence of questions and answers. For brief discussions please "
+"use commenting facility."
+msgstr "<b>A válaszok nem indíthatnak vitát</b> Ez a közösségi Kérdezz-Felelek nem egy vitacsoport. Kérjük, hogy válaszaiban ne tartson vitákat, mivel ezek felhígítják a kérdések és válaszok lényegét. Rövid vitákhoz kérjük, használja a hozzászólási lehetőséget."
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid ""
+"<b>Answers shouldn't just point to other Questions</b>. Instead add a "
+"question comment indication \"Possible duplicate of...\". However, it's ok "
+"to include links to other questions or answers providing relevant additional "
+"information."
+msgstr "<b>A válaszoknak nem szabadna csak más Kérdésekre mutatniuk</b>. Ehelyett adjunk hozzá egy kérdésre vonatkozó megjegyzést \"Lehetséges duplikátumja...\". Az azonban rendben van, hogy más kérdésekre vagy válaszokra mutató linkeket tartalmazzon, amelyek releváns kiegészítő információkat nyújtanak."
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid ""
+"<b>Answers shouldn't just point to other questions</b>.Instead add a comment "
+"indicating <i>\"Possible duplicate of...\"</i>. However, it's fine to "
+"include links to other questions or answers providing relevant additional "
+"information."
+msgstr "<b>A válaszok ne csak más kérdésekre mutassanak</b>. Ehelyett adjon hozzá egy megjegyzést, amely jelzi, hogy <i>\"Lehetséges duplikátuma...\"</i>. Az azonban rendben van, ha más kérdésekre vagy válaszokra mutató linkeket tartalmaz, amelyek releváns további információkat nyújtanak."
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid ""
+"<b>Answers shouldn't just provide a link a solution</b>. Instead provide the "
+"solution description text in your answer, even if it's just a copy/paste. "
+"Links are welcome, but should be complementary to answer, referring sources "
+"or additional reading."
+msgstr "<b>A válaszoknak nem csak egy linket kell adniuk a megoldáshoz</b>. Ehelyett a megoldás leíró szövegét adja meg a válaszában, még akkor is, ha ez csak egy sima másolás/beillesztés. A linkeket szívesen fogadjuk, de azoknak a választ kiegészítő, forrásokra vagy további olvasmányokra utaló linkeknek kell lenniük."
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid ""
+"<b>Before you ask - please make sure to search for a similar question.</b> "
+"You can search questions by their title or tags. It’s also OK to answer your "
+"own question."
+msgstr "<b>Kérdésfeltevés előtt - kérjük, keressen hasonló kérdést.</b> A kérdéseket a címük vagy a címkék alapján keresheti. Az is rendben van, ha a saját kérdésedre válaszolsz."
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid ""
+"<b>Please avoid asking questions that are too subjective and argumentative</"
+"b> or not relevant to this community."
+msgstr "<b>Kérlek, kerüld a túl szubjektív és érvelő</b> vagy a közösség szempontjából nem releváns kérdések feltevését."
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid "<b>What kinds of questions can I ask here?</b>"
+msgstr "<b>Milyen jellegű kérdéseket tehetek fel itt?</b>"
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid "<b>What should I avoid in my answers?</b>"
+msgstr "<b>Mit kerüljek a válaszaimban?</b>"
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid "<b>What should I avoid in my questions?</b>"
+msgstr "<b>Mit kerüljek a kérdéseimben?</b>"
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid "<b>Why can other people edit my questions/answers?</b>"
+msgstr "<b>Miért szerkeszthetik mások a kérdéseimet/válaszaimat?</b>"
+
+#. module: website_slides_forum
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.slide_fullscreen
+msgid ""
+"<i class=\"fa fa-comments\"/><span class=\"ms-1 d-none d-md-inline-block"
+"\">Forum</span>"
+msgstr ""
+
+#. module: website_slides_forum
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.website_slides_forum_header
+msgid "<i class=\"fa fa-home\"/> Course"
+msgstr "<i class=\"fa fa-home\"/> Képzés"
+
+#. module: website_slides_forum
+#: model:forum.forum,name:website_slides_forum.forum_forum_demo_channel_0
+msgid "Basics of Gardening"
+msgstr "Kertészkedési alapismeretek"
+
+#. module: website_slides_forum
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.website_slides_forum_index
+msgid "Check our Courses <i class=\"fa fa-chevron-right\"/>"
+msgstr "Tekintse meg képzéseinket <i class=\"fa fa-chevron-right\"/>"
+
+#. module: website_slides_forum
+#: model_terms:ir.actions.act_window,help:website_slides_forum.forum_post_action_channel
+msgid "Come back later to monitor and moderate what is posted on your Forums."
+msgstr ""
+
+#. module: website_slides_forum
+#: model:ir.model,name:website_slides_forum.model_slide_channel
+#: model:ir.model.fields,field_description:website_slides_forum.field_forum_forum__slide_channel_id
+msgid "Course"
+msgstr "Képzés"
+
+#. module: website_slides_forum
+#: model:ir.model.fields,field_description:website_slides_forum.field_slide_channel__forum_id
+msgid "Course Forum"
+msgstr "Képzés fórum"
+
+#. module: website_slides_forum
+#: model:ir.model.fields,field_description:website_slides_forum.field_forum_forum__slide_channel_ids
+msgid "Courses"
+msgstr "Képzések"
+
+#. module: website_slides_forum
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.website_slides_forum_index
+msgid "Courses Discussions"
+msgstr "Képzés megbeszélés"
+
+#. module: website_slides_forum
+#: model_terms:ir.actions.act_window,help:website_slides_forum.forum_forum_action_channel
+msgid "Create a Forum"
+msgstr "Hozzon létre egy fórumot"
+
+#. module: website_slides_forum
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.website_slides_forum_index
+msgid "Description"
+msgstr "Leírás"
+
+#. module: website_slides_forum
+#: model:ir.model.fields,help:website_slides_forum.field_forum_forum__slide_channel_ids
+msgid "Edit the course linked to this forum on the course form."
+msgstr "Szerkessze a képzést, amely ehhez a fórumhoz kapcsolódik a képzési űrlapon."
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid ""
+"For example, if you ask an interesting question or give a helpful answer, "
+"your input will be upvoted. On the other hand if the answer is misleading - "
+"it will be downvoted. Each vote in favor will generate 10 points, each vote "
+"against will subtract 10 points. There is a limit of 200 points that can be "
+"accumulated for a question or answer per day. The table given at the end "
+"explains reputation point requirements for each type of moderation task."
+msgstr "Ha például érdekes kérdést tesz fel, vagy hasznos választ ad, akkor a hozzászólását feljebb szavazzák. Másrészt, ha a válasz félrevezető - le lesz szavazva. Minden egyes igen szavazat 10 pontot generál, minden egyes ellenszavazat 10 pontot von le. Egy kérdésre vagy válaszra naponta legfeljebb 200 pont gyűjthető. A végén található táblázatban a moderálási feladatok egyes típusaira vonatkozó hírnévpontkövetelményeket ismertetjük."
+
+#. module: website_slides_forum
+#: model:ir.model,name:website_slides_forum.model_forum_forum
+#: model:ir.ui.menu,name:website_slides_forum.website_slides_menu_forum
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.course_main
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.slide_fullscreen
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.website_slides_forum_channel_inherit_view_form
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.website_slides_forum_header
+msgid "Forum"
+msgstr "Fórum"
+
+#. module: website_slides_forum
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.snippet_options
+#, fuzzy
+#| msgid "Forum Posts"
+msgid "Forum Page"
+msgstr "Fórum bejegyzések"
+
+#. module: website_slides_forum
+#: model:ir.actions.act_window,name:website_slides_forum.forum_post_action_channel
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.website_slides_forum_channel_inherit_view_form
+msgid "Forum Posts"
+msgstr "Fórum bejegyzések"
+
+#. module: website_slides_forum
+#: model:ir.model.fields,help:website_slides_forum.field_forum_forum__visibility
+msgid ""
+"Forum linked to a Course, the visibility is the one applied on the course."
+msgstr "Fórum egy képzéshez kapcsolódik, a láthatóság a képzésen alkalmazott láthatóság."
+
+#. module: website_slides_forum
+#: model:ir.actions.act_window,name:website_slides_forum.forum_forum_action_channel
+#: model:ir.ui.menu,name:website_slides_forum.website_slides_menu_forum_forum
+msgid "Forums"
+msgstr "Fórumok"
+
+#. module: website_slides_forum
+#: model_terms:ir.actions.act_window,help:website_slides_forum.forum_forum_action_channel
+msgid "Forums allow your attendees to ask questions to your community."
+msgstr ""
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid "Here a table with the privileges and the karma level"
+msgstr "Itt egy táblázat a jogosultságokkal és a karma szintekkel"
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,welcome_message:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,welcome_message:website_slides_forum.forum_forum_demo_channel_2
+msgid "Hide Intro"
+msgstr "Kezdeti bemutató elrejtése"
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid "If this approach is not for you, please respect the community."
+msgstr "Ha ez a megközelítés nem megfelelő az Ön számára, kérjük, tartsa tiszteletben a közösséget."
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid ""
+"If you fit in one of these example or if your motivation for asking the "
+"question is “I would like to participate in a discussion about ______”, then "
+"you should not be asking here but on our mailing lists. However, if your "
+"motivation is “I would like others to explain ______ to me”, then you are "
+"probably OK."
+msgstr "Ha a fenti példák valamelyikébe beleillik, vagy ha a kérdés feltevésének motivációja az, hogy \"szeretnék részt venni egy, a ______-ról szóló vitában\", akkor nem itt, hanem a levelezőlistánkon kellene kérdeznie. Ha azonban a motivációja az, hogy \"Szeretném, ha mások elmagyaráznák nekem a ______ problémát\", akkor valószínűleg rendben van."
+
+#. module: website_slides_forum
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.res_config_settings_view_form
+#, fuzzy
+#| msgid "Forums"
+msgid "Manage Forums"
+msgstr "Fórumok"
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid "More over:"
+msgstr "Bővebben:"
+
+#. module: website_slides_forum
+#: model_terms:ir.actions.act_window,help:website_slides_forum.forum_post_action_channel
+#, fuzzy
+#| msgid "Forum Posts"
+msgid "No Forum Post yet!"
+msgstr "Fórum bejegyzések"
+
+#. module: website_slides_forum
+#: model:ir.model.fields,field_description:website_slides_forum.field_slide_channel__forum_total_posts
+msgid "Number of active forum posts"
+msgstr "Aktív fórumbejegyzések száma"
+
+#. module: website_slides_forum
+#: model:ir.model.constraint,message:website_slides_forum.constraint_slide_channel_forum_uniq
+msgid "Only one course per forum!"
+msgstr "Fórumonként csak egy képzés!"
+
+#. module: website_slides_forum
+#: model:ir.ui.menu,name:website_slides_forum.website_slides_menu_forum_post
+msgid "Posts"
+msgstr "Bejegyzések"
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,welcome_message:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,welcome_message:website_slides_forum.forum_forum_demo_channel_2
+msgid "Register"
+msgstr "Regisztráció"
+
+#. module: website_slides_forum
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.website_slides_forum_header
+msgid "Reviews"
+msgstr "Vélemények"
+
+#. module: website_slides_forum
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.website_slides_forum_index
+msgid "See all Courses"
+msgstr "Összes képzés megtekintése"
+
+#. module: website_slides_forum
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.snippet_options
+msgid "Separate Courses"
+msgstr ""
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid ""
+"The goal of this site is create a relevant knowledge base that would answer "
+"questions related to Odoo."
+msgstr "Az oldal célja egy releváns tudásbázis létrehozása, amely választ ad az Odoo-val kapcsolatos kérdésekre."
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid ""
+"Therefore questions and answers can be edited like wiki pages by experienced "
+"users of this site in order to improve the overall quality of the knowledge "
+"base content. Such privileges are granted based on user karma level: you "
+"will be able to do the same once your karma gets high enough."
+msgstr "Ezért a kérdéseket és válaszokat a webhely tapasztalt felhasználói a wiki oldalakhoz hasonlóan szerkeszthetik, hogy javítsák a tudásbázis tartalmának általános minőségét. Az ilyen jogosultságok a felhasználói karma szintje alapján kerülnek megadásra: Ön is megteheti ugyanezt, amint a karmája elég magasra emelkedik."
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid ""
+"This community is for professional and enthusiast users, partners and "
+"programmers. You can ask questions about:"
+msgstr "Ez a közösség professzionális és lelkes felhasználóknak, partnereknek és programozóknak szól. Kérdéseket tehet fel a következőkkel kapcsolatban:"
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,welcome_message:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,welcome_message:website_slides_forum.forum_forum_demo_channel_2
+msgid ""
+"This community is for professionals and enthusiasts of our products and "
+"services.\n"
+"                                        <br>Share and discuss the best "
+"content and new marketing ideas, build your professional profile and become "
+"a better marketer together."
+msgstr ""
+"Ez a közösség a termékeink és szolgáltatásaink szakemberei és rajongói számára készült.\n"
+"                                        <br> Ossza meg és vitassa meg a legjobb tartalmakat és új marketingötleteket, építse szakmai profilját és váljon együtt jobb marketingessé."
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid ""
+"To prevent your question from being flagged and possibly removed, avoid "
+"asking subjective questions where …"
+msgstr "Annak elkerülése érdekében, hogy kérdését megjelöljék és esetleg eltávolítsák, kerülje a szubjektív kérdéseket, ahol …"
+
+#. module: website_slides_forum
+#: model:forum.forum,name:website_slides_forum.forum_forum_demo_channel_2
+msgid "Trees, Wood and Gardens"
+msgstr "Fák, erdők és kertek"
+
+#. module: website_slides_forum
+#: model:ir.model.fields,field_description:website_slides_forum.field_forum_forum__visibility
+msgid "Visibility"
+msgstr "Láthatóság"
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,welcome_message:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,welcome_message:website_slides_forum.forum_forum_demo_channel_2
+msgid "Welcome!"
+msgstr "Üdvözöllek!"
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid ""
+"When a question or answer is upvoted, the user who posted them will gain "
+"some points, which are called \"karma points\". These points serve as a "
+"rough measure of the community trust to him/her. Various moderation tasks "
+"are gradually assigned to the users based on those points."
+msgstr "Ha egy kérdést vagy választ felfelé szavaztak, az azt közzétevő felhasználó pontokat kap, amelyeket \"karmapontoknak\" neveznek. Ezek a pontok a közösség iránta tanúsított bizalmának durva mércéjeként szolgálnak. E pontok alapján fokozatosan különböző moderálási feladatokat osztanak ki a felhasználóknak."
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid ""
+"You should only ask practical, answerable questions based on actual problems "
+"that you face. Chatty, open-ended questions diminish the usefulness of this "
+"site and push other questions off the front page."
+msgstr "Csak olyan gyakorlatias, megválaszolható kérdéseket tegyen fel, amelyek az Ön előtt álló tényleges problémákon alapulnak. A fecsegő, nyílt végű kérdések csökkentik az oldal hasznosságát, és más kérdéseket kiszorítanak a címlapról."
+
+#. module: website_slides_forum
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.forum_forum_view_form
+msgid "eLearning"
+msgstr "eAkadémia"
+
+#. module: website_slides_forum
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.forum_post_view_graph_slides
+msgid "eLearning Forum Posts"
+msgstr "eAkadémia fórum bejegyzések"
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid "every answer is equally valid: “What’s your favorite ______?”"
+msgstr "minden válasz egyformán érvényes: \"Mi a kedvenc ______?\""
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid "how to configure or customize Odoo to specific business needs,"
+msgstr "hogyan lehet az Odoo-t az adott üzleti igényekhez konfigurálni vagy testre szabni,"
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid "how to develop modules for your own need,"
+msgstr "hogyan fejlesszünk modulokat a saját igényeinknek megfelelően,"
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid "how to install Odoo on a specific infrastructure,"
+msgstr "hogyan kell telepíteni az Odoo-t egy adott infrastruktúrára,"
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid "it is a rant disguised as a question: “______ sucks, am I right?”"
+msgstr "ez egy kérdésnek álcázott szónoklat: \"______ szívás, igazam van?\""
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid "specific questions about Odoo service offers, etc."
+msgstr "konkrét kérdések az Odoo szolgáltatási ajánlatokkal stb. kapcsolatban."
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid ""
+"there is no actual problem to be solved: “I’m curious if other people feel "
+"like I do.”"
+msgstr "nincs tényleges megoldandó probléma: \"Kíváncsi vagyok, hogy mások is úgy éreznek-e, mint én.\""
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid ""
+"we are being asked an open-ended, hypothetical question: “What if ______ "
+"happened?”"
+msgstr "egy nyílt végű, hipotetikus kérdést tesznek fel nekünk: \"Mi lenne, ha a ______ történne?\""
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid "what's the best way to use Odoo for a specific business need,"
+msgstr "mi a legjobb módja annak, hogy az Odoo-t egy adott üzleti igényre használjuk,"
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid ""
+"your answer is provided along with the question, and you expect more "
+"answers: “I use ______ for ______, what do you use?”"
+msgstr "a választ a kérdéssel együtt adják meg, és több választ várnak: \"Én a ______ oldalt használom a ______ funkcióra, te mit használsz?\""
+
+#~ msgid "Communication"
+#~ msgstr "Kommunikáció"

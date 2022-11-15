@@ -1,0 +1,58 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * voip_onsip
+#
+# Translators:
+# krnkris, 2018
+# Tibor Kőnig <konig.tibor@evitalit.hu>, 2018
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~11.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-20 09:49+0000\n"
+"PO-Revision-Date: 2022-10-28 20:01+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/voip_onsip/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#. module: voip_onsip
+#: model:ir.model,name:voip_onsip.model_res_config_settings
+msgid "Config Settings"
+msgstr "Beállítások"
+
+#. module: voip_onsip
+#: model:ir.model.fields,field_description:voip_onsip.field_res_users__onsip_auth_username
+#: model:ir.model.fields,field_description:voip_onsip.field_res_users_settings__onsip_auth_username
+msgid "OnSIP Auth Username"
+msgstr "OnSIP azonosítási felhasználónév"
+
+#. module: voip_onsip
+#: model_terms:ir.ui.view,arch_db:voip_onsip.res_config_settings_view_form
+msgid "OnSIP Domain"
+msgstr "OnSIP Tartomány"
+
+#. module: voip_onsip
+#: model:ir.model.fields,help:voip_onsip.field_res_config_settings__wsServer
+msgid "The URL of your WebSocket"
+msgstr "A WebSocket URL címe"
+
+#. module: voip_onsip
+#: model:ir.model,name:voip_onsip.model_res_users
+msgid "User"
+msgstr "Felhasználó"
+
+#. module: voip_onsip
+#: model:ir.model,name:voip_onsip.model_res_users_settings
+msgid "User Settings"
+msgstr "Felhasználói beállítások"
+
+#. module: voip_onsip
+#: model:ir.model.fields,field_description:voip_onsip.field_res_config_settings__wsServer
+msgid "WebSocket"
+msgstr "WebSocket"

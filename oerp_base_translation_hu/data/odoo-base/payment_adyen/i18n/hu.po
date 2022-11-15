@@ -1,0 +1,296 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* payment_adyen
+#
+# Translators:
+# Martin Trigaux, 2019
+# krnkris, 2019
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-19 13:57+0000\n"
+"PO-Revision-Date: 2022-10-16 01:01+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/payment_adyen/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#. module: payment_adyen
+#: model_terms:ir.ui.view,arch_db:payment_adyen.payment_acquirer_form
+msgid ""
+"<strong>Warning:</strong> To capture the amount manually, you also need to "
+"set\n"
+"                    the Capture Delay to manual on your Adyen account "
+"settings."
+msgstr ""
+
+#. module: payment_adyen
+#: code:addons/payment_adyen/models/payment_transaction.py:0
+#, python-format
+msgid "A request was sent to void the transaction with reference %s (%s)."
+msgstr ""
+
+#. module: payment_adyen
+#: model:ir.model.fields,field_description:payment_adyen.field_payment_acquirer__adyen_api_key
+msgid "API Key"
+msgstr "API kulcs"
+
+#. module: payment_adyen
+#: model:account.payment.method,name:payment_adyen.payment_method_adyen
+#: model:ir.model.fields.selection,name:payment_adyen.selection__payment_acquirer__provider__adyen
+msgid "Adyen"
+msgstr "Adyen"
+
+#. module: payment_adyen
+#: code:addons/payment_adyen/models/payment_transaction.py:0
+#, python-format
+msgid ""
+"An error occurred during the processing of your payment. Please try again."
+msgstr "A fizetés feldolgozása során hiba történt. Kérjük, próbálja meg újra."
+
+#. module: payment_adyen
+#. openerp-web
+#: code:addons/payment_adyen/static/src/js/payment_form.js:0
+#, python-format
+msgid "An error occurred when displayed this payment form."
+msgstr "Hiba történt a fizetési űrlap megjelenítésekor."
+
+#. module: payment_adyen
+#: model:ir.model.fields,field_description:payment_adyen.field_payment_acquirer__adyen_checkout_api_url
+msgid "Checkout API URL"
+msgstr "Checkout API URL"
+
+#. module: payment_adyen
+#: model:ir.model.fields,field_description:payment_adyen.field_payment_acquirer__adyen_client_key
+msgid "Client Key"
+msgstr "Kliens kulcs"
+
+#. module: payment_adyen
+#: code:addons/payment_adyen/models/payment_acquirer.py:0
+#, python-format
+msgid "Could not establish the connection to the API."
+msgstr "Nem sikerült API kapcsolatot létrehozni."
+
+#. module: payment_adyen
+#: model:ir.model.fields,field_description:payment_adyen.field_payment_acquirer__adyen_hmac_key
+msgid "HMAC Key"
+msgstr "HMAC kulcs"
+
+#. module: payment_adyen
+#. openerp-web
+#: code:addons/payment_adyen/static/src/js/payment_form.js:0
+#, python-format
+msgid "Incorrect Payment Details"
+msgstr "Érvénytelen fizetési részletek"
+
+#. module: payment_adyen
+#: model_terms:ir.ui.view,arch_db:payment_adyen.payment_acquirer_form
+msgid "Learn More"
+msgstr ""
+
+#. module: payment_adyen
+#: model:ir.model.fields,field_description:payment_adyen.field_payment_acquirer__adyen_merchant_account
+msgid "Merchant Account"
+msgstr "Kereskedelmi számla"
+
+#. module: payment_adyen
+#: code:addons/payment_adyen/models/payment_transaction.py:0
+#, python-format
+msgid "No transaction found matching reference %s."
+msgstr "Nem találtunk tranzakciót, amely megfelelne a %s hivatkozásnak."
+
+#. module: payment_adyen
+#: model:ir.model,name:payment_adyen.model_payment_acquirer
+msgid "Payment Acquirer"
+msgstr "Fizetési szolgáltató"
+
+#. module: payment_adyen
+#: model:ir.model,name:payment_adyen.model_account_payment_method
+msgid "Payment Methods"
+msgstr "Fizetési módszerek"
+
+#. module: payment_adyen
+#: model:ir.model,name:payment_adyen.model_payment_token
+msgid "Payment Token"
+msgstr "Fizetési token"
+
+#. module: payment_adyen
+#: model:ir.model,name:payment_adyen.model_payment_transaction
+msgid "Payment Transaction"
+msgstr "Fizetési tranzakció"
+
+#. module: payment_adyen
+#. openerp-web
+#: code:addons/payment_adyen/static/src/js/payment_form.js:0
+#, python-format
+msgid "Please verify your payment details."
+msgstr "Kérjük ellenőrizze fizetésének részleteit."
+
+#. module: payment_adyen
+#: model:ir.model.fields,field_description:payment_adyen.field_payment_acquirer__provider
+msgid "Provider"
+msgstr "Szolgáltató"
+
+#. module: payment_adyen
+#: code:addons/payment_adyen/models/payment_transaction.py:0
+#, python-format
+msgid "Received data with invalid payment state: %s"
+msgstr "Érvénytelen fizetési állapottal fogadott adat: %s"
+
+#. module: payment_adyen
+#: code:addons/payment_adyen/models/payment_transaction.py:0
+#, python-format
+msgid "Received data with missing merchant reference"
+msgstr "Adatot kaptunk hiányzó kereskedői hivatkozással"
+
+#. module: payment_adyen
+#: code:addons/payment_adyen/models/payment_transaction.py:0
+#, python-format
+msgid "Received data with missing payment state."
+msgstr "Érvénytelen fizetési állapottal fogadott adat."
+
+#. module: payment_adyen
+#: code:addons/payment_adyen/models/payment_transaction.py:0
+#, python-format
+msgid "Received refund data with missing transaction values"
+msgstr "Hiányzó tranzakciós értékekkel kapott visszatérítési adatok"
+
+#. module: payment_adyen
+#: code:addons/payment_adyen/controllers/main.py:0
+#, python-format
+msgid "Received tampered payment request data."
+msgstr "Meghamisított fizetési kérelem adatot kapott."
+
+#. module: payment_adyen
+#: model:ir.model.fields,field_description:payment_adyen.field_payment_acquirer__adyen_recurring_api_url
+msgid "Recurring API URL"
+msgstr "Recurring API URL"
+
+#. module: payment_adyen
+#: code:addons/payment_adyen/models/payment_token.py:0
+#, python-format
+msgid "Saved payment methods cannot be restored once they have been deleted."
+msgstr "A mentett fizetési módok nem állíthatók vissza, ha egyszer már törölték őket."
+
+#. module: payment_adyen
+#. openerp-web
+#: code:addons/payment_adyen/static/src/js/payment_form.js:0
+#, python-format
+msgid "Server Error"
+msgstr "Szerver hiba"
+
+#. module: payment_adyen
+#: model:ir.model.fields,field_description:payment_adyen.field_payment_token__adyen_shopper_reference
+msgid "Shopper Reference"
+msgstr "Boltos hivatkozás"
+
+#. module: payment_adyen
+#: model:ir.model.fields,help:payment_adyen.field_payment_acquirer__adyen_api_key
+msgid "The API key of the webservice user"
+msgstr "A webszolgáltatás felhasználójának API kulcsa"
+
+#. module: payment_adyen
+#: model:ir.model.fields,help:payment_adyen.field_payment_acquirer__adyen_hmac_key
+msgid "The HMAC key of the webhook"
+msgstr "A webhorog HMAC kulcsa"
+
+#. module: payment_adyen
+#: model:ir.model.fields,help:payment_adyen.field_payment_acquirer__provider
+msgid "The Payment Service Provider to use with this acquirer"
+msgstr "Az adott elfogadóval együtt használandó fizetési szolgáltató"
+
+#. module: payment_adyen
+#: model:ir.model.fields,help:payment_adyen.field_payment_acquirer__adyen_checkout_api_url
+msgid "The base URL for the Checkout API endpoints"
+msgstr "A Checkout API végpont alap URL-je"
+
+#. module: payment_adyen
+#: model:ir.model.fields,help:payment_adyen.field_payment_acquirer__adyen_recurring_api_url
+msgid "The base URL for the Recurring API endpoints"
+msgstr "A Recurring API végpont alap URL-je"
+
+#. module: payment_adyen
+#: code:addons/payment_adyen/models/payment_transaction.py:0
+#, python-format
+msgid "The capture of the transaction with reference %s failed."
+msgstr ""
+
+#. module: payment_adyen
+#: code:addons/payment_adyen/models/payment_transaction.py:0
+#, python-format
+msgid ""
+"The capture of the transaction with reference %s has been requested (%s)."
+msgstr ""
+
+#. module: payment_adyen
+#: model:ir.model.fields,help:payment_adyen.field_payment_acquirer__adyen_client_key
+msgid "The client key of the webservice user"
+msgstr "A webszolgáltatás felhasználójának kliens kulcsa"
+
+#. module: payment_adyen
+#: model:ir.model.fields,help:payment_adyen.field_payment_acquirer__adyen_merchant_account
+msgid "The code of the merchant account to use with this acquirer"
+msgstr "Ezzel a szolgáltatóval használható kereskedő fiókjának kódja"
+
+#. module: payment_adyen
+#: code:addons/payment_adyen/models/payment_acquirer.py:0
+#, python-format
+msgid "The communication with the API failed."
+msgstr "Az API kommunikáció nem sikerült."
+
+#. module: payment_adyen
+#: code:addons/payment_adyen/models/payment_transaction.py:0
+#, python-format
+msgid "The transaction is not linked to a token."
+msgstr "A tranzakció nincs összekapcsolva egy tokennel."
+
+#. module: payment_adyen
+#: model:ir.model.fields,help:payment_adyen.field_payment_token__adyen_shopper_reference
+msgid "The unique reference of the partner owning this token"
+msgstr "A tokent birtokló partner egyedi hivatkozása"
+
+#. module: payment_adyen
+#: code:addons/payment_adyen/models/payment_transaction.py:0
+#, python-format
+msgid "The void of the transaction with reference %s failed."
+msgstr ""
+
+#. module: payment_adyen
+#. openerp-web
+#: code:addons/payment_adyen/static/src/js/payment_form.js:0
+#, python-format
+msgid "We are not able to process your payment."
+msgstr "Nem tudjuk feldolgozni a fizetését."
+
+#. module: payment_adyen
+#: code:addons/payment_adyen/models/payment_transaction.py:0
+#, python-format
+msgid "Your payment was refused. Please try again."
+msgstr "Az Ön fizetését visszautasították. Kérjük, próbálja meg újra."
+
+#~ msgid "; multiple order found"
+#~ msgstr "; többszörös rendelést talált"
+
+#~ msgid "; no order found"
+#~ msgstr "; nem talált rendelést"
+
+#~ msgid "Adyen: feedback error"
+#~ msgstr "Adyen: visszajelzési hiba"
+
+#~ msgid "Adyen: invalid merchantSig, received %s, computed %s"
+#~ msgstr "Adyen: érvénytelen merchantSig, fogadott %s, kiszámított %s"
+
+#~ msgid "Adyen: received data for reference %s"
+#~ msgstr "Adyen: fogadott adat ehhez a referenciához %s"
+
+#~ msgid "How to configure your Adyen account?"
+#~ msgstr "Hogyan állítsa be a Adyen számla fiókját?"
+
+#~ msgid "Skin Code"
+#~ msgstr "Külső kód"

@@ -1,0 +1,134 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* project_timesheet_forecast_sale
+#
+# Translators:
+# Tamás Dombos, 2019
+# krnkris, 2019
+# gezza <geza.nagy@oregional.hu>, 2019
+# Martin Trigaux, 2019
+# Ákos Nagy <akos.nagy@oregional.hu>, 2019
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-04 09:43+0000\n"
+"PO-Revision-Date: 2022-10-16 08:01+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/project_timesheet_forecast_sale/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#. module: project_timesheet_forecast_sale
+#: code:addons/project_timesheet_forecast_sale/models/project.py:0
+#, python-format
+msgid "%(name)s's Timesheets and Planning Analysis"
+msgstr ""
+
+#. module: project_timesheet_forecast_sale
+#: model:ir.model,name:project_timesheet_forecast_sale.model_account_analytic_line
+msgid "Analytic Account"
+msgstr "Analitikus számla"
+
+#. module: project_timesheet_forecast_sale
+#: model:ir.model.fields,field_description:project_timesheet_forecast_sale.field_planning_analysis_report__billable_allocated_hours
+msgid "Billable Hours Allocated"
+msgstr ""
+
+#. module: project_timesheet_forecast_sale
+#: model:planning.role,name:project_timesheet_forecast_sale.planning_role_consultant
+msgid "Consultant"
+msgstr "Tanácsadó"
+
+#. module: project_timesheet_forecast_sale
+#: model:ir.model.fields,field_description:project_timesheet_forecast_sale.field_project_project__display_planning_timesheet_analysis
+msgid "Display Planning Timesheet Analysis"
+msgstr "Munkaidő és tervezés megjelenítése"
+
+#. module: project_timesheet_forecast_sale
+#: model:ir.model.fields,field_description:project_timesheet_forecast_sale.field_planning_analysis_report__non_billable_allocated_hours
+msgid "Non-billable Hours Allocated"
+msgstr ""
+
+#. module: project_timesheet_forecast_sale
+#: model_terms:ir.ui.view,arch_db:project_timesheet_forecast_sale.project_update_default_description
+msgid "Planned"
+msgstr "Tervezett"
+
+#. module: project_timesheet_forecast_sale
+#: model:ir.model,name:project_timesheet_forecast_sale.model_planning_analysis_report
+msgid "Planning Analysis Report"
+msgstr ""
+
+#. module: project_timesheet_forecast_sale
+#: model:ir.model,name:project_timesheet_forecast_sale.model_planning_slot
+msgid "Planning Shift"
+msgstr "Műszak tervezés"
+
+#. module: project_timesheet_forecast_sale
+#: model:ir.model,name:project_timesheet_forecast_sale.model_project_project
+msgid "Project"
+msgstr "Projekt"
+
+#. module: project_timesheet_forecast_sale
+#: model:ir.model,name:project_timesheet_forecast_sale.model_project_update
+msgid "Project Update"
+msgstr "Project előrehaladás"
+
+#. module: project_timesheet_forecast_sale
+#: model:ir.model,name:project_timesheet_forecast_sale.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Vevői rendelés tétel"
+
+#. module: project_timesheet_forecast_sale
+#: model:ir.model.fields,help:project_timesheet_forecast_sale.field_project_project__display_planning_timesheet_analysis
+msgid "Should we display the planning and timesheet analysis button?"
+msgstr "Megjelenítsük a tervezési és munkaidő-elemzési gombot?"
+
+#. module: project_timesheet_forecast_sale
+#: model:planning.role,name:project_timesheet_forecast_sale.planning_role_junior_architect
+msgid "Software Junior Architect"
+msgstr "Junior szoftver mérnők"
+
+#. module: project_timesheet_forecast_sale
+#: model:planning.role,name:project_timesheet_forecast_sale.planning_role_senior_architect
+msgid "Software Senior Architect"
+msgstr "Szenior szoftver mérnök"
+
+#. module: project_timesheet_forecast_sale
+#: model:ir.model.fields,help:project_timesheet_forecast_sale.field_planning_analysis_report__billable_allocated_hours
+msgid "Sum of hours allocated to shifts linked to a SOL."
+msgstr ""
+
+#. module: project_timesheet_forecast_sale
+#: model:ir.model.fields,help:project_timesheet_forecast_sale.field_planning_analysis_report__non_billable_allocated_hours
+msgid "Sum of hours allocated to shifts not linked to a SOL."
+msgstr ""
+
+#. module: project_timesheet_forecast_sale
+#: code:addons/project_timesheet_forecast_sale/models/project.py:0
+#, python-format
+msgid "Timesheets and Planning"
+msgstr "Munkaidő és tervezés"
+
+#. module: project_timesheet_forecast_sale
+#: model_terms:ir.ui.view,arch_db:project_timesheet_forecast_sale.project_timesheet_forecast_view_kanban_inherit_sale_timesheet
+msgid "Timesheets and Planning Analysis"
+msgstr "Munkaidő és tervezés jelentés"
+
+#~ msgid "After"
+#~ msgstr "Utána"
+
+#~ msgid "Forecasts"
+#~ msgstr "Előrejelzések"
+
+#~ msgid "Task"
+#~ msgstr "Feladat"
+
+#~ msgid "Total"
+#~ msgstr "Összesen"

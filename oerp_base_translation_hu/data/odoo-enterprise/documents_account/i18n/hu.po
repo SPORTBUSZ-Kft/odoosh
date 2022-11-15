@@ -1,0 +1,356 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* documents_account
+#
+# Translators:
+# Martin Trigaux, 2019
+# krnkris, 2019
+# Ákos Nagy <akos.nagy@oregional.hu>, 2019
+# Tibor Kőnig <konig.tibor@evitalit.hu>, 2019
+# gezza <geza.nagy@oregional.hu>, 2019
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-04 09:42+0000\n"
+"PO-Revision-Date: 2022-10-16 01:01+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/documents_account/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#. module: documents_account
+#. openerp-web
+#: code:addons/documents_account/static/src/js/tour.js:0
+#, python-format
+msgid "<b>Deselect this page</b> as we plan to process all bills first."
+msgstr "<b>Törölje az oldal kijelölését</b>, mivel először az összes számlát tervezzük feldolgozni."
+
+#. module: documents_account
+#: model_terms:ir.ui.view,arch_db:documents_account.res_config_settings_view_form
+msgid "<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-specific.\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\" role=\"img\"/>"
+msgstr "<span class=\"fa fa-lg fa-building-o\" title=\"Az itt beállított értékek vállalat függőek.\" aria-label=\"Az itt beállított értékek vállalat függőek.\" groups=\"base.group_multi_company\" role=\"img\"/>"
+
+#. module: documents_account
+#: model:ir.model,name:documents_account.model_documents_workflow_rule
+msgid "A set of condition and actions which will be available to all attachments matching the conditions"
+msgstr "Feltételek és műveletek gyűjteménye, amely a feltételnek megfelelő összes mellékletnél elérhető"
+
+#. module: documents_account
+#: model:ir.model.constraint,message:documents_account.constraint_documents_account_folder_setting_journal_unique
+msgid "A setting already exists for this journal"
+msgstr "Már létezik egy beállítás ehhez a naplóhoz"
+
+#. module: documents_account
+#: model:ir.model.fields,field_description:documents_account.field_res_config_settings__documents_account_settings
+msgid "Accounting "
+msgstr "Könyvelés"
+
+#. module: documents_account
+#: model:ir.model.fields,field_description:documents_account.field_res_company__account_folder
+msgid "Accounting Workspace"
+msgstr "Könyvelés munkaterület"
+
+#. module: documents_account
+#. openerp-web
+#: code:addons/documents_account/static/src/js/tour.js:0
+#, python-format
+msgid "As this PDF contains multiple documents, let's split and process in bulk."
+msgstr "Mivel ez a PDF több dokumentumot tartalmaz, daraboljuk fel és dolgozzuk fel tömegesen."
+
+#. module: documents_account
+#: model:ir.model,name:documents_account.model_ir_attachment
+msgid "Attachment"
+msgstr "Melléklet"
+
+#. module: documents_account
+#: model_terms:ir.ui.view,arch_db:documents_account.res_config_settings_view_form
+msgid "Centralize accounting files and documents"
+msgstr "Könyvelési fájlok és dokumentumok központosítása"
+
+#. module: documents_account
+#: model_terms:ir.ui.view,arch_db:documents_account.view_account_move_form_inherit_documents_account
+msgid "Check them"
+msgstr ""
+
+#. module: documents_account
+#. openerp-web
+#: code:addons/documents_account/static/src/js/tour.js:0
+#, python-format
+msgid "Click on a card to <b>select the document</b>."
+msgstr "Kattintson egy kártyára a <b>dokumentum kiválasztásához</b>."
+
+#. module: documents_account
+#. openerp-web
+#: code:addons/documents_account/static/src/js/tour.js:0
+#, python-format
+msgid "Click on a thumbnail to <b>preview the document</b>."
+msgstr "Kattintson egy bélyegképre a <b>dokumentum előnézetéhez</b>."
+
+#. module: documents_account
+#. openerp-web
+#: code:addons/documents_account/static/src/js/tour.js:0
+#, python-format
+msgid "Click on the <b>page separator</b>: we don't want to split these two pages as they belong to the same document."
+msgstr "Kattintson az <b>oldal elválasztóra</b>: ezt a két oldalt nem akarjuk szétválasztani, mivel ugyanahhoz a dokumentumhoz tartoznak."
+
+#. module: documents_account
+#: model:ir.model,name:documents_account.model_res_company
+msgid "Companies"
+msgstr "Vállalatok"
+
+#. module: documents_account
+#: model:ir.model.fields,field_description:documents_account.field_documents_account_folder_setting__company_id
+msgid "Company"
+msgstr "Vállalat"
+
+#. module: documents_account
+#: model:ir.model,name:documents_account.model_res_config_settings
+msgid "Config Settings"
+msgstr "Beállítások"
+
+#. module: documents_account
+#: model:ir.model.fields,field_description:documents_account.field_documents_workflow_rule__create_model
+msgid "Create"
+msgstr "Létrehozás"
+
+#. module: documents_account
+#: model:documents.workflow.rule,name:documents_account.vendor_bill_rule_financial
+msgid "Create Bill"
+msgstr "Költségszámla létrehozása"
+
+#. module: documents_account
+#: model:documents.workflow.rule,name:documents_account.credit_note_rule
+msgid "Create Credit Note"
+msgstr "Helyesbítő számla létrehozása"
+
+#. module: documents_account
+#: model:documents.workflow.rule,name:documents_account.customer_invoice_rule
+msgid "Create Customer Invoice"
+msgstr "Vevői számla létrehozása"
+
+#. module: documents_account
+#: model:ir.model.fields,field_description:documents_account.field_documents_account_folder_setting__create_uid
+msgid "Created by"
+msgstr "Létrehozta"
+
+#. module: documents_account
+#: model:ir.model.fields,field_description:documents_account.field_documents_account_folder_setting__create_date
+msgid "Created on"
+msgstr "Létrehozva"
+
+#. module: documents_account
+#: model:ir.model.fields.selection,name:documents_account.selection__documents_workflow_rule__create_model__account_move_out_refund
+msgid "Credit note"
+msgstr "Helyesbítő számla"
+
+#. module: documents_account
+#: model:ir.model.fields.selection,name:documents_account.selection__documents_workflow_rule__create_model__account_move_out_invoice
+msgid "Customer invoice"
+msgstr "Vevői számla"
+
+#. module: documents_account
+#: model:ir.model.fields,field_description:documents_account.field_documents_account_folder_setting__display_name
+msgid "Display Name"
+msgstr "Megjelenített név"
+
+#. module: documents_account
+#: model:ir.model.fields,field_description:documents_account.field_res_company__documents_account_settings
+msgid "Documents Account Settings"
+msgstr "Dokumentumok - Könyvelés beállítások"
+
+#. module: documents_account
+#: model:ir.model,name:documents_account.model_account_reports_export_wizard_format
+msgid "Export format for accounting's reports"
+msgstr ""
+
+#. module: documents_account
+#: model:ir.model,name:documents_account.model_account_reports_export_wizard
+msgid "Export wizard for accounting's reports"
+msgstr "Export varázsló a könyvelési jelentésekhez"
+
+#. module: documents_account
+#: model:mail.activity.type,name:documents_account.mail_documents_activity_data_fs
+msgid "Financial Statement"
+msgstr "Pénzügyi kivonat"
+
+#. module: documents_account
+#: model:ir.model.fields,field_description:documents_account.field_account_reports_export_wizard__folder_id
+msgid "Folder"
+msgstr "Mappa"
+
+#. module: documents_account
+#: model:ir.model.fields,help:documents_account.field_account_reports_export_wizard__folder_id
+msgid "Folder where to save the generated file"
+msgstr "Mappa, ahova a generált fájlok mentve lesznek"
+
+#. module: documents_account
+#: code:addons/documents_account/wizard/report_export_wizard.py:0
+#, python-format
+msgid "Generated Documents"
+msgstr "Generált dokumentumok"
+
+#. module: documents_account
+#: model:ir.model.fields,field_description:documents_account.field_documents_account_folder_setting__id
+msgid "ID"
+msgstr "Azonosító"
+
+#. module: documents_account
+#: model:ir.model.fields,field_description:documents_account.field_documents_account_folder_setting__journal_id
+msgid "Journal"
+msgstr "Napló"
+
+#. module: documents_account
+#: model:ir.model,name:documents_account.model_account_move
+msgid "Journal Entry"
+msgstr "Napló bejegyzés"
+
+#. module: documents_account
+#: model:ir.model,name:documents_account.model_documents_account_folder_setting
+msgid "Journal and Folder settings"
+msgstr "Napló és mappa beállítások"
+
+#. module: documents_account
+#: model_terms:ir.ui.view,arch_db:documents_account.res_config_settings_view_form
+msgid "Journals"
+msgstr "Naplók"
+
+#. module: documents_account
+#: model:ir.actions.act_window,name:documents_account.action_folder_settings_installer
+msgid "Journals to synchronize"
+msgstr "Szinkronizálandó naplók"
+
+#. module: documents_account
+#: model:ir.model.fields,field_description:documents_account.field_documents_account_folder_setting____last_update
+msgid "Last Modified on"
+msgstr "Utolsó módosítás ideje"
+
+#. module: documents_account
+#: model:ir.model.fields,field_description:documents_account.field_documents_account_folder_setting__write_uid
+msgid "Last Updated by"
+msgstr "Utoljára frissítette"
+
+#. module: documents_account
+#: model:ir.model.fields,field_description:documents_account.field_documents_account_folder_setting__write_date
+msgid "Last Updated on"
+msgstr "Utolsó frissítés ideje"
+
+#. module: documents_account
+#. openerp-web
+#: code:addons/documents_account/static/src/js/tour.js:0
+#, python-format
+msgid "Let's process documents in your Inbox.<br/><i>Tip: Use Tags to filter documents and structure your process.</i>"
+msgstr "Dolgozzuk fel a beérkezett dokumentumokat.<br/><i>Tipp: Használja a címkéket a dokumentumok szűréséhez és a folyamat felépítéséhez.</i>"
+
+#. module: documents_account
+#. openerp-web
+#: code:addons/documents_account/static/src/js/tour.js:0
+#, python-format
+msgid "Let's process these bills: turn them into vendor bills."
+msgstr "Dolgozzuk fel ezeket a számlákat: alakítsa át őket szállítói számlákká."
+
+#. module: documents_account
+#. openerp-web
+#: code:addons/documents_account/static/src/js/tour.js:0
+#, python-format
+msgid "Let's process this document, coming from our scanner."
+msgstr "Dolgozzuk fel ezt a dokumentumot, amely a szkennerünkből érkezik."
+
+#. module: documents_account
+#. openerp-web
+#: code:addons/documents_account/static/src/js/tour.js:0
+#, python-format
+msgid "Let's tag this mail as legal<br/> <i>Tips: actions can be tailored to your process, according to the workspace.</i>"
+msgstr "Jelöljük meg ezt a levelet a jogi osztálynak<br/> <i>Tipp: A műveleteket a munkaterületnek megfelelően a folyamathoz igazíthatjuk.</i>"
+
+#. module: documents_account
+#: model:mail.activity.type,name:documents_account.mail_documents_activity_data_md
+msgid "Reconciliation request"
+msgstr "Egyeztetési kérelem"
+
+#. module: documents_account
+#: model:ir.model.fields,field_description:documents_account.field_account_bank_statement_line__suspense_statement_line_id
+#: model:ir.model.fields,field_description:documents_account.field_account_move__suspense_statement_line_id
+#: model:ir.model.fields,field_description:documents_account.field_account_payment__suspense_statement_line_id
+msgid "Request document from a bank statement line"
+msgstr ""
+
+#. module: documents_account
+#. openerp-web
+#: code:addons/documents_account/static/src/js/tour.js:0
+#, python-format
+msgid "Send this letter to the legal department, by assigning the right tags."
+msgstr "Küldje el ezt a levelet a jogi osztályra, a megfelelő címkék hozzárendelésével."
+
+#. module: documents_account
+#: model:ir.model.fields,field_description:documents_account.field_account_reports_export_wizard__tag_ids
+#: model:ir.model.fields,field_description:documents_account.field_documents_account_folder_setting__tag_ids
+msgid "Tags"
+msgstr "Címkék"
+
+#. module: documents_account
+#: model:mail.activity.type,name:documents_account.mail_documents_activity_data_vat
+msgid "Tax Statement"
+msgstr "Adó jelentés"
+
+#. module: documents_account
+#: model_terms:ir.ui.view,arch_db:documents_account.view_account_move_form_inherit_documents_account
+msgid "This invoice has been initiated by a bank transaction."
+msgstr ""
+
+#. module: documents_account
+#: model:ir.model.fields.selection,name:documents_account.selection__documents_workflow_rule__create_model__account_move_in_refund
+msgid "Vendor Credit Note"
+msgstr "Szállítói helyesbítő számla"
+
+#. module: documents_account
+#: model:ir.model.fields.selection,name:documents_account.selection__documents_workflow_rule__create_model__account_move_in_invoice
+msgid "Vendor bill"
+msgstr "Szállítói számla"
+
+#. module: documents_account
+#. openerp-web
+#: code:addons/documents_account/static/src/js/tour.js:0
+#, python-format
+msgid "Want to become a <b>paperless company</b>? Let's discover Odoo Documents."
+msgstr "Szeretne <b>papírmentes vállalattá</b> válni? Fedezzük fel az Odoo Dokumentumokat."
+
+#. module: documents_account
+#: model:ir.model.fields,field_description:documents_account.field_documents_account_folder_setting__folder_id
+#: model_terms:ir.ui.view,arch_db:documents_account.res_config_settings_view_form
+msgid "Workspace"
+msgstr "Munkaterület"
+
+#. module: documents_account
+#. openerp-web
+#: code:addons/documents_account/static/src/js/tour.js:0
+#, python-format
+msgid "Wow... 6 documents processed in a few seconds, You're good.<br/>The tour is complete. Try uploading your own documents now."
+msgstr "Hűha... 6 dokumentum feldolgozása néhány másodperc alatt, jó vagy!<br/>A bemutató befejeződött. Próbálja meg most feltölteni a saját dokumentumait."
+
+#. module: documents_account
+#: model:ir.model.fields,field_description:documents_account.field_res_config_settings__account_folder
+msgid "account default folder"
+msgstr "könyvelés alapértelmezett mappa"
+
+#. module: documents_account
+#: model_terms:ir.ui.view,arch_db:documents_account.view_account_move_form_inherit_documents_account
+msgid "to mark this invoice as paid."
+msgstr ""
+
+#~ msgid "Activity type"
+#~ msgstr "Tevékenységtípus"
+
+#~ msgid "Has Business Option"
+#~ msgstr "Üzleti lehetősége van"
+
+#~ msgid "Journal Item"
+#~ msgstr "Könyvelési napló tételsor"
+
+#~ msgid "Preset to create journal entries during a invoices and payments matching"
+#~ msgstr "Számlák és fizetések párosítás alatti előre beállított napló bejegyzés készítők"

@@ -1,0 +1,252 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* product_images
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.5alpha1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-20 09:02+0000\n"
+"PO-Revision-Date: 2022-10-16 19:01+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/product_images/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#. module: product_images
+#: code:addons/product_images/wizard/product_fetch_image_wizard.py:0
+#, python-format
+msgid "%(matching_images_count)s matching images have been found for %(product_count)s products."
+msgstr "%(matching_images_count)s egyező kép található %(product_count)s termékhez."
+
+#. module: product_images
+#: model_terms:ir.ui.view,arch_db:product_images.product_fetch_image_wizard_view_form
+msgid ""
+"<span attrs=\"{'invisible': [('nb_products_selected', '&lt;=', 10000)]}\">\n"
+"                            As only 10,000 products can be processed per day, the remaining will be\n"
+"                            done tomorrow.\n"
+"                        </span>"
+msgstr ""
+"<span attrs=\"{'invisible': [('nb_products_selected', '&lt;=', 10000)]}\">\n"
+"                            Mivel csak 10.000 képet lehet feldolgozni egy nap, ezért a maradék holnap\n"
+"                            kerül feldolgozásra.\n"
+"                        </span>"
+
+#. module: product_images
+#: code:addons/product_images/wizard/product_fetch_image_wizard.py:0
+#, python-format
+msgid "A task to process products in the background is already running. Please try againlater."
+msgstr "A termékek háttérben történő feldolgozására szolgáló feladat már fut. Kérjük, próbálja újra később."
+
+#. module: product_images
+#: model_terms:ir.ui.view,arch_db:product_images.res_config_settings_view_form
+msgid "API Key"
+msgstr "API kulcs"
+
+#. module: product_images
+#: model_terms:ir.ui.view,arch_db:product_images.product_fetch_image_wizard_view_form
+msgid "Cancel"
+msgstr "Mégsem"
+
+#. module: product_images
+#: model:ir.model,name:product_images.model_res_config_settings
+msgid "Config Settings"
+msgstr "Beállítások"
+
+#. module: product_images
+#: model:ir.model.fields,field_description:product_images.field_product_fetch_image_wizard__create_uid
+msgid "Created by"
+msgstr "Létrehozta"
+
+#. module: product_images
+#: model:ir.model.fields,field_description:product_images.field_product_fetch_image_wizard__create_date
+msgid "Created on"
+msgstr "Létrehozva"
+
+#. module: product_images
+#: model:ir.model.fields,field_description:product_images.field_product_fetch_image_wizard__display_name
+msgid "Display Name"
+msgstr "Megjelenített név"
+
+#. module: product_images
+#: model:ir.model,name:product_images.model_product_fetch_image_wizard
+msgid "Fetch product images from Google Images based on the product's barcode number."
+msgstr "Töltse le a termék képét a Google Images-ből a vonalkód alapján."
+
+#. module: product_images
+#: model_terms:ir.ui.view,arch_db:product_images.product_fetch_image_wizard_view_form
+msgid "Get Pictures"
+msgstr "Képek betöltése"
+
+#. module: product_images
+#: model:ir.actions.act_window,name:product_images.product_product_action_get_pic_with_barcode
+#: model:ir.actions.act_window,name:product_images.product_template_action_get_pic_with_barcode
+msgid "Get Pictures from Google Images"
+msgstr "Képek betöltése a Google Images-ből"
+
+#. module: product_images
+#: model:ir.model.fields,field_description:product_images.field_res_config_settings__google_custom_search_key
+msgid "Google Custom Search API Key"
+msgstr "Google Custom Search API kulcs"
+
+#. module: product_images
+#: model:ir.model.fields,field_description:product_images.field_product_fetch_image_wizard__id
+msgid "ID"
+msgstr "Azonosító"
+
+#. module: product_images
+#: model:ir.model.fields,field_description:product_images.field_product_product__image_fetch_pending
+msgid "Image Fetch Pending"
+msgstr "Kép letöltése folyamatban"
+
+#. module: product_images
+#: model:ir.model.fields,field_description:product_images.field_product_fetch_image_wizard____last_update
+msgid "Last Modified on"
+msgstr "Utolsó módosítás ideje"
+
+#. module: product_images
+#: model:ir.model.fields,field_description:product_images.field_product_fetch_image_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Utoljára frissítette"
+
+#. module: product_images
+#: model:ir.model.fields,field_description:product_images.field_product_fetch_image_wizard__write_date
+msgid "Last Updated on"
+msgstr "Utolsó frissítés ideje"
+
+#. module: product_images
+#: model:ir.model.fields,field_description:product_images.field_product_fetch_image_wizard__nb_products_unable_to_process
+msgid "Number of product unprocessable"
+msgstr "Feldolgozhatatlan termékek száma"
+
+#. module: product_images
+#: model:ir.model.fields,field_description:product_images.field_product_fetch_image_wizard__nb_products_to_process
+msgid "Number of products to process"
+msgstr "Feldolgozandó termékek száma"
+
+#. module: product_images
+#: model:ir.model.fields,field_description:product_images.field_product_fetch_image_wizard__nb_products_selected
+msgid "Number of selected products"
+msgstr "Kiválasztott termékek száma"
+
+#. module: product_images
+#: model_terms:ir.ui.view,arch_db:product_images.product_fetch_image_wizard_view_form
+msgid ""
+"Please note that some images might not be royalty-free. You should not\n"
+"                        publish these on your website."
+msgstr ""
+"Kérjük vegye figyelembe, hogy ezen termékek egy része jogvédett lehet, és\n"
+"                        e miatt weboldalon közzétételük nem javasolt."
+
+#. module: product_images
+#: model:ir.actions.server,name:product_images.ir_cron_fetch_image_ir_actions_server
+#: model:ir.cron,cron_name:product_images.ir_cron_fetch_image
+#: model:ir.cron,name:product_images.ir_cron_fetch_image
+msgid "Product Images: Get product images from Google"
+msgstr "Termék képek: Töltse be a termék képeit a Google keresőből"
+
+#. module: product_images
+#: model:ir.model,name:product_images.model_product_product
+msgid "Product Variant"
+msgstr "Termék variáció"
+
+#. module: product_images
+#: code:addons/product_images/wizard/product_fetch_image_wizard.py:0
+#, python-format
+msgid "Product images"
+msgstr "Termék képei"
+
+#. module: product_images
+#: model:ir.model.fields,field_description:product_images.field_product_fetch_image_wizard__products_to_process
+msgid "Products To Process"
+msgstr "Feldolgozandó termékek"
+
+#. module: product_images
+#: code:addons/product_images/wizard/product_fetch_image_wizard.py:0
+#, python-format
+msgid "Products are processed in the background. Images will be updated progressively."
+msgstr "A termékek feldolgozása a háttérben történik. A képek fokozatosan frissülnek."
+
+#. module: product_images
+#: model_terms:ir.ui.view,arch_db:product_images.res_config_settings_view_form
+msgid "Search Engine ID"
+msgstr "Kereső motor azonosító"
+
+#. module: product_images
+#: code:addons/product_images/wizard/product_fetch_image_wizard.py:0
+#, python-format
+msgid "The API Key and Search Engine ID must be set in the General Settings."
+msgstr "Az API-kulcsot és a keresőmotor azonosítót az általános beállításokban kell beállítani."
+
+#. module: product_images
+#: code:addons/product_images/wizard/product_fetch_image_wizard.py:0
+#, python-format
+msgid "The Custom Search API is not enabled in your Google project. Please visit your Google Cloud Platform project page and enable it, then retry. If you enabled this API recently, please wait a few minutes and retry."
+msgstr "Az egyéni kereső API nincs engedélyezve a Google projektben. Kérjük, látogasson el a Google Cloud Platform projekt oldalára, és engedélyezze, majd próbálja meg újra. Ha nemrég engedélyezte ezt az API-t, várjon néhány percet, és próbálja újra."
+
+#. module: product_images
+#: model:ir.model.fields,field_description:product_images.field_res_config_settings__google_pse_id
+msgid "The identifier of the Google Programmable Search Engine"
+msgstr "A Google programozható keresőmotorjának azonosítója"
+
+#. module: product_images
+#: model:ir.model.fields,help:product_images.field_product_fetch_image_wizard__products_to_process
+msgid "The list of selected products that meet the criteria (have a barcode and no image)"
+msgstr "A kiválasztott termékek listája, amelyek megfelelnek a feltételnek (vonalkódos és kép nélküli)"
+
+#. module: product_images
+#: code:addons/product_images/wizard/product_fetch_image_wizard.py:0
+#, python-format
+msgid "The scheduled action \"Product Images: Get product images from Google\" has been deleted. Please contact your administrator to have the action restored or to reinstall the module \"product_images\"."
+msgstr "A \"Termék képek: Termék képek lekérése a Google-tól\" ütemezett művelet törlésre került. Kérjük, lépjen kapcsolatba a rendszergazdával a művelet visszaállításához vagy a \"product_images\" modul újratelepítéséhez."
+
+#. module: product_images
+#: code:addons/product_images/models/ir_cron_trigger.py:0
+#, python-format
+msgid "This action is already scheduled. Please try again later."
+msgstr "Ez a művelet már időzítve van. Próbálja meg később."
+
+#. module: product_images
+#: model:ir.model,name:product_images.model_ir_cron_trigger
+msgid "Triggered actions"
+msgstr "Aktivált műveletek"
+
+#. module: product_images
+#: model:ir.model.fields,help:product_images.field_product_product__image_fetch_pending
+msgid "Whether an image must be fetched for this product. Handled by a cron."
+msgstr "Kell-e képet lekérni ehhez a termékhez. Egy ütemezett művelet kezeli."
+
+#. module: product_images
+#: model_terms:ir.ui.view,arch_db:product_images.product_fetch_image_wizard_view_form
+msgid "You selected"
+msgstr "Ön kiválasztott"
+
+#. module: product_images
+#: code:addons/product_images/wizard/product_fetch_image_wizard.py:0
+#, python-format
+msgid "Your API Key or your Search Engine ID is incorrect."
+msgstr "Az Ön API kulcsa vagy Kereső motor azonosítója érvénytelen."
+
+#. module: product_images
+#: model_terms:ir.ui.view,arch_db:product_images.product_fetch_image_wizard_view_form
+msgid "of which will be processed."
+msgstr "ami fel lesz dolgozva."
+
+#. module: product_images
+#: model_terms:ir.ui.view,arch_db:product_images.product_fetch_image_wizard_view_form
+msgid ""
+"products will not be\n"
+"                            processed because they either already have an image or their barcode\n"
+"                            number is not set."
+msgstr ""
+"termék nem lesz\n"
+"                            feldolgozva, mert már tartalmaz képet vagy a vonalkódja nincs megadva."
+
+#. module: product_images
+#: model_terms:ir.ui.view,arch_db:product_images.product_fetch_image_wizard_view_form
+msgid "products,"
+msgstr "terméket,"

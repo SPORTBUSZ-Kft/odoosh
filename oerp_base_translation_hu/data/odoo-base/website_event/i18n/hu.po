@@ -1,0 +1,1335 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_event
+#
+# Translators:
+# Kovács Tibor <kovika@gmail.com>, 2019
+# Ákos Nagy <akos.nagy@oregional.hu>, 2019
+# Martin Trigaux, 2019
+# krnkris, 2019
+# gezza <geza.nagy@oregional.hu>, 2019
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-10 10:22+0000\n"
+"PO-Revision-Date: 2022-10-16 08:01+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/website_event/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#. module: website_event
+#: model:ir.model.fields,field_description:website_event.field_website_visitor__event_registration_count
+msgid "# Registrations"
+msgstr "# Regisztráció"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.events_list
+msgid "'. Showing results for '"
+msgstr "'. Eredmények megjelenítése a következőhöz: '"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.registration_complete
+msgid "(Ref:"
+msgstr "(Hiv:"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.registration_template
+msgid "(only"
+msgstr "(csak"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.event_description_full
+msgid ""
+")\n"
+"                                <i class=\"fa fa-long-arrow-down d-block "
+"text-muted mx-3 my-2\" style=\"font-size: 1.5rem\"/>"
+msgstr ""
+
+#. module: website_event
+#. openerp-web
+#: code:addons/website_event/static/src/js/tours/event_tour.js:0
+#, python-format
+msgid "<b>Drag and Drop</b> this snippet below the event title."
+msgstr "<b>Húzza és ejtse</b> ezt a sznippetet a rendezvény címe alá."
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.registration_complete
+msgid "<b>End</b>"
+msgstr "<b>Vége</b>"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.registration_complete
+msgid "<b>Start</b>"
+msgstr "<b>Kezdés</b>"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.index_sidebar_quotes
+msgid ""
+"<em>Write here a quote from one of your attendees. It gives confidence in "
+"your events.</em>"
+msgstr "<em>Írja ide egy résztvevő idézetét. Megbízhatóságot ad a rendezvényeinek. </em>"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.template_intro
+msgid ""
+"<font style=\"font-size: 62px;\" class=\"o_default_snippet_text"
+"\">Introduction</font>"
+msgstr "<font style=\"font-size: 62px;\" class=\"o_default_snippet_text\">Bemutatás</font>"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.registration_template
+msgid "<i class=\"fa fa-ban me-2\"/>Sold Out"
+msgstr ""
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.events_list
+msgid "<i class=\"fa fa-ban me-2\"/>Unpublished"
+msgstr ""
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.event_details
+#: model_terms:ir.ui.view,arch_db:website_event.events_list
+msgid "<i class=\"fa fa-check me-2\"/>Registered"
+msgstr ""
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.index_sidebar_follow_us
+msgid ""
+"<i class=\"fa fa-facebook text-facebook\" aria-label=\"Facebook\" title="
+"\"Facebook\"/>"
+msgstr "<i class=\"fa fa-facebook text-facebook\" aria-label=\"Facebook\" title=\"Facebook\"/>"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.registration_complete
+msgid "<i class=\"fa fa-fw fa-calendar\"/> Add to Google Calendar"
+msgstr "<i class=\"fa fa-fw fa-calendar\"/> Hozzáadás a Google Naptárhoz"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.registration_complete
+msgid "<i class=\"fa fa-fw fa-calendar\"/> Add to iCal/Outlook"
+msgstr "<i class=\"fa fa-fw fa-calendar\"/> Hozzáadás iCal/Outlook naptárhoz"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.registration_configure_tickets_button
+msgid ""
+"<i class=\"fa fa-gear me-1\" role=\"img\" aria-label=\"Configure\" title="
+"\"Configure event tickets\"/><em>Configure Tickets</em>"
+msgstr ""
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.index_sidebar_follow_us
+msgid ""
+"<i class=\"fa fa-github text-github\" aria-label=\"Github\" title=\"Github\"/"
+">"
+msgstr "<i class=\"fa fa-github text-github\" aria-label=\"Github\" title=\"Github\"/>"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.event_pages_kanban_view
+msgid "<i class=\"fa fa-globe me-1\" title=\"Website\"/>"
+msgstr ""
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.index_sidebar_follow_us
+msgid ""
+"<i class=\"fa fa-instagram text-instagram\" aria-label=\"Instagram\" title="
+"\"Instagram\"/>"
+msgstr "<i class=\"fa fa-instagram text-instagram\" aria-label=\"Instagram\" title=\"Instagram\"/>"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.index_sidebar_follow_us
+msgid ""
+"<i class=\"fa fa-linkedin text-linkedin\" aria-label=\"LinkedIn\" title="
+"\"LinkedIn\"/>"
+msgstr "<i class=\"fa fa-linkedin text-linkedin\" aria-label=\"LinkedIn\" title=\"LinkedIn\"/>"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.layout
+msgid ""
+"<i class=\"fa fa-long-arrow-left me-2\"/>\n"
+"                            <span>All Events</span>"
+msgstr ""
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.event_event_view_form_add
+msgid ""
+"<i class=\"fa fa-long-arrow-right mx-2\" aria-label=\"Arrow icon\" title="
+"\"Arrow\"/>"
+msgstr ""
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.index_sidebar_follow_us
+msgid ""
+"<i class=\"fa fa-twitter text-twitter\" aria-label=\"Twitter\" title="
+"\"Twitter\"/>"
+msgstr "<i class=\"fa fa-twitter text-twitter\" aria-label=\"Twitter\" title=\"Twitter\"/>"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.index_sidebar_follow_us
+msgid ""
+"<i class=\"fa fa-youtube-play text-youtube\" aria-label=\"Youtube\" title="
+"\"Youtube\"/>"
+msgstr "<i class=\"fa fa-youtube-play text-youtube\" aria-label=\"Youtube\" title=\"Youtube\"/>"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.s_speaker_bio
+msgid ""
+"<span class=\"badge text-bg-secondary text-uppercase o_wevent_badge"
+"\">Speaker</span>"
+msgstr ""
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.index_topbar
+msgid "<span class=\"navbar-brand h4 my-0 me-auto\">Events</span>"
+msgstr ""
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.display_timer_widget
+msgid ""
+"<span class=\"o_countdown_remaining o_timer_days pe-1\">0</span><span class="
+"\"o_countdown_metric pe-1\">days</span>"
+msgstr ""
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.display_timer_widget
+msgid ""
+"<span class=\"o_countdown_remaining o_timer_hours\">00</span><span class="
+"\"o_countdown_metric\">:</span>"
+msgstr "<span class=\"o_countdown_remaining o_timer_hours\">00</span><span class=\"o_countdown_metric\">:</span>"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.display_timer_widget
+msgid ""
+"<span class=\"o_countdown_remaining o_timer_minutes\">00</span><span class="
+"\"o_countdown_metric\">:</span>"
+msgstr "<span class=\"o_countdown_remaining o_timer_minutes\">00</span><span class=\"o_countdown_metric\">:</span>"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.display_timer_widget
+msgid ""
+"<span class=\"o_countdown_remaining o_timer_seconds\">00</span><span class="
+"\"o_countdown_metric\"/>"
+msgstr "<span class=\"o_countdown_remaining o_timer_seconds\">00</span><span class=\"o_countdown_metric\"/>"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.registration_template
+msgid ""
+"<span class=\"py-2 o_wevent_registration_title text-start\">Tickets</span>"
+msgstr ""
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.registration_template
+msgid "<span class=\"text-dark fw-bold align-middle px-2\">Qty</span>"
+msgstr ""
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.registration_template
+msgid ""
+"<span itemprop=\"availability\" content=\"http://schema.org/SoldOut\" class="
+"\"text-danger\">\n"
+"                                    <i class=\"fa fa-ban me-2\"/>Sold Out\n"
+"                                </span>"
+msgstr ""
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.event_location
+msgid "<span>Online Events</span>"
+msgstr "<span>Online rendezvények</span>"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.registration_template
+msgid ""
+"<span>Tickets</span>\n"
+"                        <span class=\"btn p-0 close d-none\">×</span>"
+msgstr ""
+"<span>Jegyek</span>\n"
+"                        <span class=\"btn p-0 close d-none\">×</span>"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.registration_attendee_details
+msgid "<strong> You ordered more tickets than available seats</strong>"
+msgstr "<strong> Több jegyet rendelt, mint amennyi hely rendelkezésre áll</strong>"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.index_sidebar_photos
+msgid "A past event"
+msgstr "Egy korábbi rendezvény"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.snippet_options
+#, fuzzy
+#| msgid "About us"
+msgid "About Us"
+msgstr "Rólunk"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.index_sidebar_about_us
+msgid "About us"
+msgstr "Rólunk"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.event_description_full
+msgid "Add to Calendar"
+msgstr "Hozzáadás naptárhoz"
+
+#. module: website_event
+#: code:addons/website_event/controllers/main.py:0
+#, python-format
+msgid "All Countries"
+msgstr "Összes ország"
+
+#. module: website_event
+#: code:addons/website_event/models/event_event.py:0
+#, fuzzy, python-format
+#| msgid "Events"
+msgid "All Events"
+msgstr "Rendezvények"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.event_location
+msgid "All countries"
+msgstr "Összes ország"
+
+#. module: website_event
+#: model:ir.model.fields,help:website_event.field_event_event__website_menu
+msgid "Allows to display and manage event-specific menus on website."
+msgstr "Lehetővé teszi rendezvényspecifikus menük megjelenítését és kezelését a weboldalon."
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.res_config_settings_view_form
+msgid "Ask questions to attendees when registering online"
+msgstr "Tegyen fel kérdéseket a résztvevőknek amikor online regisztrálnak"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.s_speaker_bio
+msgid ""
+"At just 13 years old, John DOE was already starting to develop his first "
+"business applications for customers. After mastering civil engineering, he "
+"founded TinyERP. This was the first phase of OpenERP which would later "
+"became Odoo, the most installed open-source business software worldwide."
+msgstr "Mindössze 13 évesen Gipsz Jakab már megkezdte az első üzleti alkalmazás fejlesztését ügyfelei számára. A tanulmányai befejeztével megalapította a TinyERP-t. Ez volt az OpenERP első szakasza, amelyből később Odoo lett, a világon a legtöbbet telepített nyílt forráskódú üzleti szoftver."
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.registration_attendee_details
+msgid "Attendees"
+msgstr "Résztvevők"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.index_sidebar_quotes
+msgid "Author"
+msgstr "Szerző"
+
+#. module: website_event
+#: code:addons/website_event/models/website_snippet_filter.py:0
+#, python-format
+msgid "Business Workshops"
+msgstr ""
+
+#. module: website_event
+#: model:ir.model.fields,field_description:website_event.field_event_event__can_publish
+#: model:ir.model.fields,field_description:website_event.field_event_tag_category__can_publish
+msgid "Can Publish"
+msgstr "Közzétehet"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.registration_attendee_details
+msgid "Cancel"
+msgstr "Mégsem"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.snippet_options
+msgid "Cards"
+msgstr ""
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.display_timer_alert_widget
+#: model_terms:ir.ui.view,arch_db:website_event.registration_attendee_details
+msgid "Close"
+msgstr "Bezárás"
+
+#. module: website_event
+#: code:addons/website_event/models/event_event.py:0
+#: model_terms:ir.ui.view,arch_db:website_event.event_event_view_form
+#: model_terms:ir.ui.view,arch_db:website_event.event_type_view_form
+#, python-format
+msgid "Community"
+msgstr "Közösségi"
+
+#. module: website_event
+#: model:ir.model.fields,field_description:website_event.field_event_event__community_menu
+#: model:ir.model.fields,field_description:website_event.field_event_type__community_menu
+#: model:ir.model.fields.selection,name:website_event.selection__website_event_menu__menu_type__community
+msgid "Community Menu"
+msgstr "Közösségi menü"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.s_speaker_bio
+msgid "Company"
+msgstr "Vállalat"
+
+#. module: website_event
+#: code:addons/website_event/models/website_snippet_filter.py:0
+#, python-format
+msgid "Conference For Architects"
+msgstr ""
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.registration_attendee_details
+msgid "Continue"
+msgstr "Folytatás"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.snippet_options
+#, fuzzy
+#| msgid "All Countries"
+msgid "Countries"
+msgstr "Összes ország"
+
+#. module: website_event
+#: model:ir.model.fields,field_description:website_event.field_event_event__cover_properties
+msgid "Cover Properties"
+msgstr "Boritó tulajdonságok"
+
+#. module: website_event
+#: model:ir.model.fields,field_description:website_event.field_website_event_menu__create_uid
+msgid "Created by"
+msgstr "Létrehozta"
+
+#. module: website_event
+#: model:ir.model.fields,field_description:website_event.field_website_event_menu__create_date
+msgid "Created on"
+msgstr "Létrehozva"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.snippet_options
+msgid "Date"
+msgstr "Dátum"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.event_description_full
+msgid "Date &amp; Time"
+msgstr "Dátum és Idő"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.event_searchbar_input_snippet_options
+msgid "Date (new to old)"
+msgstr "Dátum (újtól a régihez)"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.event_searchbar_input_snippet_options
+msgid "Date (old to new)"
+msgstr "Dátum (régitől az újhoz)"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.event_searchbar_input_snippet_options
+msgid "Description"
+msgstr "Leírás"
+
+#. module: website_event
+#: model:ir.model.fields,field_description:website_event.field_website_event_menu__display_name
+msgid "Display Name"
+msgstr "Megjelenített név"
+
+#. module: website_event
+#: model:ir.model.fields,field_description:website_event.field_event_type__website_menu
+msgid "Display a dedicated menu on Website"
+msgstr "Dedikált menü megjelenítése a weboldalon"
+
+#. module: website_event
+#: model:ir.model.fields,help:website_event.field_event_event__community_menu
+#: model:ir.model.fields,help:website_event.field_event_type__community_menu
+msgid "Display community tab on website"
+msgstr "Közösségi fül megjelenítése a weboldalon"
+
+#. module: website_event
+#. openerp-web
+#: code:addons/website_event/static/src/js/tours/event_tour.js:0
+#, python-format
+msgid "Don't forget to click <b>save</b> when you're done."
+msgstr "Ne felejtsen el a <b>mentés</b> gombra kattintani, ha végzett."
+
+#. module: website_event
+#: model:ir.ui.menu,name:website_event.menu_edit_menu
+#, fuzzy
+#| msgid "Event Menu"
+msgid "Edit Event Menu"
+msgstr "Esemény menü"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.registration_attendee_details
+#, fuzzy
+#| msgid "Email"
+msgid "Email *"
+msgstr "E-mail"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.event_description_full
+msgid "End -"
+msgstr "Vége -"
+
+#. module: website_event
+#: model:ir.model,name:website_event.model_event_event
+#: model:ir.model.fields,field_description:website_event.field_website_event_menu__event_id
+msgid "Event"
+msgstr "Rendezvény"
+
+#. module: website_event
+#: model:ir.model.fields,field_description:website_event.field_event_event__community_menu_ids
+msgid "Event Community Menus"
+msgstr "Rendezvény közösségi menük"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.event_searchbar_input_snippet_options
+msgid "Event Date"
+msgstr "Rendezvény dátuma"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.template_location
+msgid "Event Location"
+msgstr "Rendezvény helyszíne"
+
+#. module: website_event
+#: model:ir.model.fields,field_description:website_event.field_event_event__menu_id
+msgid "Event Menu"
+msgstr "Rendezvény menü"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.event_event_view_form_add
+msgid "Event Name"
+msgstr "Rendezvény neve"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.snippet_options
+#, fuzzy
+#| msgid "Event Name"
+msgid "Event Page"
+msgstr "Esemény neve"
+
+#. module: website_event
+#: model:ir.actions.act_window,name:website_event.action_event_pages_list
+#, fuzzy
+#| msgid "Event Name"
+msgid "Event Pages"
+msgstr "Esemény neve"
+
+#. module: website_event
+#: model:ir.model,name:website_event.model_event_registration
+msgid "Event Registration"
+msgstr "Rendezvény regisztráció"
+
+#. module: website_event
+#: model:ir.model.fields,field_description:website_event.field_website_visitor__event_registration_ids
+msgid "Event Registrations"
+msgstr "Rendezvény regisztrációk"
+
+#. module: website_event
+#: model:ir.model.fields,field_description:website_event.field_event_event__subtitle
+#: model_terms:ir.ui.view,arch_db:website_event.event_details
+msgid "Event Subtitle"
+msgstr "Rendezvény alcím"
+
+#. module: website_event
+#: model:ir.model,name:website_event.model_event_tag_category
+msgid "Event Tag Category"
+msgstr "Rendezvény címke kategória"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.s_dynamic_snippet_options_template
+#, fuzzy
+#| msgid "Events"
+msgid "Event Tags"
+msgstr "Rendezvények"
+
+#. module: website_event
+#: model:ir.model,name:website_event.model_event_type
+msgid "Event Template"
+msgstr "Rendezvény sablon"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.event_details
+msgid "Event Title"
+msgstr "Rendezvény cím"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.404
+msgid "Event not found!"
+msgstr "Rendezvény nem található!"
+
+#. module: website_event
+#: model:mail.message.subtype,description:website_event.mt_event_published
+#: model:mail.message.subtype,name:website_event.mt_event_published
+msgid "Event published"
+msgstr "Rendezvény közzétéve"
+
+#. module: website_event
+#: model:mail.message.subtype,description:website_event.mt_event_unpublished
+#: model:mail.message.subtype,name:website_event.mt_event_unpublished
+msgid "Event unpublished"
+msgstr "Rendezvény nincs közzétéve"
+
+#. module: website_event
+#: code:addons/website_event/models/website.py:0
+#: model:ir.ui.menu,name:website_event.menu_event_pages
+#: model:website.menu,name:website_event.menu_events
+#: model_terms:ir.ui.view,arch_db:website_event.event_searchbar_input_snippet_options
+#, python-format
+msgid "Events"
+msgstr "Rendezvények"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.snippet_options
+#, fuzzy
+#| msgid "Event Name"
+msgid "Events Page"
+msgstr "Esemény neve"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.registration_template
+msgid "Expired"
+msgstr "Lejárt"
+
+#. module: website_event
+#: model:ir.model.fields,field_description:website_event.field_event_event__menu_register_cta
+#: model:ir.model.fields,field_description:website_event.field_event_type__menu_register_cta
+#: model_terms:ir.ui.view,arch_db:website_event.event_event_view_form
+msgid "Extra Register Button"
+msgstr "Extra regisztrációs gomb"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.event_description_full
+msgid ""
+"Find out what people see and say about this event, and join the conversation."
+msgstr "Tudja meg, mit látnak és mondnak az emberek a rendezvényről, és csatlakozzon a beszélgetéshez."
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.snippet_options
+msgid "Fold Tickets Details"
+msgstr ""
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.index_sidebar_follow_us
+#: model_terms:ir.ui.view,arch_db:website_event.snippet_options
+msgid "Follow Us"
+msgstr "Kövessen minket"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.layout
+msgid "Following content will appear on all events."
+msgstr "A következő tartalom minden rendezvénynél megjelenik."
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.event_description_full
+msgid "Get the direction"
+msgstr "Útvonal lekérése"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.event_description_full
+msgid "Google"
+msgstr "Google"
+
+#. module: website_event
+#: code:addons/website_event/models/website_snippet_filter.py:0
+#, python-format
+msgid "Great Reno Ballon Race"
+msgstr ""
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.snippet_options
+msgid "Grid"
+msgstr ""
+
+#. module: website_event
+#: code:addons/website_event/models/website_snippet_filter.py:0
+#, python-format
+msgid "Hockey Tournament"
+msgstr ""
+
+#. module: website_event
+#: model:ir.model.fields,field_description:website_event.field_website_event_menu__id
+msgid "ID"
+msgstr "Azonosító"
+
+#. module: website_event
+#: code:addons/website_event/models/event_event.py:0
+#: model:ir.model.fields.selection,name:website_event.selection__website_event_menu__menu_type__introduction
+#, python-format
+msgid "Introduction"
+msgstr "Bemutatkozás"
+
+#. module: website_event
+#: model:ir.model.fields,field_description:website_event.field_event_event__introduction_menu
+msgid "Introduction Menu"
+msgstr "Bemutatkozás menü"
+
+#. module: website_event
+#: model:ir.model.fields,field_description:website_event.field_event_event__introduction_menu_ids
+msgid "Introduction Menus"
+msgstr "Bemutatkozás menük"
+
+#. module: website_event
+#: model:ir.model.fields,field_description:website_event.field_event_event__is_done
+msgid "Is Done"
+msgstr "Kész"
+
+#. module: website_event
+#: model:ir.model.fields,field_description:website_event.field_event_event__is_ongoing
+msgid "Is Ongoing"
+msgstr "Folyamatban"
+
+#. module: website_event
+#: model:ir.model.fields,field_description:website_event.field_event_event__is_participating
+msgid "Is Participating"
+msgstr "Résztvevő"
+
+#. module: website_event
+#: model:ir.model.fields,field_description:website_event.field_event_event__is_published
+#: model:ir.model.fields,field_description:website_event.field_event_tag_category__is_published
+msgid "Is Published"
+msgstr "Közzétett"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.s_speaker_bio
+msgid "John DOE"
+msgstr "Gipsz Jakab"
+
+#. module: website_event
+#: model:ir.model.fields,field_description:website_event.field_website_event_menu____last_update
+msgid "Last Modified on"
+msgstr "Utolsó módosítás ideje"
+
+#. module: website_event
+#: model:ir.model.fields,field_description:website_event.field_website_event_menu__write_uid
+msgid "Last Updated by"
+msgstr "Utoljára frissítette"
+
+#. module: website_event
+#: model:ir.model.fields,field_description:website_event.field_website_event_menu__write_date
+msgid "Last Updated on"
+msgstr "Utolsó frissítés ideje"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.snippet_options
+msgid "Layout"
+msgstr ""
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.snippet_options
+msgid "List"
+msgstr ""
+
+#. module: website_event
+#: code:addons/website_event/models/website_snippet_filter.py:0
+#, python-format
+msgid "Live Music Festival"
+msgstr ""
+
+#. module: website_event
+#: code:addons/website_event/models/event_event.py:0
+#: model:ir.model.fields.selection,name:website_event.selection__website_event_menu__menu_type__location
+#: model_terms:ir.ui.view,arch_db:website_event.event_description_full
+#, python-format
+msgid "Location"
+msgstr "Helyszín"
+
+#. module: website_event
+#: model:ir.model.fields,field_description:website_event.field_event_event__location_menu
+msgid "Location Menu"
+msgstr "Helyszín menü"
+
+#. module: website_event
+#: model:ir.model.fields,field_description:website_event.field_event_event__location_menu_ids
+msgid "Location Menus"
+msgstr "Helyszín menük"
+
+#. module: website_event
+#. openerp-web
+#: code:addons/website_event/static/src/js/tours/event_tour.js:0
+#, python-format
+msgid ""
+"Looking great! Let's now <b>publish</b> this page so that it becomes "
+"<b>visible</b> on your website!"
+msgstr "Remekül néz ki! Most <b>tegyük közzé</b> ezt az oldalt, hogy <b>láthatóvá</b> váljon a weboldaladon!"
+
+#. module: website_event
+#: model:ir.model.fields,field_description:website_event.field_website_event_menu__menu_id
+msgid "Menu"
+msgstr "Menü"
+
+#. module: website_event
+#: model:ir.model.fields,field_description:website_event.field_website_event_menu__menu_type
+msgid "Menu Type"
+msgstr "Menü típusa"
+
+#. module: website_event
+#: model:ir.actions.act_window,name:website_event.website_event_menu_action
+msgid "Menus"
+msgstr "Menük"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.registration_complete
+msgid "N/A"
+msgstr "Nem elérhető"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.registration_attendee_details
+#, fuzzy
+#| msgid "Name"
+msgid "Name *"
+msgstr "Név"
+
+#. module: website_event
+#: model:ir.actions.act_window,name:website_event.event_event_action_add
+msgid "New Event"
+msgstr "Új rendezvény"
+
+#. module: website_event
+#: code:addons/website_event/models/website.py:0
+#, python-format
+msgid "Next Events"
+msgstr "Következő rendezvények"
+
+#. module: website_event
+#: model_terms:ir.actions.act_window,help:website_event.website_event_menu_action
+msgid "No Website Menu Items yet!"
+msgstr "Még nincs weboldal menü elem!"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.events_list
+msgid "No events found."
+msgstr "Nem található rendezvény."
+
+#. module: website_event
+#: model_terms:ir.actions.act_window,help:website_event.event_registration_action_from_visitor
+msgid "No registration linked to this visitor"
+msgstr "Nincs regisztráció társítva ehhez a látogatóhoz"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.events_list
+msgid "No results found for '"
+msgstr "Nincs találat ehhez: '"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.event_pages_kanban_view
+#, fuzzy
+#| msgid "Event published"
+msgid "Not Published"
+msgstr "Esemény közzétéve"
+
+#. module: website_event
+#: code:addons/website_event/models/website_snippet_filter.py:0
+#, python-format
+msgid "OpenWood Collection Online Reveal"
+msgstr ""
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.event_description_full
+msgid "Organizer"
+msgstr "Szervező"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.index_sidebar_photos
+msgid "Our Trainings"
+msgstr "Képzéseink"
+
+#. module: website_event
+#: code:addons/website_event/models/event_event.py:0
+#, python-format
+msgid "Past Events"
+msgstr "Korábbi rendezvények"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.registration_attendee_details
+msgid "Phone <small>(Optional)</small>"
+msgstr "Telefon <small>(Nem kötelező)</small>"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.index_sidebar_photos
+#: model_terms:ir.ui.view,arch_db:website_event.snippet_options
+msgid "Photos"
+msgstr "Fotók"
+
+#. module: website_event
+#. openerp-web
+#: code:addons/website_event/static/src/js/website_event.js:0
+#, python-format
+msgid "Please select at least one ticket."
+msgstr "Kérjük, válasszon legalább egy jegyet."
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.event_event_view_search
+#: model_terms:ir.ui.view,arch_db:website_event.event_pages_kanban_view
+#, fuzzy
+#| msgid "Event published"
+msgid "Published"
+msgstr "Esemény közzétéve"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.res_config_settings_view_form
+msgid "Questions"
+msgstr "Kérdések"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.snippet_options
+msgid "Quotes"
+msgstr ""
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.registration_complete
+msgid "Ref:"
+msgstr "Hiv:"
+
+#. module: website_event
+#. openerp-web
+#: code:addons/website_event/models/event_event.py:0
+#: code:addons/website_event/static/src/js/register_toaster_widget.js:0
+#: model:ir.model.fields.selection,name:website_event.selection__website_event_menu__menu_type__register
+#: model_terms:ir.ui.view,arch_db:website_event.layout
+#: model_terms:ir.ui.view,arch_db:website_event.registration_template
+#, python-format
+msgid "Register"
+msgstr "Regisztrálás"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.event_type_view_form
+msgid "Register Button"
+msgstr "Regisztráció gomb"
+
+#. module: website_event
+#: model:ir.model.fields,field_description:website_event.field_event_event__register_menu
+msgid "Register Menu"
+msgstr "Regisztráció menü"
+
+#. module: website_event
+#: model:ir.model.fields,field_description:website_event.field_event_event__register_menu_ids
+msgid "Register Menus"
+msgstr "Regisztráció menük"
+
+#. module: website_event
+#: model:ir.model.fields,field_description:website_event.field_website_visitor__event_registered_ids
+msgid "Registered Events"
+msgstr "Regisztrált rendezvények"
+
+#. module: website_event
+#: code:addons/website_event/controllers/main.py:0
+#: model_terms:ir.ui.view,arch_db:website_event.registration_template
+#, python-format
+msgid "Registration"
+msgstr "Regisztráció"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.registration_complete
+msgid "Registration confirmed!"
+msgstr "Regisztráció megerősítve!"
+
+#. module: website_event
+#: model:ir.actions.act_window,name:website_event.event_registration_action_from_visitor
+#: model_terms:ir.ui.view,arch_db:website_event.website_visitor_view_form
+msgid "Registrations"
+msgstr "Regisztrációk"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.events_list
+#: model_terms:ir.ui.view,arch_db:website_event.registration_template
+msgid "Registrations Closed"
+msgstr "Regisztráció lezárva"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.registration_template
+msgid "Registrations are <b>closed</b>"
+msgstr "A regisztráció már <b>be van zárva</b>"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.events_list
+#: model_terms:ir.ui.view,arch_db:website_event.registration_template
+msgid "Registrations not yet open"
+msgstr "A regisztráció még nincs megnyitva"
+
+#. module: website_event
+#: model:ir.model.fields,field_description:website_event.field_event_event__start_remaining
+msgid "Remaining before start"
+msgstr "Kezdésig hátralévő idő"
+
+#. module: website_event
+#: model:ir.model.fields,help:website_event.field_event_event__start_remaining
+msgid "Remaining time before event starts (minutes)"
+msgstr "A rendezvény kezdetéig hátralévő idő (perc)"
+
+#. module: website_event
+#: model:ir.model.fields,help:website_event.field_event_event__website_id
+msgid "Restrict publishing to this website."
+msgstr "Közzététel korlátozása erre a weboldalra."
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.404
+msgid "Return to the event list."
+msgstr "Vissza a rendezvény listához."
+
+#. module: website_event
+#: model:ir.model.fields,field_description:website_event.field_event_event__is_seo_optimized
+msgid "SEO optimized"
+msgstr "Kereső (SEO) optimalizált"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.event_description_full
+msgid "SHARE"
+msgstr "MEGOSZTÁS"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.registration_template
+msgid "Sales end on"
+msgstr "Jegyeladás vége"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.registration_template
+msgid "Sales start on"
+msgstr "Jegyeladás kezdődik"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.dynamic_filter_template_event_event_card
+#: model_terms:ir.ui.view,arch_db:website_event.dynamic_filter_template_event_event_picture
+msgid "Sample"
+msgstr ""
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.events_search_box_input
+msgid "Search an event..."
+msgstr "Rendezvény keresése..."
+
+#. module: website_event
+#: model:ir.model.fields,field_description:website_event.field_event_event__seo_name
+msgid "Seo name"
+msgstr "Seo név"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.event_tag_category_view_form
+#: model_terms:ir.ui.view,arch_db:website_event.event_tag_category_view_tree
+msgid "Show on Website"
+msgstr "Megjelenítés a weboldalon"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.snippet_options
+msgid "Sidebar"
+msgstr ""
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.events_list
+#: model_terms:ir.ui.view,arch_db:website_event.registration_template
+msgid "Sold Out"
+msgstr "Elfogyott"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.404
+msgid "Sorry, the requested event is not available anymore."
+msgstr "Sajnáljuk, a hivatkozott rendezvény már nem elérhető."
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.event_description_full
+msgid "Start -"
+msgstr "Kezdés -"
+
+#. module: website_event
+#: model:ir.model.fields,field_description:website_event.field_event_event__start_today
+msgid "Start Today"
+msgstr "Ma kezdődik"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.event_event_view_form_add
+msgid "Start → End"
+msgstr "Kezdés → Vége"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.display_timer_alert_widget
+msgid "Starts <span/>"
+msgstr "Kezdődik <span/>"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.snippet_options
+msgid "Sub-menu (Specific)"
+msgstr ""
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.snippet_options
+msgid "Templates"
+msgstr ""
+
+#. module: website_event
+#: model:ir.model.fields,help:website_event.field_event_event__website_url
+#: model:ir.model.fields,help:website_event.field_event_tag_category__website_url
+msgid "The full URL to access the document through the website."
+msgstr "A teljes URL a dokumentum weboldalon keresztüli eléréséhez."
+
+#. module: website_event
+#: code:addons/website_event/models/event_event.py:0
+#, python-format
+msgid "This month"
+msgstr "Aktuális hónap"
+
+#. module: website_event
+#. openerp-web
+#: code:addons/website_event/static/src/js/tours/event_tour.js:0
+#, python-format
+msgid "This shortcut will bring you right back to the event form."
+msgstr "Ez a parancsikon visszavezeti Önt az esemény űrlapra."
+
+#. module: website_event
+#: model_terms:ir.actions.act_window,help:website_event.website_event_menu_action
+msgid "This technical menu displays all event sub-menu items."
+msgstr "Ez a technikai menü az összes rendezvény almenüpontot megjeleníti."
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.registration_attendee_details
+msgid "Ticket #"
+msgstr "Jegy #"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.registration_template
+msgid "Ticket Sales starting on"
+msgstr "Jegyértékesítés kezdete"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.registration_template
+msgid "Tickets for this Event are <b>Sold Out</b>"
+msgstr "Erre a rendezvényre már <b>minden jegy elkelt</b>"
+
+#. module: website_event
+#: code:addons/website_event/models/event_event.py:0
+#, python-format
+msgid "Today"
+msgstr "Ma"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.layout
+msgid "Toggle navigation"
+msgstr "Navigáció kapcsolás"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.snippet_options
+msgid "Top Bar Filter"
+msgstr ""
+
+#. module: website_event
+#: code:addons/website_event/models/event_event.py:0
+#: model:website.snippet.filter,name:website_event.website_snippet_filter_event_list
+#: model_terms:ir.ui.view,arch_db:website_event.event_time
+#, python-format
+msgid "Upcoming Events"
+msgstr "Közelgő rendezvények"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.events_list
+msgid "Use the top button '<b>+ New</b>' to create an event."
+msgstr "Rendezvény létrehozásához használja felül az '<b>+ Új</b>' gombot."
+
+#. module: website_event
+#. openerp-web
+#: code:addons/website_event/static/src/js/tours/event_tour.js:0
+#, python-format
+msgid "Use this <b>shortcut</b> to easily access your event web page."
+msgstr "Ezzel a <b>gyorshivatkozással</b> könnyedén elérheti a rendezvény weboldalát."
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.index_sidebar_about_us
+msgid "Use this paragraph to write a short text about your events or company."
+msgstr ""
+
+#. module: website_event
+#: model:ir.model.fields,help:website_event.field_website_event_menu__view_id
+msgid "Used when not being an url based menu"
+msgstr "Akkor használatos, ha nem url alapú menü"
+
+#. module: website_event
+#: model:ir.model.fields,field_description:website_event.field_website_event_menu__view_id
+msgid "View"
+msgstr "Megtekintés"
+
+#. module: website_event
+#: model:ir.model.fields,field_description:website_event.field_event_event__website_published
+#: model:ir.model.fields,field_description:website_event.field_event_tag_category__website_published
+msgid "Visible on current website"
+msgstr "Látható a jelenlegi weboldalon"
+
+#. module: website_event
+#: model:ir.model.fields,field_description:website_event.field_event_registration__visitor_id
+msgid "Visitor"
+msgstr "Látogató"
+
+#. module: website_event
+#: model:ir.model,name:website_event.model_website
+#: model:ir.model.fields,field_description:website_event.field_event_event__website_id
+msgid "Website"
+msgstr "Weboldal"
+
+#. module: website_event
+#: model:ir.model,name:website_event.model_website_event_menu
+#: model_terms:ir.ui.view,arch_db:website_event.website_event_menu_view_form
+msgid "Website Event Menu"
+msgstr "Weboldal rendezvény menü"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.website_event_menu_view_search
+#: model_terms:ir.ui.view,arch_db:website_event.website_event_menu_view_tree
+msgid "Website Event Menus"
+msgstr "Weboldal rendezvény menük"
+
+#. module: website_event
+#: model:ir.actions.act_url,name:website_event.action_open_website
+msgid "Website Home"
+msgstr "Weboldal kezdőlap"
+
+#. module: website_event
+#: model:ir.model,name:website_event.model_website_menu
+#: model:ir.model.fields,field_description:website_event.field_event_event__website_menu
+msgid "Website Menu"
+msgstr "Weboldal menü"
+
+#. module: website_event
+#: model:ir.ui.menu,name:website_event.menu_website_event_menu
+msgid "Website Menus"
+msgstr "Weboldal menük"
+
+#. module: website_event
+#: model:ir.model,name:website_event.model_website_snippet_filter
+msgid "Website Snippet Filter"
+msgstr ""
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.event_event_view_form
+#: model_terms:ir.ui.view,arch_db:website_event.event_type_view_form
+msgid "Website Submenu"
+msgstr "Weboldal al-menü"
+
+#. module: website_event
+#: model:ir.model.fields,field_description:website_event.field_event_event__website_url
+#: model:ir.model.fields,field_description:website_event.field_event_tag_category__website_url
+msgid "Website URL"
+msgstr "Weboldal URL"
+
+#. module: website_event
+#: model:ir.model,name:website_event.model_website_visitor
+msgid "Website Visitor"
+msgstr "Weboldal látogató"
+
+#. module: website_event
+#: model:ir.model.fields,field_description:website_event.field_event_event__website_meta_description
+msgid "Website meta description"
+msgstr "Weboldal meta leírás"
+
+#. module: website_event
+#: model:ir.model.fields,field_description:website_event.field_event_event__website_meta_keywords
+msgid "Website meta keywords"
+msgstr "Weboldal meta kulcsszavak"
+
+#. module: website_event
+#: model:ir.model.fields,field_description:website_event.field_event_event__website_meta_title
+msgid "Website meta title"
+msgstr "Weboldal meta cím"
+
+#. module: website_event
+#: model:ir.model.fields,field_description:website_event.field_event_event__website_meta_og_img
+msgid "Website opengraph image"
+msgstr "Weboldal opengraph kép"
+
+#. module: website_event
+#: model:ir.model.fields,help:website_event.field_event_event__is_ongoing
+msgid "Whether event has begun"
+msgstr "Hogy a rendezvény elkezdőtött-e"
+
+#. module: website_event
+#: model:ir.model.fields,help:website_event.field_event_event__start_today
+msgid "Whether event is going to start today if still not ongoing"
+msgstr "Hogy a rendezvény ma kezdődik-e, ha még mindig nincs folyamatban"
+
+#. module: website_event
+#. openerp-web
+#: code:addons/website_event/static/src/js/tours/event_tour.js:0
+#, python-format
+msgid ""
+"With the Edit button, you can <b>customize</b> the web page visitors will "
+"see when registering."
+msgstr "A Szerkesztés gombbal <b>testre szabhatja</b> azt a weboldalt, amelyet a látogatók a regisztrációkor látni fognak."
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.registration_template
+msgid "available)"
+msgstr "elérhető)"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.event_event_view_form_add
+msgid "e.g. \"Conference for Architects\""
+msgstr ""
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.event_description_full
+msgid "iCal/Outlook"
+msgstr "iCal/Outlook"
+
+#~ msgid "All Categories"
+#~ msgstr "Összes kategória"
+
+#~ msgid "Categories"
+#~ msgstr "Kategóriák"
+
+#~ msgid "Click <em>Continue</em> to create the event."
+#~ msgstr "Kattints <em>Folytatás</em> egy esemény létrehozásához."
+
+#~ msgid "Click here to create a new event."
+#~ msgstr "Kattintson egy új esemény létrehozásához."
+
+#~ msgid "Click here to customize your event further."
+#~ msgstr "Kattintson az események további személyre szabásához."
+
+#~ msgid "Click to publish your event."
+#~ msgstr "Kattintson az esemény közzétételéhez"
+
+#~ msgid ""
+#~ "Create a name for your new event and click <em>\"Continue\"</em>. e.g: "
+#~ "Technical Training"
+#~ msgstr ""
+#~ "Hozza létre az új eseményének a nevét és kattintson  <em>\"Tovább\"</em>. "
+#~ "pl: Technikai Tréning"
+
+#~ msgid ""
+#~ "Creates menus Introduction, Location and Register on the page  of the "
+#~ "event on the website."
+#~ msgstr ""
+#~ "Létrehozza a Bemutatás, Hely és Regisztráció menüket a weboldal esemény "
+#~ "oldalán."
+
+#~ msgid "Dedicated Menu"
+#~ msgstr "Ide vonatkozó menü"
+
+#~ msgid "Drag this block and drop it in your page."
+#~ msgstr "Húzza ezt a blokkot, és dobja el az oldalában."
+
+#~ msgid "E-mail"
+#~ msgstr "E-mail"
+
+#~ msgid "Next Week"
+#~ msgstr "Következő hét"
+
+#~ msgid "Next month"
+#~ msgstr "Következő hónap"
+
+#~ msgid "Once you click on save, your event is updated."
+#~ msgstr "Ha rákattint a mentésre, eseménye frissítésre kerül."
+
+#~ msgid "Online"
+#~ msgstr "Online"
+
+#~ msgid "Phone"
+#~ msgstr "Telefon"
+
+#~ msgid "Reference"
+#~ msgstr "Hivatkozás"
+
+#~ msgid "See all events from"
+#~ msgstr "Összes esemény megtekintése ettől kezdve"
+
+#~ msgid "This Week"
+#~ msgstr "Ezen a héten"

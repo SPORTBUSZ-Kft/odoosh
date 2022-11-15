@@ -1,0 +1,380 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* phone_validation
+#
+# Translators:
+# Martin Trigaux, 2019
+# krnkris, 2019
+# gezza <geza.nagy@oregional.hu>, 2019
+# Tibor Kőnig <konig.tibor@evitalit.hu>, 2019
+# Ákos Nagy <akos.nagy@oregional.hu>, 2019
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-20 09:03+0000\n"
+"PO-Revision-Date: 2022-10-28 20:01+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/phone_validation/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#. module: phone_validation
+#: code:addons/phone_validation/models/phone_blacklist.py:0
+#, python-format
+msgid " Please correct the number and try again."
+msgstr " Kérjük, javítsa ki a számot és próbálja meg újra."
+
+#. module: phone_validation
+#: model:ir.model.fields,field_description:phone_validation.field_mail_thread_phone__message_needaction
+#: model:ir.model.fields,field_description:phone_validation.field_phone_blacklist__message_needaction
+msgid "Action Needed"
+msgstr "Művelet szükséges"
+
+#. module: phone_validation
+#: model:ir.model.fields,field_description:phone_validation.field_phone_blacklist__active
+msgid "Active"
+msgstr "Aktív"
+
+#. module: phone_validation
+#: model_terms:ir.actions.act_window,help:phone_validation.phone_blacklist_action
+msgid "Add a phone number in the blacklist"
+msgstr "Telefonszám felvétele a feketelistára"
+
+#. module: phone_validation
+#: model_terms:ir.ui.view,arch_db:phone_validation.phone_blacklist_view_form
+#: model_terms:ir.ui.view,arch_db:phone_validation.phone_blacklist_view_search
+msgid "Archived"
+msgstr "Archivált"
+
+#. module: phone_validation
+#: model:ir.model.fields,field_description:phone_validation.field_mail_thread_phone__message_attachment_count
+#: model:ir.model.fields,field_description:phone_validation.field_phone_blacklist__message_attachment_count
+msgid "Attachment Count"
+msgstr "Mellékletek száma"
+
+#. module: phone_validation
+#: model_terms:ir.ui.view,arch_db:phone_validation.phone_blacklist_view_form
+msgid "Blacklist"
+msgstr "Feketelista"
+
+#. module: phone_validation
+#: model_terms:ir.ui.view,arch_db:phone_validation.phone_blacklist_view_tree
+msgid "Blacklist Date"
+msgstr "Feketelista dátuma"
+
+#. module: phone_validation
+#: model:ir.model.fields,field_description:phone_validation.field_mail_thread_phone__mobile_blacklisted
+msgid "Blacklisted Phone Is Mobile"
+msgstr "A mobiltelefonszám szerepel tiltólistán"
+
+#. module: phone_validation
+#: model:ir.actions.act_window,name:phone_validation.phone_blacklist_action
+msgid "Blacklisted Phone Numbers"
+msgstr "Feketelistázott számok"
+
+#. module: phone_validation
+#: model:ir.model.fields,field_description:phone_validation.field_mail_thread_phone__phone_blacklisted
+msgid "Blacklisted Phone is Phone"
+msgstr "A vezetékes telefonszám szerepel tiltólistán"
+
+#. module: phone_validation
+#: model_terms:ir.actions.act_window,help:phone_validation.phone_blacklist_action
+msgid "Blacklisted phone numbers won't receive SMS Mailings anymore."
+msgstr "A feketelistán szereplő telefonszámok már nem kapnak többé SMS levelezéseket."
+
+#. module: phone_validation
+#: code:addons/phone_validation/models/res_users.py:0
+#, python-format
+msgid "Blocked by deletion of portal account %(portal_user_name)s by %(user_name)s (#%(user_id)s)"
+msgstr "Blokkolásra került a %(user_name)s (#%(user_id)s) felhasználó által a %(portal_user_name)s portál felhasználó törlésekor"
+
+#. module: phone_validation
+#: model_terms:ir.ui.view,arch_db:phone_validation.phone_blacklist_remove_view_form
+msgid "Confirm"
+msgstr "Megerősítés"
+
+#. module: phone_validation
+#: model:ir.model,name:phone_validation.model_res_partner
+msgid "Contact"
+msgstr "Névjegy"
+
+#. module: phone_validation
+#: model:ir.model.fields,field_description:phone_validation.field_phone_blacklist__create_uid
+#: model:ir.model.fields,field_description:phone_validation.field_phone_blacklist_remove__create_uid
+msgid "Created by"
+msgstr "Létrehozta"
+
+#. module: phone_validation
+#: model:ir.model.fields,field_description:phone_validation.field_phone_blacklist__create_date
+#: model:ir.model.fields,field_description:phone_validation.field_phone_blacklist_remove__create_date
+msgid "Created on"
+msgstr "Létrehozva"
+
+#. module: phone_validation
+#: model_terms:ir.ui.view,arch_db:phone_validation.phone_blacklist_remove_view_form
+msgid "Discard"
+msgstr "Elvetés"
+
+#. module: phone_validation
+#: model:ir.model.fields,field_description:phone_validation.field_phone_blacklist__display_name
+#: model:ir.model.fields,field_description:phone_validation.field_phone_blacklist_remove__display_name
+msgid "Display Name"
+msgstr "Megjelenített név"
+
+#. module: phone_validation
+#: model:ir.model.fields,help:phone_validation.field_mail_thread_phone__phone_sanitized
+msgid "Field used to store sanitized phone number. Helps speeding up searches and comparisons."
+msgstr "Ez a mező van használva a letisztított telefonszám tárolására. Segít a keresések és összehasonlítások felgyorsításában."
+
+#. module: phone_validation
+#: model:ir.model.fields,field_description:phone_validation.field_mail_thread_phone__message_follower_ids
+#: model:ir.model.fields,field_description:phone_validation.field_phone_blacklist__message_follower_ids
+msgid "Followers"
+msgstr "Követők"
+
+#. module: phone_validation
+#: model:ir.model.fields,field_description:phone_validation.field_mail_thread_phone__message_partner_ids
+#: model:ir.model.fields,field_description:phone_validation.field_phone_blacklist__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Követők (partnerek)"
+
+#. module: phone_validation
+#: model:ir.model.fields,field_description:phone_validation.field_mail_thread_phone__has_message
+#: model:ir.model.fields,field_description:phone_validation.field_phone_blacklist__has_message
+msgid "Has Message"
+msgstr "Van üzenete"
+
+#. module: phone_validation
+#: model:ir.model.fields,field_description:phone_validation.field_phone_blacklist__id
+#: model:ir.model.fields,field_description:phone_validation.field_phone_blacklist_remove__id
+msgid "ID"
+msgstr "Azonosító"
+
+#. module: phone_validation
+#: model:ir.model.fields,help:phone_validation.field_mail_thread_phone__message_needaction
+#: model:ir.model.fields,help:phone_validation.field_phone_blacklist__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Ha be van jelölve, akkor az új üzenetek figyelmet igényelnek."
+
+#. module: phone_validation
+#: model:ir.model.fields,help:phone_validation.field_mail_thread_phone__message_has_error
+#: model:ir.model.fields,help:phone_validation.field_phone_blacklist__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Ha be van jelölve, akkor néhány üzenetnél kézbesítési hiba lépett fel."
+
+#. module: phone_validation
+#: model:ir.model.fields,help:phone_validation.field_mail_thread_phone__phone_sanitized_blacklisted
+msgid "If the sanitized phone number is on the blacklist, the contact won't receive mass mailing sms anymore, from any list"
+msgstr "Ha a tisztított telefonszám szerepel a feketelistán, a kontakt nem fog többé tömeges sms-t kapni, semmilyen listáról"
+
+#. module: phone_validation
+#: code:addons/phone_validation/tools/phone_validation.py:0
+#, python-format
+msgid "Impossible number %s: probably invalid number of digits."
+msgstr "Lehetetlen szám %s: valószínűleg a számjegyek száma érvénytelen."
+
+#. module: phone_validation
+#: model:ir.model.fields,help:phone_validation.field_mail_thread_phone__mobile_blacklisted
+msgid "Indicates if a blacklisted sanitized phone number is a mobile number. Helps distinguish which number is blacklisted             when there is both a mobile and phone field in a model."
+msgstr "Jelzi, hogy a feketelistán szereplő tisztított telefonszám mobilszám-e. Segít megkülönböztetni, hogy melyik szám került feketelistára, ha egy modellben mobil és telefon mező is van."
+
+#. module: phone_validation
+#: model:ir.model.fields,help:phone_validation.field_mail_thread_phone__phone_blacklisted
+msgid "Indicates if a blacklisted sanitized phone number is a phone number. Helps distinguish which number is blacklisted             when there is both a mobile and phone field in a model."
+msgstr "Jelzi, hogy a feketelistán szereplő tisztított telefonszám egy telefonszám-e. Segít megkülönböztetni, hogy melyik szám került feketelistára, ha egy modellben mobil és telefon mező is van."
+
+#. module: phone_validation
+#: code:addons/phone_validation/tools/phone_validation.py:0
+#, python-format
+msgid "Invalid number %s: probably incorrect prefix."
+msgstr "Érvénytelen szám %s: valószínűleg helytelen előtag."
+
+#. module: phone_validation
+#: code:addons/phone_validation/models/mail_thread_phone.py:0
+#, python-format
+msgid "Invalid primary phone field on model %s"
+msgstr "Érvénytelen elsődleges telefonmező a %s modellnél"
+
+#. module: phone_validation
+#: model:ir.model.fields,field_description:phone_validation.field_mail_thread_phone__message_is_follower
+#: model:ir.model.fields,field_description:phone_validation.field_phone_blacklist__message_is_follower
+msgid "Is Follower"
+msgstr "Követő"
+
+#. module: phone_validation
+#: model:ir.model.fields,field_description:phone_validation.field_phone_blacklist____last_update
+#: model:ir.model.fields,field_description:phone_validation.field_phone_blacklist_remove____last_update
+msgid "Last Modified on"
+msgstr "Utolsó módosítás ideje"
+
+#. module: phone_validation
+#: model:ir.model.fields,field_description:phone_validation.field_phone_blacklist__write_uid
+#: model:ir.model.fields,field_description:phone_validation.field_phone_blacklist_remove__write_uid
+msgid "Last Updated by"
+msgstr "Utoljára frissítette"
+
+#. module: phone_validation
+#: model:ir.model.fields,field_description:phone_validation.field_phone_blacklist__write_date
+#: model:ir.model.fields,field_description:phone_validation.field_phone_blacklist_remove__write_date
+msgid "Last Updated on"
+msgstr "Utolsó frissítés ideje"
+
+#. module: phone_validation
+#: model:ir.model.fields,field_description:phone_validation.field_mail_thread_phone__message_main_attachment_id
+#: model:ir.model.fields,field_description:phone_validation.field_phone_blacklist__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Fő melléklet"
+
+#. module: phone_validation
+#: model:ir.model.fields,field_description:phone_validation.field_mail_thread_phone__message_has_error
+#: model:ir.model.fields,field_description:phone_validation.field_phone_blacklist__message_has_error
+msgid "Message Delivery error"
+msgstr "Üzenetkézbesítési hiba"
+
+#. module: phone_validation
+#: model:ir.model.fields,field_description:phone_validation.field_mail_thread_phone__message_ids
+#: model:ir.model.fields,field_description:phone_validation.field_phone_blacklist__message_ids
+msgid "Messages"
+msgstr "Üzenetek"
+
+#. module: phone_validation
+#: code:addons/phone_validation/models/mail_thread_phone.py:0
+#, python-format
+msgid "Missing definition of phone fields."
+msgstr "Hiányzik a telefon mezők meghatározása."
+
+#. module: phone_validation
+#: model:ir.model.constraint,message:phone_validation.constraint_phone_blacklist_unique_number
+msgid "Number already exists"
+msgstr "A szám már létezik"
+
+#. module: phone_validation
+#: model:ir.model.fields,field_description:phone_validation.field_mail_thread_phone__message_needaction_counter
+#: model:ir.model.fields,field_description:phone_validation.field_phone_blacklist__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Műveletek száma"
+
+#. module: phone_validation
+#: model:ir.model.fields,field_description:phone_validation.field_mail_thread_phone__message_has_error_counter
+#: model:ir.model.fields,field_description:phone_validation.field_phone_blacklist__message_has_error_counter
+msgid "Number of errors"
+msgstr "Hibák száma"
+
+#. module: phone_validation
+#: model:ir.model.fields,help:phone_validation.field_mail_thread_phone__message_needaction_counter
+#: model:ir.model.fields,help:phone_validation.field_phone_blacklist__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Közbeavatkozást igénylő üzenetek száma"
+
+#. module: phone_validation
+#: model:ir.model.fields,help:phone_validation.field_mail_thread_phone__message_has_error_counter
+#: model:ir.model.fields,help:phone_validation.field_phone_blacklist__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Kézbesítési hibával rendelkező üzenetek száma"
+
+#. module: phone_validation
+#: model:ir.model.fields,help:phone_validation.field_phone_blacklist__number
+msgid "Number should be E164 formatted"
+msgstr "A számnak E164 formátumúnak kellene lennie"
+
+#. module: phone_validation
+#: model:ir.ui.menu,name:phone_validation.phone_menu_main
+msgid "Phone / SMS"
+msgstr "Telefon / SMS"
+
+#. module: phone_validation
+#: model:ir.model,name:phone_validation.model_phone_blacklist
+#: model:ir.ui.menu,name:phone_validation.phone_blacklist_menu
+#: model_terms:ir.ui.view,arch_db:phone_validation.phone_blacklist_view_form
+#: model_terms:ir.ui.view,arch_db:phone_validation.phone_blacklist_view_tree
+msgid "Phone Blacklist"
+msgstr "Telefon feketelista"
+
+#. module: phone_validation
+#: model:ir.model,name:phone_validation.model_mail_thread_phone
+msgid "Phone Blacklist Mixin"
+msgstr "Telefon feketelista mixin"
+
+#. module: phone_validation
+#: model:ir.model.fields,field_description:phone_validation.field_mail_thread_phone__phone_sanitized_blacklisted
+msgid "Phone Blacklisted"
+msgstr "Telefon feketelistázott"
+
+#. module: phone_validation
+#: model:ir.model.fields,field_description:phone_validation.field_phone_blacklist__number
+#: model:ir.model.fields,field_description:phone_validation.field_phone_blacklist_remove__phone
+#: model_terms:ir.ui.view,arch_db:phone_validation.phone_blacklist_remove_view_form
+msgid "Phone Number"
+msgstr "Telefonszám"
+
+#. module: phone_validation
+#: model:ir.model.fields,field_description:phone_validation.field_mail_thread_phone__phone_mobile_search
+msgid "Phone/Mobile"
+msgstr "Telefon/Mobil"
+
+#. module: phone_validation
+#: code:addons/phone_validation/models/mail_thread_phone.py:0
+#, python-format
+msgid "Please enter at least 3 characters when searching a Phone/Mobile number."
+msgstr "Kérjük, legalább 3 karaktert írjon be amikor telefon/mobil számot keres."
+
+#. module: phone_validation
+#: model:ir.model.fields,field_description:phone_validation.field_phone_blacklist_remove__reason
+#: model_terms:ir.ui.view,arch_db:phone_validation.phone_blacklist_remove_view_form
+msgid "Reason"
+msgstr "Oka"
+
+#. module: phone_validation
+#: model:ir.model,name:phone_validation.model_phone_blacklist_remove
+msgid "Remove phone from blacklist"
+msgstr "Telefon eltávolítása a feketelistáról"
+
+#. module: phone_validation
+#: model:ir.model.fields,field_description:phone_validation.field_mail_thread_phone__phone_sanitized
+msgid "Sanitized Number"
+msgstr "Tisztított szám"
+
+#. module: phone_validation
+#: code:addons/phone_validation/tools/phone_validation.py:0
+#, python-format
+msgid "Unable to parse %(phone)s: %(error)s"
+msgstr "Nem sikerült értelmezni a %(phone)s telefonszámot: %(error)s"
+
+#. module: phone_validation
+#: model_terms:ir.ui.view,arch_db:phone_validation.phone_blacklist_view_form
+msgid "Unblacklist"
+msgstr "Eltávolítás a feketelistáról"
+
+#. module: phone_validation
+#: code:addons/phone_validation/models/phone_blacklist.py:0
+#, python-format
+msgid "Unblacklisting Reason: %s"
+msgstr "A feketelistáról való eltávolítás oka: %s"
+
+#. module: phone_validation
+#: model:ir.model,name:phone_validation.model_res_users
+msgid "User"
+msgstr "Felhasználó"
+
+#. module: phone_validation
+#: model_terms:ir.ui.view,arch_db:phone_validation.phone_blacklist_remove_view_form
+msgid "phone_blacklist_removal"
+msgstr "phone_blacklist_removal"
+
+#~ msgid "Followers (Channels)"
+#~ msgstr "Követők (Csatornák)"
+
+#~ msgid "Number of unread messages"
+#~ msgstr "Olvasatlan üzenetek száma"
+
+#~ msgid "Unread Messages"
+#~ msgstr "Olvasatlan üzenetek"
+
+#~ msgid "Unread Messages Counter"
+#~ msgstr "Olvasatlan üzenetek száma"

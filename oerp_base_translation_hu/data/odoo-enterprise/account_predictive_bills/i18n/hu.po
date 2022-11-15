@@ -1,0 +1,32 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_predictive_bills
+#
+# Translators:
+# Martin Trigaux, 2019
+# krnkris, 2019
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.4+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-23 08:23+0000\n"
+"PO-Revision-Date: 2022-10-16 01:01+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/account_predictive_bills/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#. module: account_predictive_bills
+#: model:ir.model,name:account_predictive_bills.model_account_move
+msgid "Journal Entry"
+msgstr "Napló bejegyzés"
+
+#. module: account_predictive_bills
+#: model:ir.model,name:account_predictive_bills.model_account_move_line
+msgid "Journal Item"
+msgstr "Napló tétel"

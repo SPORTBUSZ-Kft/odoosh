@@ -1,0 +1,311 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* theme_real_estate
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-13 08:00+0000\n"
+"PO-Revision-Date: 2022-10-16 04:01+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/theme_real_estate/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_numbers
+msgid "100+"
+msgstr "100+"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_numbers
+msgid "14,000"
+msgstr "14,000"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_numbers
+msgid "142"
+msgstr "142"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_numbers
+msgid "97%"
+msgstr "97%"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_quotes_carousel
+msgid "<b>Iris Doe</b> • Customer, sold an appartement"
+msgstr "<b>Iris Doe</b> • Vevő, eladott egy házat"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_quotes_carousel
+msgid "<b>Jane Doe</b> • Customer, bought a house"
+msgstr "<b>Jane Doe</b> • Vevő, vásárolt egy házat"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_quotes_carousel
+msgid "<b>John Doe</b> • Customer, bought an appartement"
+msgstr "<b>John Doe</b> • Vevő, vásárolt egy házat"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_banner
+msgid "<b>Real Estate Agency.<br/>Near You.</b>"
+msgstr "<b>Ingatlanügynökség.<br/>Közel Önhöz.</b>"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_three_columns
+msgid "<span class=\"text-600 font-weight-bold\">$1,295,000,000</span>"
+msgstr "<span class=\"text-600 font-weight-bold\">$1,295,000,000</span>"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_three_columns
+msgid "<span class=\"text-600 font-weight-bold\">$295,000</span>"
+msgstr "<span class=\"text-600 font-weight-bold\">$295,000</span>"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_three_columns
+msgid "<span class=\"text-600 font-weight-bold\">$455,000</span>"
+msgstr "<span class=\"text-600 font-weight-bold\">$455,000</span>"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_quotes_carousel
+msgid ""
+"Amazing team! smiling, always nice to talk with, they always have the best "
+"advices for you, adapted to your needs!"
+msgstr "Csodálatos csapat! Mosolygós, mindig jó velük beszélgetni, mindig a legjobb tanácsokat adják neked, az igényeidhez igazodva!"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_text_image
+msgid "Are you thinking of selling?"
+msgstr "Eladáson gondolkodik?"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_text_block
+msgid ""
+"At <b>Odoo Travel Agency</b> our agents are more than a consultant, they are "
+"fellow <b>travelers with a passion</b> to help you explore the world. With "
+"more than 75 years combined experience you can be sure we are devoted to "
+"finding the best solutions for your travel plans."
+msgstr "Az <b>Odoo Utazási Irodánál</b> az ügynökeink több mint tanácsadók, ők <b>szenvedélyes utazótársak</b>, akik segítenek Önnek felfedezni a világot. Több mint 75 év összesített tapasztalattal biztos lehet benne, hogy elkötelezettek vagyunk abban, hogy a legjobb megoldásokat találjuk meg utazási terveihez."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_masonry_block_default_template
+msgid ""
+"At Real Estate Agency we have fixed price fees. This means we only charge "
+"when your home sale is confirmed."
+msgstr "Az ingatlanügynökségnél fix áras díjaink vannak. Ez azt jelenti, hogy csak akkor számítunk fel díjat, amikor az Ön otthonának eladása megerősítést nyer."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_image_text
+msgid "Bored with your interior?"
+msgstr "Unja a belső terét?"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_image_text
+msgid ""
+"Discover our tailor-made services to embellish the decoration of your home."
+msgstr "Fedezze fel személyre szabott szolgáltatásainkat, hogy megszépítse otthona dekorációját."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_three_columns
+msgid ""
+"Elegant, modern sophisticated architecture with an impressive in large scale "
+"home designed with the finest imported finishes. Pyrgon, marble and wood "
+"floors..."
+msgstr "Elegáns, modern, kifinomult építészet egy lenyűgöző, nagyszabású otthonban, amelyet a legfinomabb importált kivitelben terveztek. Pyrgon, márvány és fa padló..."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_image_text
+msgid "Explore our services"
+msgstr "Fedezze fel szolgáltatásainkat"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_quotes_carousel
+msgid ""
+"From start to finish, they were extremely professional, friendly, helpful "
+"and easy to do business with. Very happy with the experience and the company."
+msgstr "Az elejétől a végéig rendkívül professzionálisak, barátságosak, segítőkészek voltak, és könnyű volt velük üzletet kötni. Nagyon elégedett vagyok a tapasztalatokkal és a céggel."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_three_columns
+msgid "House On The Hill"
+msgstr "Ház a hegyen"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_masonry_block_default_template
+msgid ""
+"Increase Visitor retention. Customer engagement on a website with virtual "
+"tour is 5 times longer compared to a site without it."
+msgstr "Növeli a látogatók megtartását. Az ügyfelek elkötelezettsége egy virtuális túrával ellátott weboldalon 5-ször hosszabb, mint egy olyan weboldalon, ahol nincs virtuális túra."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_masonry_block_default_template
+msgid "Increased Visibility"
+msgstr "Fokozott láthatóság"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_text_image
+msgid ""
+"Make an appointment for a free valuation of your property. We visit the "
+"property, advise you on a realistic asking price and we explain our way of "
+"working. <br/>\n"
+"        You can decide in all freedom whether or not you would like to work "
+"with us for the sale of your property."
+msgstr ""
+"Kérjen időpontot ingatlana ingyenes értékbecslésére. Meglátogatjuk az ingatlant, tanácsot adunk a reális kikiáltási árról, és elmagyarázzuk a munkamódszerünket. <br/>\n"
+"        Ön teljesen szabadon eldöntheti, hogy szeretne-e velünk együttműködni ingatlana eladásában vagy sem."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_three_columns
+msgid "Moutain View"
+msgstr "Hegyi kilátás"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_masonry_block_default_template
+msgid "No fixed fees"
+msgstr "Nincs fix díj"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_banner
+msgid ""
+"Now you can find more than 5,000+ property choices with our professional "
+"agents!<br/>"
+msgstr "Most több mint 5,000+ ingatlan közül választhat profi ügynökeink segítségével!<br/>"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_picture
+msgid "Open your horizons"
+msgstr "Nyissa fel a látókörét"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_image_text
+msgid ""
+"Our decoration experts are at your disposal to guide you step by step in the "
+"design of your interior and will give you the best advice for your interior "
+"design."
+msgstr "Dekorációs szakértőink készséggel állnak rendelkezésére, hogy lépésről lépésre eligazítsák Önt a belsőépítészet kialakításában, és a legjobb tanácsokat adják Önnek a belsőépítészet kialakításához."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_three_columns
+msgid "Paradise Residence"
+msgstr "Mennyország Rezidencia"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_quotes_carousel
+msgid ""
+"Positive energy, great team spirit, hard workers and awesome people! I "
+"warmly recommend them!"
+msgstr "Pozitív energia, remek csapatszellem, szorgalmas munkások és fantasztikus emberek! Szívből ajánlom őket!"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_masonry_block_default_template
+msgid "Premium Quality"
+msgstr "Prémium minőség"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_masonry_block_default_template
+msgid "Pro Photo Shoot"
+msgstr "Profi fotózás"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_picture
+msgid "Property on the coasts of the Mediterranean."
+msgstr "Ingatlan a Földközi-tenger partján."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_banner
+msgid "See properties"
+msgstr "Ingatlanok megtekintése"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_three_columns
+msgid ""
+"The house is surrounded by garden terraces that create unique spaces and an "
+"intimate ambience. With no overlooking neighbours, the garden offers real "
+"privacy."
+msgstr "A házat kerti teraszok veszik körül, amelyek egyedi tereket és intim hangulatot teremtenek. A kertben nincsenek szomszédok, így a kert valódi magánéletet biztosít."
+
+#. module: theme_real_estate
+#: model:ir.model,name:theme_real_estate.model_theme_utils
+msgid "Theme Utils"
+msgstr "Téma segédek"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_masonry_block_default_template
+msgid ""
+"They say an image is worth a thousand words and we know you know how "
+"important it is to have the best photography."
+msgstr "Azt mondják, hogy egy kép többet ér ezer szónál, és tudjuk, hogy Ön is tudja, mennyire fontos, hogy a legjobb fényképezéssel rendelkezzen."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_three_columns
+msgid "View details"
+msgstr "Részletek megtekintése"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_call_to_action
+msgid "Want To Become A Real Estate Agent?"
+msgstr "Szeretne ingatlanügynök lenni?"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_three_columns
+msgid ""
+"Waste no time in viewing this truly stunning property. The property's "
+"surroundings really set it apart, offering idyllic sea views overlooking a "
+"park."
+msgstr "Ne vesztegesse az idejét, és tekintse meg ezt a valóban lenyűgöző ingatlant. Az ingatlant a környezete igazán különlegessé teszi, idilli tengeri kilátást kínál egy parkra néző kilátással."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_text_block
+msgid ""
+"We are <b>Odoo Travel Agency</b>, dedicated to making your vacation dreams "
+"come true! Overwhelmed with too many choices on the internet? We offer you "
+"answers, support, advice, and itineraries that will amaze you with their "
+"<b>thoroughness and thoughtfulness</b>."
+msgstr "Mi vagyunk az <b>Odoo Utazási Iroda</b>, elkötelezettek vagyunk az Ön nyaralási álmainak valóra váltása iránt! Túl sok a választék az interneten? Mi válaszokat, támogatást, tanácsokat és útvonalterveket kínálunk Önnek, amelyek <b>alaposságukkal és átgondoltságukkal</b> lenyűgözik Önt."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_masonry_block_default_template
+msgid ""
+"We are committed to delivering high quality services that enhance your brand "
+"by allowing visitors to interact virtually."
+msgstr "Elkötelezettek vagyunk a magas színvonalú szolgáltatások nyújtása iránt, amelyek erősítik az Ön márkáját azáltal, hogy lehetővé teszik a látogatók számára a virtuális párbeszédet."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_call_to_action
+msgid "We'll help you to grow your career and growth."
+msgstr "Segítünk a karrierje és a növekedésében."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_picture
+msgid ""
+"We’ve selected properties from all types and all areas.<br/>\n"
+"        The house of your dreams is around the corner."
+msgstr ""
+"Minden típusból és minden területről kiválasztottunk ingatlanokat.<br/>\n"
+"        Álmai háza már a sarkon van."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_numbers
+msgid "amazing agents"
+msgstr "lenyűgöző ügynökök"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_numbers
+msgid "happy customers"
+msgstr "elégedett vásárlók"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_numbers
+msgid "offices"
+msgstr "irodák"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_numbers
+msgid "properties already sold"
+msgstr "már eladott ingatlanok"

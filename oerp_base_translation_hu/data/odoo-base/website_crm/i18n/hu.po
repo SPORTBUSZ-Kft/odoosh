@@ -1,0 +1,177 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_crm
+#
+# Translators:
+# Martin Trigaux, 2019
+# Ákos Nagy <akos.nagy@oregional.hu>, 2019
+# Tibor Kőnig <konig.tibor@evitalit.hu>, 2019
+# krnkris, 2019
+# gezza <geza.nagy@oregional.hu>, 2019
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-09 14:05+0000\n"
+"PO-Revision-Date: 2022-10-16 01:02+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/website_crm/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#. module: website_crm
+#: model:ir.model.fields,field_description:website_crm.field_website_visitor__lead_count
+msgid "# Leads"
+msgstr "# Érdeklődés"
+
+#. module: website_crm
+#: model:ir.model.fields,field_description:website_crm.field_crm_lead__visitor_page_count
+msgid "# Page Views"
+msgstr "# Oldal megtekintés"
+
+#. module: website_crm
+#. openerp-web
+#: code:addons/website_crm/static/src/js/website_crm_editor.js:0
+#, python-format
+msgid "Assign leads/opportunities to a sales team."
+msgstr "Rendeljen érdeklődéseket/lehetőségeket egy értékesítési csapathoz."
+
+#. module: website_crm
+#. openerp-web
+#: code:addons/website_crm/static/src/js/website_crm_editor.js:0
+#, python-format
+msgid "Assign leads/opportunities to a salesperson."
+msgstr "Rendeljen érdeklődéseket/lehetőségeket egy értékesítőhöz."
+
+#. module: website_crm
+#: model:ir.model.fields,help:website_crm.field_website__crm_default_team_id
+msgid "Default Sales Team for new leads created through the Contact Us form."
+msgstr "Alapértelmezett értékesítési csapat a kapcsolatfelvételi űrlapon létrehozott új ügyfelek számára."
+
+#. module: website_crm
+#: model:ir.model.fields,field_description:website_crm.field_website__crm_default_team_id
+msgid "Default Sales Teams"
+msgstr "Alapértelmezett értékesítő csapatok"
+
+#. module: website_crm
+#: model:ir.model.fields,field_description:website_crm.field_website__crm_default_user_id
+msgid "Default Salesperson"
+msgstr "Alapértelmezett értékesítő"
+
+#. module: website_crm
+#: model:ir.model.fields,help:website_crm.field_website__crm_default_user_id
+msgid "Default salesperson for new leads created through the Contact Us form."
+msgstr "Alapértelmezett értékesítő a kapcsolatfelvételi űrlapon létrehozott új ügyfelek számára."
+
+#. module: website_crm
+#: model:ir.model,name:website_crm.model_crm_lead
+msgid "Lead/Opportunity"
+msgstr "Érdeklődés/Lehetőség"
+
+#. module: website_crm
+#: model:ir.actions.act_window,name:website_crm.crm_lead_action_from_visitor
+#: model:ir.model.fields,field_description:website_crm.field_website_visitor__lead_ids
+#: model_terms:ir.ui.view,arch_db:website_crm.website_visitor_view_form
+#: model_terms:ir.ui.view,arch_db:website_crm.website_visitor_view_search
+msgid "Leads"
+msgstr "Érdeklődések"
+
+#. module: website_crm
+#: model_terms:ir.ui.view,arch_db:website_crm.website_visitor_view_kanban
+#, fuzzy
+#| msgid "Leads/Opportunities"
+msgid "Leads / Opportunities"
+msgstr "Érdeklődések/Lehetőségek"
+
+#. module: website_crm
+#: model_terms:ir.actions.act_window,help:website_crm.crm_lead_action_from_visitor
+msgid "No lead linked for this visitor"
+msgstr "Nincs ehhez a látogatóhoz köthető érdeklődés"
+
+#. module: website_crm
+#: model_terms:ir.ui.view,arch_db:website_crm.crm_lead_view_form
+msgid "Page views"
+msgstr "Oldal megtekintések"
+
+#. module: website_crm
+#. openerp-web
+#: code:addons/website_crm/static/src/js/website_crm_editor.js:0
+#, python-format
+msgid "Sales Team"
+msgstr "Értékesítési csapat"
+
+#. module: website_crm
+#. openerp-web
+#: code:addons/website_crm/static/src/js/website_crm_editor.js:0
+#, python-format
+msgid "Salesperson"
+msgstr "Értékesítő"
+
+#. module: website_crm
+#: model:ir.model.fields,field_description:website_crm.field_crm_lead__visitor_ids
+msgid "Web Visitors"
+msgstr "Web látogatók"
+
+#. module: website_crm
+#: model_terms:ir.ui.view,arch_db:website_crm.crm_lead_merge_summary_inherit_website
+msgid "Web Visitors:"
+msgstr ""
+
+#. module: website_crm
+#: model:ir.model,name:website_crm.model_website
+msgid "Website"
+msgstr "Weboldal"
+
+#. module: website_crm
+#: model:ir.actions.act_url,name:website_crm.action_open_website
+msgid "Website Contact Form"
+msgstr "Weboldal kapcsolatfelvétel űrlap"
+
+#. module: website_crm
+#: model:ir.model,name:website_crm.model_website_visitor
+msgid "Website Visitor"
+msgstr "Weboldal látogató"
+
+#~ msgid "Communication"
+#~ msgstr "Kommunikáció"
+
+#~ msgid "Config Settings"
+#~ msgstr "Konfigurációs beállítások"
+
+#~ msgid "Contact Form"
+#~ msgstr "Kapcsolati űrlap"
+
+#~ msgid "Contact Us"
+#~ msgstr "Vegye fel a kapcsolatot velünk"
+
+#~ msgid "Default Sales Team"
+#~ msgstr "Alapértelmezett értékesítő csapat"
+
+#~ msgid "Email"
+#~ msgstr "E-mail"
+
+#~ msgid "Phone Number"
+#~ msgstr "Telefonszám"
+
+#~ msgid "Sales Channel"
+#~ msgstr "Értékesítési csatorna"
+
+#~ msgid "Send"
+#~ msgstr "Küldés"
+
+#~ msgid "Subject"
+#~ msgstr "Tárgy"
+
+#~ msgid "Your Company"
+#~ msgstr "Cége elnevezése"
+
+#~ msgid "Your Name"
+#~ msgstr "Az Ön neve"
+
+#~ msgid "Your Question"
+#~ msgstr "Kérdése"

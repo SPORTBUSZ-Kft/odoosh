@@ -1,0 +1,549 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_calendar
+#
+# Translators:
+# Martin Trigaux, 2019
+# krnkris, 2019
+# gezza <geza.nagy@oregional.hu>, 2019
+# Ákos Nagy <akos.nagy@oregional.hu>, 2019
+# Tibor Kőnig <konig.tibor@evitalit.hu>, 2019
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-04 09:43+0000\n"
+"PO-Revision-Date: 2022-10-16 08:01+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/website_appointment/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#. module: website_appointment
+#: model_terms:ir.ui.view,arch_db:website_appointment.appointment_staff_users_description
+msgid "(+1 other)"
+msgstr ""
+
+#. module: website_appointment
+#: model_terms:ir.ui.view,arch_db:website_appointment.appointments_cards
+msgid "<i class=\"fa fa-ban me-2\"/>Unpublished"
+msgstr ""
+
+#. module: website_appointment
+#: model_terms:ir.ui.view,arch_db:website_appointment.appointment_pages_kanban_view
+msgid "<i class=\"fa fa-globe me-2\" title=\"Website URL\"/>"
+msgstr ""
+
+#. module: website_appointment
+#: model_terms:ir.ui.view,arch_db:website_appointment.appointment_form
+#: model_terms:ir.ui.view,arch_db:website_appointment.appointment_info
+#: model_terms:ir.ui.view,arch_db:website_appointment.appointment_select_operator
+msgid "<i class=\"fa fa-long-arrow-left me-2\"/>All Appointments"
+msgstr ""
+
+#. module: website_appointment
+#: model_terms:ir.ui.view,arch_db:website_appointment.website_calendar_index_topbar
+msgid "<span class=\"navbar-brand h4 my-0 me-auto my-auto\">Choose Your Appointment</span>"
+msgstr ""
+
+#. module: website_appointment
+#: model_terms:ir.ui.view,arch_db:website_appointment.appointment_select_operator
+msgid "<span> See all availabilities <i class=\"fa fa-long-arrow-right\"/></span>"
+msgstr ""
+
+#. module: website_appointment
+#: model_terms:ir.ui.view,arch_db:website_appointment.appointment_type_view_kanban
+msgid "<span>Published</span>"
+msgstr "<span>Közzétett</span>"
+
+#. module: website_appointment
+#: model_terms:ir.ui.view,arch_db:website_appointment.appointment_select_operator
+msgid "Add a function here..."
+msgstr ""
+
+#. module: website_appointment
+#: model_terms:ir.ui.view,arch_db:website_appointment.appointment_select_operator
+msgid "Add a user description here..."
+msgstr ""
+
+#. module: website_appointment
+#: model_terms:ir.ui.view,arch_db:website_appointment.appointments_cards
+msgid "Add an intro message here..."
+msgstr ""
+
+#. module: website_appointment
+#: model_terms:ir.ui.view,arch_db:website_appointment.appointment_validated
+msgid "All Appointments"
+msgstr ""
+
+#. module: website_appointment
+#: code:addons/website_appointment/models/website.py:0
+#: model:website.menu,name:website_appointment.menu_appointment
+#: model_terms:ir.ui.view,arch_db:website_appointment.appointment_select_operator
+#, python-format
+msgid "Appointment"
+msgstr "Időpont"
+
+#. module: website_appointment
+#: model:ir.actions.act_window,name:website_appointment.action_appointment_pages_list
+msgid "Appointment Pages"
+msgstr ""
+
+#. module: website_appointment
+#: model:ir.model,name:website_appointment.model_appointment_type
+msgid "Appointment Type"
+msgstr "Időpont típus"
+
+#. module: website_appointment
+#. openerp-web
+#: code:addons/website_appointment/static/src/xml/website_appointment_templates.xml:0
+#, python-format
+msgid "Appointment Type Name"
+msgstr ""
+
+#. module: website_appointment
+#: model:ir.ui.menu,name:website_appointment.menu_appointment_pages
+msgid "Appointments"
+msgstr ""
+
+#. module: website_appointment
+#: model_terms:ir.ui.view,arch_db:website_appointment.snippet_options
+msgid "Appointments Page"
+msgstr ""
+
+#. module: website_appointment
+#: model_terms:ir.ui.view,arch_db:website_appointment.appointment_progress_bar
+msgid "Booked<span class=\"chevron position-absolute d-block\"/>"
+msgstr ""
+
+#. module: website_appointment
+#: model:ir.model.fields,field_description:website_appointment.field_appointment_type__can_publish
+msgid "Can Publish"
+msgstr "Közzétehető"
+
+#. module: website_appointment
+#: model_terms:ir.ui.view,arch_db:website_appointment.snippet_options
+msgid "Card Design"
+msgstr ""
+
+#. module: website_appointment
+#: model_terms:ir.ui.view,arch_db:website_appointment.appointment_select_operator
+msgid "Choose"
+msgstr ""
+
+#. module: website_appointment
+#: model_terms:ir.ui.view,arch_db:website_appointment.appointment_select_operator
+msgid "Choose who you will meet"
+msgstr ""
+
+#. module: website_appointment
+#. openerp-web
+#: code:addons/website_appointment/static/src/xml/appointment_no_slot.xml:0
+#, fuzzy, python-format
+#| msgid "Contact"
+msgid "Contact us"
+msgstr "Kapcsolat"
+
+#. module: website_appointment
+#: model:ir.model.fields,field_description:website_appointment.field_appointment_type__cover_properties
+msgid "Cover Properties"
+msgstr "Borító tulajdonságok"
+
+#. module: website_appointment
+#: model_terms:ir.ui.view,arch_db:website_appointment.appointment_progress_bar
+msgid "Details<span class=\"chevron position-absolute d-block\"/>"
+msgstr ""
+
+#. module: website_appointment
+#. openerp-web
+#: code:addons/website_appointment/static/src/xml/appointment_no_slot.xml:0
+#, python-format
+msgid "Go back to Appointment"
+msgstr ""
+
+#. module: website_appointment
+#: model:ir.model.fields,field_description:website_appointment.field_appointment_type__is_published
+msgid "Is Published"
+msgstr "Közzétett"
+
+#. module: website_appointment
+#: model:ir.actions.act_window,name:website_appointment.appointment_type_action_add_simplified
+msgid "New Appointment Type"
+msgstr "Új időpont típus"
+
+#. module: website_appointment
+#: model_terms:ir.ui.view,arch_db:website_appointment.appointments_cards
+msgid "No appointment found."
+msgstr "Nem található időpont."
+
+#. module: website_appointment
+#: model_terms:ir.ui.view,arch_db:website_appointment.appointments_cards
+msgid "Online"
+msgstr ""
+
+#. module: website_appointment
+#: model:ir.ui.menu,name:website_appointment.website_appointment_type_menu
+msgid "Online Appointments"
+msgstr "Online időpontok"
+
+#. module: website_appointment
+#: model_terms:ir.ui.view,arch_db:website_appointment.appointment_progress_bar
+msgid "Operator"
+msgstr "Operátor"
+
+#. module: website_appointment
+#. openerp-web
+#: code:addons/website_appointment/static/src/xml/website_appointment_templates.xml:0
+#, python-format
+msgid "Please fill this field"
+msgstr ""
+
+#. module: website_appointment
+#: model_terms:ir.ui.view,arch_db:website_appointment.appointment_type_view_form
+msgid "Publish"
+msgstr ""
+
+#. module: website_appointment
+#: model_terms:ir.ui.view,arch_db:website_appointment.appointment_type_view_kanban
+#: model_terms:ir.ui.view,arch_db:website_appointment.appointment_type_view_search
+msgid "Published"
+msgstr "Közzétett"
+
+#. module: website_appointment
+#: model:ir.model.fields,field_description:website_appointment.field_appointment_type__is_seo_optimized
+msgid "SEO optimized"
+msgstr "Kereső (SEO) optimalizált"
+
+#. module: website_appointment
+#: model_terms:ir.ui.view,arch_db:website_appointment.appointment_select_operator
+msgid "Schedule"
+msgstr ""
+
+#. module: website_appointment
+#: model_terms:ir.ui.view,arch_db:website_appointment.appointment_validated
+msgid "Schedule Another Appointment"
+msgstr ""
+
+#. module: website_appointment
+#: model_terms:ir.ui.view,arch_db:website_appointment.appointments_cards
+msgid "Schedule an Appointment"
+msgstr ""
+
+#. module: website_appointment
+#: code:addons/website_appointment/models/website.py:0
+#, python-format
+msgid "Schedule an appointment"
+msgstr "Időpont foglalása"
+
+#. module: website_appointment
+#: model_terms:ir.ui.view,arch_db:website_appointment.website_calendar_index_topbar
+msgid "Search an appointment..."
+msgstr ""
+
+#. module: website_appointment
+#: model:ir.model.fields,field_description:website_appointment.field_appointment_type__seo_name
+msgid "Seo name"
+msgstr "Seo neve"
+
+#. module: website_appointment
+#: model:ir.model.fields,help:website_appointment.field_appointment_type__website_url
+msgid "The full URL to access the document through the website."
+msgstr "A teljes URL a dokumentum weboldalon keresztüli eléréséhez."
+
+#. module: website_appointment
+#: model_terms:ir.ui.view,arch_db:website_appointment.appointment_progress_bar
+msgid "Time<span class=\"chevron position-absolute d-block\"/>"
+msgstr ""
+
+#. module: website_appointment
+#: model_terms:ir.ui.view,arch_db:website_appointment.appointment_type_view_form
+msgid "Unpublish"
+msgstr ""
+
+#. module: website_appointment
+#: model_terms:ir.ui.view,arch_db:website_appointment.appointments_cards
+#: model_terms:ir.ui.view,arch_db:website_appointment.appointments_list_layout
+msgid "Use the top button '<b>+ New</b>' to create an appointment type."
+msgstr "Használja a felső '<b>+ Új</b>' gombot időpont típus létrehozásához."
+
+#. module: website_appointment
+#. openerp-web
+#: code:addons/website_appointment/static/src/xml/website_appointment_templates.xml:0
+#, python-format
+msgid "Users"
+msgstr "Felhasználók"
+
+#. module: website_appointment
+#: model_terms:ir.ui.view,arch_db:website_appointment.appointments_cards
+msgid "View availability <i class=\"fa fa-arrow-right\"/>"
+msgstr ""
+
+#. module: website_appointment
+#: model:ir.model.fields,field_description:website_appointment.field_appointment_type__website_published
+msgid "Visible on current website"
+msgstr "Látható a jelenlegi weboldalon"
+
+#. module: website_appointment
+#: model:ir.model,name:website_appointment.model_website
+msgid "Website"
+msgstr "Weboldal"
+
+#. module: website_appointment
+#: model:ir.model.fields,field_description:website_appointment.field_appointment_type__website_url
+msgid "Website URL"
+msgstr "Weboldal URL"
+
+#. module: website_appointment
+#: model:ir.model.fields,field_description:website_appointment.field_appointment_type__website_meta_description
+msgid "Website meta description"
+msgstr "Weboldal meta leírás"
+
+#. module: website_appointment
+#: model:ir.model.fields,field_description:website_appointment.field_appointment_type__website_meta_keywords
+msgid "Website meta keywords"
+msgstr "Weboldal meta kulcsszavak"
+
+#. module: website_appointment
+#: model:ir.model.fields,field_description:website_appointment.field_appointment_type__website_meta_title
+msgid "Website meta title"
+msgstr "Weboldal meta cím"
+
+#. module: website_appointment
+#: model:ir.model.fields,field_description:website_appointment.field_appointment_type__website_meta_og_img
+msgid "Website opengraph image"
+msgstr "Weboldal opengraph kép"
+
+#. module: website_appointment
+#. openerp-web
+#: code:addons/website_appointment/static/src/xml/appointment_no_slot.xml:0
+#, fuzzy, python-format
+#| msgid "Contact"
+msgid "contact us"
+msgstr "Kapcsolat"
+
+#. module: website_appointment
+#. openerp-web
+#: code:addons/website_appointment/static/src/xml/website_appointment_templates.xml:0
+#, python-format
+msgid "e.g. \"Technical Demo\""
+msgstr ""
+
+#. module: website_appointment
+#. openerp-web
+#: code:addons/website_appointment/static/src/xml/appointment_no_slot.xml:0
+#, python-format
+msgid "or"
+msgstr ""
+
+#. module: website_appointment
+#: model_terms:ir.ui.view,arch_db:website_appointment.appointment_staff_users_description
+msgid "others)"
+msgstr ""
+
+#. module: website_appointment
+#: model_terms:ir.ui.view,arch_db:website_appointment.appointment_staff_users_description
+msgid "people available"
+msgstr ""
+
+#~ msgid " (copy)"
+#~ msgstr " (másolat)"
+
+#~ msgid "<i class=\"fa fa-ellipsis-v\" role=\"img\" aria-label=\"Manage\" title=\"Manage\"/>"
+#~ msgstr "<i class=\"fa fa-ellipsis-v\" role=\"img\" aria-label=\"Manage\" title=\"Manage\"/>"
+
+#~ msgid "Access Token"
+#~ msgstr "Hozzáférési token"
+
+#~ msgid "Action Needed"
+#~ msgstr "Akció szükséges"
+
+#~ msgid "Answer"
+#~ msgstr "Válasz"
+
+#~ msgid "Assignation Method"
+#~ msgstr "Hozzárendelés módja"
+
+#~ msgid "Attachment Count"
+#~ msgstr "Mellékletek száma"
+
+#~ msgid "Calendar"
+#~ msgstr "Naptár"
+
+#~ msgid "Confirmed"
+#~ msgstr "Megerősített"
+
+#~ msgid "Created by"
+#~ msgstr "Létrehozta"
+
+#~ msgid "Created on"
+#~ msgstr "Létrehozva"
+
+#~ msgid "Declined"
+#~ msgstr "Elutasítva"
+
+#~ msgid "Description:"
+#~ msgstr "Leírás:"
+
+#~ msgid "Display Name"
+#~ msgstr "Megjelenített név"
+
+#~ msgid "Edit"
+#~ msgstr "Szerkesztés"
+
+#~ msgid "Employees"
+#~ msgstr "Alkalmazottak"
+
+#~ msgid "Followers"
+#~ msgstr "Követők"
+
+#~ msgid "Followers (Channels)"
+#~ msgstr "Követők (Csatornák)"
+
+#~ msgid "Followers (Partners)"
+#~ msgstr "Követők (Partnerek)"
+
+#~ msgid "Fri"
+#~ msgstr "P"
+
+#~ msgid "Friday"
+#~ msgstr "Péntek"
+
+#~ msgid "ID"
+#~ msgstr "Azonosító"
+
+#~ msgid "If checked, new messages require your attention."
+#~ msgstr "Ha be van jelölve, akkor az új üzenetek figyelmet igényelnek."
+
+#~ msgid "If checked, some messages have a delivery error."
+#~ msgstr "Ha be van jelölve, akkor néhány üzenetnél kézbesítési hiba lépett fel."
+
+#~ msgid "Is Follower"
+#~ msgstr "Követő"
+
+#~ msgid "Last Modified on"
+#~ msgstr "Legutóbb frissítve"
+
+#~ msgid "Last Updated by"
+#~ msgstr "Frissítette"
+
+#~ msgid "Last Updated on"
+#~ msgstr "Frissítve "
+
+#~ msgid "Location"
+#~ msgstr "Hely"
+
+#~ msgid "Main Attachment"
+#~ msgstr "Fő melléklet"
+
+#~ msgid "Message Delivery error"
+#~ msgstr "Üzenetkézbesítési hiba"
+
+#~ msgid "Messages"
+#~ msgstr "Üzenetek"
+
+#~ msgid "Mon"
+#~ msgstr "H"
+
+#~ msgid "Monday"
+#~ msgstr "Hétfő"
+
+#~ msgid "Name"
+#~ msgstr "Név"
+
+#~ msgid "Number of Actions"
+#~ msgstr "Akciók száma"
+
+#~ msgid "Number of messages which requires an action"
+#~ msgstr "Üzenetek száma, melyek akciót igényelnek"
+
+#~ msgid "Number of messages with delivery error"
+#~ msgstr "Kézbesítési hibával rendelkező üzenetek száma"
+
+#~ msgid "Number of unread messages"
+#~ msgstr "Olvasatlan üzenetek száma"
+
+#~ msgid "Placeholder"
+#~ msgstr "Helyörző"
+
+#~ msgid "Question"
+#~ msgstr "Kérdés"
+
+#~ msgid "Questions"
+#~ msgstr "Kérdések"
+
+#~ msgid "Random"
+#~ msgstr "Véletlenszerű"
+
+#~ msgid "Reminders"
+#~ msgstr "Emlékeztetők"
+
+#~ msgid "Reporting"
+#~ msgstr "Kimutatás készítés"
+
+#~ msgid "Sat"
+#~ msgstr "Szo"
+
+#~ msgid "Saturday"
+#~ msgstr "Szombat"
+
+#~ msgid "Sequence"
+#~ msgstr "Sorszám"
+
+#~ msgid "Sun"
+#~ msgstr "V"
+
+#~ msgid "Sunday"
+#~ msgstr "Vasárnap"
+
+#~ msgid "Thu"
+#~ msgstr "Cs"
+
+#~ msgid "Thursday"
+#~ msgstr "Csütörtök"
+
+#~ msgid "Time"
+#~ msgstr "Idő"
+
+#~ msgid "Timezone"
+#~ msgstr "Időzóna"
+
+#~ msgid "Tue"
+#~ msgstr "K"
+
+#~ msgid "Tuesday"
+#~ msgstr "Kedd"
+
+#~ msgid "Unread Messages"
+#~ msgstr "Olvasatlan üzenetek"
+
+#~ msgid "Unread Messages Counter"
+#~ msgstr "Olvasatlan üzenetek száma"
+
+#~ msgid "Website Messages"
+#~ msgstr "Weboldali üzenetek"
+
+#~ msgid "Website communication history"
+#~ msgstr "Weboldali kommunikációs előzmények"
+
+#~ msgid "Wed"
+#~ msgstr "Sze"
+
+#~ msgid "Wednesday"
+#~ msgstr "Szerda"
+
+#~ msgid "Your Email"
+#~ msgstr "Az Ön e-mail címe"
+
+#~ msgid "Your Name"
+#~ msgstr "Az Ön neve"
+
+#~ msgid "Your Phone"
+#~ msgstr "Telefonszáma"
+
+#~ msgid "on"
+#~ msgstr "ekkor:"

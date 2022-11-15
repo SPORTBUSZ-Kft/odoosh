@@ -1,0 +1,301 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* documents_project
+#
+# Translators:
+# Tamás Dombos, 2019
+# Martin Trigaux, 2019
+# Ákos Nagy <akos.nagy@oregional.hu>, 2019
+# Tibor Kőnig <konig.tibor@evitalit.hu>, 2019
+# gezza <geza.nagy@oregional.hu>, 2019
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-27 15:41+0000\n"
+"PO-Revision-Date: 2022-11-10 22:51+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/documents_project/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.2\n"
+
+#. module: documents_project
+#: code:addons/documents_project/models/project_project.py:0
+#, python-format
+msgid "%(project_name)s's Documents"
+msgstr "%(project_name)s dokumentumai"
+
+#. module: documents_project
+#: model:ir.model,name:documents_project.model_documents_workflow_rule
+msgid "A set of condition and actions which will be available to all attachments matching the conditions"
+msgstr "Feltételek és műveletek gyűjteménye, amely a feltételnek megfelelő összes mellékletnél elérhető"
+
+#. module: documents_project
+#: model:documents.workflow.rule,name:documents_project.documents_project_rule_ask_for_validation
+msgid "Ask for Validation"
+msgstr "Jóváhagyás kérése"
+
+#. module: documents_project
+#: model:ir.model,name:documents_project.model_ir_attachment
+msgid "Attachment"
+msgstr "Melléklet"
+
+#. module: documents_project
+#: model_terms:ir.ui.view,arch_db:documents_project.edit_project_document_form_inherit
+msgid "Categorize and share your documents with your customers"
+msgstr "Kategorizálhatja és megoszthatja dokumentumait ügyfeleivel"
+
+#. module: documents_project
+#: model:ir.model,name:documents_project.model_documents_facet
+msgid "Category"
+msgstr "Kategória"
+
+#. module: documents_project
+#: model:ir.model.fields,field_description:documents_project.field_documents_workflow_rule__create_model
+msgid "Create"
+msgstr "Létrehozás"
+
+#. module: documents_project
+#: model:documents.workflow.rule,name:documents_project.documents_project_rule
+msgid "Create a Task"
+msgstr "Feladat létrehozása"
+
+#. module: documents_project
+#: model:ir.model.fields,field_description:documents_project.field_project_project__documents_tag_ids
+msgid "Default Tags"
+msgstr "Alapértelmezett címkék"
+
+#. module: documents_project
+#: model:documents.workflow.rule,name:documents_project.documents_project_rule_deprecate
+msgid "Deprecate"
+msgstr "Elévítés"
+
+#. module: documents_project
+#: model:documents.tag,name:documents_project.documents_project_status_deprecated
+msgid "Deprectated"
+msgstr "Elavult"
+
+#. module: documents_project
+#: model:ir.model,name:documents_project.model_documents_document
+#: model:ir.model.fields,field_description:documents_project.field_ir_attachment__document_ids
+msgid "Document"
+msgstr "Dokumentum"
+
+#. module: documents_project
+#: code:addons/documents_project/models/project_project.py:0
+#: model:ir.actions.act_window,name:documents_project.action_view_documents_project_task
+#: model:ir.model.fields,field_description:documents_project.field_project_project__use_documents
+#: model:ir.model.fields,field_description:documents_project.field_project_task__document_ids
+#: model_terms:ir.ui.view,arch_db:documents_project.portal_my_task
+#: model_terms:ir.ui.view,arch_db:documents_project.portal_tasks_list
+#: model_terms:ir.ui.view,arch_db:documents_project.project_view_kanban_inherit_documents
+#: model_terms:ir.ui.view,arch_db:documents_project.view_task_form2_document_inherit
+#, python-format
+msgid "Documents"
+msgstr "Dokumentumok"
+
+#. module: documents_project
+#: model_terms:ir.ui.view,arch_db:documents_project.edit_project_document_form_inherit
+msgid "Documents &amp; Analytics"
+msgstr "Dokumentumok és elemzés"
+
+#. module: documents_project
+#: model:ir.model,name:documents_project.model_documents_folder
+msgid "Documents Workspace"
+msgstr "Dokumentumok munkaterület"
+
+#. module: documents_project
+#: model:documents.tag,name:documents_project.documents_project_status_draft
+msgid "Draft"
+msgstr "Tervezet"
+
+#. module: documents_project
+#: model:ir.model.fields,field_description:documents_project.field_documents_document__is_shared
+msgid "Is Shared"
+msgstr "Megosztott"
+
+#. module: documents_project
+#: model:documents.workflow.rule,name:documents_project.documents_project_rule_mark_as_draft
+msgid "Mark As Draft"
+msgstr "Megjelölés tervezetként"
+
+#. module: documents_project
+#: code:addons/documents_project/models/folder.py:0
+#, python-format
+msgid "Merged Workspace"
+msgstr "Összevont munkaterület"
+
+#. module: documents_project
+#: code:addons/documents_project/models/workflow.py:0
+#, python-format
+msgid "New task from Documents"
+msgstr "Új feladat a dokumentumokból"
+
+#. module: documents_project
+#: model:ir.model.fields,field_description:documents_project.field_project_project__document_count
+msgid "Number of documents in Project"
+msgstr "Dokumentumok száma a projektben"
+
+#. module: documents_project
+#: model:ir.model.fields,field_description:documents_project.field_project_task__document_count
+msgid "Number of documents in Task"
+msgstr "Dokumentumok száma a feladatokban"
+
+#. module: documents_project
+#: model:ir.model,name:documents_project.model_project_project
+#: model:ir.model.fields,field_description:documents_project.field_documents_folder__project_ids
+msgid "Project"
+msgstr "Projekt"
+
+#. module: documents_project
+#: model:documents.folder,name:documents_project.documents_project_folder
+msgid "Projects"
+msgstr "Projektek"
+
+#. module: documents_project
+#: model:ir.model.fields,field_description:documents_project.field_project_project__shared_document_ids
+#: model:ir.model.fields,field_description:documents_project.field_project_task__shared_document_ids
+msgid "Shared Documents"
+msgstr "Megosztott dokumentumok"
+
+#. module: documents_project
+#: model:ir.model.fields,field_description:documents_project.field_project_project__shared_document_count
+msgid "Shared Documents Count"
+msgstr "Megosztott dokumentumok száma"
+
+#. module: documents_project
+#: model:documents.facet,name:documents_project.documents_project_status
+msgid "Status"
+msgstr "Állapot"
+
+#. module: documents_project
+#: model:ir.model,name:documents_project.model_project_task
+#: model:ir.model.fields.selection,name:documents_project.selection__documents_workflow_rule__create_model__project_task
+msgid "Task"
+msgstr "Feladat"
+
+#. module: documents_project
+#: code:addons/documents_project/models/workflow.py:0
+#, python-format
+msgid "Task created from document"
+msgstr "Feladat létrehozva dokumentumból"
+
+#. module: documents_project
+#: code:addons/documents_project/models/folder.py:0
+#, python-format
+msgid "The \"%s\" workspace is required by the Project application and cannot be deleted."
+msgstr "A \"%s\" munkaterületre a Project alkalmazásnak szüksége van, és nem törölhető."
+
+#. module: documents_project
+#: code:addons/documents_project/models/project_project.py:0
+#, python-format
+msgid "The \"%s\" workspace should either be in the \"%s\" company like this project or be open to all companies."
+msgstr "A \"%s\" munkaterületnek vagy a \"%s\" vállalaton belül kell lennie, mint ennek a projektnek, vagy minden vállalat számára nyitottnak kell lennie."
+
+#. module: documents_project
+#: code:addons/documents_project/models/folder.py:0
+#, python-format
+msgid "This workspace should remain in the same company as the \"%s\" project to which it is linked. Please update the company of the \"%s\" project, or leave the company of this workspace empty."
+msgstr "Ennek a munkaterületnek ugyanabban a vállalatban kell maradnia, mint a \"%s\" projektnek, amelyhez kapcsolódik. Kérjük, frissítse a \"%s\" projekt vállalatát, vagy hagyja üresen ennek a munkaterületnek a vállalatát."
+
+#. module: documents_project
+#: code:addons/documents_project/models/folder.py:0
+#, python-format
+msgid ""
+"This workspace should remain in the same company as the following projects to which it is linked:\n"
+"%s\n"
+"\n"
+"Please update the company of those projects, or leave the company of this workspace empty."
+msgstr ""
+"Ennek a munkaterületnek ugyanabban a vállalatban kell maradnia, mint a következő projekteknek, amelyekhez kapcsolódik:\n"
+"%s\n"
+"\n"
+"Kérjük, frissítse ezeknek a projekteknek a vállalatát, vagy hagyja üresen ennek a munkaterületnek a vállalatát."
+
+#. module: documents_project
+#: model:documents.tag,name:documents_project.documents_project_status_to_validate
+msgid "To Validate"
+msgstr "Jóváhagyandó"
+
+#. module: documents_project
+#: model_terms:ir.actions.act_window,help:documents_project.action_view_documents_project_task
+msgid "Upload <span class=\"fw-normal\">a file or </span>drag <span class=\"fw-normal\">it here.</span>"
+msgstr "Töltsön fel <span class=\"fw-normal\">egy fájlt</span>, vagy húzza <span class=\"fw-normal\">ide.</span>"
+
+#. module: documents_project
+#: model:ir.model.fields,field_description:documents_project.field_project_task__project_use_documents
+msgid "Use Documents"
+msgstr "Dokumentumok használata"
+
+#. module: documents_project
+#: model:documents.workflow.rule,name:documents_project.documents_project_rule_validate
+msgid "Validate"
+msgstr "Jóváhagyás"
+
+#. module: documents_project
+#: model:documents.tag,name:documents_project.documents_project_status_validated
+msgid "Validated"
+msgstr "Jóváhagyott"
+
+#. module: documents_project
+#: model:ir.model.fields,field_description:documents_project.field_project_project__documents_folder_id
+#: model:ir.model.fields,field_description:documents_project.field_project_task__documents_folder_id
+msgid "Workspace"
+msgstr "Munkaterület"
+
+#. module: documents_project
+#: model:ir.model.fields,help:documents_project.field_project_project__documents_folder_id
+#: model:ir.model.fields,help:documents_project.field_project_task__documents_folder_id
+msgid "Workspace in which all of the documents of this project will be categorized. All of the attachments of your tasks will be automatically added as documents in this workspace as well."
+msgstr "Munkatér, amelyben a projekt összes dokumentuma kategorizálva lesz. A feladatok összes csatolmánya automatikusan dokumentumként kerül be ebbe a munkaterületbe."
+
+#. module: documents_project
+#: code:addons/documents_project/models/project_project.py:0
+#, python-format
+msgid ""
+"You cannot change the company of this project, because its workspace is linked to the other following projects that are still in the \"%s\" company:\n"
+"%s\n"
+"\n"
+"Please update the company of all projects so that they remain in the same company as their workspace, or leave the company of the \"%s\" workspace blank."
+msgstr ""
+"Nem tudja megváltoztatni ennek a projektnek a vállalatát, mert a munkaterülete a többi következő projektekhez kapcsolódik, amelyek még mindig a \"%s\" vállalathoz tartoznak:\n"
+"%s\n"
+"\n"
+"Kérjük, frissítse az összes projekt vállalatát, hogy azok továbbra is ugyanabban a vállalatban maradjanak, mint a munkaterületük, vagy hagyja üresen a \"%s\" munkaterület vállalatát."
+
+#. module: documents_project
+#: code:addons/documents_project/models/folder.py:0
+#, python-format
+msgid "You cannot set a company on the Projects workspace."
+msgstr "A Projektek munkaterületen nem lehet vállalatot beállítani."
+
+#. module: documents_project
+#: model_terms:ir.ui.view,arch_db:documents_project.share_page
+msgid "documents shared"
+msgstr "megosztott dokumentumok"
+
+#. module: documents_project
+#: code:addons/documents_project/models/workflow.py:0
+#, python-format
+msgid "new %s from %s"
+msgstr "új %s a %s dokumentumból"
+
+#~ msgid "<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-specific.\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\" role=\"img\"/>"
+#~ msgstr "<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-specific.\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\" role=\"img\"/>"
+
+#~ msgid "Companies"
+#~ msgstr "Vállalatok"
+
+#~ msgid "Config Settings"
+#~ msgstr "Konfigurációs beállítások"
+
+#~ msgid "Has Business Option"
+#~ msgstr "Üzleti lehetősége van"
+
+#~ msgid "Project Tags"
+#~ msgstr "Projekt címkék"

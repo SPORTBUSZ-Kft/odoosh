@@ -1,0 +1,387 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_twitter_wall
+#
+# Translators:
+# Martin Trigaux, 2019
+# krnkris, 2019
+# gezza <geza.nagy@oregional.hu>, 2019
+# Ákos Nagy <akos.nagy@oregional.hu>, 2019
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-20 09:50+0000\n"
+"PO-Revision-Date: 2022-11-01 15:58+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/website_twitter_wall/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#. module: website_twitter_wall
+#: model_terms:ir.ui.view,arch_db:website_twitter_wall.twitter_walls
+msgid "<b>Hey! No wall found</b>"
+msgstr "<b>Hé! Nem található fal</b>"
+
+#. module: website_twitter_wall
+#: model_terms:ir.ui.view,arch_db:website_twitter_wall.twitter_walls
+msgid "<i class=\"fa fa-plus-circle\"/> Create Now"
+msgstr "<i class=\"fa fa-plus-circle\"/> Létrehozás most"
+
+#. module: website_twitter_wall
+#: model_terms:ir.ui.view,arch_db:website_twitter_wall.twitter_wall_view
+msgid "<i class=\"fa fa-twitter\"/> <strong> Join the wall</strong>"
+msgstr "<i class=\"fa fa-twitter\"/> <strong> Csatlakozás a falhoz</strong>"
+
+#. module: website_twitter_wall
+#: model_terms:ir.ui.view,arch_db:website_twitter_wall.website_twitter_wall_view_form
+msgid ""
+"<span class=\"o_stat_text\">Live Mode</span>\n"
+"                                <span class=\"o_stat_text\">is <strong class=\"text-danger\"> Off </strong></span>"
+msgstr ""
+"<span class=\"o_stat_text\">Élő Mód</span>\n"
+"                                <span class=\"o_stat_text\"><strong class=\"text-danger\"> Kikapcsolva </strong></span>"
+
+#. module: website_twitter_wall
+#: model_terms:ir.ui.view,arch_db:website_twitter_wall.website_twitter_wall_view_form
+msgid ""
+"<span class=\"o_stat_text\">Live Mode</span>\n"
+"                                <span class=\"o_stat_text\">is <strong class=\"text-success\"> On </strong></span>"
+msgstr ""
+"<span class=\"o_stat_text\">Élő Mód</span>\n"
+"                                <span class=\"o_stat_text\"><strong class=\"text-success\"> Bekapcsolva </strong></span>"
+
+#. module: website_twitter_wall
+#: model:ir.model.fields,field_description:website_twitter_wall.field_website_twitter_wall__access_token
+msgid "Access Token"
+msgstr "Hozzáférési token"
+
+#. module: website_twitter_wall
+#: model:ir.model.fields,field_description:website_twitter_wall.field_website_twitter_wall__active
+msgid "Active"
+msgstr "Aktív"
+
+#. module: website_twitter_wall
+#: model_terms:ir.ui.view,arch_db:website_twitter_wall.website_twitter_wall_view_form
+#: model_terms:ir.ui.view,arch_db:website_twitter_wall.website_twitter_wall_view_search
+msgid "Archived"
+msgstr "Archivált"
+
+#. module: website_twitter_wall
+#: model:ir.model.fields,field_description:website_twitter_wall.field_website_twitter_wall__can_publish
+msgid "Can Publish"
+msgstr "Közzétehető"
+
+#. module: website_twitter_wall
+#: model:ir.model.fields,field_description:website_twitter_wall.field_website_twitter_wall__create_uid
+msgid "Created by"
+msgstr "Létrehozta"
+
+#. module: website_twitter_wall
+#: model:ir.model.fields,field_description:website_twitter_wall.field_website_twitter_wall__create_date
+msgid "Created on"
+msgstr "Létrehozva"
+
+#. module: website_twitter_wall
+#: model_terms:ir.ui.view,arch_db:website_twitter_wall.twitter_wall_view
+msgid "Decrease zoom level"
+msgstr "Nagyítás szintjének csökkentése"
+
+#. module: website_twitter_wall
+#. openerp-web
+#: code:addons/website_twitter_wall/static/src/xml/website_twitter_wall_tweet.xml:0
+#: model_terms:ir.ui.view,arch_db:website_twitter_wall.twitter_wall_view
+#, python-format
+msgid "Delete this tweet"
+msgstr "Tweet törlése"
+
+#. module: website_twitter_wall
+#: model:ir.model.fields,field_description:website_twitter_wall.field_website_twitter_wall__description
+msgid "Description"
+msgstr "Leírás"
+
+#. module: website_twitter_wall
+#: model:ir.model.fields,field_description:website_twitter_wall.field_website_twitter_wall__display_name
+msgid "Display Name"
+msgstr "Megjelenített név"
+
+#. module: website_twitter_wall
+#: model_terms:ir.ui.view,arch_db:website_twitter_wall.twitter_wall_view
+msgid "Exit full screen"
+msgstr "Kilépés a teljes képernyőből"
+
+#. module: website_twitter_wall
+#: model_terms:ir.ui.view,arch_db:website_twitter_wall.twitter_wall_view
+msgid "Hey! No tweet found"
+msgstr "Hé! Nem található tweet"
+
+#. module: website_twitter_wall
+#: model:ir.model.fields,field_description:website_twitter_wall.field_website_twitter_wall__id
+msgid "ID"
+msgstr "Azonosító"
+
+#. module: website_twitter_wall
+#: model:ir.model.fields,field_description:website_twitter_wall.field_website_twitter_wall__image
+msgid "Image"
+msgstr "Kép"
+
+#. module: website_twitter_wall
+#: model_terms:ir.ui.view,arch_db:website_twitter_wall.twitter_wall_view
+msgid "Increase zoom level"
+msgstr "Nagyítás szintjének növelése"
+
+#. module: website_twitter_wall
+#: model:ir.model.fields,field_description:website_twitter_wall.field_website_twitter_wall__is_live
+msgid "Is Live"
+msgstr "Élő"
+
+#. module: website_twitter_wall
+#: model:ir.model.fields,field_description:website_twitter_wall.field_website_twitter_wall__is_published
+msgid "Is Published"
+msgstr "Közzétett"
+
+#. module: website_twitter_wall
+#: model:ir.model.fields,help:website_twitter_wall.field_website_twitter_wall__is_live
+msgid "Is live mode on/off"
+msgstr "Élő mód be/ki van kapcsolva"
+
+#. module: website_twitter_wall
+#: model:ir.model.fields,field_description:website_twitter_wall.field_website_twitter_wall____last_update
+msgid "Last Modified on"
+msgstr "Utolsó módosítás ideje"
+
+#. module: website_twitter_wall
+#: model:ir.model.fields,field_description:website_twitter_wall.field_website_twitter_wall__last_search
+msgid "Last Search"
+msgstr "Utolsó keresés"
+
+#. module: website_twitter_wall
+#: model:ir.model.fields,field_description:website_twitter_wall.field_website_twitter_wall__write_uid
+msgid "Last Updated by"
+msgstr "Utoljára frissítette"
+
+#. module: website_twitter_wall
+#: model:ir.model.fields,field_description:website_twitter_wall.field_website_twitter_wall__write_date
+msgid "Last Updated on"
+msgstr "Utolsó frissítés ideje"
+
+#. module: website_twitter_wall
+#: model_terms:ir.ui.view,arch_db:website_twitter_wall.twitter_wall_view
+msgid "List view"
+msgstr "Lista nézet"
+
+#. module: website_twitter_wall
+#: model_terms:ir.ui.view,arch_db:website_twitter_wall.twitter_wall_view
+msgid "Live mode"
+msgstr "Élő mód"
+
+#. module: website_twitter_wall
+#: model:ir.model.fields.selection,name:website_twitter_wall.selection__website_twitter_wall__mode__mixed
+msgid "Mixed"
+msgstr "Kevert"
+
+#. module: website_twitter_wall
+#: model:ir.model.fields,help:website_twitter_wall.field_website_twitter_wall__mode
+msgid "Most recent tweets, most popular tweets, or both"
+msgstr "A legújabb tweetek, a legnépszerűbb tweetek vagy mindkettő"
+
+#. module: website_twitter_wall
+#: model:ir.model.fields,field_description:website_twitter_wall.field_website_twitter_wall__name
+msgid "Name"
+msgstr "Név"
+
+#. module: website_twitter_wall
+#: model:ir.model.fields.selection,name:website_twitter_wall.selection__website_twitter_wall__mode__popular
+msgid "Popular"
+msgstr "Népeszerű"
+
+#. module: website_twitter_wall
+#: model_terms:ir.ui.view,arch_db:website_twitter_wall.website_twitter_wall_view_form
+msgid "Query operators"
+msgstr "Lekérdezés operátorok"
+
+#. module: website_twitter_wall
+#: model:ir.model.fields.selection,name:website_twitter_wall.selection__website_twitter_wall__mode__recent
+msgid "Recent"
+msgstr "Friss"
+
+#. module: website_twitter_wall
+#: model_terms:ir.ui.view,arch_db:website_twitter_wall.twitter_wall_view
+msgid "Repeat"
+msgstr "Ismétlődés"
+
+#. module: website_twitter_wall
+#: model_terms:ir.ui.view,arch_db:website_twitter_wall.website_twitter_wall_view_search
+msgid "Search CRM Score"
+msgstr "CRM pontszám keresés"
+
+#. module: website_twitter_wall
+#: model:ir.model.fields,field_description:website_twitter_wall.field_website_twitter_wall__search_pattern
+msgid "Search string"
+msgstr "Szöveg keresés"
+
+#. module: website_twitter_wall
+#: model_terms:ir.ui.view,arch_db:website_twitter_wall.twitter_wall_share
+msgid "Share #{wall.name} on facebook"
+msgstr "#{wall.name} megosztása facebookon"
+
+#. module: website_twitter_wall
+#: model_terms:ir.ui.view,arch_db:website_twitter_wall.twitter_wall_share
+msgid "Share #{wall.name} on google+"
+msgstr "#{wall.name} megosztása google+ -on"
+
+#. module: website_twitter_wall
+#: model_terms:ir.ui.view,arch_db:website_twitter_wall.twitter_wall_share
+msgid "Share #{wall.name} on linkedin"
+msgstr "#{wall.name} megosztása linkedin-en"
+
+#. module: website_twitter_wall
+#: model_terms:ir.ui.view,arch_db:website_twitter_wall.twitter_wall_share
+msgid "Share #{wall.name} on twitter"
+msgstr "#{wall.name} megosztása twitteren"
+
+#. module: website_twitter_wall
+#: model_terms:ir.ui.view,arch_db:website_twitter_wall.snippet_options
+msgid "Share Option"
+msgstr ""
+
+#. module: website_twitter_wall
+#: model_terms:ir.ui.view,arch_db:website_twitter_wall.twitter_wall_view
+msgid "Shuffle"
+msgstr "Keverés"
+
+#. module: website_twitter_wall
+#: model_terms:ir.ui.view,arch_db:website_twitter_wall.twitter_wall_view
+msgid "Single view"
+msgstr "1 oszlop nézet"
+
+#. module: website_twitter_wall
+#: code:addons/website_twitter_wall/models/website_twitter_wall.py:0
+#, python-format
+msgid "The Twitter authentication failed. Please check your API key and secret."
+msgstr "A Twitter-hitelesítés nem sikerült. Kérjük, ellenőrizze az API kulcsot és a titkot."
+
+#. module: website_twitter_wall
+#: model:ir.model.fields,help:website_twitter_wall.field_website_twitter_wall__website_url
+msgid "The full URL to access the document through the website."
+msgstr "A teljes URL a dokumentum weboldalon keresztüli eléréséhez."
+
+#. module: website_twitter_wall
+#: model:ir.model.fields,help:website_twitter_wall.field_website_twitter_wall__search_pattern
+msgid ""
+"The search criteria to get the tweets you want. You can use the Twitter query operators.\n"
+"You can also use the special \"favorites:screen_name\" operator to get the favorited tweets of \"screen_name\"."
+msgstr ""
+"A keresési feltételek, hogy megkapja a kívánt tweeteket. Használhatja a Twitter lekérdezési operátorokat.\n"
+"Használhatja a speciális \"favorites:screen_name\" operátort is, hogy megkapja a \"screen_name\" kedvenc tweetjeit."
+
+#. module: website_twitter_wall
+#: code:addons/website_twitter_wall/models/website_twitter_wall.py:0
+#, python-format
+msgid "The tweets search failed. Check your credentials and access token"
+msgstr "A tweetek keresése nem sikerült. Ellenőrizze a hitelesítő adatait és a hozzáférési tokent"
+
+#. module: website_twitter_wall
+#: model_terms:ir.ui.view,arch_db:website_twitter_wall.twitter_wall_view
+msgid "Three columns view"
+msgstr "3 oszlop nézet"
+
+#. module: website_twitter_wall
+#: model:ir.model.fields,field_description:website_twitter_wall.field_website_twitter_wall__total_tweets
+#: model_terms:ir.ui.view,arch_db:website_twitter_wall.twitter_wall_view
+msgid "Total Tweets"
+msgstr "Összes tweet"
+
+#. module: website_twitter_wall
+#: model:ir.model.fields,field_description:website_twitter_wall.field_website_twitter_tweet__tweet_html
+msgid "Tweet Html"
+msgstr "Tweet html"
+
+#. module: website_twitter_wall
+#: code:addons/website_twitter_wall/models/website_twitter_wall.py:0
+#: model:ir.actions.act_window,name:website_twitter_wall.website_twitter_tweet_action
+#: model:ir.model.fields,field_description:website_twitter_wall.field_website_twitter_wall__tweet_ids
+#: model:ir.ui.menu,name:website_twitter_wall.website_twitter_tweet_menu
+#: model_terms:ir.ui.view,arch_db:website_twitter_wall.website_twitter_tweet_view_form
+#: model_terms:ir.ui.view,arch_db:website_twitter_wall.website_twitter_tweet_view_tree
+#: model_terms:ir.ui.view,arch_db:website_twitter_wall.website_twitter_wall_view_form
+#, python-format
+msgid "Tweets"
+msgstr "Tweet-ek"
+
+#. module: website_twitter_wall
+#: model:ir.model.fields,field_description:website_twitter_wall.field_website_twitter_wall__api_key
+msgid "Twitter API Key"
+msgstr "Twitter API kulcs"
+
+#. module: website_twitter_wall
+#: model:ir.model.fields,field_description:website_twitter_wall.field_website_twitter_wall__api_secret
+msgid "Twitter API Secret"
+msgstr "Twitter API titok"
+
+#. module: website_twitter_wall
+#: model:ir.ui.menu,name:website_twitter_wall.menu_website_twitter_wall_root
+msgid "Twitter Wall"
+msgstr "Twitter fal"
+
+#. module: website_twitter_wall
+#: model_terms:ir.ui.view,arch_db:website_twitter_wall.snippet_options
+#, fuzzy
+#| msgid "Twitter API Key"
+msgid "Twitter Wall Page"
+msgstr "Twitter API kulcs"
+
+#. module: website_twitter_wall
+#: model_terms:ir.ui.view,arch_db:website_twitter_wall.twitter_wall_view
+msgid "Two columns view"
+msgstr "2 oszlop nézet"
+
+#. module: website_twitter_wall
+#: model:ir.model.fields,field_description:website_twitter_wall.field_website_twitter_wall__mode
+msgid "Type of tweets"
+msgstr "Tweetek típusai"
+
+#. module: website_twitter_wall
+#: model:ir.model.fields,field_description:website_twitter_wall.field_website_twitter_wall__website_published
+msgid "Visible on current website"
+msgstr "Látható a jelenlegi weboldalon"
+
+#. module: website_twitter_wall
+#: model:ir.model.fields,field_description:website_twitter_wall.field_website_twitter_tweet__wall_ids
+#: model_terms:ir.ui.view,arch_db:website_twitter_wall.website_twitter_tweet_view_form
+msgid "Wall"
+msgstr "Fal"
+
+#. module: website_twitter_wall
+#: model_terms:ir.ui.view,arch_db:website_twitter_wall.website_twitter_wall_view_form
+msgid "Wall Name"
+msgstr "Fal név"
+
+#. module: website_twitter_wall
+#: model:ir.actions.act_window,name:website_twitter_wall.website_twitter_wall_action
+#: model:ir.ui.menu,name:website_twitter_wall.twitter_wall_menu
+#: model_terms:ir.ui.view,arch_db:website_twitter_wall.website_twitter_wall_view_form
+#: model_terms:ir.ui.view,arch_db:website_twitter_wall.website_twitter_wall_view_tree
+msgid "Walls"
+msgstr "Falak"
+
+#. module: website_twitter_wall
+#: model:ir.model,name:website_twitter_wall.model_website_twitter_tweet
+#: model:ir.model,name:website_twitter_wall.model_website_twitter_wall
+msgid "Website Twitter"
+msgstr "Weboldal Twitter"
+
+#. module: website_twitter_wall
+#: model:ir.model.fields,field_description:website_twitter_wall.field_website_twitter_wall__website_url
+msgid "Website URL"
+msgstr "Weboldal URL"
+
+#. module: website_twitter_wall
+#: model_terms:ir.ui.view,arch_db:website_twitter_wall.website_twitter_wall_view_form
+msgid "e.g. My Twitter Wall"
+msgstr "pl: Twitter falam"

@@ -1,0 +1,139 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* theme_zap
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-13 08:00+0000\n"
+"PO-Revision-Date: 2022-10-16 04:01+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/theme_zap/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#. module: theme_zap
+#: model_terms:theme.ir.ui.view,arch:theme_zap.s_banner
+msgid "<b>Software innovation</b><br/> as its best."
+msgstr "<b>Szoftver innováció</b><br/> a legjobb formájában."
+
+#. module: theme_zap
+#: model_terms:theme.ir.ui.view,arch:theme_zap.s_masonry_block_default_template
+msgid ""
+"<em class=\"lead\">Maintain a position of constant change<br/> and "
+"evolution, while always aiming<br/> for your success.</em>"
+msgstr "<em class=\"lead\">Tartsa fenn az állandó változást<br/> és fejlődést, miközben folyamatosan<br/> törekedjen a sikerre.</em>"
+
+#. module: theme_zap
+#: model_terms:theme.ir.ui.view,arch:theme_zap.s_numbers
+msgid "<font class=\"text-o-color-1\">Customers</font>"
+msgstr "<font class=\"text-o-color-1\">Vevők</font>"
+
+#. module: theme_zap
+#: model_terms:theme.ir.ui.view,arch:theme_zap.s_numbers
+msgid "<font class=\"text-o-color-1\">Languages</font>"
+msgstr "<font class=\"text-o-color-1\">Nyelvek</font>"
+
+#. module: theme_zap
+#: model_terms:theme.ir.ui.view,arch:theme_zap.s_numbers
+msgid "<font class=\"text-o-color-1\">Projects</font>"
+msgstr "<font class=\"text-o-color-1\">Projektek</font>"
+
+#. module: theme_zap
+#: model_terms:theme.ir.ui.view,arch:theme_zap.s_numbers
+msgid "<font class=\"text-o-color-1\">Solutions</font>"
+msgstr "<font class=\"text-o-color-1\">Megoldások</font>"
+
+#. module: theme_zap
+#: model_terms:theme.ir.ui.view,arch:theme_zap.s_features
+msgid "All our data centers <br/>are emission-free."
+msgstr "Az összes adatközpontunk <br/>károsanyag kibocsátás mentes."
+
+#. module: theme_zap
+#: model_terms:theme.ir.ui.view,arch:theme_zap.s_features
+msgid "All types of files <br/>are allowed."
+msgstr "Minden fájltípus <br/>engedélyezve van."
+
+#. module: theme_zap
+#: model_terms:theme.ir.ui.view,arch:theme_zap.s_three_columns
+msgid "Benefits"
+msgstr "Előnyök"
+
+#. module: theme_zap
+#: model_terms:theme.ir.ui.view,arch:theme_zap.s_color_blocks_2
+msgid "Cloud <b>Solution</b>"
+msgstr "Felhő <b>megoldások</b>"
+
+#. module: theme_zap
+#: model_terms:theme.ir.ui.view,arch:theme_zap.s_features
+msgid "Eco-Friendly"
+msgstr "Környezetbarát"
+
+#. module: theme_zap
+#: model_terms:theme.ir.ui.view,arch:theme_zap.s_three_columns
+msgid "Features"
+msgstr "Jellemzők"
+
+#. module: theme_zap
+#: model_terms:theme.ir.ui.view,arch:theme_zap.s_banner
+msgid ""
+"Harness the power of disruptive technologies to increase<br/> your day-to-"
+"day business operations."
+msgstr "Használja ki a korszakalkotó technológiák erejét<br/> a mindennapi üzleti műveletek fokozása érdekében."
+
+#. module: theme_zap
+#: model_terms:theme.ir.ui.view,arch:theme_zap.s_color_blocks_2
+msgid ""
+"Keep your files in one place. <br/>Manage documents online with an easy to "
+"use interface. <br/>Rely on an highly secure cloud storage."
+msgstr "Tartsa egy helyen a fájljait. <br/>Kezelje a dokumentumokat online, könnyen kezelhető felületen. <br/>Támaszkodjon a rendkívül biztonságos felhőalapú tárolásra."
+
+#. module: theme_zap
+#: model_terms:theme.ir.ui.view,arch:theme_zap.s_references
+msgid "Our <b>References</b>"
+msgstr "<b>Referenciáink</b>"
+
+#. module: theme_zap
+#: model_terms:theme.ir.ui.view,arch:theme_zap.s_banner
+msgid "Our Solutions"
+msgstr "Megoldásaink"
+
+#. module: theme_zap
+#: model_terms:theme.ir.ui.view,arch:theme_zap.s_features
+msgid "Security"
+msgstr "Biztonság"
+
+#. module: theme_zap
+#: model_terms:theme.ir.ui.view,arch:theme_zap.s_three_columns
+msgid "Services"
+msgstr "Szolgáltatások"
+
+#. module: theme_zap
+#: model_terms:theme.ir.ui.view,arch:theme_zap.s_masonry_block_default_template
+msgid "Super <b>Easy</b>"
+msgstr "Szuper <b>könnyű</b>"
+
+#. module: theme_zap
+#: model_terms:theme.ir.ui.view,arch:theme_zap.s_masonry_block_default_template
+msgid "Super <b>Fast</b>"
+msgstr "Szuper <b>gyors</b>"
+
+#. module: theme_zap
+#: model_terms:theme.ir.ui.view,arch:theme_zap.s_features
+msgid "Support"
+msgstr "Támogatás"
+
+#. module: theme_zap
+#: model:ir.model,name:theme_zap.model_theme_utils
+msgid "Theme Utils"
+msgstr "Téma segédek"
+
+#. module: theme_zap
+#: model_terms:theme.ir.ui.view,arch:theme_zap.s_features
+msgid "We keep you safe <br/>in the cloud."
+msgstr "Biztonságban tartjuk Önt <br/>a felhőben."

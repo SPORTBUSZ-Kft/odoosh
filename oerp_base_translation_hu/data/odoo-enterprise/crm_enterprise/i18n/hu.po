@@ -1,0 +1,271 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* crm_enterprise
+#
+# Translators:
+# Martin Trigaux, 2019
+# krnkris, 2019
+# Daniel Gerstenbrand <daniel.gerstenbrand@gmail.com>, 2019
+# gezza <geza.nagy@oregional.hu>, 2019
+# Ákos Nagy <akos.nagy@oregional.hu>, 2019
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-07 10:56+0000\n"
+"PO-Revision-Date: 2022-11-04 14:42+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/crm_enterprise/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_dashboard_view
+msgid "# Days To Convert"
+msgstr "# Nap a konverzióig"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_dashboard_view
+msgid "#Days to Assign"
+msgstr "#Nap hozzárendelésig"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_dashboard_view
+msgid "% Opportunities"
+msgstr "% Lehetőségek"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_dashboard
+msgid "Average Deal Size"
+msgstr "Átlagos üzletkötés mérete"
+
+#. module: crm_enterprise
+#: model:ir.model,name:crm_enterprise.model_crm_activity_report
+msgid "CRM Activity Analysis"
+msgstr "CRM tevékenységek elemzése"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_view_map
+msgid "Customer"
+msgstr "Vevő"
+
+#. module: crm_enterprise
+#: model:ir.actions.act_window,name:crm_enterprise.crm_lead_action_dashboard
+#: model:ir.ui.menu,name:crm_enterprise.crm_enterprise_dashboard_menu
+msgid "Dashboard"
+msgstr "Műszerfal"
+
+#. module: crm_enterprise
+#: model:ir.model.fields,field_description:crm_enterprise.field_crm_lead__days_to_convert
+msgid "Days To Convert"
+msgstr "Átalakításig hátralévő nap"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_dashboard
+msgid "Days to Assign"
+msgstr "Hozzárendelésig hátralévő nap"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_dashboard_view
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_dashboard
+msgid "Days to Close"
+msgstr "Lezárásig hátralévő nap"
+
+#. module: crm_enterprise
+#: model:ir.model.fields,field_description:crm_enterprise.field_crm_lead__days_exceeding_closing
+msgid "Exceeded Closing Days"
+msgstr "Várható lezárás hátralévő nap"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_dashboard
+msgid "Exceeding Close Days"
+msgstr "Határidőn túliak"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_dashboard_view
+msgid "Expected MRR"
+msgstr "Várható MRR"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_dashboard_view
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_dashboard
+msgid "Expected Revenue"
+msgstr "Várható bevétel"
+
+#. module: crm_enterprise
+#: model:ir.model.fields,field_description:crm_enterprise.field_crm_activity_report__won_status
+#: model:ir.model.fields,field_description:crm_enterprise.field_crm_lead__won_status
+msgid "Is Won"
+msgstr "Megnyert"
+
+#. module: crm_enterprise
+#: model:ir.model,name:crm_enterprise.model_crm_lead
+msgid "Lead/Opportunity"
+msgstr "Érdeklődés/Lehetőség"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_view_pivot
+msgid "Leads"
+msgstr "Érdeklődések"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_dashboard_view
+msgid "Leads/Opportunities"
+msgstr "Érdeklődések/Lehetőségek"
+
+#. module: crm_enterprise
+#: model:ir.model.fields.selection,name:crm_enterprise.selection__crm_activity_report__won_status__lost
+#: model:ir.model.fields.selection,name:crm_enterprise.selection__crm_lead__won_status__lost
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_activity_report_view_search
+msgid "Lost"
+msgstr "Elvesztett"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_dashboard_view
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_dashboard
+msgid "Medium"
+msgstr "Médium"
+
+#. module: crm_enterprise
+#: model_terms:ir.actions.act_window,help:crm_enterprise.crm_lead_action_dashboard
+#: model_terms:ir.actions.act_window,help:crm_enterprise.crm_opportunity_action_dashboard
+msgid "No data found!"
+msgstr "Nem található adat!"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_dashboard_view
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_view_cohort
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_dashboard
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_graph
+msgid "Opportunities"
+msgstr "Lehetőségek"
+
+#. module: crm_enterprise
+#: model:ir.model.fields.selection,name:crm_enterprise.selection__crm_activity_report__won_status__pending
+#: model:ir.model.fields.selection,name:crm_enterprise.selection__crm_lead__won_status__pending
+msgid "Pending"
+msgstr "Függő"
+
+#. module: crm_enterprise
+#: model:ir.actions.act_window,name:crm_enterprise.crm_opportunity_action_dashboard
+msgid "Pipeline Analysis"
+msgstr "Folyamat elemzés"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_dashboard_view
+msgid "Prorated MRR"
+msgstr "Arányosított MRR"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_dashboard_view
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_dashboard
+msgid "Prorated Revenue"
+msgstr "Arányosított bevétel"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_dashboard_view
+msgid "Sales Teams"
+msgstr "Értékesítési csapatok"
+
+#. module: crm_enterprise
+#: model_terms:ir.actions.act_window,help:crm_enterprise.crm_lead_action_dashboard
+msgid "This Dashboard allows you to see at a glance how well you are doing."
+msgstr "A műszerfal lehetővé teszi, hogy egy pillantással átlássa milyen jól teljesít."
+
+#. module: crm_enterprise
+#: model_terms:ir.actions.act_window,help:crm_enterprise.crm_opportunity_action_dashboard
+msgid "Use this menu to have an overview of your Pipeline."
+msgstr "Használja ezt a menüt, hogy áttekintse a folyamatait."
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_dashboard
+msgid "Win/Loss Ratio"
+msgstr "Megnyert/elvesztett arány"
+
+#. module: crm_enterprise
+#: model:ir.model.fields.selection,name:crm_enterprise.selection__crm_activity_report__won_status__won
+#: model:ir.model.fields.selection,name:crm_enterprise.selection__crm_lead__won_status__won
+msgid "Won"
+msgstr "Megnyert"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_dashboard_view
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_dashboard
+msgid "days"
+msgstr "nap"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_view_graph
+msgid "leads"
+msgstr "érdeklődések"
+
+#~ msgid "Archived"
+#~ msgstr "Archivált"
+
+#~ msgid "Campaign"
+#~ msgstr "Kampány"
+
+#~ msgid "City"
+#~ msgstr "Város"
+
+#~ msgid "Closed Date"
+#~ msgstr "Lezárás dátuma"
+
+#~ msgid "Company"
+#~ msgstr "Vállalat"
+
+#~ msgid "Conversion Date"
+#~ msgstr "Átalakítás dátuma"
+
+#~ msgid "Country"
+#~ msgstr "Ország"
+
+#~ msgid "Creation Date"
+#~ msgstr "Létrehozva"
+
+#~ msgid "Expected Closing Date"
+#~ msgstr "Várható lezárás dátuma"
+
+#~ msgid "Extended Filters"
+#~ msgstr "Bővített szűrők"
+
+#~ msgid "Group By"
+#~ msgstr "Csoportosítás"
+
+#~ msgid "Leads Analysis"
+#~ msgstr "Érdeklődések elemzése"
+
+#~ msgid "Lost Reason"
+#~ msgstr "Elvesztés oka"
+
+#~ msgid "My Pipeline"
+#~ msgstr "Folyamatom"
+
+#~ msgid "Opportunities Analysis"
+#~ msgstr "Lehetőségek elemzése"
+
+#~ msgid "Sales Team"
+#~ msgstr "Értékesítési csapat"
+
+#~ msgid "Salesperson"
+#~ msgstr "Értékesítő"
+
+#~ msgid "Show only lead"
+#~ msgstr "Csak az érdeklődések megjelenítése"
+
+#~ msgid "Show only opportunity"
+#~ msgstr "Csak a lehetőségek megjelenítése"
+
+#~ msgid "Source"
+#~ msgstr "Forrás"
+
+#~ msgid "Stage"
+#~ msgstr "Szakasz"
+
+#~ msgid "Title"
+#~ msgstr "Név"

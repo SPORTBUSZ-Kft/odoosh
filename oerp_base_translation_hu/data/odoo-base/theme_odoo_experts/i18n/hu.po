@@ -1,0 +1,164 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* theme_odoo_experts
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-13 08:01+0000\n"
+"PO-Revision-Date: 2022-10-16 04:01+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/theme_odoo_experts/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#. module: theme_odoo_experts
+#: model_terms:theme.ir.ui.view,arch:theme_odoo_experts.s_call_to_action
+msgid "50,000+ clients trust us <br/>to protect their assets"
+msgstr "Több mint 50 000 ügyfél bízik bennünk <br/>vagyonának védelmében"
+
+#. module: theme_odoo_experts
+#: model_terms:theme.ir.ui.view,arch:theme_odoo_experts.s_numbers
+msgid "<b>12</b>"
+msgstr "<b>12</b>"
+
+#. module: theme_odoo_experts
+#: model_terms:theme.ir.ui.view,arch:theme_odoo_experts.s_numbers
+msgid "<b>37</b>"
+msgstr "<b>37</b>"
+
+#. module: theme_odoo_experts
+#: model_terms:theme.ir.ui.view,arch:theme_odoo_experts.s_numbers
+msgid "<b>45</b>"
+msgstr "<b>45</b>"
+
+#. module: theme_odoo_experts
+#: model_terms:theme.ir.ui.view,arch:theme_odoo_experts.s_numbers
+msgid "<b>8</b>"
+msgstr "<b>8</b>"
+
+#. module: theme_odoo_experts
+#: model_terms:theme.ir.ui.view,arch:theme_odoo_experts.s_cover
+msgid ""
+"<br/>\n"
+"        Guided by expertise gained over 20 years of achieving success for "
+"clients, we practice with passion and strategic focus on the future."
+msgstr ""
+"<br/>\n"
+"        Az ügyfeleink számára 20 év alatt megszerzett szakértelemmel, szenvedélyesen és a jövőre összpontosítva gyakoroljuk tevékenységünket."
+
+#. module: theme_odoo_experts
+#: model_terms:theme.ir.ui.view,arch:theme_odoo_experts.s_media_list
+msgid "<span class=\"text-o-color-1\">1.</span> Litigation"
+msgstr "<span class=\"text-o-color-1\">1.</span> Pereskedés"
+
+#. module: theme_odoo_experts
+#: model_terms:theme.ir.ui.view,arch:theme_odoo_experts.s_media_list
+msgid "<span class=\"text-o-color-1\">2.</span> Arbitration"
+msgstr "<span class=\"text-o-color-1\">2.</span> Választott bíróság"
+
+#. module: theme_odoo_experts
+#: model_terms:theme.ir.ui.view,arch:theme_odoo_experts.s_media_list
+msgid "<span class=\"text-o-color-1\">3.</span> Mediation"
+msgstr "<span class=\"text-o-color-1\">3.</span> Közvetítés"
+
+#. module: theme_odoo_experts
+#: model_terms:theme.ir.ui.view,arch:theme_odoo_experts.s_product_list
+msgid "Business Strategy"
+msgstr "Üzleti stratégia"
+
+#. module: theme_odoo_experts
+#: model_terms:theme.ir.ui.view,arch:theme_odoo_experts.s_call_to_action
+msgid "Contact us for a personalized meeting"
+msgstr "Keressen minket egy személyre szabott megbeszélésért"
+
+#. module: theme_odoo_experts
+#: model_terms:theme.ir.ui.view,arch:theme_odoo_experts.s_product_list
+msgid "Corporate Finance"
+msgstr "Vállalati finanszírozás"
+
+#. module: theme_odoo_experts
+#: model_terms:theme.ir.ui.view,arch:theme_odoo_experts.s_product_list
+msgid "Digital Strategy"
+msgstr "Digitális stratégia"
+
+#. module: theme_odoo_experts
+#: model_terms:theme.ir.ui.view,arch:theme_odoo_experts.s_cover
+msgid "Discover More"
+msgstr "Fedezzen fel többet"
+
+#. module: theme_odoo_experts
+#: model_terms:theme.ir.ui.view,arch:theme_odoo_experts.s_product_list
+msgid "Executive Strategy"
+msgstr "Vezetői stratégia"
+
+#. module: theme_odoo_experts
+#: model_terms:theme.ir.ui.view,arch:theme_odoo_experts.s_product_list
+msgid "Growth &amp; Innovation"
+msgstr "Növekedés és Innováció"
+
+#. module: theme_odoo_experts
+#: model_terms:theme.ir.ui.view,arch:theme_odoo_experts.s_media_list
+msgid ""
+"In mediation, the parties find a solution for their conflict, with the "
+"assistance of a mediator who has no decision-making power."
+msgstr "A közvetítés során a felek egy olyan közvetítő segítségével találnak megoldást a konfliktusukra, aki nem rendelkezik döntési jogkörrel."
+
+#. module: theme_odoo_experts
+#: model_terms:theme.ir.ui.view,arch:theme_odoo_experts.s_media_list
+msgid ""
+"Litigation is our core-business. Our lawyers have been involved in many high-"
+"profile cases for 20 years."
+msgstr "A pereskedés az alaptevékenységünk. Ügyvédeink 20 éve számos nagy horderejű ügyben vesznek részt."
+
+#. module: theme_odoo_experts
+#: model_terms:theme.ir.ui.view,arch:theme_odoo_experts.s_banner
+msgid "Our expertise <br/>at your service"
+msgstr "Mi szakértelmünk <br/>az Ön szolgálatában"
+
+#. module: theme_odoo_experts
+#: model_terms:theme.ir.ui.view,arch:theme_odoo_experts.s_image_text
+msgid "Our vision"
+msgstr "Víziónk"
+
+#. module: theme_odoo_experts
+#: model_terms:theme.ir.ui.view,arch:theme_odoo_experts.s_media_list
+msgid ""
+"Over the past years, our lawyers have gained significant experience in "
+"arbitration, both as counsel as well as arbitrators."
+msgstr "Az elmúlt évek során ügyvédjeink jelentős tapasztalatot szereztek a választott bíráskodásban, mind tanácsadóként, mind választott bíróként."
+
+#. module: theme_odoo_experts
+#: model_terms:theme.ir.ui.view,arch:theme_odoo_experts.s_product_list
+msgid "Social Strategy"
+msgstr "Közösségi stratégia"
+
+#. module: theme_odoo_experts
+#: model:ir.model,name:theme_odoo_experts.model_theme_utils
+msgid "Theme Utils"
+msgstr "Téma segédek"
+
+#. module: theme_odoo_experts
+#: model_terms:theme.ir.ui.view,arch:theme_odoo_experts.s_cover
+msgid "We care <br/>about results"
+msgstr "Mi törődünk <br/>az eredményekkel"
+
+#. module: theme_odoo_experts
+#: model_terms:theme.ir.ui.view,arch:theme_odoo_experts.s_image_text
+msgid ""
+"We see our role as that of a legal partner responsible for constantly "
+"finding practical and pragmatic solutions that are adapted to our clients' "
+"needs."
+msgstr "Úgy tekintjük szerepünket, mint jogi partnert, aki folyamatosan gyakorlatias és pragmatikus megoldásokat talál, amelyek alkalmazkodnak ügyfeleink igényeihez."
+
+#. module: theme_odoo_experts
+#. openerp-web
+#: code:addons/theme_odoo_experts/static/src/js/tour.js:0
+#, python-format
+msgid "width"
+msgstr "szélesség"

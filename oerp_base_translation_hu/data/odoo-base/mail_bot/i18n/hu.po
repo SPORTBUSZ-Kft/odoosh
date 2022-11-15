@@ -1,0 +1,281 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* mail_bot
+#
+# Translators:
+# Martin Trigaux, 2019
+# krnkris, 2019
+# gezza <geza.nagy@oregional.hu>, 2019
+# Ákos Nagy <akos.nagy@oregional.hu>, 2019
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-20 09:02+0000\n"
+"PO-Revision-Date: 2022-10-28 20:01+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/mail_bot/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#. module: mail_bot
+#: code:addons/mail_bot/models/mail_bot.py:0
+#, python-format
+msgid ""
+"Aaaaaw that's really cute but, you know, bots don't work that way. You're "
+"too human for me! Let's keep it professional ❤️"
+msgstr "Úúúúú ez nagyon aranyos, de tudod, a robotok nem így működnek. Túl emberi vagy nekem! Maradjunk professzionálisak ❤️"
+
+#. module: mail_bot
+#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__odoobot_state__disabled
+msgid "Disabled"
+msgstr "Kikapcsolva"
+
+#. module: mail_bot
+#: model:ir.model,name:mail_bot.model_mail_channel
+msgid "Discussion Channel"
+msgstr "Kommunikációs csatorna"
+
+#. module: mail_bot
+#: model:ir.model,name:mail_bot.model_mail_thread
+msgid "Email Thread"
+msgstr "E-mail szál"
+
+#. module: mail_bot
+#: code:addons/mail_bot/models/mail_bot.py:0
+#, python-format
+msgid ""
+"Great! 👍<br/>To access special commands, <b>start your sentence with</b> "
+"<span class=\"o_odoobot_command\">/</span>. Try getting help."
+msgstr "Nagyszerű! 👍<br/>A speciális parancsokhoz, <b>kezdd a mondatot ezzel</b> <span class=\"o_odoobot_command\">/</span>. Próbálj meg segítséget kérni."
+
+#. module: mail_bot
+#: model:ir.model,name:mail_bot.model_ir_http
+msgid "HTTP Routing"
+msgstr "HTTP útválasztás"
+
+#. module: mail_bot
+#: code:addons/mail_bot/models/res_users.py:0
+#, python-format
+msgid ""
+"Hello,<br/>Odoo's chat helps employees collaborate efficiently. I'm here to "
+"help you discover its features.<br/><b>Try to send me an emoji</b> <span "
+"class=\"o_odoobot_command\">:)</span>"
+msgstr "Üdv,<br/>az Odoo chat-je segíti a kollégák hatékony együttműködésében. Azért vagyok itt, hogy segítsek felfedezni ezeket a funkciókat.<br/><b>Próbálj meg küldeni nekem egy emojit</b> <span class=\"o_odoobot_command\">:)</span>"
+
+#. module: mail_bot
+#: code:addons/mail_bot/models/mail_bot.py:0
+#, python-format
+msgid "Hmmm..."
+msgstr "Hmmm..."
+
+#. module: mail_bot
+#: code:addons/mail_bot/models/mail_bot.py:0
+#, python-format
+msgid ""
+"I am a simple bot, but if that's a dog, he is the cutest 😊 <br/"
+">Congratulations, you finished this tour. You can now <b>close this chat "
+"window</b>. Enjoy discovering Odoo."
+msgstr "Én egy egyszerű bot vagyok, de ha ez egy kutya, akkor ő a legaranyosabb 😊 <br/>Gratulálok, befejezted ezt a bemutatót. Most már <b>becsukhatod ezt a chatablakot</b>. Jó szórakozást az Odoo felfedezéséhez."
+
+#. module: mail_bot
+#: code:addons/mail_bot/models/mail_bot.py:0
+#, python-format
+msgid "I'm afraid I don't understand. Sorry!"
+msgstr "Attól tartok nem értem. Sajnálom!"
+
+#. module: mail_bot
+#: code:addons/mail_bot/models/mail_bot.py:0
+#, python-format
+msgid ""
+"I'm not smart enough to answer your question.<br/>To follow my guide, ask: "
+"<span class=\"o_odoobot_command\">start the tour</span>."
+msgstr "Nem vagyok elég okos ahhoz, hogy válaszoljak a kérdésedre.<br/>A bemutatóhoz írd be, hogy: <span class=\"o_odoobot_command\">start the tour</span>."
+
+#. module: mail_bot
+#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__odoobot_state__idle
+msgid "Idle"
+msgstr "Üresjárat"
+
+#. module: mail_bot
+#: model:ir.model,name:mail_bot.model_mail_bot
+msgid "Mail Bot"
+msgstr "Mail bot"
+
+#. module: mail_bot
+#: code:addons/mail_bot/models/mail_bot.py:0
+#, python-format
+msgid ""
+"Not exactly. To continue the tour, send an emoji: <b>type</b> <span class="
+"\"o_odoobot_command\">:)</span> and press enter."
+msgstr "Nem pontosan. A bemutató folytatásához küldj egy emoji-t: <b>írd be, hogy</b> <span class=\"o_odoobot_command\">:)</span> és nyomjd meg az enter-t."
+
+#. module: mail_bot
+#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__odoobot_state__not_initialized
+msgid "Not initialized"
+msgstr "Nincs inicializálva"
+
+#. module: mail_bot
+#: code:addons/mail_bot/models/mail_bot.py:0
+#, python-format
+msgid ""
+"Not sure what you are doing. Please, type <span class=\"o_odoobot_command\">/"
+"</span> and wait for the propositions. Select <span class=\"o_odoobot_command"
+"\">help</span> and press enter"
+msgstr "Nem vagyok biztos benne, hogy mit csinálsz. Kérjük, írd be a <span class=\"o_odoobot_command\">/</span> parancsot, és várd meg a javaslatokat. Válasszd ki a <span class=\"o_odoobot_command\">help</span> lehetőséget, és nyomjd meg az Enter-t"
+
+#. module: mail_bot
+#: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_state
+msgid "OdooBot Status"
+msgstr "OdooBot állapot"
+
+#. module: mail_bot
+#: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_failed
+msgid "Odoobot Failed"
+msgstr "Odoobot meghiúsult"
+
+#. module: mail_bot
+#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__odoobot_state__onboarding_attachement
+msgid "Onboarding attachment"
+msgstr "Bevezető melléklet"
+
+#. module: mail_bot
+#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__odoobot_state__onboarding_command
+msgid "Onboarding command"
+msgstr "Bevezetés parancs"
+
+#. module: mail_bot
+#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__odoobot_state__onboarding_emoji
+msgid "Onboarding emoji"
+msgstr "Bevezetés emoji"
+
+#. module: mail_bot
+#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__odoobot_state__onboarding_ping
+msgid "Onboarding ping"
+msgstr "Bevezetés ping"
+
+#. module: mail_bot
+#: code:addons/mail_bot/models/mail_bot.py:0
+#, python-format
+msgid ""
+"Sorry I'm sleepy. Or not! Maybe I'm just trying to hide my unawareness of "
+"human language...<br/>I can show you features if you write: <span class="
+"\"o_odoobot_command\">start the tour</span>."
+msgstr "Ne haragudj, álmos vagyok. Vagy mégsem! Talán csak próbálom elrejteni azt, hgy mennyire nem értem az emberi nyelvet...<br/>Megmutathatom a funkciókat, ha beírod, hogy: <span class=\"o_odoobot_command\">start the tour</span>."
+
+#. module: mail_bot
+#: code:addons/mail_bot/models/mail_bot.py:0
+#, python-format
+msgid ""
+"Sorry, I am not listening. To get someone's attention, <b>ping him</b>. "
+"Write <span class=\"o_odoobot_command\">@OdooBot</span> and select me."
+msgstr "Sajnálom, nem figyelek. Hogy felhívd valakinek a figyelmét, <b>említsd meg</b>. Írd be azt, hogy <span class=\"o_odoobot_command\">@OdooBot</span> és válassz ki engem."
+
+#. module: mail_bot
+#: code:addons/mail_bot/models/mail_bot.py:0
+#, python-format
+msgid "That's not nice! I'm a bot but I have feelings... 💔"
+msgstr "Ez nem szép dolog! Lehet, hogy bot vagyok, de vannak érzéseim... 💔"
+
+#. module: mail_bot
+#: code:addons/mail_bot/models/mail_bot.py:0
+#, python-format
+msgid ""
+"To <b>send an attachment</b>, click on the <i class=\"fa fa-paperclip\" aria-"
+"hidden=\"true\"></i> icon and select a file."
+msgstr "Egy <b>melléklet küldéséhez</b>, kattints a <i class=\"fa fa-paperclip\" aria-hidden=\"true\"></i> ikonra és válassz ki egy fájlt."
+
+#. module: mail_bot
+#: code:addons/mail_bot/models/mail_bot.py:0
+#, python-format
+msgid "To start, try to send me an emoji :)"
+msgstr "A kezdéshez küldj nekem egy emojit :)"
+
+#. module: mail_bot
+#: code:addons/mail_bot/models/mail_bot.py:0
+#, python-format
+msgid ""
+"Unfortunately, I'm just a bot 😞 I don't understand! If you need help "
+"discovering our product, please check <a href=\"https://www.odoo.com/"
+"documentation\" target=\"_blank\">our documentation</a> or <a href=\"https://"
+"www.odoo.com/slides\" target=\"_blank\">our videos</a>."
+msgstr "Sajnos én csak egy bot vagyok 😞 Nem értem! Ha segítségre van szüksége a termékünk megismerésében, kérjük, nézze meg a <a href=\"https://www.odoo.com/documentation\" target=\"_blank\">dokumentációnkat</a> vagy <a href=\"https://www.odoo.com/slides\" target=\"_blank\">videóinkat</a>."
+
+#. module: mail_bot
+#: model:ir.model,name:mail_bot.model_res_users
+msgid "User"
+msgstr "Felhasználó"
+
+#. module: mail_bot
+#: code:addons/mail_bot/models/mail_bot.py:0
+#, python-format
+msgid ""
+"Wow you are a natural!<br/>Ping someone with @username to grab their "
+"attention. <b>Try to ping me using</b> <span class=\"o_odoobot_command"
+"\">@OdooBot</span> in a sentence."
+msgstr "Azta, te egy született tehetség vagy!<br/>Említs meg valakit @felhasználónév-vel, hogy megragadd a figyelmét. <b>Próbálj meg megemlíteni engem a</b> <span class=\"o_odoobot_command\">@OdooBot</span> használatával egy mondatban."
+
+#. module: mail_bot
+#: code:addons/mail_bot/models/mail_bot.py:0
+#, python-format
+msgid ""
+"Yep, I am here! 🎉 <br/>Now, try <b>sending an attachment</b>, like a picture "
+"of your cute dog..."
+msgstr "Igen, itt vagyok! 🎉 <br/> Most próbálj meg <b>küldeni egy mellékletet</b>, például egy képet a cuki kutyádról..."
+
+#. module: mail_bot
+#: code:addons/mail_bot/models/mail_bot.py:0
+#, python-format
+msgid "fuck"
+msgstr "bazdmeg"
+
+#. module: mail_bot
+#: code:addons/mail_bot/models/mail_bot.py:0
+#, python-format
+msgid "help"
+msgstr "segítség"
+
+#. module: mail_bot
+#: code:addons/mail_bot/models/mail_bot.py:0
+#, python-format
+msgid "i love you"
+msgstr "szeretlek"
+
+#. module: mail_bot
+#: code:addons/mail_bot/models/mail_bot.py:0
+#, python-format
+msgid "love"
+msgstr "szeret"
+
+#. module: mail_bot
+#: code:addons/mail_bot/models/mail_bot.py:0
+#, python-format
+msgid "start the tour"
+msgstr "bemutató elkezdése"
+
+#~ msgid "Contact"
+#~ msgstr "Kapcsolat"
+
+#~ msgid "Display Name"
+#~ msgstr "Megjelenített név"
+
+#~ msgid "ID"
+#~ msgstr "Azonosító"
+
+#~ msgid "Last Modified on"
+#~ msgstr "Legutóbb frissítve"
+
+#~ msgid ""
+#~ "Odoo will not have the permission to send native notifications on this "
+#~ "device."
+#~ msgstr ""
+#~ "Odoo rendszernek nincs felhatalmazása egyszerű figyelmeztetések küldésére "
+#~ "erre az eszközre."
+
+#~ msgid "Permission denied"
+#~ msgstr "Hozzáférés elutasítva"

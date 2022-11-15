@@ -1,0 +1,476 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* data_cleaning
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.5alpha1+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-20 09:50+0000\n"
+"PO-Revision-Date: 2022-10-28 23:01+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/data_cleaning/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#. module: data_cleaning
+#: model_terms:ir.ui.view,arch_db:data_cleaning.notification
+msgid ""
+"' field cleaning rule.<br/>\n"
+"You can validate changes"
+msgstr ""
+"' mező tisztítási szabállyal.<br/>\n"
+"Jóváhagyhatja a módosításokat"
+
+#. module: data_cleaning
+#: model_terms:ir.ui.view,arch_db:data_cleaning.view_data_merge_model_form
+msgid "<span class=\"me-1\">Every</span>"
+msgstr "<span class=\"me-1\">Minden</span>"
+
+#. module: data_cleaning
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_rule__action
+#: model_terms:ir.ui.view,arch_db:data_cleaning.view_data_cleaning_record_list
+#: model_terms:ir.ui.view,arch_db:data_cleaning.view_data_merge_model_form
+msgid "Action"
+msgstr "Művelet"
+
+#. module: data_cleaning
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_rule__action_display
+msgid "Action Display"
+msgstr "Művelet megjelenítés"
+
+#. module: data_cleaning
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_rule__action_technical
+msgid "Action Technical"
+msgstr "Művelet technikai"
+
+#. module: data_cleaning
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_record__action
+msgid "Actions"
+msgstr "Műveletek"
+
+#. module: data_cleaning
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_model__active
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_record__active
+msgid "Active"
+msgstr "Aktív"
+
+#. module: data_cleaning
+#: code:addons/data_cleaning/models/data_cleaning_rule.py:0
+#: model:ir.model.fields.selection,name:data_cleaning.selection__data_cleaning_rule__action_case__lower
+#, python-format
+msgid "All Lowercase"
+msgstr "Minden kisbetűs"
+
+#. module: data_cleaning
+#: code:addons/data_cleaning/models/data_cleaning_rule.py:0
+#: model:ir.model.fields.selection,name:data_cleaning.selection__data_cleaning_rule__action_trim__all
+#, python-format
+msgid "All Spaces"
+msgstr "Minden szóköz"
+
+#. module: data_cleaning
+#: code:addons/data_cleaning/models/data_cleaning_rule.py:0
+#: model:ir.model.fields.selection,name:data_cleaning.selection__data_cleaning_rule__action_case__upper
+#, python-format
+msgid "All Uppercase"
+msgstr "Minden nagybetűs"
+
+#. module: data_cleaning
+#: model:ir.model.fields.selection,name:data_cleaning.selection__data_cleaning_model__cleaning_mode__automatic
+msgid "Automatic"
+msgstr "Automatikus"
+
+#. module: data_cleaning
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_rule__action_case
+msgid "Case"
+msgstr "Eset"
+
+#. module: data_cleaning
+#: model_terms:ir.ui.view,arch_db:data_cleaning.view_data_merge_model_form
+msgid "Clean"
+msgstr "Tisztítás"
+
+#. module: data_cleaning
+#: model_terms:ir.ui.view,arch_db:data_cleaning.view_data_merge_model_form
+msgid "Cleaning Actions"
+msgstr "Tisztítási műveletek"
+
+#. module: data_cleaning
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_model__cleaning_mode
+msgid "Cleaning Mode"
+msgstr "Tisztítás mód"
+
+#. module: data_cleaning
+#: model:ir.model,name:data_cleaning.model_data_cleaning_model
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_record__cleaning_model_id
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_rule__cleaning_model_id
+msgid "Cleaning Model"
+msgstr "Tisztítás modell"
+
+#. module: data_cleaning
+#: model:ir.model,name:data_cleaning.model_data_cleaning_record
+msgid "Cleaning Record"
+msgstr "Tisztítás rekord"
+
+#. module: data_cleaning
+#: model:ir.model,name:data_cleaning.model_data_cleaning_rule
+#: model_terms:ir.ui.view,arch_db:data_cleaning.view_data_cleaning_record_list
+msgid "Cleaning Rule"
+msgstr "Tisztítási szabály"
+
+#. module: data_cleaning
+#: model_terms:ir.ui.view,arch_db:data_cleaning.view_data_cleaning_record_search
+msgid "Cleaning Rules"
+msgstr "Tisztítási szabályok"
+
+#. module: data_cleaning
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_record__company_id
+msgid "Company"
+msgstr "Vállalat"
+
+#. module: data_cleaning
+#: model_terms:ir.actions.act_window,help:data_cleaning.action_data_cleaning_record
+#: model_terms:ir.actions.act_window,help:data_cleaning.action_data_cleaning_record_notification
+msgid "Configure rules to identify records to clean"
+msgstr "Állítson be szabályokat a tisztítandó rekordok beazonosítására"
+
+#. module: data_cleaning
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_record__country_id
+msgid "Country"
+msgstr "Ország"
+
+#. module: data_cleaning
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_model__create_uid
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_record__create_uid
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_rule__create_uid
+msgid "Created by"
+msgstr "Létrehozta"
+
+#. module: data_cleaning
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_model__create_date
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_record__create_date
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_rule__create_date
+msgid "Created on"
+msgstr "Létrehozva"
+
+#. module: data_cleaning
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_record__current_value
+msgid "Current"
+msgstr "Jelenlegi"
+
+#. module: data_cleaning
+#: model:ir.actions.server,name:data_cleaning.ir_cron_clean_records_ir_actions_server
+#: model:ir.cron,cron_name:data_cleaning.ir_cron_clean_records
+#: model:ir.cron,name:data_cleaning.ir_cron_clean_records
+msgid "Data Cleaning: Clean Records"
+msgstr "Adat tisztítás: rekordok tisztítása"
+
+#. module: data_cleaning
+#: model:ir.model.fields.selection,name:data_cleaning.selection__data_cleaning_model__notify_frequency_period__days
+msgid "Days"
+msgstr "Nap"
+
+#. module: data_cleaning
+#: model_terms:ir.ui.view,arch_db:data_cleaning.view_data_cleaning_record_list
+msgid "Discard"
+msgstr "Elvetés"
+
+#. module: data_cleaning
+#: model_terms:ir.ui.view,arch_db:data_cleaning.view_data_cleaning_record_search
+msgid "Discarded"
+msgstr "Elvetett"
+
+#. module: data_cleaning
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_model__display_name
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_record__display_name
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_rule__display_name
+msgid "Display Name"
+msgstr "Megjelenített név"
+
+#. module: data_cleaning
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_record__field_id
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_rule__field_id
+msgid "Field"
+msgstr "Mező"
+
+#. module: data_cleaning
+#: model:ir.ui.menu,name:data_cleaning.menu_data_cleaning_config_rules_cleaning
+#: model:ir.ui.menu,name:data_cleaning.menu_data_cleaning_record
+msgid "Field Cleaning"
+msgstr "Mező tisztítás"
+
+#. module: data_cleaning
+#: model:ir.actions.act_window,name:data_cleaning.action_data_cleaning_record
+#: model:ir.actions.act_window,name:data_cleaning.action_data_cleaning_record_notification
+msgid "Field Cleaning Records"
+msgstr "Mező tisztítás rekordok"
+
+#. module: data_cleaning
+#: model:ir.actions.act_window,name:data_cleaning.action_data_cleaning_config
+msgid "Field Cleaning Rules"
+msgstr "Mező tisztítási szabályok"
+
+#. module: data_cleaning
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_record__field_name
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_rule__name
+msgid "Field Name"
+msgstr "Mező név"
+
+#. module: data_cleaning
+#: model_terms:ir.ui.view,arch_db:data_cleaning.view_data_cleaning_field_form
+msgid "Field To Clean"
+msgstr "Tisztítandó mező"
+
+#. module: data_cleaning
+#: code:addons/data_cleaning/models/data_cleaning_rule.py:0
+#: model:ir.model.fields.selection,name:data_cleaning.selection__data_cleaning_rule__action_case__first
+#, python-format
+msgid "First Letters to Uppercase"
+msgstr "Első betű nagybetűre"
+
+#. module: data_cleaning
+#: code:addons/data_cleaning/models/data_cleaning_rule.py:0
+#: model:ir.model.fields.selection,name:data_cleaning.selection__data_cleaning_rule__action__phone
+#, python-format
+msgid "Format Phone"
+msgstr "Telefon formázása"
+
+#. module: data_cleaning
+#: model:ir.model.fields,help:data_cleaning.field_data_cleaning_rule__action_case
+msgid ""
+"How the type case is set by the rule. 'First Letters to Uppercase' sets "
+"every letter to lowercase except the first letter of each word, which is set "
+"to uppercase."
+msgstr "A betűméretet a szabály határozza meg. Az 'Első betűk nagybetűsre' minden betűt kisbetűsre állít, kivéve minden szó első betűjét, amely nagybetűsre van állítva."
+
+#. module: data_cleaning
+#: model_terms:ir.ui.view,arch_db:data_cleaning.notification
+msgid "I've identified"
+msgstr "Beazonosítottam"
+
+#. module: data_cleaning
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_model__id
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_record__id
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_rule__id
+msgid "ID"
+msgstr "Azonosító"
+
+#. module: data_cleaning
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_model____last_update
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_record____last_update
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_rule____last_update
+msgid "Last Modified on"
+msgstr "Utolsó módosítás ideje"
+
+#. module: data_cleaning
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_model__last_notification
+msgid "Last Notification"
+msgstr "Utolsó értesítés"
+
+#. module: data_cleaning
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_model__write_uid
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_record__write_uid
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_rule__write_uid
+msgid "Last Updated by"
+msgstr "Utoljára frissítette"
+
+#. module: data_cleaning
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_model__write_date
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_record__write_date
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_rule__write_date
+msgid "Last Updated on"
+msgstr "Utolsó frissítés ideje"
+
+#. module: data_cleaning
+#: model:ir.model.fields,help:data_cleaning.field_data_cleaning_model__notify_user_ids
+msgid "List of users to notify when there are new records to clean"
+msgstr "Azon felhasználók listája, akiket értesíteni kell, ha új rekordokat kell tisztítani"
+
+#. module: data_cleaning
+#: model:ir.model.fields.selection,name:data_cleaning.selection__data_cleaning_model__cleaning_mode__manual
+msgid "Manual"
+msgstr "Kézi"
+
+#. module: data_cleaning
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_model__res_model_id
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_record__res_model_id
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_rule__res_model_id
+msgid "Model"
+msgstr "Modell"
+
+#. module: data_cleaning
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_model__res_model_name
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_record__res_model_name
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_rule__res_model_name
+msgid "Model Name"
+msgstr "Modell név"
+
+#. module: data_cleaning
+#: model:ir.model.fields.selection,name:data_cleaning.selection__data_cleaning_model__notify_frequency_period__months
+msgid "Months"
+msgstr "Hónap"
+
+#. module: data_cleaning
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_model__name
+msgid "Name"
+msgstr "Név"
+
+#. module: data_cleaning
+#: model_terms:ir.actions.act_window,help:data_cleaning.action_data_cleaning_record
+#: model_terms:ir.actions.act_window,help:data_cleaning.action_data_cleaning_record_notification
+msgid "No cleaning suggestions"
+msgstr "Nincsenek tisztítási javaslatok"
+
+#. module: data_cleaning
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_model__notify_frequency
+msgid "Notify"
+msgstr "Értesítés"
+
+#. module: data_cleaning
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_model__notify_frequency_period
+msgid "Notify Frequency Period"
+msgstr "Értesítés gyakorisága"
+
+#. module: data_cleaning
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_model__notify_user_ids
+msgid "Notify Users"
+msgstr "Felhasználók értesítése"
+
+#. module: data_cleaning
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_record__res_id
+msgid "Record ID"
+msgstr "Rekord azonosító"
+
+#. module: data_cleaning
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_record__name
+msgid "Record Name"
+msgstr "Rekord név"
+
+#. module: data_cleaning
+#: model_terms:ir.ui.view,arch_db:data_cleaning.view_data_cleaning_record_search
+#: model_terms:ir.ui.view,arch_db:data_cleaning.view_data_merge_model_form
+msgid "Records"
+msgstr "Rekordok"
+
+#. module: data_cleaning
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_model__records_to_clean_count
+msgid "Records To Clean"
+msgstr "Tisztítandó rekordok"
+
+#. module: data_cleaning
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_record__rule_ids
+msgid "Rule"
+msgstr "Szabály"
+
+#. module: data_cleaning
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_model__rule_ids
+msgid "Rules"
+msgstr "Szabályok"
+
+#. module: data_cleaning
+#: code:addons/data_cleaning/models/data_cleaning_rule.py:0
+#: model:ir.model.fields.selection,name:data_cleaning.selection__data_cleaning_rule__action__html
+#, python-format
+msgid "Scrap HTML"
+msgstr "Selejt HTML"
+
+#. module: data_cleaning
+#: model_terms:ir.ui.view,arch_db:data_cleaning.view_data_merge_model_form
+msgid "Select a model to configure cleaning actions"
+msgstr "Válasszon ki egy modellt a tisztítási műveletek beállításához"
+
+#. module: data_cleaning
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_rule__sequence
+msgid "Sequence"
+msgstr "Sorszám"
+
+#. module: data_cleaning
+#: code:addons/data_cleaning/models/data_cleaning_rule.py:0
+#: model:ir.model.fields.selection,name:data_cleaning.selection__data_cleaning_rule__action__case
+#, python-format
+msgid "Set Type Case"
+msgstr "Betűváltozat beállítása"
+
+#. module: data_cleaning
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_record__suggested_value_display
+msgid "Suggested"
+msgstr "Javasolt"
+
+#. module: data_cleaning
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_record__suggested_value
+msgid "Suggested Value"
+msgstr "Javasolt érték"
+
+#. module: data_cleaning
+#: code:addons/data_cleaning/models/data_cleaning_rule.py:0
+#: model:ir.model.fields.selection,name:data_cleaning.selection__data_cleaning_rule__action_trim__superfluous
+#, python-format
+msgid "Superfluous Spaces"
+msgstr "Felesleges szóközök"
+
+#. module: data_cleaning
+#: code:addons/data_cleaning/models/data_cleaning_rule.py:0
+#, python-format
+msgid ""
+"The Python module `phonenumbers` is not installed. Format phone will not "
+"work."
+msgstr "A `phonenumbers` python modul nincs telepítve. A telefon formázása nem fog működni."
+
+#. module: data_cleaning
+#: model:ir.model.constraint,message:data_cleaning.constraint_data_cleaning_model_check_notif_freq
+msgid "The notification frequency should be greater than 0"
+msgstr "Az értesítési gyakoriságnak nagyobbnak kell lennie, mint 0"
+
+#. module: data_cleaning
+#: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_rule__action_trim
+msgid "Trim"
+msgstr "Trimmelés"
+
+#. module: data_cleaning
+#: code:addons/data_cleaning/models/data_cleaning_rule.py:0
+#: model:ir.model.fields.selection,name:data_cleaning.selection__data_cleaning_rule__action__trim
+#, python-format
+msgid "Trim Spaces"
+msgstr "Szóközök levágása"
+
+#. module: data_cleaning
+#. openerp-web
+#: code:addons/data_cleaning/static/src/views/data_cleaning_list_view.xml:0
+#, python-format
+msgid "Unselect"
+msgstr "Kijelölés megszüntetése"
+
+#. module: data_cleaning
+#. openerp-web
+#: code:addons/data_cleaning/static/src/views/data_cleaning_list_view.xml:0
+#: model_terms:ir.ui.view,arch_db:data_cleaning.view_data_cleaning_record_list
+#, python-format
+msgid "Validate"
+msgstr "Jóváhagyás"
+
+#. module: data_cleaning
+#: model:ir.model.fields.selection,name:data_cleaning.selection__data_cleaning_model__notify_frequency_period__weeks
+msgid "Weeks"
+msgstr "Hét"
+
+#. module: data_cleaning
+#: model:ir.model.fields,help:data_cleaning.field_data_cleaning_rule__action_trim
+msgid ""
+"Which spaces are trimmed by the rule. Leading, trailing, and successive "
+"spaces are considered superfluous."
+msgstr "Mely szóközöket vágja le a szabály. Az elöl és a hátul lévő valamint az egymást követő szóközök feleslegesnek tekintendők."
+
+#. module: data_cleaning
+#: model_terms:ir.ui.view,arch_db:data_cleaning.notification
+msgid "here"
+msgstr "itt"
+
+#. module: data_cleaning
+#: model_terms:ir.ui.view,arch_db:data_cleaning.notification
+msgid "records to clean with the '"
+msgstr "tisztítandó rekordok a '"

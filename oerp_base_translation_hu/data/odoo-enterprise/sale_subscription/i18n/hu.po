@@ -1,0 +1,3859 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sale_subscription
+#
+# Translators:
+# Tibor Kőnig <konig.tibor@evitalit.hu>, 2019
+# gezza <geza.nagy@oregional.hu>, 2019
+# Martin Trigaux, 2019
+# krnkris, 2019
+# Kovács Tibor <kovika@gmail.com>, 2019
+# Ákos Nagy <akos.nagy@oregional.hu>, 2019
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-10 13:27+0000\n"
+"PO-Revision-Date: 2022-11-03 18:01+0000\n"
+"Last-Translator: Tóth Csaba <csaba.toth@online-erp.hu>\n"
+"Language-Team: Hungarian <https://translate.i3sys.hu/projects/odoo16/sale_subscription/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/models/sale_order_line.py:0
+#, python-format
+msgid ""
+"\n"
+"%s to %s"
+msgstr ""
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/models/sale_order.py:0
+#, python-format
+msgid ""
+"\n"
+"- You should wait for the current subscription period to pass. New quantities to invoice will be ready at the end of the current period."
+msgstr ""
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__percentage_satisfaction
+msgid "% Happy"
+msgstr "% Boldog"
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/models/sale_order_line.py:0
+#, python-format
+msgid "%(product)s - %(duration)d %(unit)s"
+msgstr "%(product)s - %(duration)d %(unit)s"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "(Wrong address?)"
+msgstr "(Rossz cím?)"
+
+#. module: sale_subscription
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order_alert__mrr_change_period__1month
+msgid "1 Month"
+msgstr "1 hónap"
+
+#. module: sale_subscription
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order_alert__mrr_change_period__3months
+msgid "3 Months"
+msgstr "3 hónap"
+
+#. module: sale_subscription
+#: model:mail.template,body_html:sale_subscription.mail_template_subscription_alert
+msgid ""
+"<div style=\"background:#F0F0F0;color:#515166;padding:10px 0px;font-family:Arial,Helvetica,sans-serif;font-size:14px;\">\n"
+"                <table style=\"width:600px;margin:5px auto;\">\n"
+"                    <tbody>\n"
+"                        <tr><td>\n"
+"                            <a href=\"/\"><img src=\"/web/binary/company_logo\" style=\"vertical-align:baseline;max-width:100px;\"/></a>\n"
+"                        </td><td style=\"text-align:right;vertical-align:middle;\">\n"
+"                                Subscription Renewal\n"
+"                        </td></tr>\n"
+"                    </tbody>\n"
+"                </table>\n"
+"                <table style=\"width:600px;margin:0px auto;background:white;border:1px solid #e1e1e1;\">\n"
+"                    <tbody>\n"
+"                        <tr><td style=\"padding:15px 20px 10px 20px;\">\n"
+"                            <p>Dear <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>,</p>\n"
+"                            <p>Your subscription <strong t-out=\"object.name or ''\">Office Cleaning Service\"</strong> needs your attention.</p>\n"
+"                            <p>We invite you to renew it by clicking on the following link.</p>\n"
+"                            <p>Kind regards.</p>\n"
+"                        </td></tr>\n"
+"                        <tr><td style=\"padding:15px 20px 10px 20px;\" t-out=\"object.user_id.signature or ''\">--<br/>Mitchell Admin</td></tr>\n"
+"                    </tbody>\n"
+"                </table>\n"
+"            </div>\n"
+"        "
+msgstr ""
+
+#. module: sale_subscription
+#: model:mail.template,body_html:sale_subscription.mail_template_subscription_rating
+msgid ""
+"<div style=\"background:#F0F0F0;color:#515166;padding:10px 0px;font-family:Arial,Helvetica,sans-serif;font-size:14px;\">\n"
+"            <t t-set=\"access_token\" t-value=\"object._rating_get_access_token()\"/>\n"
+"                <table style=\"width:600px;margin:5px auto;\">\n"
+"                    <tbody>\n"
+"                        <tr><td>\n"
+"                            <a href=\"/\"><img src=\"/web/binary/company_logo\" style=\"vertical-align:baseline;max-width:100px;\"/></a>\n"
+"                        </td><td style=\"text-align:right;vertical-align:middle;\">\n"
+"                                Satisfaction Survey\n"
+"                        </td></tr>\n"
+"                    </tbody>\n"
+"                </table>\n"
+"                <table style=\"width:600px;margin:0px auto;background:white;border:1px solid #e1e1e1;\">\n"
+"                    <tbody>\n"
+"                        <tr><td style=\"padding:15px 20px 10px 20px;\">\n"
+"                            <p>Hello,</p>\n"
+"                            <p>Please take a moment to rate our services related to your subscription \"<strong t-out=\"object.name or ''\">Office Cleaning Service\"</strong>\"\n"
+"                               assigned to <strong t-out=\"object._rating_get_operator().name or ''\">Mitchell Admin</strong>.</p>\n"
+"                            <p>We appreciate your feedback. It helps us to improve continuously.</p>\n"
+"                        </td></tr>\n"
+"                        <tr><td style=\"padding:10px 20px\">\n"
+"                            <table summary=\"o_mail_notification\" style=\"width:100%;border-top:1px solid #e1e1e1;\">\n"
+"                                <tr>\n"
+"                                    <td style=\"text-align:center;\">\n"
+"                                        <h2 style=\"font-weight:300;font-size:18px;\">\n"
+"                                            Tell us how you feel about our services:\n"
+"                                        </h2>\n"
+"                                        <div style=\"text-color: #888888\">(click on one of these smileys)</div>\n"
+"                                    </td>\n"
+"                                </tr>\n"
+"                                <tr>\n"
+"                                    <td style=\"padding:10px 10px;\">\n"
+"                                        <table style=\"width:100%;text-align:center;\">\n"
+"                                            <tr>\n"
+"                                                <td>\n"
+"                                                    <a t-attf-href=\"/rate/{{ access_token }}/5\">\n"
+"                                                        <img alt=\"Satisfied\" src=\"/rating/static/src/img/rating_5.png\" title=\"Satisfied\"/>\n"
+"                                                    </a>\n"
+"                                                </td>\n"
+"                                                <td>\n"
+"                                                    <a t-attf-href=\"/rate/{{ access_token }}/3\">\n"
+"                                                        <img alt=\"Okay\" src=\"/rating/static/src/img/rating_3.png\" title=\"Okay\"/>\n"
+"                                                    </a>\n"
+"                                                </td>\n"
+"                                                <td>\n"
+"                                                    <a t-attf-href=\"/rate/{{ access_token }}/1\">\n"
+"                                                        <img alt=\"Dissatisfied\" src=\"/rating/static/src/img/rating_1.png\" title=\"Dissatisfied\"/>\n"
+"                                                    </a>\n"
+"                                                </td>\n"
+"                                            </tr>\n"
+"                                        </table>\n"
+"                                    </td>\n"
+"                                </tr>\n"
+"                            </table>\n"
+"                        </td></tr>\n"
+"                        <tr><td style=\"padding:15px 20px 10px 20px;\" t-out=\"object.user_id.signature or ''\">--<br/>Mitchell Admin</td></tr>\n"
+"                    </tbody>\n"
+"                </table>\n"
+"                <table style=\"width:600px;margin:auto;text-align:center;font-size:12px;\">\n"
+"                    <tbody>\n"
+"                        <tr><td style=\"padding-top:10px;color:#afafaf;\">\n"
+"                            <p>Email automatically sent by <a target=\"_blank\" href=\"https://www.odoo.com/app/subscriptions\" style=\"color:#875A7B;text-decoration:none;\">Odoo Subscription</a> for <a t-att-href=\"object.company_id.website\" style=\"color:#875A7B;text-decoration:none;\" t-out=\"object.company_id.name or ''\">YourCompany</a></p>\n"
+"                        </td></tr>\n"
+"                    </tbody>\n"
+"                </table>\n"
+"            </div>\n"
+"        "
+msgstr ""
+
+#. module: sale_subscription
+#: model:mail.template,body_html:sale_subscription.mail_template_subscription_invoice
+msgid ""
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"                <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+"                    Dear <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>\n"
+"                    <t t-if=\"object.partner_id.parent_id\">\n"
+"                        (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
+"                    </t>,\n"
+"                    <br/><br/>\n"
+"                    Here is, in attachment, your subscription\n"
+"                    <t t-if=\"object.name\">\n"
+"                        invoice <span style=\"font-weight:bold;\" t-out=\"object.name or ''\">Office Cleaning Service</span>\n"
+"                    </t>\n"
+"                    <t t-else=\"\">\n"
+"                        invoice\n"
+"                    </t>\n"
+"                    <t t-if=\"object.invoice_origin\">\n"
+"                        (with reference: <t t-out=\"object.invoice_origin or ''\">INVOICE_ORIGIN</t>)\n"
+"                    </t>\n"
+"                    amounting in <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total, object.currency_id) or ''\">$ 10.00</span>\n"
+"                    from <t t-out=\"object.company_id.name or ''\">YourCompany</t>.\n"
+"                    <t t-if=\"object.payment_state in ('paid', 'in_payment')\">\n"
+"                        This invoice is already paid.\n"
+"                    </t>\n"
+"                    <t t-else=\"\">\n"
+"                        Please remit payment at your earliest convenience.\n"
+"                    </t>\n"
+"                    <br/><br/>\n"
+"                    Do not hesitate to contact us if you have any questions.\n"
+"                    <br/><br/>\n"
+"                    <t t-if=\"not is_html_empty(object.invoice_user_id.signature)\">\n"
+"                        <br/><br/>\n"
+"                        <t t-out=\"object.invoice_user_id.signature or ''\">--<br/>Mitchell Admin</t>\n"
+"                    </t>\n"
+"                </p>\n"
+"            </div>\n"
+"        "
+msgstr ""
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "<i class=\"fa fa-comment\"/> Send message"
+msgstr "<i class=\"fa fa-comment\"/> Üzenet küldése"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "<i class=\"fa fa-download\"/> Download"
+msgstr "<i class=\"fa fa-download\"/> Letöltés"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "<i class=\"fa fa-fw fa-check\"/> In Progress"
+msgstr "<i class=\"fa fa-fw fa-check\"/> Folyamatban"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "<i class=\"fa fa-fw fa-refresh\"/> To Renew"
+msgstr "<i class=\"fa fa-fw fa-refresh\"/> Megújítandó"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "<i class=\"fa fa-fw fa-remove\"/> Closed"
+msgstr "<i class=\"fa fa-fw fa-remove\"/> Lezárt"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "<i class=\"fa fa-print\"/> Print"
+msgstr "<i class=\"fa fa-print\"/> Nyomtatás"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "<i class=\"fa fa-refresh\"/> Renew"
+msgstr "<i class=\"fa fa-refresh\"/> Megújítás"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "<small class=\"text-muted\">Subscription -</small>"
+msgstr "<small class=\"text-muted\">Előfizetés -</small>"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_order_view_form
+msgid "<span attrs=\"{'invisible': ['|', ('recurrence_id', '=', False), ('subscription_management', '=', 'upsell')]}\">until</span>"
+msgstr "<span attrs=\"{'invisible': ['|', ('recurrence_id', '=', False), ('subscription_management', '=', 'upsell')]}\">amíg</span>"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_order_view_form
+msgid "<span class=\"align-middle\">for this subscription.</span>"
+msgstr ""
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.portal_my_subscriptions
+msgid "<span class=\"badge rounded-pill text-bg-danger\"><i class=\"fa fa-fw fa-remove\"/> Closed</span>"
+msgstr "<span class=\"badge rounded-pill text-bg-danger\"><i class=\"fa fa-fw fa-remove\"/> Lezárt</span>"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.portal_my_subscriptions
+msgid "<span class=\"badge rounded-pill text-bg-success\"><i class=\"fa fa-fw fa-check\"/> In Progress</span>"
+msgstr "<span class=\"badge rounded-pill text-bg-success\"><i class=\"fa fa-fw fa-check\"/> Folyamatban</span>"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.portal_my_subscriptions
+msgid "<span class=\"badge rounded-pill text-bg-warning\"><i class=\"fa fa-fw fa-refresh\"/> To Renew</span>"
+msgstr "<span class=\"badge rounded-pill text-bg-warning\"><i class=\"fa fa-fw fa-refresh\"/> Megújítandó</span>"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid ""
+"<span groups=\"account.group_show_line_subtotals_tax_excluded\">Amount</span>\n"
+"                                                    <span groups=\"account.group_show_line_subtotals_tax_included\">Total Price</span>"
+msgstr ""
+"<span groups=\"account.group_show_line_subtotals_tax_excluded\">Nettó összesen</span>\n"
+"                                                    <span groups=\"account.group_show_line_subtotals_tax_included\">Bruttó összesen</span>"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "<span>Disc.%</span>"
+msgstr "<span>Kedv.%</span>"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "<strong class=\"mr16\">Subtotal</strong>"
+msgstr "<strong class=\"mr16\">Nettó</strong>"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "<strong class=\"text-muted\">Subscription Manager:</strong>"
+msgstr "<strong class=\"text-muted\">Előfizetés kezelő:</strong>"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_order_portal_content_inherit
+msgid ""
+"<strong>\n"
+"                            Recurrency\n"
+"                        </strong>"
+msgstr ""
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
+msgid "<strong> and </strong>"
+msgstr "<strong> és </strong>"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
+msgid "<strong>%</strong>"
+msgstr "<strong>%</strong>"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "<strong>Next Billing Amount:</strong>"
+msgstr "<strong>Következő számlázási összeg:</strong>"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.report_saleorder_document
+msgid "<strong>Recurrence:</strong>"
+msgstr ""
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "<strong>Subtotal</strong>"
+msgstr "<strong>Összesen</strong>"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
+msgid "<strong>to</strong>"
+msgstr "<strong>eddig</strong>"
+
+#. module: sale_subscription
+#: model:mail.template,body_html:sale_subscription.email_payment_success
+msgid ""
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\"center\">\n"
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 16px; background-color: white; color: #454748; border-collapse:separate;\">\n"
+"<tbody>\n"
+"    <!-- HEADER -->\n"
+"    <tr>\n"
+"        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                <tr><td valign=\"middle\">\n"
+"                    <t t-set=\"company\" t-value=\"object.company_id or object.invoice_user_id.company_id or user.company_id\"/>\n"
+"                    <span style=\"font-size: 10px;\">Your Subscription</span><br/>\n"
+"                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"ctx.get('code', ctx.get('subscription_name')) or 'Document'\">Document</span>\n"
+"                </td></tr>\n"
+"                <tr><td valign=\"middle\" align=\"right\">\n"
+"                    <img t-attf-src=\"/logo.png?company={{ company.id }}\" style=\"padding: 0px; margin: 0px; height: auto; width: 80px;\" t-att-alt=\"company.name\"/>\n"
+"                </td></tr>\n"
+"                <tr><td colspan=\"2\" style=\"text-align:center;\">\n"
+"                    <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin:16px 0px 16px 0px;\"/>\n"
+"                </td></tr>\n"
+"            </table>\n"
+"        </td>\n"
+"    </tr>\n"
+"    <!-- CONTENT -->\n"
+"    <tr>\n"
+"        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                <tr><td valign=\"top\" style=\"font-size: 13px;\">\n"
+"                    Dear <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>,<br/><br/>\n"
+"                    Your Subscription (<t t-out=\"ctx.get('subscription_name') or ''\">CODE</t>\n"
+"                    <t t-if=\"ctx.get('code')\">\n"
+"                    , Reference: <t t-out=\"ctx.get('code')\"/>\n"
+"                    </t>) has just been renewed\n"
+"                    <t t-if=\"ctx.get('total_amount') and ctx.get('payment_token')\">\n"
+"                        via a payment of <t t-out=\"ctx.get('total_amount') or ''\">100</t> <t t-out=\"ctx.get('currency_name') or ''\">$</t> charged on <t t-out=\"ctx.get('payment_token') or ''\">PAYMENT_TOKEN</t>.\n"
+"                    </t>\n"
+"                    <br/><br/>\n"
+"                    You will find your invoice attached.\n"
+"                    <t t-if=\"ctx.get('next_date')\">\n"
+"                        Your next invoice will be on <t t-out=\"format_date(ctx.get('next_date')) or ''\">05/05/2021</t>.\n"
+"                    </t>\n"
+"                    <br/><br/>\n"
+"                    If you have any questions, do not hesitate to contact us.\n"
+"                    <br/><br/>\n"
+"                    Thank you for choosing <t t-out=\"company.name or ''\">YourCompany</t>!\n"
+"                    <div t-if=\"user.signature\">\n"
+"                        <br/><br/>\n"
+"                        <t t-out=\"user.signature or ''\">--<br/>Mitchell Admin</t>\n"
+"                    </div>\n"
+"                </td></tr>\n"
+"                <tr><td style=\"text-align:center;\">\n"
+"                    <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+"                </td></tr>\n"
+"            </table>\n"
+"        </td>\n"
+"    </tr>\n"
+"    <!-- FOOTER -->\n"
+"    <tr>\n"
+"        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; font-size: 11px; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                <tr><td valign=\"middle\" align=\"left\">\n"
+"                    <t t-out=\"company.name or ''\">YourCompany</t>\n"
+"                </td></tr>\n"
+"                <tr><td valign=\"middle\" align=\"left\" style=\"opacity: 0.7;\">\n"
+"                    <t t-if=\"company.phone\">\n"
+"                        <t t-out=\"company.phone or ''\">+1 650-123-4567</t> |\n"
+"                    </t>\n"
+"                    <t t-if=\"company.email\">\n"
+"                        <a t-attf-href=\"'mailto:%s' % {{ company.email }}\" style=\"text-decoration:none; color: #454748;\" t-out=\"company.email or ''\">info@yourcompany.com</a> |\n"
+"                    </t>\n"
+"                    <t t-if=\"company.website\">\n"
+"                        <a t-attf-href=\"'%s' % {{ company.website }}\" style=\"text-decoration:none; color: #454748;\" t-out=\"company.website or ''\">http://www.example.com</a>\n"
+"                    </t>\n"
+"                </td></tr>\n"
+"            </table>\n"
+"        </td>\n"
+"    </tr>\n"
+"</tbody>\n"
+"</table>\n"
+"</td></tr>\n"
+"<!-- POWERED BY -->\n"
+"<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
+"    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
+"      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
+"        Powered by <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=mail\" style=\"color: #875A7B;\">Odoo</a>\n"
+"      </td></tr>\n"
+"    </table>\n"
+"</td></tr>\n"
+"</table>\n"
+"        "
+msgstr ""
+
+#. module: sale_subscription
+#: model:mail.template,body_html:sale_subscription.email_payment_close
+msgid ""
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\"center\">\n"
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 16px; background-color: white; color: #454748; border-collapse:separate;\">\n"
+"<tbody>\n"
+"    <!-- HEADER -->\n"
+"    <tr>\n"
+"        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                <tr><td valign=\"middle\">\n"
+"                    <t t-set=\"company\" t-value=\"object.company_id or object.user_id.company_id or user.company_id\"/>\n"
+"                    <span style=\"font-size: 10px;\">Your Subscription</span><br/>\n"
+"                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.name or ''\">Office Cleaning Service</span>\n"
+"                </td></tr>\n"
+"                <tr><td valign=\"middle\" align=\"right\">\n"
+"                    <img t-attf-src=\"/logo.png?company={{ company.id }}\" style=\"padding: 0px; margin: 0px; height: auto; width: 80px;\" t-att-alt=\"company.name\"/>\n"
+"                </td></tr>\n"
+"                <tr><td colspan=\"2\" style=\"text-align:center;\">\n"
+"                    <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin:16px 0px 16px 0px;\"/>\n"
+"                </td></tr>\n"
+"            </table>\n"
+"        </td>\n"
+"    </tr>\n"
+"    <!-- CONTENT -->\n"
+"    <tr>\n"
+"        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                <tr><td valign=\"top\" style=\"font-size: 13px;\">\n"
+"                    Hello <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>,<br/><br/>\n"
+"                    <t t-if=\"ctx.get('payment_token') and ctx.get('total_amount')\">\n"
+"                        Our final attempt to process a payment for your subscription using your payment method\n"
+"                        <t t-out=\"ctx.get('payment_token') or ''\">TOKEN</t>\n"
+"                        for <t t-out=\"ctx['total_amount'] or ''\">100</t> <t t-out=\"ctx.get('currency') or ''\">$</t> failed.\n"
+"                        <t t-if=\"ctx.get('error')\">\n"
+"                            Your bank or credit institution gave the following details about the issue: <pre t-out=\"ctx['error'] or ''\"/>.\n"
+"                        </t>\n"
+"                    </t>\n"
+"                    <t t-else=\"\">\n"
+"                        Our final attempt to process a payment for your subscription failed because we have no payment method recorded for you.\n"
+"                    </t>\n"
+"                    <br/><br/>\n"
+"                    As your payment should have been made <strong><t t-out=\"ctx.get('auto_close_limit') or ''\">5</t> days ago</strong>, your subscription has been terminated.\n"
+"                    Should you wish to resolve this issue, do not hesitate to contact us.<br/><br/>\n"
+"                    Thank you for choosing <t t-out=\"company.name or ''\">YourCompany</t>!\n"
+"                    <div t-if=\"user.signature\">\n"
+"                        <br/><br/>\n"
+"                        <t t-out=\"user.signature or ''\">--<br/>Mitchell Admin</t>\n"
+"                    </div>\n"
+"                </td></tr>\n"
+"                <tr><td style=\"text-align:center;\">\n"
+"                    <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+"                </td></tr>\n"
+"            </table>\n"
+"        </td>\n"
+"    </tr>\n"
+"    <!-- FOOTER -->\n"
+"    <tr>\n"
+"        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; font-size: 11px; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                <tr><td valign=\"middle\" align=\"left\">\n"
+"                    <t t-out=\"company.name or ''\">YourCompany</t>\n"
+"                </td></tr>\n"
+"                <tr><td valign=\"middle\" align=\"left\" style=\"opacity: 0.7;\">\n"
+"                    <t t-if=\"company.phone\">\n"
+"                        <t t-out=\"company.phone or ''\">+1 650-123-4567</t> |\n"
+"                    </t>\n"
+"                    <t t-if=\"company.email\">\n"
+"                        <a t-attf-href=\"'mailto:%s' % {{ company.email }}\" style=\"text-decoration:none; color: #454748;\" t-out=\"company.email or ''\">info@yourcompany.com</a> |\n"
+"                    </t>\n"
+"                    <t t-if=\"company.website\">\n"
+"                        <a t-attf-href=\"'%s' % {{ company.website }}\" style=\"text-decoration:none; color: #454748;\" t-out=\"company.website or ''\">http://www.example.com</a>\n"
+"                    </t>\n"
+"                </td></tr>\n"
+"            </table>\n"
+"        </td>\n"
+"    </tr>\n"
+"</tbody>\n"
+"</table>\n"
+"</td></tr>\n"
+"<!-- POWERED BY -->\n"
+"<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
+"    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
+"      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
+"        Powered by <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=mail\" style=\"color: #875A7B;\">Odoo</a>\n"
+"      </td></tr>\n"
+"    </table>\n"
+"</td></tr>\n"
+"</table>\n"
+"        "
+msgstr ""
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\"center\">\n"
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 16px; background-color: white; color: #454748; border-collapse:separate;\">\n"
+"<tbody>\n"
+"    <!-- HEADER -->\n"
+"    <tr>\n"
+"        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                <tr><td valign=\"middle\">\n"
+"                    <t t-set=\"company\" t-value=\"object.company_id or object.user_id.company_id or user.company_id\"/>\n"
+"                    <span style=\"font-size: 10px;\">Az Ön előfizetése</span><br/>\n"
+"                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.name or ''\">Office Cleaning Service</span>\n"
+"                </td></tr>\n"
+"                <tr><td valign=\"middle\" align=\"right\">\n"
+"                    <img t-attf-src=\"/logo.png?company={{ company.id }}\" style=\"padding: 0px; margin: 0px; height: auto; width: 80px;\" t-att-alt=\"company.name\"/>\n"
+"                </td></tr>\n"
+"                <tr><td colspan=\"2\" style=\"text-align:center;\">\n"
+"                    <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin:16px 0px 16px 0px;\"/>\n"
+"                </td></tr>\n"
+"            </table>\n"
+"        </td>\n"
+"    </tr>\n"
+"    <!-- CONTENT -->\n"
+"    <tr>\n"
+"        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                <tr><td valign=\"top\" style=\"font-size: 13px;\">\n"
+"                    Üdvözlet <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>,<br/><br/>\n"
+"                    <t t-if=\"ctx.get('payment_token') and ctx.get('total_amount')\">\n"
+"                         Ez az utolsó kísérletünk arra, hogy feldolgozzuk a fizetést az előfizetésért az Ön fizetési módjával\n"
+"                        <t t-out=\"ctx.get('payment_token') or ''\">TOKEN</t>\n"
+"                        for <t t-out=\"ctx['total_amount'] or ''\">100</t> <t t-out=\"ctx.get('currency') or ''\">$</t> failed.\n"
+"                        <t t-if=\"ctx.get('error')\">\n"
+"                            A bankja a következő részleteket adta meg a problémáról: <pre t-out=\"ctx['error'] or ''\"/>.\n"
+"                        </t>\n"
+"                    </t>\n"
+"                    <t t-else=\"\">\n"
+"                        Az utolsó kísérletünk arra, hogy feldolgozzuk az előfizetésed kifizetését, sikertelen volt, mert nem rögzítettünk semmilyen fizetési módot a számodra.\n"
+"                    </t>\n"
+"                    <br/><br/>\n"
+"                    Mivel a kifizetésnek már meg kellett volna történnie <strong><t t-out=\"ctx.get('auto_close_limit') or ''\">5</t> napja</strong>, az előfizetésedet kikapcsoltuk.\n"
+"                    Ha szeretné megoldani ezt a problémát, ne habozzon kapcsolatba lépni velünk..<br/><br/>\n"
+"                    Köszönjük, hogy a <t t-out=\"company.name or ''\">YourCompany</t> választotta!\n"
+"                    <div t-if=\"user.signature\">\n"
+"                        <br/><br/>\n"
+"                        <t t-out=\"user.signature or ''\">--<br/>Mitchell Admin</t>\n"
+"                    </div>\n"
+"                </td></tr>\n"
+"                <tr><td style=\"text-align:center;\">\n"
+"                    <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+"                </td></tr>\n"
+"            </table>\n"
+"        </td>\n"
+"    </tr>\n"
+"    <!-- FOOTER -->\n"
+"    <tr>\n"
+"        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; font-size: 11px; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                <tr><td valign=\"middle\" align=\"left\">\n"
+"                    <t t-out=\"company.name or ''\">YourCompany</t>\n"
+"                </td></tr>\n"
+"                <tr><td valign=\"middle\" align=\"left\" style=\"opacity: 0.7;\">\n"
+"                    <t t-if=\"company.phone\">\n"
+"                        <t t-out=\"company.phone or ''\">+1 650-123-4567</t> |\n"
+"                    </t>\n"
+"                    <t t-if=\"company.email\">\n"
+"                        <a t-attf-href=\"'mailto:%s' % {{ company.email }}\" style=\"text-decoration:none; color: #454748;\" t-out=\"company.email or ''\">info@yourcompany.com</a> |\n"
+"                    </t>\n"
+"                    <t t-if=\"company.website\">\n"
+"                        <a t-attf-href=\"'%s' % {{ company.website }}\" style=\"text-decoration:none; color: #454748;\" t-out=\"company.website or ''\">http://www.example.com</a>\n"
+"                    </t>\n"
+"                </td></tr>\n"
+"            </table>\n"
+"        </td>\n"
+"    </tr>\n"
+"</tbody>\n"
+"</table>\n"
+"</td></tr>\n"
+"<!-- POWERED BY -->\n"
+"<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
+"    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
+"      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
+"        Kiküldve az <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=mail\" style=\"color: #875A7B;\">Odoo Alkalmazásból</a>\n"
+"      </td></tr>\n"
+"    </table>\n"
+"</td></tr>\n"
+"</table>"
+
+#. module: sale_subscription
+#: model:mail.template,body_html:sale_subscription.email_payment_reminder
+msgid ""
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\"center\">\n"
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 16px; background-color: white; color: #454748; border-collapse:separate;\">\n"
+"<tbody>\n"
+"    <!-- HEADER -->\n"
+"    <tr>\n"
+"        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                <tr><td valign=\"middle\">\n"
+"                    <t t-set=\"company\" t-value=\"object.company_id or object.user_id.company_id or user.company_id\"/>\n"
+"                    <span style=\"font-size: 10px;\">Your Subscription</span><br/>\n"
+"                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.name or ''\">Office Cleaning Service</span>\n"
+"                </td></tr>\n"
+"                <tr><td valign=\"middle\" align=\"right\">\n"
+"                    <img t-attf-src=\"/logo.png?company={{ company.id }}\" style=\"padding: 0px; margin: 0px; height: auto; width: 80px;\" t-att-alt=\"company.name\"/>\n"
+"                </td></tr>\n"
+"                <tr><td colspan=\"2\" style=\"text-align:center;\">\n"
+"                    <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin:16px 0px 16px 0px;\"/>\n"
+"                </td></tr>\n"
+"            </table>\n"
+"        </td>\n"
+"    </tr>\n"
+"    <!-- CONTENT -->\n"
+"    <tr>\n"
+"        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                <tr><td valign=\"top\" style=\"font-size: 13px;\">\n"
+"                    Hello <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>,<br/><br/>\n"
+"                    <t t-if=\"ctx.get('payment_token') and ctx.get('total_amount')\">\n"
+"                        We were unable to process a payment for your subscription using your payment method\n"
+"                        <t t-out=\"ctx['payment_token'] or ''\">TOKEN</t>\n"
+"                        for <t t-out=\"ctx['total_amount'] or ''\">10</t> <t t-out=\"ctx.get('currency_name') or ''\">$</t>.\n"
+"                        <t t-if=\"ctx.get('error')\">\n"
+"                            Your bank or credit institution gave the following details about the issue: <pre t-out=\"ctx['error'] or ''\"/>.\n"
+"                        </t>\n"
+"                    </t>\n"
+"                    <t t-else=\"\">\n"
+"                        We were unable to process a payment for your subscription because we have no payment method recorded for you.\n"
+"                    </t>\n"
+"                    <br/><br/>\n"
+"                    Your subscription <t t-out=\"ctx.get('code') or ''\">CODE</t> is still valid but will be <strong>suspended</strong>\n"
+"                    on <t t-out=\"format_date(ctx.get('date_close')) or ''\">05/05/2021</t> unless the payment succeeds in the mean time (we will retry once every day).\n"
+"                    Please double-check that you have sufficient funds.<br/><br/>\n"
+"                    If you have any questions, do not hesitate to contact us.<br/><br/>\n"
+"                    Thank you for choosing <t t-out=\"company.name or ''\">YourCompany</t>!\n"
+"                    <div>\n"
+"                    <t t-if=\"user.signature\">\n"
+"                        <br/><br/>\n"
+"                        <t t-out=\"user.signature or ''\">--<br/>Mitchell Admin</t>\n"
+"                    </t>\n"
+"                    </div>\n"
+"                </td></tr>\n"
+"                <tr><td style=\"text-align:center;\">\n"
+"                    <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+"                </td></tr>\n"
+"            </table>\n"
+"        </td>\n"
+"    </tr>\n"
+"    <!-- FOOTER -->\n"
+"    <tr>\n"
+"        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; font-size: 11px; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                <tr><td valign=\"middle\" align=\"left\">\n"
+"                    <t t-out=\"company.name or ''\">YourCompany</t>\n"
+"                </td></tr>\n"
+"                <tr><td valign=\"middle\" align=\"left\" style=\"opacity: 0.7;\">\n"
+"                    <t t-if=\"company.phone\">\n"
+"                        <t t-out=\"company.phone or ''\">+1 650-123-4567</t> |\n"
+"                    </t>\n"
+"                    <t t-if=\"company.email\">\n"
+"                        <a t-attf-href=\"'mailto:%s' % {{ company.email }}\" style=\"text-decoration:none; color: #454748;\" t-out=\"company.email or ''\">info@yourcompany.com</a> |\n"
+"                    </t>\n"
+"                    <t t-if=\"company.website\">\n"
+"                        <a t-attf-href=\"'%s' % {{ company.website }}\" style=\"text-decoration:none; color: #454748;\" t-out=\"company.website or ''\">http://www.example.com</a>\n"
+"                    </t>\n"
+"                </td></tr>\n"
+"            </table>\n"
+"        </td>\n"
+"    </tr>\n"
+"</tbody>\n"
+"</table>\n"
+"</td></tr>\n"
+"<!-- POWERED BY -->\n"
+"<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
+"    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
+"      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
+"        Powered by <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=mail\" style=\"color: #875A7B;\">Odoo</a>\n"
+"      </td></tr>\n"
+"    </table>\n"
+"</td></tr>\n"
+"</table>\n"
+"        "
+msgstr ""
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/models/product.py:0
+#, python-format
+msgid "A 'Storable Product' cannot be a 'Subscription Product' !"
+msgstr "Egy 'Raktározható termék' nem lehet 'Előfizetés termék' !"
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/models/product.py:0
+#, python-format
+msgid "A 'Subscription Product' cannot be a 'Storable Product' !"
+msgstr "Egy 'Előfizetés termék' nem lehet 'Raktározható termék' !"
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order_alert__website_published
+msgid "A code server action can be executed from the website, using a dedicated controller. The address is <base>/website/action/<website_path>. Set this field as True to allow users to run this action. If it is set to False the action cannot be run through the website."
+msgstr "Egy kód szerver műveletet végrehajthat a weboldalról, a dedikált irányító használatával. A cím az <base>/website/action/<website_path>. Állítsa be ezt a mezőt igazra, hogy a felhasználók futtatni tudják ezt a műveletet. Ha hamis-ra állított a művelet, akkor nem futtatható a honlapon keresztül."
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/models/sale_order.py:0
+#, python-format
+msgid "A renewal quotation %s has been created"
+msgstr ""
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__action
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
+msgid "Action"
+msgstr "Művelet"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__help
+msgid "Action Description"
+msgstr "Művelet leírása"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__name
+msgid "Action Name"
+msgstr "Művelet neve"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__state
+msgid "Action To Do"
+msgstr "Elvégzendő művelet"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__type
+msgid "Action Type"
+msgstr "Művelet típus"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__active
+msgid "Active"
+msgstr "Aktív"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__activity_type_id
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
+msgid "Activity"
+msgstr "Tevékenység"
+
+#. module: sale_subscription
+#: model:ir.actions.act_window,name:sale_subscription.mail_activity_type_action_config_subscription
+#: model:ir.ui.menu,name:sale_subscription.subscription_menu_config_activity_type
+msgid "Activity Types"
+msgstr "Tevékenység típusok"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__activity_user_type
+msgid "Activity User Type"
+msgstr "Tevékenység felhasználó típus"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__partner_ids
+msgid "Add Followers"
+msgstr "Követők hozzáadása"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
+msgid "Alert Name"
+msgstr "Riasztás neve"
+
+#. module: sale_subscription
+#: model:ir.actions.act_window,name:sale_subscription.sale_subscription_alert_action
+#: model:ir.ui.menu,name:sale_subscription.menu_sale_subscription_alert
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_tree
+msgid "Alerts"
+msgstr "Riasztások"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__recurring_live
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
+msgid "Alive"
+msgstr ""
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/controllers/portal.py:0
+#, python-format
+msgid "All"
+msgstr "Összes"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "Amount:"
+msgstr "Összeg:"
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/models/sale_order.py:0
+#, python-format
+msgid "An upsell quotation %s has been created"
+msgstr ""
+
+#. module: sale_subscription
+#: model:ir.model,name:sale_subscription.model_account_analytic_account
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__analytic_account_id
+msgid "Analytic Account"
+msgstr "Analitikus számla"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__filter_domain
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
+msgid "Apply on"
+msgstr "Alkalmazás ezen"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_order_template_view_search
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
+msgid "Archived"
+msgstr "Archivált"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__archived_product_count
+msgid "Archived Product"
+msgstr "Archivált termék"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__archived_product_ids
+msgid "Archived Products"
+msgstr "Archivált termékek"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__activity_user
+msgid "Assign To"
+msgstr "Hozzárendel ehhez"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__automation_id
+msgid "Automated Action"
+msgstr "Automatizált művelet"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_template__auto_close_limit
+msgid "Automatic Closing"
+msgstr "Automatikus lezárás"
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/models/sale_order.py:0
+#, python-format
+msgid "Automatic payment succeeded. Payment reference: %(ref)s. Amount: %(amount)s. Contract set to: In Progress, Next Invoice: %(inv)s. Email sent to customer."
+msgstr ""
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order__payment_exception
+msgid "Automatic payment with token failed. The payment provider configuration and token should be checked"
+msgstr ""
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__website_published
+msgid "Available on the Website"
+msgstr "Elérhető a honlapon"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__rating_avg
+msgid "Average Rating"
+msgstr "Értékelés átlaga"
+
+#. module: sale_subscription
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order__health__bad
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_subscription_report__health__bad
+msgid "Bad"
+msgstr "Rossz"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_template__bad_health_domain
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_search
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_template_view_form
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
+msgid "Bad Health"
+msgstr "Rossz egészség"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__filter_pre_domain
+msgid "Before Update Domain"
+msgstr "Tartomány frissítése előtt"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__binding_model_id
+msgid "Binding Model"
+msgstr "Kapcsolódó modell"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__binding_type
+msgid "Binding Type"
+msgstr "Kapcsolódó típus"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__binding_view_types
+msgid "Binding View Types"
+msgstr "Kapcsolódó nézet típusok"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
+msgid ""
+"By default, the alert is triggered weekly and applies on the subscriptions that match\n"
+"                        the following criterias. The next run is on"
+msgstr ""
+"Alapértelmezés szerint a riasztás hetente lép életbe, és azokra az előfizetésekre vonatkozik, amelyek megfelelnek\n"
+"                        a következő kritériumoknak. A következő futtatás a következő időpontban van"
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order__percentage_satisfaction
+msgid "Calculate the ratio between the number of the best ('great') ratings and the total number of ratings"
+msgstr "Számítsa ki a legjobb ('nagyszerű') értékelés és az összes értékelés közötti arányt"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_close_reason_view_form
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "Cancel"
+msgstr "Mégsem"
+
+#. module: sale_subscription
+#: model:product.product,name:sale_subscription.product_car_leasing
+#: model:product.template,name:sale_subscription.product_car_leasing_product_template
+msgid "Car Leasing (SUB)"
+msgstr ""
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__stage_category
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_log__category
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_stage__category
+msgid "Category"
+msgstr "Kategória"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_log__amount_signed
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order_log__event_type__1_change
+msgid "Change in MRR"
+msgstr "Változás az MMR-ben"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_log__amount_company_currency
+msgid "Change in MRR (company currency)"
+msgstr "Változás az MMR-ben (vállalat pénzneme)"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "Change plan"
+msgstr "Üzemezés megváltoztatása"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__child_ids
+msgid "Child Actions"
+msgstr "Alárendelt műveletek"
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order_alert__child_ids
+msgid "Child server actions that will be executed. Note that the last return returned action value will be used as global return value."
+msgstr "Alárendelt szerver műveletek, amelyek végre lesznek hajtva. Vegye figyelembe, hogy az utolsó művelet visszatérő értékét használja fel, mint globális visszatérő érték."
+
+#. module: sale_subscription
+#. openerp-web
+#: code:addons/sale_subscription/static/src/js/tours/sale_subscription.js:0
+#, python-format
+msgid "Choose a product name.<br/><i>(e.g. eLearning Access)</i>"
+msgstr "Válasszon termék nevet.<br/><i>(pl.: eAkadémia hozzáférés)</i>"
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order_alert__sms_method
+msgid ""
+"Choose method for SMS sending:\n"
+"SMS: mass SMS\n"
+"Post as Message: log on document\n"
+"Post as Note: mass SMS with archives"
+msgstr ""
+"Válassza ki az SMS-küldés módját:\n"
+"SMS: tömeges SMS\n"
+"Küldés mint üzenet: naplózás a dokumentumban\n"
+"Küldés mint megjegyzés: tömeges SMS archiválással"
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order_alert__mail_post_method
+msgid ""
+"Choose method for email sending:\n"
+"EMail: send directly emails\n"
+"Post as Message: post on document and notify followers\n"
+"Post as Note: log a note on document"
+msgstr ""
+
+#. module: sale_subscription
+#. openerp-web
+#: code:addons/sale_subscription/static/src/js/tours/sale_subscription.js:0
+#, python-format
+msgid "Choose the recurrence for this template.<br/><i>(e.g. 1 time per Year)</i>"
+msgstr "Válasszon ismétlődést ehhez a sablonhoz.<br/><i>(pl.: 1x egy éveben)</i>"
+
+#. module: sale_subscription
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order_log__event_type__2_churn
+msgid "Churn"
+msgstr "Lemorzsolódás"
+
+#. module: sale_subscription
+#. openerp-web
+#: code:addons/sale_subscription/static/src/js/tours/sale_subscription.js:0
+#, python-format
+msgid "Click here to create <b>your first subscription template</b>"
+msgstr "Kattintson ide, az <b> az első előfizetési sablon </b> létrehozásához"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_order_view_form
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "Close"
+msgstr "Bezárás"
+
+#. module: sale_subscription
+#: model:ir.actions.act_window,name:sale_subscription.sale_subscription_close_reason_wizard_action
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__close_reason_id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_close_reason_wizard__close_reason_id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__close_reason_id
+msgid "Close Reason"
+msgstr "Lezárás oka"
+
+#. module: sale_subscription
+#: model:ir.actions.act_window,name:sale_subscription.sale_subscription_close_reason_action
+#: model:ir.ui.menu,name:sale_subscription.menu_sale_subscription_close_reason_action
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_close_reason_view_form
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_close_reason_view_tree
+msgid "Close Reasons"
+msgstr "Lezárás okai"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "Close Subscription"
+msgstr "Előfizetés lezárása"
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/controllers/portal.py:0
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order_log__category__closed
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order_stage__category__closed
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_subscription_report__stage_category__closed
+#: model:sale.order.stage,name:sale_subscription.sale_subscription_stage_closed
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_order_view_form
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
+#, python-format
+msgid "Closed"
+msgstr "Bezárt"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_search
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
+msgid "Closed subscriptions"
+msgstr "Lezárt előfizetések"
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/controllers/portal.py:0
+#, python-format
+msgid "Closing text: %s"
+msgstr "Lezáró szöveg: %s"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_template__color
+msgid "Color"
+msgstr "Szín"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__commercial_partner_id
+msgid "Commercial Entity"
+msgstr "Hivatalos entitás"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__company_id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_log__company_id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__company_id
+msgid "Company"
+msgstr "Vállalat"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_log__company_currency_id
+msgid "Company Currency"
+msgstr "Vállalat pénzneme"
+
+#. module: sale_subscription
+#: model:ir.ui.menu,name:sale_subscription.menu_sale_subscription_config
+msgid "Configuration"
+msgstr "Beállítások"
+
+#. module: sale_subscription
+#. openerp-web
+#: code:addons/sale_subscription/static/src/js/tours/sale_subscription.js:0
+#, python-format
+msgid "Configure your subscription templates here"
+msgstr "Állítsa be az előfizetési sablonjait itt"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "Confirm"
+msgstr "Megerősítés"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
+msgid "Confirmed and not yet started"
+msgstr ""
+
+#. module: sale_subscription
+#: model:ir.model,name:sale_subscription.model_res_partner
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "Contact"
+msgstr "Névjegy"
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order_template__recurring_rule_type
+msgid "Contract duration"
+msgstr "Szerződés időtartama"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__payment_exception
+#, fuzzy
+#| msgid "Action Description"
+msgid "Contract in exception"
+msgstr "Művelet leírása"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
+msgid "Contracts whose payment has failed"
+msgstr ""
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__country_id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__country_id
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_search
+msgid "Country"
+msgstr "Ország"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_order_view_form
+msgid "Create Invoice"
+msgstr "Számla készítése"
+
+#. module: sale_subscription
+#: model_terms:ir.actions.act_window,help:sale_subscription.product_action_subscription
+msgid "Create a new product"
+msgstr "Új terméket"
+
+#. module: sale_subscription
+#: model_terms:ir.actions.act_window,help:sale_subscription.sale_subscription_action
+#: model_terms:ir.actions.act_window,help:sale_subscription.sale_subscription_action_filtered
+msgid "Create a new subscription"
+msgstr "Új előfizetést"
+
+#. module: sale_subscription
+#: model_terms:ir.actions.act_window,help:sale_subscription.sale_subscription_alert_action
+msgid "Create a new subscription alert"
+msgstr "Hozzon létre új előfizetés figyelmeztetést"
+
+#. module: sale_subscription
+#: model_terms:ir.actions.act_window,help:sale_subscription.sale_subscription_stage_action
+msgid "Create a new subscription stage"
+msgstr "Hozzon létre új előfizetés szakaszt"
+
+#. module: sale_subscription
+#: model_terms:ir.actions.act_window,help:sale_subscription.sale_subscription_template_action
+msgid "Create a new template of subscription"
+msgstr "Hozzon létre új előfizetés sablont"
+
+#. module: sale_subscription
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order_alert__action__next_activity
+msgid "Create next activity"
+msgstr "Következő tevékenység létrehozása"
+
+#. module: sale_subscription
+#: model_terms:ir.actions.act_window,help:sale_subscription.sale_subscription_action
+msgid ""
+"Create subscriptions to manage recurring invoicing and payments. Subscriptions can\n"
+"                be time-bounded or not. In case of a limited period, they are flagged as to be renewed\n"
+"                one month from the end date."
+msgstr ""
+"Hozzon létre előfizetéseket az ismétlődő számlázás és kifizetések kezeléséhez. Az előfizetések\n"
+"                időhöz kötöttek is lehetnek vagy nem. Határozott időtartam esetén megújítandónak jelölhetők.\n"
+"                a lejárati dátumtól számított egy hónap múlva."
+
+#. module: sale_subscription
+#. openerp-web
+#: code:addons/sale_subscription/static/src/js/tours/sale_subscription.js:0
+#, python-format
+msgid "Create your first subscription product here"
+msgstr "Hozza létre az első előfizetés termékét itt"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__create_uid
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_close_reason__create_uid
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_log__create_uid
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_stage__create_uid
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_close_reason_wizard__create_uid
+msgid "Created by"
+msgstr "Létrehozta"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__create_date
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_close_reason__create_date
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_stage__create_date
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_close_reason_wizard__create_date
+msgid "Created on"
+msgstr "Létrehozva"
+
+#. module: sale_subscription
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order__subscription_management__create
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order_log__event_type__0_creation
+msgid "Creation"
+msgstr "Létrehozás"
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order__subscription_management
+msgid ""
+"Creation: The Sales Order created the subscription\n"
+"Upsell: The Sales Order added lines to the subscription\n"
+"Renewal: The Sales Order replaced the subscription's content with its own"
+msgstr ""
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__cron_nextcall
+msgid "Cron Nextcall"
+msgstr "Cron következő futás"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__currency_id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_log__currency_id
+msgid "Currency"
+msgstr "Pénznem"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "Current Plan:"
+msgstr "Aktuális ütemezés:"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__partner_id
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_search
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
+msgid "Customer"
+msgstr "Vevő"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__commercial_partner_id
+msgid "Customer Company"
+msgstr "Vevő vállalat"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__customer_ids
+msgid "Customers"
+msgstr "Vevők"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_log__create_date
+msgid "Date"
+msgstr "Dátum"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__next_invoice_date
+msgid "Date of Next Invoice"
+msgstr "Következő számlázás dátuma"
+
+#. module: sale_subscription
+#: model_terms:ir.actions.act_window,help:sale_subscription.sale_subscription_action_pending
+msgid "Define a new subscription"
+msgstr "Határozzon meg egy új előfizetést"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
+msgid "Delay After Trigger"
+msgstr "Késletetés indulás után"
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order_alert__trg_date_range
+#, fuzzy
+#| msgid ""
+#| "Delay after the trigger date.\n"
+#| "                                    You can put a negative number if you need a delay before the\n"
+#| "                                    trigger date, like sending a reminder 15 minutes before a meeting."
+msgid ""
+"Delay after the trigger date.\n"
+"        You can put a negative number if you need a delay before the\n"
+"        trigger date, like sending a reminder 15 minutes before a meeting."
+msgstr ""
+"A emlékeztető dátumának késleltetése.\n"
+"                                    Negatív számot is írhat ha az emlékeztető kapcsolására az\n"
+"                                    emlékeztető ideje előtt van szüksége, mint emlékeztető küldése 15 perccel a találkozó előtt."
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__trg_date_range
+msgid "Delay after trigger date"
+msgstr "Késleltetés az indítás dátuma után"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__trg_date_range_type
+msgid "Delay type"
+msgstr "Késleltetés típusa"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
+msgid "Destination"
+msgstr "Cél"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__display_name
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_close_reason__display_name
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_log__display_name
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_stage__display_name
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_close_reason_wizard__display_name
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__display_name
+msgid "Display Name"
+msgstr "Megjelenített név"
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order_template__bad_health_domain
+msgid "Domain used to change subscription's Kanban state with a 'Bad' rating"
+msgstr "Az előfizetés Kanban állapotának „rossz” besorolással történő megváltoztatásához használt domain"
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order_template__good_health_domain
+msgid "Domain used to change subscription's Kanban state with a 'Good' rating"
+msgstr "Az előfizetés Kanban állapotának „jó” besorolással történő megváltoztatásához használt domain"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "Download"
+msgstr "Letöltés"
+
+#. module: sale_subscription
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order_log__category__draft
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_subscription_report__stage_category__draft
+msgid "Draft"
+msgstr "Tervezet"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__activity_date_deadline_range
+msgid "Due Date In"
+msgstr "Esedékes"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__activity_date_deadline_range_type
+msgid "Due type"
+msgstr "Esedékesség típusa"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_template__recurring_rule_boundary
+msgid "Duration"
+msgstr "Időtartam"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__template_id
+msgid "Email Template"
+msgstr "E-mail sablon"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_template__recurring_rule_count
+msgid "End After"
+msgstr "Befejezés ezután"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__end_date
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__end_date
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_search
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
+msgid "End Date"
+msgstr "Befejezés dátuma"
+
+#. module: sale_subscription
+#. openerp-web
+#: code:addons/sale_subscription/static/src/js/tours/sale_subscription.js:0
+#, python-format
+msgid "Enter a name for this template.<br/><i>(e.g. eLearning Yearly)</i>"
+msgstr "Írjon be egy sablon nevet.<br/> <i> (pl.: eAkadémia Éves) </i>"
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order_stage__description
+msgid "Enter here the internal requirements for this stage. It will appear as a tooltip over the stage's name."
+msgstr "Írja ide a szakasz belső követelményeit. Ez súgóként jelenik meg a szakasz neve felett."
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/models/sale_order.py:0
+#, python-format
+msgid "Error during renewal of contract %s (Payment not recorded)"
+msgstr ""
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/models/sale_order.py:0
+#, python-format
+msgid "Error: unable to put the subscription in a closed stage"
+msgstr ""
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_log__event_date
+msgid "Event Date"
+msgstr "Esemény dátum"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_search
+msgid "Expired"
+msgstr "Lejárt"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__xml_id
+msgid "External ID"
+msgstr "Külső azonosító"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
+msgid "Failed Payments"
+msgstr ""
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order_alert__on_change_field_ids
+msgid "Fields that trigger the onchange."
+msgstr "Mezők amelyek onchange-t indítanak."
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__origin_order_id
+msgid "First contract"
+msgstr "Első szerződés"
+
+#. module: sale_subscription
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order_template__recurring_rule_boundary__limited
+msgid "Fixed"
+msgstr "Állandó"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_stage__fold
+msgid "Folded in Kanban"
+msgstr "Kanban nézetben behajtott"
+
+#. module: sale_subscription
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order_template__recurring_rule_boundary__unlimited
+msgid "Forever"
+msgstr "Örökké"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+#, fuzzy
+#| msgid "Sequence"
+msgid "Frequency:"
+msgstr "Sorszám"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
+msgid "Future Activities"
+msgstr "Jövőbeli tevékenységek"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_stage_view_form
+msgid "Give your team the requirements to move a subscription to this stage."
+msgstr "Mondja el a csapata számára az előfizetés ezen szakaszra történő áthelyezésének követelményeit."
+
+#. module: sale_subscription
+#. openerp-web
+#: code:addons/sale_subscription/static/src/js/tours/sale_subscription.js:0
+#, python-format
+msgid "Go ahead and create a new product"
+msgstr "Menjen és készítsen egy új terméket"
+
+#. module: sale_subscription
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order__health__done
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_subscription_report__health__done
+msgid "Good"
+msgstr "Jó"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_template__good_health_domain
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_search
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_template_view_form
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
+msgid "Good Health"
+msgstr "Jó egészség"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_search
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
+msgid "Group By"
+msgstr "Csoportosítás"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__groups_id
+msgid "Groups"
+msgstr "Csoportok"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_kanban
+msgid "Happy face"
+msgstr "Boldog arc"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__health
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__health
+msgid "Health"
+msgstr "Egészség"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_template_view_form
+msgid "Health Check"
+msgstr "Egészség ellenőrzés"
+
+#. module: sale_subscription
+#: model:ir.module.category,description:sale_subscription.module_category_subscription_management
+msgid "Helps you handle subscriptions and recurring invoicing."
+msgstr "Segítséget nyújt az előfizetések és ismétlődő számlázás kezelésében."
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "History"
+msgstr "Előzmények"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__history_count
+msgid "History Count"
+msgstr "Előzmények száma"
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/models/product_pricing.py:0
+#, python-format
+msgid "Hourly and daily pricing are forbidden on recurring products"
+msgstr ""
+
+#. module: sale_subscription
+#: model:sale.order.close.reason,name:sale_subscription.close_reason_4
+msgid "I don't use it"
+msgstr "Nem használom"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_close_reason__id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_log__id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_stage__id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_close_reason_wizard__id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__id
+msgid "ID"
+msgstr "Azonosító"
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order_alert__xml_id
+msgid "ID of the action if defined in a XML file"
+msgstr "A művelet azonosítója, ha meg van határozva az XML fájlban"
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order_template__user_closable
+msgid "If checked, the user will be able to close his account from the frontend"
+msgstr "Ha be van jelölve, akkor a felhasználó bezárhatja fiókját a fontend-ből"
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order__payment_token_id
+msgid "If not set, the automatic payment will fail."
+msgstr "Ha nincs beállítva, az automatikus fizetés sikertelen lesz."
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order_alert__filter_domain
+msgid "If present, this condition must be satisfied before executing the action rule."
+msgstr "Ha létezik, akkor ennek a feltételnek teljesülnie kell a műveleti szabály végrehajtása előtt."
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order_alert__filter_pre_domain
+msgid "If present, this condition must be satisfied before the update of the record."
+msgstr "Ha létezik, ennek a feltételnek teljesülnie kell a rekord frissítése előtt."
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order__end_date
+msgid "If set in advance, the subscription will be set to renew 1 month before the date and will be closed on the date set in this field."
+msgstr "Ha előzetesen meghatározzák, akkor az előfizetés a dátum előtt 1 hónappal megújul, és a mezőben megadott napon zárul."
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_product_product__recurring_invoice
+#: model:ir.model.fields,help:sale_subscription.field_product_template__recurring_invoice
+#: model:ir.model.fields,help:sale_subscription.field_sale_order_template_line__recurring_invoice
+#: model:ir.model.fields,help:sale_subscription.field_sale_order_template_option__recurring_invoice
+msgid "If set, confirming a sale order with this product will create a subscription"
+msgstr "Ha beállított, akkor ezzel a termékkel egy vevői megrendelés jóváhagyása egy előfizetést fog létrehozni"
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order_template__journal_id
+msgid "If set, subscriptions with this template will invoice in this journal; otherwise the sales journal with the lowest sequence is used."
+msgstr "Ha be van állítva, akkor a sablonnal történő előfizetések számláznak ebben a naplóban; egyébként a legalacsonyabb sorrendű értékesítési naplót használja."
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order_template__auto_close_limit
+msgid "If the chosen payment method has failed to renew the subscription after this time, the subscription is automatically closed."
+msgstr "Ha a választott fizetési mód az előfizetés meghosszabbítása után nem sikerült, az előfizetés automatikusan lezárul.."
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "If you confirm, your subscription will be closed right away. Your current invoicing period is valid until"
+msgstr "Ha megerősíti, előfizetését azonnal lezárják. Jelenlegi számlázási periódusa érvényes"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "If you wish to reopen it, the"
+msgstr "Ha újra szeretné nyitni, akkor a"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "If you wish to reopen it, you can pay your invoice for the current invoicing period."
+msgstr "Ha újra szeretné nyitni, akkor kifizetheti a számlát az aktuális számlázási időszakra."
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/controllers/portal.py:0
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order_log__category__progress
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order_stage__category__progress
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_subscription_report__stage_category__progress
+#: model:sale.order.stage,name:sale_subscription.sale_subscription_stage_in_progress
+#, python-format
+msgid "In Progress"
+msgstr "Folyamatban"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__industry_id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__industry_id
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_search
+msgid "Industry"
+msgstr "Iparág"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
+msgid "Initial"
+msgstr "Kezdeti"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_template_view_form
+msgid "Invoice Email"
+msgstr "Számla email"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_template__invoice_mail_template_id
+msgid "Invoice Email Template"
+msgstr "Számla e-mail sablon"
+
+#. module: sale_subscription
+#: model:mail.template,subject:sale_subscription.email_payment_success
+#, fuzzy
+#| msgid "Invoice for subscription ${ctx.get('code')}"
+msgid "Invoice for subscription {{ ctx.get('code', ctx.get('subscription_name')) }}"
+msgstr "Ennek a feliratkozásnak a számlája ${ctx.get('code')}"
+
+#. module: sale_subscription
+#: model:mail.template,report_name:sale_subscription.mail_template_subscription_invoice
+msgid "Invoice_{{ (object.name or '').replace('/','_') }}{{ object.state == 'draft' and '_draft' or '' }}"
+msgstr "Számla_{{ (object.name or '').replace('/','_') }}{{ object.state == 'draft' and '_draft' or '' }}"
+
+#. module: sale_subscription
+#: model:mail.template,report_name:sale_subscription.email_payment_success
+msgid "Invoice_{{ ctx.get('code', ctx.get('subscription_name')) }}_{{ format_date(ctx.get('previous_date')) }}"
+msgstr "Számla_{{ ctx.get('code', ctx.get('subscription_name')) }}_{{ format_date(ctx.get('previous_date')) }}"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_template__journal_id
+msgid "Invoicing Journal"
+msgstr "Számlázási napló"
+
+#. module: sale_subscription
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order_stage__category__paused
+msgid "Invoicing Pause"
+msgstr "Számlázás szüneteltetése"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_template__is_subscription
+msgid "Is Subscription"
+msgstr "Előfizetés"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__is_upselling
+#, fuzzy
+#| msgid "Upselling"
+msgid "Is Upselling"
+msgstr "Upselling, magasabb értékű értékesítés"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__is_batch
+msgid "Is a Batch"
+msgstr ""
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__is_invoice_cron
+#, fuzzy
+#| msgid "Subscription Lines"
+msgid "Is a Subscription invoiced in cron"
+msgstr "Előjegyzés sorok"
+
+#. module: sale_subscription
+#: model:ir.model,name:sale_subscription.model_account_move
+msgid "Journal Entry"
+msgstr "Napló tétel"
+
+#. module: sale_subscription
+#: model:ir.model,name:sale_subscription.model_account_move_line
+msgid "Journal Item"
+msgstr "Napló tételsor"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__kpi_1month_mrr_delta
+msgid "KPI 1 Month MRR Delta"
+msgstr "KPI 1 Hónap MRR Delta"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__kpi_1month_mrr_percentage
+msgid "KPI 1 Month MRR Percentage"
+msgstr "KPI 1 Hónap MRR Százalék"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__kpi_3months_mrr_percentage
+msgid "KPI 3 Months MRR Percentage"
+msgstr "KPI 3 Hónap MRR Százalék"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__kpi_3months_mrr_delta
+msgid "KPI 3 months MRR Delta"
+msgstr "KPI 3 hónap MRR Delta"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert____last_update
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_close_reason____last_update
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_log____last_update
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_stage____last_update
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_close_reason_wizard____last_update
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report____last_update
+msgid "Last Modified on"
+msgstr "Utolsó módosítás ideje"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__last_run
+msgid "Last Run"
+msgstr "Legutóbbi futás"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__write_uid
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_close_reason__write_uid
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_log__write_uid
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_stage__write_uid
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_close_reason_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Utoljára frissítette"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__write_date
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_close_reason__write_date
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_log__write_date
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_stage__write_date
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_close_reason_wizard__write_date
+msgid "Last Updated on"
+msgstr "Utolsó frissítés ideje"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__last_invoice_date
+msgid "Last invoice date"
+msgstr "Utolsó számlázás dátuma"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
+msgid "Late Activities"
+msgstr "Elkésett tevékenységek"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_kanban
+msgid "Latest Rating: Dissatisfied"
+msgstr "Legutóbbi értékelés: Nem elégedett"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_kanban
+msgid "Latest Rating: Okay"
+msgstr "Legutóbbi értékelés: Semleges"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_kanban
+msgid "Latest Rating: Satisfied"
+msgstr "Legutóbbi értékelés: Elégedett"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__least_delay_msg
+msgid "Least Delay Msg"
+msgstr "Legkisebb késleltetés üzenet"
+
+#. module: sale_subscription
+#. openerp-web
+#: code:addons/sale_subscription/static/src/js/tours/sale_subscription.js:0
+#, python-format
+msgid "Let's create your first subscription template."
+msgstr "Készítsük el az Ön első előfizetési sablonját."
+
+#. module: sale_subscription
+#. openerp-web
+#: code:addons/sale_subscription/static/src/js/tours/sale_subscription.js:0
+#, python-format
+msgid "Let's go to the catalog to create our first subscription product"
+msgstr "Lépjünk be a katalógusba és készítsük el az első előfizetési termékünket"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__link_field_id
+msgid "Link Field"
+msgstr "Link mező"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
+msgid "Log a note..."
+msgstr "Megjegyzés rögzítése..."
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_order_view_form
+msgid "MRR"
+msgstr "MRR"
+
+#. module: sale_subscription
+#: model:ir.actions.act_window,name:sale_subscription.action_sale_order_log
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_order_log_view_graph
+msgid "MRR Analysis"
+msgstr "MRR elemzés"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
+msgid "MRR Between"
+msgstr "MRR között"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__mrr_change_amount
+msgid "MRR Change Amount"
+msgstr "MRR változás összeg"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
+msgid "MRR Change More"
+msgstr "MRR változás több"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__mrr_change_period
+msgid "MRR Change Period"
+msgstr "MRR változás időszak"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__mrr_change_unit
+msgid "MRR Change Unit"
+msgstr "MRR változás darab"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__mrr_max
+msgid "MRR Range Max"
+msgstr "MRR tartomány max"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__mrr_min
+msgid "MRR Range Min"
+msgstr "tartomány min"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_log__recurring_monthly
+msgid "MRR after Change"
+msgstr "MMR a változás után"
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/models/sale_order.py:0
+#, python-format
+msgid "MRR changes"
+msgstr ""
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order_log__recurring_monthly
+msgid "MRR, after applying the changes of that particular event"
+msgstr "MRR, az adott esemény változásainak alkalmazása után"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_order_digest
+msgid "MRR:"
+msgstr "MRR:"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "Manage Payment Method"
+msgstr "Fizetési módszer kezelése"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "Manage Payment Methods"
+msgstr "Fizetési módszerek kezelése"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "Managing payment methods requires to be logged in under the customer order."
+msgstr ""
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/models/sale_order.py:0
+#, python-format
+msgid "Manual payment succeeded. Payment reference: %s; Amount: %(amount)s. Invoice %(invoice)s"
+msgstr ""
+
+#. module: sale_subscription
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order_alert__action__set_to_renew
+msgid "Mark as To Renew"
+msgstr "Jelölés megújítandóként"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__starred_user_ids
+msgid "Members"
+msgstr "Tagok"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__model_id
+msgid "Model"
+msgstr "Modell"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__model_name
+msgid "Model Name"
+msgstr "Modell név"
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order_alert__crud_model_id
+msgid "Model for record creation / update. Set this field only to specify a different model than the base model."
+msgstr "Modell rekord készítéséhes / frissítéséhez. Csak akkor állítsa be, ha az alap modelltől eltérő modellt szeretne használni."
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order_alert__model_id
+msgid "Model on which the server action runs."
+msgstr "Modell amegyen a szerver művelet fut."
+
+#. module: sale_subscription
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order_alert__trigger_condition__on_create_or_write
+msgid "Modification"
+msgstr "Módosítás"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_account_move_line__subscription_mrr
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__recurring_monthly
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_line__recurring_monthly
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__recurring_monthly
+msgid "Monthly Recurring Revenue"
+msgstr "Havi ismétlődő bevétel"
+
+#. module: sale_subscription
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order_template__recurring_rule_type__month
+msgid "Months"
+msgstr "Hónap"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
+msgid "My Orders"
+msgstr "Rendeléseim"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_search
+msgid "My Subscriptions"
+msgstr "Előfizetéseim"
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/controllers/portal.py:0
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__name
+#, python-format
+msgid "Name"
+msgstr "Név"
+
+#. module: sale_subscription
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order__health__normal
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_subscription_report__health__normal
+msgid "Neutral"
+msgstr "Semleges"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_kanban
+msgid "Neutral face"
+msgstr "Semleges arc"
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/controllers/portal.py:0
+#, python-format
+msgid "Newest"
+msgstr "Legújabb"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_tree
+msgid "Next Invoice"
+msgstr "Következő számla"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
+msgid "Next Invoice Date"
+msgstr "Következő számlázás dátuma"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_order_digest
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "Next Invoice:"
+msgstr "Következő számla:"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_template_view_form
+msgid "None"
+msgstr "Nincs"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.view_sales_order_filter_subscription
+msgid "Not Recurring"
+msgstr "Nem ismétlődő"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
+msgid "Not Started Yet"
+msgstr "Még nem kezdődött el"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__activity_note
+msgid "Note"
+msgstr "Megjegyzés"
+
+#. module: sale_subscription
+#: model_terms:ir.actions.act_window,help:sale_subscription.sale_subscription_action_pending
+msgid ""
+"Odoo automatically sets subscriptions to be renewed in a pending\n"
+"            state. After the negotiation, the salesman should close or renew\n"
+"            pending subscriptions."
+msgstr ""
+"Az Odoo automatikusan beállítja az előfizetések megújítását függőben\n"
+"            lévő állapotba. A tárgyalást követően az értékesítőnek le kell zárnia vagy meg kell újítania a\n"
+"            függőben lévő előfizetéseket."
+
+#. module: sale_subscription
+#: model:product.product,name:sale_subscription.product_office_cleaning
+#: model:product.template,name:sale_subscription.product_office_cleaning_product_template
+#: model:sale.order.template.line,name:sale_subscription.montly_template_line
+#: model:sale.order.template.line,name:sale_subscription.yearly_template_line
+msgid "Office Cleaning Service (SUB)"
+msgstr ""
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__on_change_field_ids
+msgid "On Change Fields Trigger"
+msgstr "Mezők megváltoztatásakor indit"
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/models/sale_order_template.py:0
+#, python-format
+msgid "Operation not supported"
+msgstr "Művelet nem támogatott"
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order_alert__help
+msgid "Optional help text for the users with a description of the target view, such as its usage and purpose."
+msgstr "Opcionális segédszöveg felhasználóknak. Tartalmaz egy leírást a célnézetről, úgy mint a használata és a célja."
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
+msgid "Order"
+msgstr "Rendelés"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__date_order
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_search
+msgid "Order Date"
+msgstr "Rendelés dátuma"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_order_view_tree_subscription
+msgid "Order Number"
+msgstr "Megrendelés szám"
+
+#. module: sale_subscription
+#: model:sale.order.close.reason,name:sale_subscription.close_reason_5
+msgid "Other"
+msgstr "Egyéb"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
+msgid "Over"
+msgstr "Felett"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__subscription_id
+msgid "Parent Contract"
+msgstr "Szülő szerződés"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_line__parent_line_id
+#, fuzzy
+#| msgid "Payment Mode"
+msgid "Parent Line"
+msgstr "Fizetési mód"
+
+#. module: sale_subscription
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order_log__category__paused
+msgid "Paused"
+msgstr "Szüneteltetve"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "Pay Recurrently With"
+msgstr "Ismétlődő fizetés a következővel"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "Pay With"
+msgstr "Fizetés ezzel"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_order_view_form
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_kanban
+#, fuzzy
+#| msgid "Payment Mode"
+msgid "Payment Failure"
+msgstr "Fizetési mód"
+
+#. module: sale_subscription
+#: model:ir.model,name:sale_subscription.model_payment_token
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__payment_token_id
+msgid "Payment Token"
+msgstr "Fizetési token"
+
+#. module: sale_subscription
+#: model:ir.model,name:sale_subscription.model_payment_transaction
+msgid "Payment Transaction"
+msgstr "Fizetési tranzakció"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "Payment method:"
+msgstr "Fizetési módszer:"
+
+#. module: sale_subscription
+#: model:mail.template,subject:sale_subscription.email_payment_reminder
+#, fuzzy
+#| msgid "Payment reminder for subscription ${object.code}"
+msgid "Payment reminder for subscription {{ object.client_order_ref or object.name }}"
+msgstr "Fizetési emlékeztető ehhez a feliratkozáshoz ${object.code}"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_search
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
+msgid "Pending subscriptions"
+msgstr "Függőben lévő előfizetések"
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order_alert__mrr_change_period
+msgid "Period over which the KPI is calculated"
+msgstr "A KPI kiszámításának időszaka"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "Plan Details"
+msgstr "Ütemezés részletei"
+
+#. module: sale_subscription
+#. openerp-web
+#: code:addons/sale_subscription/static/src/js/manage_form.js:0
+#, python-format
+msgid "Please provide another payment method for these subscriptions."
+msgstr ""
+
+#. module: sale_subscription
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order_template__payment_mode__validate_send
+msgid "Post and Send"
+msgstr ""
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__pricelist_id
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
+msgid "Pricelist"
+msgstr "Árlista"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_line__pricing_id
+msgid "Pricing"
+msgstr "Árazás"
+
+#. module: sale_subscription
+#: model:ir.model,name:sale_subscription.model_product_pricing
+msgid "Pricing rule of temporal products"
+msgstr ""
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "Print"
+msgstr "Nyomtatás"
+
+#. module: sale_subscription
+#: model:ir.model,name:sale_subscription.model_product_template
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__product_id
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "Product"
+msgstr "Termék"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__categ_id
+msgid "Product Category"
+msgstr "Termék kategória"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__product_tmpl_id
+msgid "Product Template"
+msgstr "Termék sablon"
+
+#. module: sale_subscription
+#: model:ir.actions.act_window,name:sale_subscription.product_action_subscription
+#: model:ir.ui.menu,name:sale_subscription.menu_sale_subscription_product
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
+msgid "Products"
+msgstr "Termékek"
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order_alert__link_field_id
+msgid "Provide the field used to link the newly created record on the record used by the server action."
+msgstr "Adja meg az újonnan létrehozott rekordnak a szerver művelet által használt rekordhoz való kapcsolásához használt mezőt."
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__code
+msgid "Python Code"
+msgstr "Python kód"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__quantity
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "Quantity"
+msgstr "Mennyiség"
+
+#. module: sale_subscription
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order_stage__category__draft
+#: model:sale.order.stage,name:sale_subscription.sale_subscription_stage_draft
+msgid "Quotation"
+msgstr "Árajánlat"
+
+#. module: sale_subscription
+#: model:ir.model,name:sale_subscription.model_sale_order_template
+msgid "Quotation Template"
+msgstr "Árajánlat sablon"
+
+#. module: sale_subscription
+#: model:ir.model,name:sale_subscription.model_sale_order_template_line
+#, fuzzy
+#| msgid "Subscription Template"
+msgid "Quotation Template Line"
+msgstr "Feliratkozási sablon"
+
+#. module: sale_subscription
+#: model:ir.model,name:sale_subscription.model_sale_order_template_option
+#, fuzzy
+#| msgid "Subscription Template"
+msgid "Quotation Template Option"
+msgstr "Feliratkozási sablon"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_order_digest
+#, fuzzy
+#| msgid "Subscription Template"
+msgid "Quotation Template:"
+msgstr "Feliratkozási sablon"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__subscription_template_ids
+#, fuzzy
+#| msgid "Subscription Templates"
+msgid "Quotation templates"
+msgstr "Feliratkozási sablonok"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__rating_ids
+msgid "Rating"
+msgstr "Értékelés"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__rating_avg_text
+#, fuzzy
+#| msgid "Rating Average"
+msgid "Rating Avg Text"
+msgstr "Értékelés átlaga"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_stage__rating_template_id
+msgid "Rating Email Template"
+msgstr "Értékelés e-mail sablon"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__rating_last_feedback
+msgid "Rating Last Feedback"
+msgstr "Legutóbbi értékelés visszajelzés"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__rating_last_image
+msgid "Rating Last Image"
+msgstr "Legutóbbi értékelés kép"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__rating_last_value
+msgid "Rating Last Value"
+msgstr "Legutóbbi értékelés érték"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__rating_operator
+msgid "Rating Operator"
+msgstr "Értékelés operátor"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__rating_percentage
+msgid "Rating Percentage"
+msgstr "Értékelés százalék"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__rating_percentage_satisfaction
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
+msgid "Rating Satisfaction"
+msgstr "Értékelés elégedettség"
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order_alert__rating_percentage
+msgid "Rating Satisfaction is the ratio of positive rating to total number of rating."
+msgstr "Az értékelési elégedettség, pozitív értékelések aránya az értékelések teljes számához viszonyítva."
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__rating_last_text
+#, fuzzy
+#| msgid "Rating"
+msgid "Rating Text"
+msgstr "Értékelés"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__rating_count
+msgid "Rating count"
+msgstr "Értékelések száma"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_close_reason__name
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_close_reason_view_form
+msgid "Reason"
+msgstr "Oka"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__recurrence_id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_template__recurrence_id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_template_line__recurrence_id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_template_option__recurrence_id
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_order_line_view_tree
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
+msgid "Recurrence"
+msgstr "Ismétlődés"
+
+#. module: sale_subscription
+#: model:ir.ui.menu,name:sale_subscription.menu_sale_subscription_periods
+msgid "Recurrence periods"
+msgstr "Ismétlődés periódusok"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__is_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.product_template_view_form_recurring
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_order_view_form
+#: model_terms:ir.ui.view,arch_db:sale_subscription.view_sales_order_filter_subscription
+msgid "Recurring"
+msgstr "Ismétlődő"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__recurring_total
+msgid "Recurring Price"
+msgstr "Ismétlődő ár"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_template__recurring_rule_type
+#, fuzzy
+#| msgid "Recurring Price"
+msgid "Recurring Rule Type"
+msgstr "Ismétlődő ár"
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/models/sale_order_line.py:0
+#, python-format
+msgid "Recurring product are discounted according to the prorated period from %s to %s"
+msgstr ""
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "Reference:"
+msgstr "Hivatkozás:"
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/models/sale_order.py:0
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_order_view_form
+#, python-format
+msgid "Renew"
+msgstr "Megújítás"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__renew_state
+msgid "Renew State"
+msgstr "Megújítás állapota"
+
+#. module: sale_subscription
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order__subscription_management__renew
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_order_view_form
+msgid "Renewal"
+msgstr "Megújítás"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_payment_transaction__renewal_allowed
+msgid "Renewal Allowed"
+msgstr "Megújítás megengedett"
+
+#. module: sale_subscription
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order__subscription_management__renewal_so
+#, fuzzy
+#| msgid "Renewal"
+msgid "Renewal Quote"
+msgstr "Megújítás"
+
+#. module: sale_subscription
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order__renew_state__renewed
+msgid "Renewed"
+msgstr "Megújított"
+
+#. module: sale_subscription
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order__renew_state__renewing
+msgid "Renewing"
+msgstr "Megújítás alatt"
+
+#. module: sale_subscription
+#: model:ir.ui.menu,name:sale_subscription.menu_sale_subscription_report
+msgid "Reporting"
+msgstr "Jelentés"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_stage__description
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_stage_view_form
+msgid "Requirements"
+msgstr "Követelmények"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__activity_user_id
+msgid "Responsible"
+msgstr "Felelős"
+
+#. module: sale_subscription
+#: model:ir.ui.menu,name:sale_subscription.menu_sale_subscription_report_cohort
+msgid "Retention"
+msgstr "Megtartás"
+
+#. module: sale_subscription
+#: model:ir.actions.act_window,name:sale_subscription.sale_subscription_report_cohort_action
+msgid "Retention Analysis"
+msgstr "Megtartás elemzés"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_search
+msgid "Running"
+msgstr "Folyamatban"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_search
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
+msgid "Running Subscriptions"
+msgstr "Folyamatban lévő előfizetések"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__sms_template_id
+msgid "SMS Template"
+msgstr "SMS sablon"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_kanban
+msgid "Sad face"
+msgstr "Szomorú arc"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_log__order_id
+msgid "Sale Order"
+msgstr "Vevői rendelés"
+
+#. module: sale_subscription
+#: model:ir.model,name:sale_subscription.model_sale_order_alert
+#, fuzzy
+#| msgid "Sales Order Line"
+msgid "Sale Order Alert"
+msgstr "Értékesítési megrendelés sor"
+
+#. module: sale_subscription
+#: model:ir.actions.act_window,name:sale_subscription.action_sale_order_lines
+#, fuzzy
+#| msgid "Sales Order Line"
+msgid "Sale Order Lines"
+msgstr "Értékesítési megrendelés sor"
+
+#. module: sale_subscription
+#: model:ir.model,name:sale_subscription.model_sale_order_log
+#, fuzzy
+#| msgid "Sales Order Line"
+msgid "Sale Order Log"
+msgstr "Értékesítési megrendelés sor"
+
+#. module: sale_subscription
+#: model:ir.model,name:sale_subscription.model_sale_order_stage
+#, fuzzy
+#| msgid "Sales Order Line"
+msgid "Sale Order Stage"
+msgstr "Értékesítési megrendelés sor"
+
+#. module: sale_subscription
+#: model:ir.actions.server,name:sale_subscription.ir_cron_sale_subscription_update_kpi_ir_actions_server
+#: model:ir.cron,cron_name:sale_subscription.ir_cron_sale_subscription_update_kpi
+#: model:ir.cron,name:sale_subscription.ir_cron_sale_subscription_update_kpi
+msgid "Sale Subscription: Update KPI"
+msgstr "Értékesítési előfizetés: Frissítse a KPI-t"
+
+#. module: sale_subscription
+#: model:ir.actions.server,name:sale_subscription.account_analytic_cron_for_invoice_ir_actions_server
+#: model:ir.cron,cron_name:sale_subscription.account_analytic_cron_for_invoice
+#: model:ir.cron,name:sale_subscription.account_analytic_cron_for_invoice
+msgid "Sale Subscription: generate recurring invoices and payments"
+msgstr "Értékesítési előfizetés: ismétlődő számlák és fizetések generálása"
+
+#. module: sale_subscription
+#: model:ir.actions.server,name:sale_subscription.account_analytic_cron_ir_actions_server
+#: model:ir.cron,cron_name:sale_subscription.account_analytic_cron
+#: model:ir.cron,name:sale_subscription.account_analytic_cron
+msgid "Sale Subscription: subscriptions expiration"
+msgstr "Értékesítési előfizetés: az előfizetések lejárta"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.account_analytic_account_view_inherit_sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_order_view_form
+msgid "Sales"
+msgstr "Értékesítés"
+
+#. module: sale_subscription
+#: model:ir.model,name:sale_subscription.model_sale_order
+msgid "Sales Order"
+msgstr "Vevői rendelés"
+
+#. module: sale_subscription
+#: model:ir.model,name:sale_subscription.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Vevői rendelés tétel"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_order_view_tree_subscription
+msgid "Sales Orders"
+msgstr "Vevői rendelések"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__team_ids
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_log__team_id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__team_id
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
+msgid "Sales Team"
+msgstr "Értékesítési csapat"
+
+#. module: sale_subscription
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order_alert__activity_user__channel_leader
+msgid "Sales Team Leader"
+msgstr "Értékesítési csapat vezetője"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_log__user_id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__user_id
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_search
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
+msgid "Salesperson"
+msgstr "Értékesítő"
+
+#. module: sale_subscription
+#. openerp-web
+#: code:addons/sale_subscription/static/src/js/tours/sale_subscription.js:0
+#, python-format
+msgid "Save and you're all set!<br/>Simply sell this product to create a subscription automatically or create a subscription manually!"
+msgstr "Mentse el, és készen áll! <br/> Adja el egyszerűen ezt a terméket, hogy automatikusan létrehozhasson előfizetést, vagy készítsen manuálisan egy előfizetést!"
+
+#. module: sale_subscription
+#. openerp-web
+#: code:addons/sale_subscription/static/src/js/tours/sale_subscription.js:0
+#, python-format
+msgid "Save this template and the modifications you've made to it."
+msgstr "Mentse el ezt a sablont és az elvégzett módosításokat."
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_order_template_view_search
+#, fuzzy
+#| msgid "Product Template"
+msgid "Search Template"
+msgstr "Terméksablon"
+
+#. module: sale_subscription
+#. openerp-web
+#: code:addons/sale_subscription/static/src/js/tours/sale_subscription.js:0
+#, python-format
+msgid "Select your newly created template. Every sale of this product will generate a new subscription!"
+msgstr "Válassza ki az újonnan létrehozott sablont. A termék minden eladása új előfizetést generál!"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_template__user_closable
+msgid "Self closable"
+msgstr ""
+
+#. module: sale_subscription
+#: model_terms:ir.actions.act_window,help:sale_subscription.sale_subscription_action_pending
+msgid ""
+"Send a renewal quotation to the customer.\n"
+"            When it is confirmed, the subscription is running again."
+msgstr ""
+"Küldjön megújítási árajánlatot az vevőnek. \n"
+" Ha az ajánlatot a vevő megerősítette, az előfizetés újra futni fog."
+
+#. module: sale_subscription
+#: model:ir.actions.act_window,name:sale_subscription.sale_subscription_act_window_sms_composer_multi
+#: model:ir.actions.act_window,name:sale_subscription.sale_subscription_act_window_sms_composer_single
+msgid "Send an SMS Text Message"
+msgstr "Küldjön SMS-t"
+
+#. module: sale_subscription
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order_alert__action__sms
+msgid "Send an SMS Text Message to the customer"
+msgstr "Küldjön SMS-t a vevőnek"
+
+#. module: sale_subscription
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order_alert__action__email
+msgid "Send an email to the customer"
+msgstr "Küldjön e-mailt a vevőnek"
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order_stage__rating_template_id
+msgid "Send an email to the customer when the subscription is moved to this stage."
+msgstr "Küldjön e-mailt az ügyfélnek, amikor az előfizetés ezen szakaszba kerül."
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__mail_post_method
+#, fuzzy
+#| msgid "Send"
+msgid "Send as"
+msgstr "Küldés"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__sms_method
+msgid "Send as (SMS)"
+msgstr "Küldés mint (SMS)"
+
+#. module: sale_subscription
+#: model:mail.template,description:sale_subscription.email_payment_success
+msgid "Sent automatically with subscription invoice when payment is successful"
+msgstr ""
+
+#. module: sale_subscription
+#: model:mail.template,description:sale_subscription.mail_template_subscription_invoice
+msgid "Sent manually to customers with the invoice in attachment"
+msgstr ""
+
+#. module: sale_subscription
+#: model:mail.template,description:sale_subscription.email_payment_close
+msgid "Sent to customer to indicate that subscription is automatically terminated"
+msgstr ""
+
+#. module: sale_subscription
+#: model:mail.template,description:sale_subscription.email_payment_reminder
+msgid "Sent to customer when payment failed but subscription is not yet cancelled"
+msgstr ""
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__sequence
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_close_reason__sequence
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_stage__sequence
+msgid "Sequence"
+msgstr "Sorszám"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__action_server_id
+msgid "Server Actions"
+msgstr "Szerver műveletek"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "Set Payment Method"
+msgstr "Fizetési módszer beállítása"
+
+#. module: sale_subscription
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order_alert__action__set_stage
+msgid "Set a stage on the subscription"
+msgstr "Szakasz beállítása az előfizetésen"
+
+#. module: sale_subscription
+#: model:mail.template,description:sale_subscription.mail_template_subscription_rating
+msgid "Set on subscription's stage (e.g. Closed, Upsell) to ask a rating to customers"
+msgstr ""
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order_alert__binding_model_id
+msgid "Setting a value makes this action available in the sidebar for the given model."
+msgstr "Érték megadásával ez a művelet az oldalsávon elérhetővé válik az adott modellhez."
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__show_rec_invoice_button
+msgid "Show Rec Invoice Button"
+msgstr ""
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__starred
+msgid "Show Subscription on dashboard"
+msgstr "Előfizetés mutatása a műszerfalon"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
+msgid "Show all records which has next action date is before today"
+msgstr "Mutassa az összes rekordot melyre a következő műveleti dátum a mai nap előtti"
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order__health
+msgid "Show the health status"
+msgstr "Mutassa az egészségi állapotot"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__product_ids
+msgid "Specific Products"
+msgstr "Meghatározott termékek"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__activity_user_ids
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order_alert__activity_user__users
+msgid "Specific Users"
+msgstr "Meghatározott felhasználók"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__stage_id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__stage_id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__stage_id
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_search
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
+msgid "Stage"
+msgstr "Szakasz"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__stage_category
+msgid "Stage Category"
+msgstr "Szakasz kategória"
+
+#. module: sale_subscription
+#: model:mail.message.subtype,name:sale_subscription.subtype_stage_change
+msgid "Stage Change"
+msgstr "Szakasz változás"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__stage_from_id
+msgid "Stage From"
+msgstr "Szakaszból"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_stage__name
+msgid "Stage Name"
+msgstr "Szakasz neve"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__stage_to_id
+msgid "Stage To"
+msgstr "Szakaszba"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
+msgid "Stage goes from"
+msgstr "A szakasz átváltozott"
+
+#. module: sale_subscription
+#: model:ir.actions.act_window,name:sale_subscription.sale_subscription_stage_action
+msgid "Stages"
+msgstr "Szakaszok"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__start_date
+msgid "Start Date"
+msgstr "Kezdés dátuma"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_order_digest
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "Start Date:"
+msgstr "Kezdés dátuma:"
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/controllers/portal.py:0
+#: model_terms:ir.ui.view,arch_db:sale_subscription.portal_my_subscriptions
+#, python-format
+msgid "Status"
+msgstr "Állapot"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_close_reason_view_form
+msgid "Submit"
+msgstr "Beküldés"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__mail_post_autofollow
+#, fuzzy
+#| msgid "Subscriptions"
+msgid "Subscribe Recipients"
+msgstr "Feliratkozások"
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/models/sale_order.py:0
+#: model:ir.model.fields,field_description:sale_subscription.field_account_move_line__subscription_id
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order_line__temporal_type__subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.portal_my_subscriptions
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_order_template_view_search
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_order_view_cohort
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_search
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_view_cohort
+#, python-format
+msgid "Subscription"
+msgstr "Előfizetés"
+
+#. module: sale_subscription
+#: model:ir.model,name:sale_subscription.model_sale_subscription_report
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_view_tree
+#: model_terms:ir.ui.view,arch_db:sale_subscription.view_subcription_report_graph
+#: model_terms:ir.ui.view,arch_db:sale_subscription.view_subcription_report_pivot
+msgid "Subscription Analysis"
+msgstr "Előfizetés elemzések"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__subscription_child_ids
+#, fuzzy
+#| msgid "Subscription"
+msgid "Subscription Child"
+msgstr "Feliratkozás"
+
+#. module: sale_subscription
+#: model:ir.model,name:sale_subscription.model_sale_order_close_reason
+msgid "Subscription Close Reason"
+msgstr "Előfizetés lezárásának oka"
+
+#. module: sale_subscription
+#: model:ir.model,name:sale_subscription.model_sale_subscription_close_reason_wizard
+msgid "Subscription Close Reason Wizard"
+msgstr "Előfizetés lezárásának oka varázsló"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_account_analytic_account__subscription_count
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__subscription_count
+msgid "Subscription Count"
+msgstr "Előfizetés száma"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__order_log_ids
+msgid "Subscription Logs"
+msgstr "Előfizetési naplók"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__subscription_management
+msgid "Subscription Management"
+msgstr "Előfizetés kezelés"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_primary_form_view
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_template_view_form
+msgid "Subscription Plan"
+msgstr "Előfizetési csomag"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_product_product__recurring_invoice
+#: model:ir.model.fields,field_description:sale_subscription.field_product_template__recurring_invoice
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_template_line__recurring_invoice
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_template_option__recurring_invoice
+msgid "Subscription Product"
+msgstr "Előfizetési termék"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.product_template_search_view_inherit_sale_subscription
+msgid "Subscription Products"
+msgstr "Előfizetési termékek"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_account_move_line__subscription_end_date
+msgid "Subscription Revenue End Date"
+msgstr "Az előfizetés bevételének befejezési dátuma"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_account_move_line__subscription_start_date
+msgid "Subscription Revenue Start Date"
+msgstr "Az előfizetés bevételének kezdési dátuma"
+
+#. module: sale_subscription
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order_alert__activity_user__contract
+msgid "Subscription Salesperson"
+msgstr "Előfizetés értékesítő"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_stage_view_form
+msgid "Subscription Stage"
+msgstr "Élőfizetés szakasz"
+
+#. module: sale_subscription
+#: model:ir.ui.menu,name:sale_subscription.menu_sale_subscription_stage
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_stage_view_list
+msgid "Subscription Stages"
+msgstr "Élőfizetés szakaszok"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__template_id
+msgid "Subscription Template"
+msgstr "Előfizetési sablon"
+
+#. module: sale_subscription
+#: model:sale.order.close.reason,name:sale_subscription.close_reason_2
+msgid "Subscription does not meet my requirements"
+msgstr "Az előfizetés nem felel meg a követelményeimnek"
+
+#. module: sale_subscription
+#: model:sale.order.close.reason,name:sale_subscription.close_reason_1
+msgid "Subscription is too expensive"
+msgstr "Az előfizetés túl drága"
+
+#. module: sale_subscription
+#: model:sale.order.close.reason,name:sale_subscription.close_reason_3
+msgid "Subscription reached its end date"
+msgstr "Az előfizetés elérte a befejezési dátumot"
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order_log__category
+msgid "Subscription stage category when the change occurred"
+msgstr "Az előfizetés szakasz kategóriája amikor a változás történt"
+
+#. module: sale_subscription
+#: model:mail.message.subtype,description:sale_subscription.subtype_stage_change
+msgid "Subscription stage has changed"
+msgstr "Az előfizetési szakasz megváltozott"
+
+#. module: sale_subscription
+#: model:mail.template,name:sale_subscription.mail_template_subscription_alert
+msgid "Subscription: Default Email Alert"
+msgstr "Előfizetés: Alapértelmezett email riasztás"
+
+#. module: sale_subscription
+#: model:sms.template,name:sale_subscription.sms_template_data_default_alert
+msgid "Subscription: Default SMS Alert"
+msgstr "Előfizetés: Alapértelmezett SMS figyelmeztetés"
+
+#. module: sale_subscription
+#: model:mail.template,name:sale_subscription.email_payment_close
+msgid "Subscription: Payment Failure"
+msgstr "Előfizetés: Fizetés sikertelen"
+
+#. module: sale_subscription
+#: model:mail.template,name:sale_subscription.email_payment_reminder
+msgid "Subscription: Payment Reminder"
+msgstr "Előfizetés: Fizetési emlékeztető"
+
+#. module: sale_subscription
+#: model:mail.template,name:sale_subscription.email_payment_success
+msgid "Subscription: Payment Success And Invoice"
+msgstr ""
+
+#. module: sale_subscription
+#: model:sms.template,name:sale_subscription.sms_template_data_payment_failure
+msgid "Subscription: Payment failure"
+msgstr "Előfizetés: fizetési hiba"
+
+#. module: sale_subscription
+#: model:sms.template,name:sale_subscription.sms_template_data_payment_reminder
+msgid "Subscription: Payment reminder"
+msgstr "Előfizetés: fizetési emlékeztető"
+
+#. module: sale_subscription
+#: model:mail.template,name:sale_subscription.mail_template_subscription_rating
+msgid "Subscription: Rating Request"
+msgstr "Előfizetés: Értékelési kérelem"
+
+#. module: sale_subscription
+#: model:mail.template,name:sale_subscription.mail_template_subscription_invoice
+#, fuzzy
+#| msgid "Subscription Lines"
+msgid "Subscription: Subscription Invoice"
+msgstr "Előjegyzés sorok"
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/models/sale_order_alert.py:0
+#: model:ir.actions.act_window,name:sale_subscription.sale_subscription_action
+#: model:ir.actions.act_window,name:sale_subscription.sale_subscription_action_filtered
+#: model:ir.actions.act_window,name:sale_subscription.sale_subscription_action_res_partner
+#: model:ir.model.fields,field_description:sale_subscription.field_account_analytic_account__subscription_ids
+#: model:ir.model.fields,field_description:sale_subscription.field_res_partner__subscription_count
+#: model:ir.model.fields,field_description:sale_subscription.field_res_users__subscription_count
+#: model:ir.module.category,name:sale_subscription.module_category_subscription_management
+#: model:ir.ui.menu,name:sale_subscription.menu_sale_subscription
+#: model:ir.ui.menu,name:sale_subscription.menu_sale_subscription_action
+#: model:ir.ui.menu,name:sale_subscription.menu_sale_subscription_report_pivot
+#: model:ir.ui.menu,name:sale_subscription.menu_sale_subscription_root
+#: model_terms:ir.ui.view,arch_db:sale_subscription.portal_my_home_menu_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.portal_my_home_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.portal_my_subscriptions
+#: model_terms:ir.ui.view,arch_db:sale_subscription.res_partner_view_inherit_sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_activity
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
+#, python-format
+msgid "Subscriptions"
+msgstr "Előfizetés"
+
+#. module: sale_subscription
+#: model:ir.actions.act_window,name:sale_subscription.sale_subscription_report_pivot_action
+msgid "Subscriptions Analysis"
+msgstr "Előfizetések elemzése"
+
+#. module: sale_subscription
+#: model_terms:ir.actions.act_window,help:sale_subscription.sale_subscription_action
+msgid ""
+"Subscriptions can be automatically generated from sales orders in Sales or eCommerce\n"
+"                apps."
+msgstr ""
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
+msgid "Subscriptions that are not assigned to an account manager."
+msgstr "Előfizetések, amelyeket nem rendeltek hozzá számla kezelőhöz."
+
+#. module: sale_subscription
+#: model:ir.actions.act_window,name:sale_subscription.sale_subscription_action_pending
+#: model:ir.ui.menu,name:sale_subscription.menu_sale_subscription_pending
+msgid "Subscriptions to Renew"
+msgstr "Megújítandó előfizetések"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_view_tree
+msgid "Sum of Monthly Recurring Revenue"
+msgstr "Havi ismétlődő bevételek összege"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_view_tree
+msgid "Sum of Yearly Recurring Revenue"
+msgstr "Évente ismétlődő bevételek összege"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__activity_summary
+msgid "Summary"
+msgstr "Összefoglalás"
+
+#. module: sale_subscription
+#: model:base.automation,name:sale_subscription.subscription_alert_percent_revenue_base_automation
+#: model:sale.order.alert,name:sale_subscription.subscription_alert_percent_revenue
+msgid "Take action on less satisfied clients"
+msgstr "Intézkedjen a kevésbé elégedett ügyfelekkel kapcsolatban"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__crud_model_id
+msgid "Target Model"
+msgstr "Cél modell"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__crud_model_name
+msgid "Target Model Name"
+msgstr "Cél modell név"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "Taxes"
+msgstr "Adók"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__team_user_id
+msgid "Team Leader"
+msgstr "Csapatvezető"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_search
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
+msgid "Template"
+msgstr "Sablon"
+
+#. module: sale_subscription
+#: model:mail.template,description:sale_subscription.mail_template_subscription_alert
+msgid "Template to be used on customized alerts for subscriptions requiring attention"
+msgstr ""
+
+#. module: sale_subscription
+#: model_terms:ir.actions.act_window,help:sale_subscription.sale_subscription_template_action
+msgid ""
+"Templates are used to prefigure subscription that\n"
+"                can be selected by the salespeople to quickly configure the\n"
+"                terms and conditions of the subscription."
+msgstr ""
+"A sablonokat az előfizetés előre beállítására használják\n"
+"                 Az eladó gyorsan kiválaszthatja a\n"
+"                 az előfizetés feltételeit."
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_line__temporal_type
+msgid "Temporal Type"
+msgstr ""
+
+#. module: sale_subscription
+#: model:mail.template,subject:sale_subscription.email_payment_close
+#, fuzzy
+#| msgid "Termination of subscription ${object.code}"
+msgid "Termination of subscription {{ object.client_order_ref or object.name }}"
+msgstr "Ennek a feliratkozásnak a megszüntetése ${object.code}"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "Terms and Conditions"
+msgstr "Általános Szerződési Feltételek"
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_account_move_line__subscription_mrr
+msgid ""
+"The MRR is computed by dividing the signed amount (in company currency) by the amount of time between the start and end dates converted in months.\n"
+"This allows comparison of invoice lines created by subscriptions with different temporalities.\n"
+"The computation assumes that 1 month is comprised of exactly 30 days, regardless  of the actual length of the month."
+msgstr ""
+"Az MRR kiszámításához az aláírt összeget (vállalati pénznemben) elosztjuk a kezdő és a befejezési dátum közötti, hónapokban átszámított időtartammal.\n"
+"Ez lehetővé teszi az előfizetések által létrehozott számla sorainak összehasonlítását a különböző időkorlátokkal.\n"
+"A számítás feltételezi, hogy az 1 hónap pontosan 30 napból áll, függetlenül a hónap tényleges hosszától."
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order_alert__trigger_field_ids
+msgid "The action will be triggered if and only if one of these fields is updated. If empty, all fields are watched."
+msgstr ""
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order_alert__website_url
+msgid "The full URL to access the server action through the website."
+msgstr "A teljes URL a szerver eléréséhez belépés a weboldalon keresztül."
+
+#. module: sale_subscription
+#: model:ir.model.constraint,message:sale_subscription.constraint_sale_order_check_start_date_lower_next_invoice_date
+msgid "The next invoice date of a sale order should be after its start date."
+msgstr ""
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order__next_invoice_date
+msgid "The next invoice will be created on this date then the period will be extended."
+msgstr "A következő számlát ezen a napon készítik, majd az időszak meghosszabbodik."
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/models/sale_order.py:0
+#, python-format
+msgid "The renewal %s has been canceled."
+msgstr ""
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
+msgid "The scheduled action for alerts has been deleted. Update the Subscriptions module to re-create it."
+msgstr "A riasztások ütemezett művelete törlésre került. Frissítse az előfizetések modult az újbóli létrehozásához."
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order__start_date
+msgid "The start date indicate when the subscription periods begin."
+msgstr ""
+
+#. module: sale_subscription
+#: model:sale.order.close.reason,name:sale_subscription.close_reason_renew
+msgid "The subscription was renewed with a new plan."
+msgstr ""
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/models/sale_order_line.py:0
+#, python-format
+msgid "The time unit cannot be used. Please chose one of these unit: %s."
+msgstr ""
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/models/sale_order.py:0
+#, python-format
+msgid "The upsell  %s has been confirmed."
+msgstr ""
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/models/sale_order.py:0
+#, python-format
+msgid "The upsell %s has been canceled."
+msgstr ""
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/controllers/portal.py:0
+#, python-format
+msgid "This Subscription is already running. There is no need to renew it."
+msgstr ""
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_kanban
+msgid "This bar allows to filter the opportunities based on scheduled activities."
+msgstr "Ez a sáv lehetővé teszi a lehetőségek szűrését az ütemezett tevékenységek alapján."
+
+#. module: sale_subscription
+#. openerp-web
+#: code:addons/sale_subscription/static/src/js/manage_form.js:0
+#, python-format
+msgid "This payment method cannot be removed as it is currently linked to the following active subscriptions:"
+msgstr ""
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/models/sale_order.py:0
+#, fuzzy, python-format
+#| msgid "Operation not supported"
+msgid "This operator is not supported"
+msgstr "Művelet nem támogatott"
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order_stage__fold
+msgid "This stage is folded in the kanban view when there are no records in that stage to display."
+msgstr "Ez a szakasz a kanban nézetben összehajtott, ha az adott szakaszban nincsenek megjelenítendő rekordok."
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/models/sale_order.py:0
+#, python-format
+msgid "This subscription is renewed in %s with a change of plan."
+msgstr ""
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_order_digest
+msgid "This subscription is the renewal of subscription"
+msgstr ""
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_order_digest
+msgid "This upsell order has been created from the subscription"
+msgstr ""
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
+msgid "This will trigger the action on all linked subsccriptions, regardless of possible timed conditions. Are you sure you want to proceed?"
+msgstr ""
+
+#. module: sale_subscription
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order_alert__trigger_condition__on_time
+msgid "Timed Condition"
+msgstr "Időzített feltétel"
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/controllers/portal.py:0
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__to_renew
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__to_renew
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_order_view_form
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_search
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_kanban
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
+#, python-format
+msgid "To Renew"
+msgstr "Megújítandó"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
+msgid "Today Activities"
+msgstr "Mai tevékenységek"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.portal_my_subscriptions
+msgid "Total"
+msgstr "Végösszeg"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_order_view_tree_subscription
+msgid "Total Tax Included"
+msgstr "Végösszeg adókkal együtt"
+
+#. module: sale_subscription
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order_log__event_type__3_transfer
+msgid "Transfer"
+msgstr ""
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__trigger
+msgid "Trigger"
+msgstr "Indító"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__trg_date_id
+msgid "Trigger Date"
+msgstr "Indítási dátum"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__trigger_field_ids
+msgid "Trigger Fields"
+msgstr "Indító mezők"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
+msgid "Trigger Now"
+msgstr "Indítás most"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__trigger_condition
+msgid "Trigger On"
+msgstr "Indítás ekkor"
+
+#. module: sale_subscription
+#: model_terms:ir.actions.act_window,help:sale_subscription.sale_subscription_alert_action
+msgid "Trigger alerts for salespersons or customers: churn, invoice not paid, upsell, etc."
+msgstr "Indítás figyelmeztetések értékesítők vagy vevők számára: chrun, nem számlázott számla, felülértékesítés stb."
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order_alert__stage_from_id
+msgid "Trigger on changes of stage. Trigger over all stages if not set"
+msgstr "Szakaszok változásakor indul. Az összes szakaszon elindul, ha nincs beállítva"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_log__event_type
+msgid "Type of event"
+msgstr "Esemény típusa"
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order_alert__state
+msgid ""
+"Type of server action. The following values are available:\n"
+"- 'Execute Python Code': a block of python code that will be executed\n"
+"- 'Create a new Record': create a new record with new values\n"
+"- 'Update a Record': update the values of a record\n"
+"- 'Execute several actions': define an action that triggers several other server actions\n"
+"- 'Send Email': post a message, a note or send an email (Discuss)\n"
+"- 'Add Followers': add followers to a record (Discuss)\n"
+"- 'Create Next Activity': create an activity (Discuss)\n"
+"- 'Send SMS Text Message': send SMS, log them on documents (SMS)"
+msgstr ""
+"A kiszolgálói művelet típusa. A következő értékek állnak rendelkezésre:\n"
+"- 'Python kód végrehajtása': a végrehajtandó python kód blokkja\n"
+"- 'Új rekord létrehozása': új rekord létrehozása új értékekkel\n"
+"- 'Rekord frissítése': egy rekord értékeinek frissítése\n"
+"- 'Execute several actions' (Több művelet végrehajtása): olyan művelet meghatározása, amely több más kiszolgálói műveletet indít el\n"
+"- 'E-mail küldése': üzenet, jegyzet vagy email küldése (Megbeszélés)\n"
+"- 'Követők hozzáadása': követők hozzáadása egy rekordhoz (Beszélgetés)\n"
+"- 'Következő tevékenység létrehozása': tevékenység létrehozása (Megvitatjuk)\n"
+"- 'SMS szöveges üzenet küldése': SMS küldése, naplózás a dokumentumokon (SMS)"
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/models/sale_order.py:0
+#, python-format
+msgid "Unable to put the subscription in a progress stage"
+msgstr ""
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
+msgid "Unassigned"
+msgstr "Nem hozzárendelt"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "Unit Price"
+msgstr "Egységár"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__product_uom
+msgid "Unit of Measure"
+msgstr "Mértékegység"
+
+#. module: sale_subscription
+#: model:product.product,uom_name:sale_subscription.product_car_leasing
+#: model:product.product,uom_name:sale_subscription.product_office_cleaning
+#: model:product.template,uom_name:sale_subscription.product_car_leasing_product_template
+#: model:product.template,uom_name:sale_subscription.product_office_cleaning_product_template
+msgid "Units"
+msgstr "Darab"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_order_digest
+msgid "Untaxed Total:"
+msgstr "Nettó összesen:"
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/models/sale_order.py:0
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order__subscription_management__upsell
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_order_view_form
+#, python-format
+msgid "Upsell"
+msgstr "Felülértékesítés"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_order_view_form
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_kanban
+msgid "Upselling"
+msgstr "Felülértékesítés"
+
+#. module: sale_subscription
+#: model:ir.actions.act_window,name:sale_subscription.sale_subscription_action_upsell
+#: model:ir.ui.menu,name:sale_subscription.menu_sale_subscription_upsell
+#, fuzzy
+#| msgid "Upselling"
+msgid "Upsells"
+msgstr "Upselling, magasabb értékű értékesítés"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__usage
+msgid "Usage"
+msgstr "Használat"
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order_alert__activity_user_type
+msgid "Use 'Specific User' to always assign the same user on the next activity. Use 'Generic User From Record' to specify the field name of the user to choose on the record."
+msgstr "Használja az „adott felhasználót”, hogy mindig hozzárendelje ugyanazt a felhasználót a következő tevékenységhez. Az 'Általános felhasználó a rekordból' használatával adja meg a felhasználó mezőjének nevét, amelyet kiválaszthat a rekordon."
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__trg_date_calendar_id
+msgid "Use Calendar"
+msgstr "Használja a naptárat"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__trg_date_resource_field_id
+msgid "Use employee work schedule"
+msgstr "Használja a munkavállaló munka ütemtervét"
+
+#. module: sale_subscription
+#: model_terms:ir.actions.act_window,help:sale_subscription.sale_subscription_action_filtered
+msgid ""
+"Use subscriptions to follow tasks, issues, timesheets or invoicing based on\n"
+"                work done, expenses and/or sales orders. Odoo will automatically manage\n"
+"                the alerts for the renewal of the subscriptions to the right salesperson."
+msgstr ""
+"Az előfizetésekkel követheti el az elvégzett munkát, a kiadásokat és / vagy az értékesítési megrendeléseket, ha feladatokat, kérdéseket,\n"
+"                 ütemterveket vagy számlákat követ. Az Odoo automatikusan kezeli\n"
+"                 a figyelmeztetéseket a megfelelő értékesítő előfizetésének megújításáról."
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order_alert__trg_date_resource_field_id
+msgid "Use the user's working schedule."
+msgstr "Használja a felhasználó munka ütemtervét."
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__activity_user_field_name
+msgid "User field name"
+msgstr "Felhasználó mező név"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "Valid Until:"
+msgstr "Érvényes ettől:"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__fields_lines
+msgid "Value Mapping"
+msgstr "Érték leképezése"
+
+#. module: sale_subscription
+#. openerp-web
+#: code:addons/sale_subscription/static/src/js/tours/sale_subscription.js:0
+#, python-format
+msgid "Want recurring billing via subscription management ? Get started by clicking here"
+msgstr "Ismétlődő számlázást szeretne előfizetéskezelésen keresztül? Az induláshoz kattintson ide"
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/models/product.py:0
+#, python-format
+msgid "Warning"
+msgstr "Figyelmeztetés"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "We always listen to our customer. Could you specify the reason for cancelling your subscription?"
+msgstr "Mindig figyelünk ügyfelünkre. Meg tudná mondani az előfizetés lemondásának okát?"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__website_path
+msgid "Website Path"
+msgstr "Honlap útvonal"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__website_url
+msgid "Website Url"
+msgstr "Weboldal Url"
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order_alert__trg_date_calendar_id
+msgid "When calculating a day-based timed condition, it is possible to use a calendar to compute the date based on working days."
+msgstr "Ha egy nap-alapú időzített feltételt számol, akkor lehetősége van naptárat használni a munkanapokon alapuló dátum kiszámításhoz."
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order_alert__sequence
+msgid "When dealing with multiple actions, the execution order is based on the sequence. Low number means high priority."
+msgstr "Ha tömeges műveletekkel van dolgunk, az elvégzési sorrend a sorszámon alapul. Alacsony szám magasabb prioritást jelent."
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order_alert__trg_date_id
+#, fuzzy
+#| msgid ""
+#| "When should the condition be triggered.\n"
+#| "                                  If present, will be checked by the scheduler. If empty, will be checked at creation and update."
+msgid ""
+"When should the condition be triggered.\n"
+"                If present, will be checked by the scheduler. If empty, will be checked at creation and update."
+msgstr ""
+"Mikor kell a feltételeket állítani.\n"
+"                                  Ha elérhető, az ütemező jelöli ki. Ha üres, a frissítés létrehozásakor lesz kijelölve."
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order_alert__active
+msgid "When unchecked, the rule is hidden and will not be executed."
+msgstr "Ha nincs bejelölve, a szabály eltüntetett és nem végrehajtott."
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order__starred
+msgid "Whether this subscription should be displayed on the dashboard or not"
+msgstr "Ez az előfizetés megjelenik-e a műszerfalon, vagy sem"
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_order_alert__code
+msgid "Write Python code that the action will execute. Some variables are available for use; help about python expression is given in the help tab."
+msgstr "Írjon Python programkódot, amelyet a művelet végrehajt. Néhány változó használható; a python kifejezésekkel kapcsolatos segítséget a súgó fül tartalmazza."
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__recurring_yearly
+msgid "Yearly Recurring Revenue"
+msgstr "Évente ismétlődő bevétel"
+
+#. module: sale_subscription
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order_template__recurring_rule_type__year
+msgid "Years"
+msgstr "Év"
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/models/sale_order.py:0
+#, python-format
+msgid "You can not upsell a subscription that has not been invoiced yet. Please, update directly the %s contract or invoice it first."
+msgstr ""
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/models/res_partner.py:0
+#, python-format
+msgid "You can't archive the partner as it is used in the following recurring orders: %s"
+msgstr ""
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/models/sale_order.py:0
+#, python-format
+msgid "You cannot save a sale order with a recurrence and no recurring product."
+msgstr ""
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/models/sale_order.py:0
+#, python-format
+msgid "You cannot save a sale order with recurring product and no recurrence."
+msgstr ""
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/models/sale_order.py:0
+#, python-format
+msgid "You cannot set to draft a canceled quotation linked to invoiced subscriptions. Please create a new quotation."
+msgstr ""
+
+#. module: sale_subscription
+#: model:ir.model.constraint,message:sale_subscription.constraint_sale_order_sale_subscription_stage_coherence
+msgid "You cannot set to draft a confirmed subscription. Please create a new quotation"
+msgstr ""
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.portal_my_subscriptions
+msgid "You don't have any subscriptions yet."
+msgstr "Még nincs egyetlen előfizetése sem."
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "You must be logged in to manage your payment methods."
+msgstr "A fizetési módok kezeléséhez be kell jelentkeznie."
+
+#. module: sale_subscription
+#: model_terms:ir.actions.act_window,help:sale_subscription.product_action_subscription
+msgid ""
+"You must define a product for everything you sell or purchase,\n"
+"                whether it's a storable product, a consumable or a service."
+msgstr ""
+
+#. module: sale_subscription
+#: model_terms:ir.actions.act_window,help:sale_subscription.sale_subscription_action_pending
+msgid "You will find here the subscriptions to be renewed (end date is close or passed)"
+msgstr "Itt találhatóak a megújítandó előfizetések (a befejezési dátum közeli vagy már lejárt)"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "Your Details"
+msgstr "Az Ön részletei"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "Your Plan"
+msgstr "Az Ön ütemezése"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.payment_checkout_inherit
+msgid "Your payment details will be saved for automatic renewals."
+msgstr ""
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/controllers/portal.py:0
+#, python-format
+msgid "Your subscription has been renewed until %s."
+msgstr ""
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "Your subscription is closed."
+msgstr "Az előfizetése lezárt."
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_order_view_form
+msgid "archived product(s)"
+msgstr "archivált termék(ek)"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_template_view_form
+msgid "days"
+msgstr "nap"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
+msgid "e.g. Closed Subscription"
+msgstr "pl.: Lezárt előfizetés"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
+msgid "e.g. Discuss proposal"
+msgstr "pl.: Javaslat megbeszélése"
+
+#. module: sale_subscription
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order_alert__rating_operator__>
+msgid "greater than"
+msgstr "nagyobb mint"
+
+#. module: sale_subscription
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order_alert__rating_operator__<
+msgid "less than"
+msgstr "kevesebb mint"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "missing payments (from"
+msgstr "hiányzó fizetések (ellől"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_template_view_form
+msgid "prices"
+msgstr "árak"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "to this day) will be automatically processed."
+msgstr "eddig a napig) automatikusan fel lesznek dolgozva."
+
+#. module: sale_subscription
+#: model:mail.template,subject:sale_subscription.mail_template_subscription_invoice
+msgid "{{ object.company_id.name }} Invoice (Ref {{ object.name or 'n/a' }})"
+msgstr "{{ object.company_id.name }} Számla (Hiv {{ object.name or 'n/a' }})"
+
+#. module: sale_subscription
+#: model:sms.template,body:sale_subscription.sms_template_data_payment_failure
+msgid "{{ object.company_id.name }}: Our final attempt to process a payment for your subscription failed. As your payment should have been made on {{ object.recurring_next_date }}, your subscription has been terminated."
+msgstr "{{ object.company_id.name }}: Az előfizetés kifizetésének feldolgozására tett utolsó kísérletünk is sikertelen volt. Mivel a fizetést a {{ object.recurring_next_date }} napon kellett volna teljesíteni, az előfizetése megszűnt."
+
+#. module: sale_subscription
+#: model:mail.template,subject:sale_subscription.mail_template_subscription_alert
+msgid "{{ object.company_id.name }}: Please check the subscription {{ object.name }}"
+msgstr "{{ object.company_id.name }}: Kérjük, ellenőrizze a {{ object.name }} előfizetését"
+
+#. module: sale_subscription
+#: model:mail.template,subject:sale_subscription.mail_template_subscription_rating
+msgid "{{ object.company_id.name }}: Service Rating Request"
+msgstr "{{ object.company_id.name }}: Szolgáltatás minősítési kérelem"
+
+#. module: sale_subscription
+#: model:sms.template,body:sale_subscription.sms_template_data_payment_reminder
+msgid "{{ object.company_id.name }}: We were unable to process a payment for your subscription. Your subscription {{ object.name }} is still valid but will be suspended on {{ object.recurring_next_date }} unless the payment succeeds in the meantime."
+msgstr "{{ object.company_id.name }}: Nem tudtuk feldolgozni az előfizetésedért fizetett összeget. A {{ object.name }} előfizetése továbbra is érvényes, de felfüggesztésre kerül a {{ object.recurring_next_date }} napon, hacsak a fizetés időközben sikeres."
+
+#. module: sale_subscription
+#: model:sms.template,body:sale_subscription.sms_template_data_default_alert
+msgid "{{ object.company_id.name }}: Your subscription {{ object.name }} needs your attention. If you have some concerns about it, please contact {{ object.user_id.name }}, your contact person."
+msgstr "{{ object.company_id.name }}: A {{ object.name }} előfizetés figyelmet igényel. Ha kérdése van ezzel kapcsolatban, vegye fel a kapcsolatot {{ object.user_id.name }} kapcsolattartójával."
+
+#~ msgid "Plans"
+#~ msgstr "Csomagok"
+
+#~ msgid "&amp;nbsp;"
+#~ msgstr "&amp;nbsp;"
+
+#~ msgid "&amp;times;"
+#~ msgstr "&amp;times;"
+
+#~ msgid "<i class=\"fa fa-ellipsis-v\" role=\"img\" aria-label=\"Manage\" title=\"Manage\"/>"
+#~ msgstr "<i class=\"fa fa-ellipsis-v\" role=\"img\" aria-label=\"Manage\" title=\"Manage\"/>"
+
+#~ msgid "Action Needed"
+#~ msgstr "Akció szükséges"
+
+#~ msgid "Activities"
+#~ msgstr "Tevékenységek"
+
+#~ msgid "Activity State"
+#~ msgstr "Tevékenység állapota"
+
+#~ msgid "Add Channels"
+#~ msgstr "Csatornák hozzáadása"
+
+#~ msgid "Apply On"
+#~ msgstr "Alkalmazás ezen"
+
+#~ msgid "Attachment Count"
+#~ msgstr "Mellékletek száma"
+
+#~ msgid "Code"
+#~ msgstr "Kód"
+
+#~ msgid "Conversion between Units of Measure can only occur if they belong to the same category. The conversion will be made based on the ratios."
+#~ msgstr "A mértékegységek közötti átváltás csak akkor valósul meg, ha ugyanabba a kategóriába tartoznak. Az átváltás az arányszámok alapján történik."
+
+#~ msgid "Create/Write Target Model"
+#~ msgstr "Hozzon létre/írjon cél modellt"
+
+#~ msgid "Days"
+#~ msgstr "Nap"
+
+#~ msgid "Discount (%)"
+#~ msgstr "Árengedmény (%)"
+
+#~ msgid "Followers"
+#~ msgstr "Követők"
+
+#~ msgid "Followers (Channels)"
+#~ msgstr "Követők (Csatornák)"
+
+#~ msgid "Followers (Partners)"
+#~ msgstr "Követők (Partnerek)"
+
+#~ msgid "Icon"
+#~ msgstr "Ikon"
+
+#~ msgid "If checked, new messages require your attention."
+#~ msgstr "Ha be van jelölve, akkor az új üzenetek figyelmet igényelnek."
+
+#~ msgid "If checked, some messages have a delivery error."
+#~ msgstr "Ha be van jelölve, akkor néhány üzenetnél kézbesítési hiba lépett fel."
+
+#~ msgid "In #{kanban_getcolorname(record.color.raw_value)}"
+#~ msgstr "#{kanban_getcolorname(record.color.raw_value)}"
+
+#~ msgid "Invoice automatically repeat at specified interval"
+#~ msgstr "Számlák automatikusan ismétlődnek a megadott intervallum szerint"
+
+#~ msgid "Invoices"
+#~ msgstr "Számlák"
+
+#~ msgid "Is Follower"
+#~ msgstr "Követő"
+
+#~ msgid "Journal"
+#~ msgstr "Napló"
+
+#~ msgid "Latest Rating: Higly Dissatisfied"
+#~ msgstr "Legutóbbi értékelés: Nagyon elégedetlen"
+
+#~ msgid "Latest Rating: Not Satisfied"
+#~ msgstr "Legutóbbi értékelés: Elégedetlen"
+
+#~ msgid "Main Attachment"
+#~ msgstr "Fő melléklet"
+
+#~ msgid "Manually"
+#~ msgstr "Kézzel"
+
+#~ msgid "Message Delivery error"
+#~ msgstr "Üzenetkézbesítési hiba"
+
+#~ msgid "Messages"
+#~ msgstr "Üzenetek"
+
+#~ msgid "Next Activity Deadline"
+#~ msgstr "Következő tevékenység határideje"
+
+#~ msgid "Next Activity Summary"
+#~ msgstr "Következő tevékenység összegzés"
+
+#~ msgid "Next Activity Type"
+#~ msgstr "Következő tevékenység típusa"
+
+#~ msgid "Number of Actions"
+#~ msgstr "Akciók száma"
+
+#~ msgid "Number of messages which requires an action"
+#~ msgstr "Üzenetek száma, melyek akciót igényelnek"
+
+#~ msgid "Number of messages with delivery error"
+#~ msgstr "Kézbesítési hibával rendelkező üzenetek száma"
+
+#~ msgid "Number of unread messages"
+#~ msgstr "Olvasatlan üzenetek száma"
+
+#~ msgid "Options"
+#~ msgstr "Beállítások"
+
+#~ msgid "Other Info"
+#~ msgstr "Egyéb információ"
+
+#~ msgid "Please define a sale journal for the company \"%s\"."
+#~ msgstr "Kérem  határozzon meg értékesítési naplót a vállalkozáshoz \"%s\"."
+
+#~ msgid "Reason of the rating"
+#~ msgstr "Az értékelés oka"
+
+#~ msgid "Reference"
+#~ msgstr "Hivatkozás"
+
+#~ msgid "Repeat Every"
+#~ msgstr "Ismétlés minden"
+
+#~ msgid "Repeat every (Days/Week/Month/Year)"
+#~ msgstr "Ismétlés (nap/hét/hó/év)"
+
+#~ msgid "Responsible User"
+#~ msgstr "Felelős felhasználó"
+
+#~ msgid "Sale Subscriptions"
+#~ msgstr "Értékesítés előjegyzések"
+
+#~ msgid "Settings"
+#~ msgstr "Beállítások"
+
+#~ msgid ""
+#~ "Status based on activities\n"
+#~ "Overdue: Due date is already passed\n"
+#~ "Today: Activity date is today\n"
+#~ "Planned: Future activities."
+#~ msgstr ""
+#~ "Tevékenységeken alapuló állapot\n"
+#~ "Lejárt: A tevékenység határideje lejárt\n"
+#~ "Ma: A határidő ma van\n"
+#~ "Tervezett: Jövőbeli határidő."
+
+#~ msgid "Subtotal"
+#~ msgstr "Részösszeg"
+
+#~ msgid "Tag"
+#~ msgstr "Címke"
+
+#~ msgid "Tags"
+#~ msgstr "Címkék"
+
+#~ msgid "The full URL to access the document through the website."
+#~ msgstr "A teljes elérési út/URL a dokumentum weboldalon keresztüli eléréséhez."
+
+#~ msgid "This invoice covers the following period: %s - %s"
+#~ msgstr "A számla a következő időszakot fedi le: %s - %s"
+
+#~ msgid "Unread Messages"
+#~ msgstr "Olvasatlan üzenetek"
+
+#~ msgid "Unread Messages Counter"
+#~ msgstr "Olvasatlan üzenetek száma"
+
+#~ msgid "UoM"
+#~ msgstr "Mértékegység"
+
+#~ msgid "Website Messages"
+#~ msgstr "Weboldali üzenetek"
+
+#~ msgid "Website URL"
+#~ msgstr "Honlap URL"
+
+#~ msgid "Website communication history"
+#~ msgstr "Weboldali kommunikációs előzmények"
+
+#~ msgid "Weeks"
+#~ msgstr "Hetek"
+
+#~ msgid "Wizard"
+#~ msgstr "Varázsló"
+
+#~ msgid "You must first select a Customer for Subscription %s!"
+#~ msgstr "Először ki kell választania az Ügyfelet a Feliratkozáshoz %s!"
