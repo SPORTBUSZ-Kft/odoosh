@@ -28,6 +28,7 @@ def oerp_send_information(url, data):
     """Itt elküldi a megadott url-re a kívánt adatokat"""
 
     try:
+        _logger.debug("CO data=%s", data)
         req_session = requests.get(f"{BASE_URL}/web/login?db={BASE_DBNAME}", timeout=SESSION_TIMEOUT)
         api_data = {
             "id": random.randint(1000, 50000),
