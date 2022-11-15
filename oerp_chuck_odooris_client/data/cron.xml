@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo noupdate="1">
+
+    <record id="ir_cron_oerp_chuck_odooris_client_cron_signal" model="ir.cron">
+        <field name="name">Online ERP: Send Odoo Instance Infos</field>
+        <field name="model_id" ref="base.model_res_company"/>
+        <field name="state">code</field>
+        <field name="code">model.oerp_send_cron_info()</field>
+        <field name="interval_number">1</field>
+        <field name="interval_type">hours</field>
+        <field name="numbercall">-1</field>
+        <field name="doall" eval="False"/>
+        <field name="active" eval="True"/>
+    </record>
+
+    <record id="ir_cron_oerp_chuck_odooris_client_cron_run_signal" model="ir.cron">
+        <field name="name">Online ERP: Send Cron Run Info</field>
+        <field name="model_id" ref="base.model_ir_cron"/>
+        <field name="state">code</field>
+        <field name="code">model._oerp_send_cron_run_info()</field>
+        <field name="interval_number">1</field>
+        <field name="interval_type">minutes</field>
+        <field name="numbercall">-1</field>
+        <field name="doall" eval="False"/>
+        <field name="active" eval="True"/>
+        <field name="priority">1000000</field>
+    </record>
+
+</odoo>
